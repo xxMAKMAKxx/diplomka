@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  22 NOV 2018 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  22 NOV 2018 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,17 +1224,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 ]
 \openout2 = `text/uvod.aux'.
 
- (./text/uvod.tex
-Package acronym Info: Label `acro:symfvz' newly defined as it shall be overridd
-en
-although it is yet undefined on input line 8.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
-) [7
+ (./text/uvod.tex) [7
 
 
 
@@ -1264,7 +1254,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout2 = `text/literatura.aux'.
 
  (./text/literatura.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
+Underfull \hbox (badness 10000) in paragraph at lines 12--18
 \T1/lmr/m/n/12 <[]$\T1/lmtt/m/n/12 https : / / www . vutbr . cz / uredni-[]desk
 a / vnitrni-[]predpisy-[]a-[]dokumenty /
  []
@@ -1301,11 +1291,18 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [16
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 47.
+ [16
 
 
 ]
-<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=310, 556.0775pt x 434.62375pt>
+<obrazky/ZlepseneWilsonovoZrcadloNPN.png, id=309, 556.0775pt x 434.62375pt>
 File: obrazky/ZlepseneWilsonovoZrcadloNPN.png Graphic file (type png)
 
 <use obrazky/ZlepseneWilsonovoZrcadloNPN.png>
@@ -1392,14 +1389,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 313C361695E1BF170678525A3529DC26;2937.
+(rerunfilecheck)             Checksum: C043FBE881D2219FC7388F8EF6E1A30F;2973.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 17699 strings out of 494912
- 250027 string characters out of 6179683
- 397296 words of memory out of 5000000
- 20435 multiletter control sequences out of 15000+600000
+ 17696 strings out of 494912
+ 249993 string characters out of 6179683
+ 397283 words of memory out of 5000000
+ 20432 multiletter control sequences out of 15000+600000
  168725 words of font info for 93 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
  44i,18n,71p,975b,2661s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1420,10 +1417,10 @@ e/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/
 lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (22 pages, 551097 bytes).
+Output written on sablona-prace.pdf (22 pages, 551141 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
+ 499 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
  134 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
