@@ -1,0 +1,26 @@
+Otazky:
+ - DNS search node pouze na 10 stroju, je to zadouci? Neni chut to zmenit? Jak se to pouziva?
+
+Diplomka:
+ - Moznost zobrazeni pouze ssh dostupnych serveru
+ - Filtrovat dle OS
+ - Info o OS
+ - Add About and Version
+ - To map add more information from default.node
+
+Semestralni:
+ - Odstranit Settings
+ - Prejmenovat Data Miner for Planetlab -- Planetlab server manager <-- done
+ - Search nodes --> Access servers
+ - Measure Menu --> Measure Servers
+ - Monitor now --> Get lif onodes
+ - Map Menu --> Plot servers on map
+
+Co jsem vylepsil:
+ - clearovani obrazovky
+ - spravne ukonceni v pripade sigtermu
+ - praci s textem (padalo to na:
+	cat: choice_temp.txt: No such file or directory
+	Usage: grep [OPTION]... PATTERN [FILE]...)
+ - zbytecne vytvareni souboru na disku; staci prace v pameti
+ -
