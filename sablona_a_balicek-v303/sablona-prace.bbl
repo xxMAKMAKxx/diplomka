@@ -18,6 +18,14 @@
 \newblock Available at: ~{\tt
   https://www.vutbr.cz/studenti/zav-prace/detail/110277}.
 
+\bibitem{eckert2012linux+}
+{\sc\bgroup}Eckert{\egroup}, J.
+\newblock {\em Linux+ Guide to Linux Certification}.
+\newblock [b.m.]: Cengage Learning, 2012.
+\newblock Networking (Course Technology, Inc.).
+\newblock Available at: ~{\tt https://books.google.cz/books?id=EHLH4S78LmsC}.
+\newblock ISBN 9781418837211.
+
 \bibitem{lutz2013learning}
 {\sc\bgroup}Lutz{\egroup}, M.
 \newblock {\em Learning Python: Powerful Object-Oriented Programming}.
@@ -25,6 +33,13 @@
 \newblock Safari Books Online.
 \newblock Available at: ~{\tt https://books.google.cz/books?id=4pgQfXQvekcC}.
 \newblock ISBN 9781449355692.
+
+\bibitem{linuxintro}
+{\sc\bgroup}Magklaras{\egroup}, D.~G.
+\newblock {\em Introduction to Linux} [online].
+\newblock [cit. 24.~November 2018].
+\newblock Available at: ~{\tt
+  https://folk.uio.no/georgios/other/IntroductiontoLinux.pdf}.
 
 \bibitem{Park:2006:SWS:1267359.1267382}
 {\sc\bgroup}Park{\egroup}, K., {\sc\bgroup}Pai{\egroup}, V.~S.,

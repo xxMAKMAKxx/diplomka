@@ -31,7 +31,10 @@ while executing--line 6037 of file czplain.bst
 Warning--type empty in Roscoe_PDN-02-002
 Warning--"{" isn't a brace-balanced string for entry andrasov2
 while executing--line 6037 of file czplain.bst
+Warning--empty edition in eckert2012linux+
 Warning--empty edition in lutz2013learning
+Warning--empty year in linuxintro
+Warning--empty year and revised in linuxintro
 Warning--empty editor and organization in Park:2006:SWS:1267359.1267382
 Warning--empty edition in Park:2006:SWS:1267359.1267382
 Warning--empty isbn or issn in Park:2006:SWS:1267359.1267382
@@ -43,45 +46,45 @@ Warning--empty edition in 1356981
 Warning--empty year in pythonfastestgrowing
 Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
-You've used 10 entries,
+You've used 12 entries,
             3583 wiz_defined-function locations,
-            829 strings with 7082 characters,
-and the built_in function-call counts, 4700 in all, are:
-= -- 374
-> -- 144
-< -- 44
-+ -- 44
-- -- 41
-* -- 275
-:= -- 585
-add.period$ -- 40
-call.type$ -- 10
-change.case$ -- 69
-chr.to.int$ -- 70
-cite$ -- 23
-duplicate$ -- 296
-empty$ -- 499
-format.name$ -- 29
-if$ -- 1092
+            841 strings with 7366 characters,
+and the built_in function-call counts, 5630 in all, are:
+= -- 446
+> -- 172
+< -- 55
++ -- 51
+- -- 49
+* -- 320
+:= -- 691
+add.period$ -- 48
+call.type$ -- 12
+change.case$ -- 81
+chr.to.int$ -- 90
+cite$ -- 28
+duplicate$ -- 359
+empty$ -- 599
+format.name$ -- 33
+if$ -- 1315
 int.to.chr$ -- 0
-int.to.str$ -- 10
+int.to.str$ -- 12
 missing$ -- 0
-newline$ -- 75
-num.names$ -- 18
-pop$ -- 97
+newline$ -- 89
+num.names$ -- 22
+pop$ -- 117
 preamble$ -- 1
-purify$ -- 37
+purify$ -- 43
 quote$ -- 0
-skip$ -- 217
+skip$ -- 272
 stack$ -- 0
-substring$ -- 300
-swap$ -- 76
-text.length$ -- 15
+substring$ -- 352
+swap$ -- 93
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
-warning$ -- 13
-while$ -- 36
-width$ -- 12
-write$ -- 136
-(There were 25 warnings)
+type$ -- 26
+warning$ -- 16
+while$ -- 43
+width$ -- 14
+write$ -- 163
+(There were 28 warnings)
