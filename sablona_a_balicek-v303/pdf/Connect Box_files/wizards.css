@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@font-face {
+    font-family: BloomSpeak_normal;
+    src: url(../font/BloomSpeakOT-Regular.otf);
+	src: url('../font/BloomSpeakOT-Regular.eot');
+    src: url('../font/BloomSpeakOT-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/BloomSpeakOT-Regular.woff2') format('woff2'),
+         url('../font/BloomSpeakOT-Regular.woff') format('woff'),
+         url('../font/BloomSpeakOT-Regular.ttf') format('truetype'),
+         url('../font/BloomSpeakOT-Regular.svg#BloomSpeak_normal') format('svg');
+}
+@font-face {
+    font-family: BloomSpeak_light;
+    src: url(../font/BloomSpeakOT-Light.otf);
+	src: url('../font/BloomSpeakOT-Light.eot');
+    src: url('../font/BloomSpeakOT-Light?#iefix') format('embedded-opentype'),
+         url('../font/BloomSpeakOT-Light.woff') format('woff'),
+         url('../font/BloomSpeakOT-Light.ttf') format('truetype'),
+         url('../font/BloomSpeakOT-Light.svg#BloomSpeak_light') format('svg');
+}
+@font-face {
+    font-family: BloomSpeak_Bold;
+    src: url(../font/BloomSpeakOT-Bold.otf);
+	src: url('../font/BloomSpeakOT-Bold.eot');
+    src: url('../font/BloomSpeakOT-Bold?#iefix') format('embedded-opentype'),
+         url('../font/BloomSpeakOT-Bold.woff') format('woff'),
+         url('../font/BloomSpeakOT-Bold.ttf') format('truetype'),
+         url('../font/BloomSpeakOT-Bold.svg#BloomSpeak_Bold') format('svg');
+}
+
+html {
+    /*overflow-y: scroll; */
+}
+body {margin: 0px 0px; padding: 0px; font-family:BloomSpeak_normal;}
+
+.overlay { position:absolute; left:0px; top:0px; z-index:10000; background:#6dd5f4 url(../images/common_imgs/UPC-generic-overlayBG.jpg) no-repeat top center; background-size:100% auto; width: 100%; height: 100%; filter:alpha(opacity=80); opacity:.8;}
+.overlaycontainer {position:absolute; left:0px; top:0px; z-index:11000; width:100%;  padding-top: 30px;}
+
+
+.green, .svg-inject.green path, .svg-inject.green circle {color:#11aa44; fill:#11aa44!important;}
+.orange, .svg-inject.orange path, .svg-inject.orange circle {color:#ff6600; fill:#ff6600;}
+.red, .svg-inject.red path, .svg-inject.red circle  {color:#cc0022; fill:#cc0022;}
+.lightblue, .svg-inject.lightblue path, .svg-inject.lightblue circle  {color:#00aadd; fill:#00aadd;}
+.darkblue, .svg-inject.darkblue path, .svg-inject.darkblue circle  {color:#224499; fill:#224499;}
+.purple, .svg-inject.purple path, .svg-inject.purple  {color:#771199; fill:#771199;}
+.disabled, .svg-inject.disabled path, .svg-inject.disabled  {color:#999999; fill:#999999;}
+
+.logo
+{
+	position: absolute; top:30px; left:0px;width: 75px; height: 60px; background:#fff; text-align: center;
+	background-image: url(../images/common_imgs/logo-UPC.png);
+    background-repeat: no-repeat;
+	background-size: 60px;
+	background-position: center;
+padding: 4px 4px 0px 4px;
+}
+.content_holder{background:url(../images/common_imgs/white-transparent90.png); margin: 0px auto; max-width: 840px;position:relative; padding: 45px 30px; text-align:center;}
+.content-title {width:720px; padding-left:60px;font-family:BloomSpeak_light; font-size:60px; color:#224499; text-align:center; padding-bottom: 20px;}
+.content-infotext {width:720px; padding-left:60px;font-size:24px; color:#333333; text-align:center; padding-bottom: 30px;}
+.content {font-size:20px; color:#666666; text-align:center; padding-bottom: 40px; margin:0px auto;}
+.content td {padding: 0px 5px 15px 5px;}
+
+a.simple_links {background:url(../images/common_imgs/arrow-blue-grad.svg) no-repeat left center; background-size: 8px 13px; padding-left: 14px; color:#00aadd; text-decoration: underline; cursor: pointer;}
+a:hover.simple_links {background:url(../images/common_imgs/arrow-blue-grad.svg) no-repeat left center; background-size: 8px 13px; padding-left: 14px; color:#224499; text-decoration: underline; cursor: pointer;}
+
+.button_main {background:#224499; font-family: BloomSpeak_normal; font-size: 28px; color: #fff; padding: 15px 30px 10px 30px;border:1px solid #2c91f7; border-radius:3px; cursor: pointer;behavior: url(css/PIE.htc);}
+.button_main_hover {background:#035eba; font-family: BloomSpeak_normal; font-size: 28px; color: #fff; padding: 15px 30px 10px 30px;border:1px solid #00aadd; border-radius:3px; box-shadow: 0 0 4px #66bddc;cursor: pointer;behavior: url(css/PIE.htc);}
+.button_main_deactivated {background:#aaaaaa; font-family: BloomSpeak_normal; font-size: 28px; color: #c2c2c2; padding: 15px 30px 10px 30px; border:1px solid #dedede; border-radius:3px; cursor: pointer;behavior: url(css/PIE.htc);}
+
+input.default {background:#fff; border:2px solid #d3d3d3; border-radius:3px; color:#c9c9c9; font-size:18px; font-family:BloomSpeak_normal; padding:3px 10px 3px 10px;}
+input.enabled {background:#fff; border:1px solid #00aadd; border-radius:3px; color:#666; font-size:18px; font-family:BloomSpeak_normal; padding:4px 10px 4px 10px; box-shadow: 0 0 4px #66bddc;}
+input.disabled {background:#f1f1f1; border:2px solid #d3d3d3; border-radius:3px; color:#d3d3d3; font-size:18px; font-family:BloomSpeak_normal; padding:3px 10px 3px 10px;}
+
+.bgcss{
+	margin:0;
+	padding:0;		
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.button_secondary 
+{
+	background: #fbfbfb url(../images/common_imgs/arrow-blue-grad-back.svg) no-repeat;
+	background-size: 10px 17px;
+	font-family: BloomSpeak_normal;
+	font-size: 28px;
+	color: #224499;
+	padding: 15px 30px 10px 45px;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	cursor: pointer;
+	background-position: 15% 58%;
+	behavior: url(css/PIE.htc);
+}
+
+.button_secondary_hover 
+{
+	background:#fbfbfb url(../images/common_imgs/arrow-blue-grad-back.svg) no-repeat; 
+	background-size: 10px 17px;  
+	font-family: BloomSpeak_normal; 
+	font-size: 28px; 
+	color: #224499; 
+	padding: 15px 30px 10px 45px;
+	border:1px solid #00aadd; 
+	border-radius:3px;
+	box-shadow: 0 0 4px #66bddc;
+	cursor: pointer;
+	background-position: 15% 58%;
+	behavior: url(css/PIE.htc);
+}
+	
+.overlay-loader { position:absolute;top:-0.05%;left:0px; padding: 45px 30px; text-align:center; z-index:20000; background:url(../images/common_imgs/white-transparent70.png); text-align:center; display:none; width :840px ;height:450px;}
+.overlaycontent-title-loader {font-family:BloomSpeak_light; font-size:70px; color:#224499; text-align:center; padding-bottom: 35px;}
+.overlaycontent-infotext-loader {font-size:28px; color:#333333; text-align:center; padding-bottom: 40px;width:580px; padding-left:130px;}
+	
+.overlaybutton_secondary {background:#fbfbfb; font-family: BloomSpeak_normal; font-size: 28px; color: #224499; padding: 15px 30px 10px 30px;border:1px solid #d2d2d2; border-radius:3px; cursor: pointer;}
+.overlaybutton_secondary_hover {background:#fbfbfb; font-family: BloomSpeak_normal; font-size: 28px; color: #224499; padding: 15px 30px 10px 30px;border:1px solid #00aadd; border-radius:3px; box-shadow: 0 0 4px #66bddc;}
+.overlaybutton_secondary_deactivated {background:#fbfbfb; font-family: BloomSpeak_normal; font-size: 28px; color: #d8d8d8; padding: 15px 30px 10px 30px;border:1px solid #ebebeb; border-radius:3px; }
+
+input.error, textarea.error 
+{
+    background:#fff;
+    border:2.5px solid #FF3333;
+    border-radius:3px;
+    color:#666;
+    font-size:18px;
+    font-family:BloomSpeak_normal;
+    padding:4px 11px 4px 11px;
+    box-shadow: 0 0 4px #FF3333;
+}
+
+.error-msg-small 
+{
+    font-size: 16px; 
+    color:#cc0022; 
+}
+    
+.error-msg-small img 
+{
+    width: 29px;
+	height: 29px;
+}
+	
+.infobubble-down, .infobubble-up, .infobubble-left, .infobubble-right 
+{ 
+    font-size:15px; color: #224499; 
+    padding: 10px; 
+    font-family: BloomSpeak_normal; 
+    border: 1px solid #dbdbdb; 
+    max-width:220px;
+}
+
+.infobubble-down {
+    background:#ededed; 
+    border-bottom: 0px;
+}
+.infobubble-up {
+    background:#ededed; 
+    border-top: 0px;
+}
+.infobubble-left {
+    background:#ededed;
+    border-left: 0px;
+}
+.infobubble-right {
+    background:#ededed; 
+    border-right: 0px;
+}
+.nowrap{white-space: nowrap;}

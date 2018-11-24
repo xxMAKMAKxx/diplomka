@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://192.168.0.1/common_page/login.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Connect Box</title>
+<link href="./Connect Box_files/wizards.css" rel="stylesheet" type="text/css">
+<link href="./Connect Box_files/overlay-wizards.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--for router status S-->
+.data-tables 
+{
+	border: 1px solid #f2f2f2;
+}
+.data-tables th 
+{
+	background: #f2f2f2;
+	padding: 15px 20px;
+	font-size:16px;
+	color: #333333;
+	font-weight:normal;
+	border: 1px solid #ffffff;
+	border-width:0px 1px 0px 1px;
+	text-align:left;
+}
+.data-tables td 
+{
+	background: #ffffff;
+	padding: 15px 20px;
+	font-size:16px;
+	color: #666666;
+	border: 1px solid #f2f2f2;
+}
+.data-tables svg 
+{
+	height: 18px;
+	margin-right: 5px;
+}
+.section_title 
+{
+	font-size: 22px !important; 
+	color:#000 !important;
+	background:#e1e1e1!important;
+	padding: 8px!important;
+
+}
+#workBtn:hover{
+	cursor: pointer;
+}
+
+.VM_tmp_section 
+{
+    background: #aaaaa;
+    padding: 13px 16px;
+    font-size: 21px;
+	color: #666666;
+}
+
+.VM_tab_selected 
+{
+    background: #fff;
+    border:1px solid #e1e1e1;
+    border-bottom: 1px solid #fff;
+    
+    font-size: 21px;
+    padding: 15px 25px;
+	color: #ff0000;
+	Z-index:3;
+	cursor: pointer;
+}
+
+.VM_tab
+{
+    background: #f2f2f2;
+    border:1px solid #e1e1e1;     
+    font-size: 21px;
+    padding: 15px 25px;
+	color: #333333;
+	Z-index:2;
+	cursor: pointer;
+}
+
+.VM_inner_div
+{
+    margin-top:50px;
+    margin-left:20px; 
+    margin-right:20px;
+}
+
+.VM_outer_div
+{
+    border:1px solid #e1e1e1;
+    width:810px;
+    border-top:1px solid #fff;
+    Z-index:1
+}
+
+.VM_tab_blank
+{
+    width:5px; 
+    height:58px; 
+    border-bottom: 1px solid #e1e1e1;
+}
+.VM_tab_blank_free
+{   
+    height:58px; 
+    border-bottom: 1px solid #e1e1e1;
+}
+<!--for router status E-->
+</style>
+</head>
+<body id="cbnLogin" style="background: url(&quot;../images/common_imgs/generic-mobemBG.jpg&quot;) center top no-repeat rgb(255, 255, 255);">
+<div class="overlay" style="height:100%;"></div>
+<div class="overlaycontainer">
+
+<div class="logo"></div>
+	<div id="BACK" class="close" style="display:none;"><a href="javascript:void(0)"><img src="./Connect Box_files/close.png" onclick="Back();$(&#39;#BACK&#39;).hide();"><div class="closetext" onclick="Back();$(&#39;#BACK&#39;).hide();">Back</div></a></div>
+<div id="bubblecontent"></div>
+<div class="content_holder" id="checkupdating" style="display:none;">
+	<div id="c_lo34" class="content-title dynamic">Busy updating</div>
+    <div id="c_lo35" class="content-infotext dynamic">Your <span name="ProductName">Wireless Gateway</span> is currently updating it's software. Please wait before updating any settings.</div>
+
+    <div>
+		<input id="c_13" name="" type="button" class="button_main dynamicValue" value="Refresh" onclick="checkCmUpdating();" onmouseover="$(this).addClass(&#39;button_main_hover&#39;);" onmouseout="$(this).removeClass(&#39;button_main_hover&#39;);">
+	</div>
+</div>  
+<div class="content_holder" id="loginUserPassword" style="">
+
+	<div class="content-title dynamic" id="c_lo00">Welcome back</div>
+    <div class="content-infotext dynamic" id="c_lo01">Sign in to view or modify your <span name="ProductName">Wireless Gateway</span> settings.</div>
+    <div class="content">    
+    	<table cellpadding="0" cellspacing="0" border="0" align="center">
+        	<!--tr><td align="right" class="dynamic" id="id_login_username">Username</td><td align="left"><input type="text" id="loginUsername" name='loginUsername' value="" class="default" onBlur="InputTextDefault('loginUsername','')" onFocus="InputTextEnable('loginUsername','');"></td></tr-->
+        	<tbody><tr>
+				<td align="right" class="dynamic" id="c_39">Password</td>
+				<td align="left">
+					<input type="text" id="loginPassword" name="loginPassword" value="" class="error default" onblur="InputTextDefault(&#39;loginPassword&#39;,&#39;&#39;);" onfocus="InputTextEnable(&#39;loginPassword&#39;,&#39;&#39;);$(&#39;#PasswordStrBar&#39;).show(); checkPskey();RemoveErrMsg(&quot;loginPassword&quot;)" maxlength="31" autofocus="">
+				</td>
+				
+				<td>
+					<a href="javascript:void(0)" class="simple_links dynamic" id="c_40" onclick="$(&#39;#loginUserPassword&#39;).hide();$(&#39;#ForgotUserPassword&#39;).show();$(&#39;#bubblecontent&#39;).empty();">Forgot your password?</a>
+				</td>
+				
+			</tr><tr name="ErrMsgField"><td></td><td align="left" colspan="1"><table cellpadding="0" cellspacing="0" border="0" class="error-msg-small"><tbody><tr><td valign="middle" style="padding:0px 8px 0px 0px;"><img src="./Connect Box_files/error-icon.svg"></td><td name="ErrMsg" id="ErrMsgText" valign="middle" style="padding:0px; white-space:nowrap;">The password you entered is incorrect.</td></tr></tbody></table></td><td></td></tr>
+       </tbody></table>
+	</div>
+    <div><input type="button" id="c_42" name="id_common_login" class="button_main dynamicValue" value="Continue" onmouseover="$(this).addClass(&#39;button_main_hover&#39;);" onmouseout="$(this).removeClass(&#39;button_main_hover&#39;);"></div>
+	
+</div>
+<div class="content_holder" id="ForgotUserPassword" style="display:none;">
+	<div class="content-title dynamic" id="c_40">Forgot your password?</div>
+    <div class="content-infotext dynamic" id="c_lo02" style="width:560px ;margin: 0px auto;">Please enter your email. If you are a registered user you will then receive an email with instructions on how to reset your sign in details. <br>If you haven't changed your settings password from the default, you can find it on the sticker at the bottom of your <span name="ProductName">Wireless Gateway</span>.</div>
+    <div class="content">    
+    	<table cellpadding="0" cellspacing="0" border="0" align="center">        	
+        	<tbody><tr>
+				<td align="right" class="dynamic" id="c_41">email</td>
+				<td align="left">
+				<input type="text" id="EmailID" name="" value="" class="default" onblur="InputTextDefault(&#39;EmailID&#39;,&#39;&#39;)" onfocus="InputTextEnable(&#39;EmailID&#39;,&#39;&#39;);" onclick="CancelMailErrMsg(&#39;EmailID&#39;,&#39;EmailTextBoxErrMsg&#39;);"></td>
+			</tr>
+			<tr name="EmailTextBoxErrMsg" style="display:none;">
+                <td align="left"></td>
+                <td align="left"><table cellpadding="0" cellspacing="0" border="0" class="error-msg-small"><tbody><tr><td valign="middle" style="padding:0px 8px 0px 0px;"><img src="./Connect Box_files/error-icon.svg"></td>
+                <td class="dynamic" id="wm00" name="MailErrMsg" valign="middle" style="padding:0px; white-space:nowrap;">Please enter your email address.</td></tr></tbody></table></td><td></td>
+            </tr>
+       </tbody></table>
+	</div>
+    <div>
+	<input type="button" id="c_37" class="button_secondary dynamicValue" value="Back" onmouseover="$(this).addClass(&#39;button_secondary_hover&#39;);" onmouseout="$(this).removeClass(&#39;button_secondary_hover&#39;);" onclick="$(&#39;#EmailID&#39;).val(&#39;&#39;);CancelMailErrMsg(&#39;EmailID&#39;,&#39;EmailTextBoxErrMsg&#39;);$(&#39;#loginUserPassword&#39;).show();$(&#39;#ForgotUserPassword&#39;).hide();">
+	<span style="padding:20px"></span>
+	<input type="button" id="c_71" class="button_main dynamicValue" value="Send" onclick="ForgotPassword();" onmouseover="$(this).addClass(&#39;button_main_hover&#39;);" onmouseout="$(this).removeClass(&#39;button_main_hover&#39;);"></div>	
+</div>
+<!--router status S-->
+<div class="VMextra-button" id="VM_buttom" style="display:none;"><a href="javascript:void(0)" onclick="getRouterStatus();" id="rs39" class="dynamic">Check router status</a></div>
+<div class="content_holder" id="VM_Infocontent" style="width :800px!important;height:500px;display:none;">
+
+	<div class="content-title dynamic" id="rs18">Router Status</div>
+    <div class="">    
+	    
+	    <div>
+	    <nobr>    
+	    <table id="VM_rsbar" style="display:" class="" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+                    <td><div id="rs20" name="title_Status" class="VM_tab_selected dynamic" onclick="Section_CMStatus();">Status</div></td>
+                    <td><div class="VM_tab_blank"></div></td>
+                    <td><div id="rs29" name="title_Downstream" class="VM_tab dynamic" onclick="Section_DS();">Downstream</div></td>
+                    <td><div class="VM_tab_blank"></div></td>
+                    <td><div id="rs30" name="title_Upstream" class="VM_tab dynamic" onclick="Section_US();">Upstream</div></td>
+                    <td><div class="VM_tab_blank"></div></td>
+                    <td><div id="rs31" name="title_Configuration" class="VM_tab dynamic" onclick="Section_Config();">Configuration</div></td>
+                    <td><div class="VM_tab_blank"></div></td>
+                    <td><div id="rs22" name="title_Networklog" class="VM_tab dynamic" onclick="Section_Netlog();">Network Log</div></td>
+					<td><div class="VM_tab_blank_free"></div></td>	
+				</tr>
+		</tbody></table>
+	    </nobr>
+		</div>
+	    
+	    <div class="VM_outer_div">
+	    
+	    <!--<div class="" style="position: relative;right:20px;top:20px; color:#ff0000; font-size:17px;" align="right">Refresh data</div>-->
+	    <div style="position: relative;right:20px;top:20px; font-size:17px;" align="right">
+	        <a href="javascript:void(0)" class="simple_links dynamic" id="rs32" name="VM_refresh" onclick="">Refresh data</a> 
+	    </div>
+	     
+	    <!----Cable Modem Status------------------------------------------------------------------------------->	
+	    
+	    <div id="VM_div_CMstatus" name="RouterStatusDiv" class="VM_inner_div">
+    	<div class="section_title dynamic" id="rs17">Cable Modem Status</div>	
+    		
+			<table id="t-cm-cmstatus" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<th width="60%" class="" style="border-left: 0px;">
+						<span id="rs19" class="dynamic">Item</span>
+					</th>
+					<th width="25%" class=""><span id="rs20" class="dynamic">Status</span></th>
+					<th width="25%" class=""><span id="rs21" class="dynamic">Comments</span></th>
+
+				</tr>
+				<tr id="cm-cmstatus" style="display:none;">
+					<td colspan="3" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>
+		<br>
+	    </div>
+	
+        <!-----DS & US------------------------------------------------------------------------------>
+        
+        <div id="VM_div_DS" name="RouterStatusDiv" class="VM_inner_div">
+		<div class="section_title dynamic" id="c_ns02">Downstream bonded channels</div>	
+		
+			<table id="t-cm-downstream" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<th width="15%" class="" style="border-left: 0px;">
+						<span id="c_03" class="dynamic">Channel</span>
+					</th>
+					<th width="25%" class=""><span id="c_ns03" class="dynamic">Frequency (Hz)</span></th>
+					<th width="10%" class=""><span id="c_ns04" class="dynamic">Power (dBmV)</span></th>
+					<th width="15%" class=""><span id="c_ns05" class="dynamic">SNR (dB)</span></th>
+					<th width="15%" class=""><span id="c_ns06" class="dynamic">Modulation</span></th>					
+					<th width="15%" class="" style="white-space:nowrap; border-right: 0px;">
+						<span id="c_ns07" class="dynamic">Channel ID</span>
+					</th>
+				</tr>
+				<tr id="cm-downstream" style="display:none;">
+					<td colspan="8" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<br>
+			
+			<div class="section_title dynamic" id="c_ns02">Downstream bonded channels</div>
+			<table id="t_ex_downstream" style="width:771px;" class="data-tables" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<th width="15%" class="" style="border-left: 0px;">
+						<span id="c_03" class="dynamic">Channel</span>
+					</th>
+					<th width="15%" class=""><nobr><span id="rs37" class="dynamic">Locked Status</span></nobr></th>
+					<th width="15%" class=""><nobr><span id="c_ns03" class="">RxMER (dB) </span></nobr></th>
+					<th width="25%" class=""><nobr><span id="c_ns04" class="">Pre RS Errors</span></nobr></th>
+					<th width="25%" class="" style="white-space:nowrap; border-right: 0px;"><nobr><span id="c_ns05" class="">Post RS Errors</span></nobr></th>
+				</tr>
+				<tr id="ex_downstream" style="display:none;">
+					<td colspan="8" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>			
+		<br>
+		</div>
+		
+		<div id="VM_div_US" name="RouterStatusDiv" class="VM_inner_div">
+		<div class="section_title dynamic" id="rs26">Upstream bonded channels</div>	
+				<table id="t-cm-upstream" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<th width="10%" class="" style="border-left: 0px;">
+						<span id="c_03" class="dynamic">Channel</span>
+					</th>
+					<th width="20%" class=""><span id="c_ns03" class="dynamic">Frequency (Hz)</span></th>
+					<th width="15%" class=""><span id="c_ns04" class="dynamic">Power (dBmV)</span></th>					
+					<th width="15%" class=""><span id="c_ns08" class="dynamic">Symbol Rate (ksps)</span></th>
+					<th width="15%" class=""><span id="c_ns06" class="dynamic">Modulation</span></th>										
+					<th width="15%" class="" style="white-space:nowrap; border-right: 0px;">
+						<span id="c_ns07" class="dynamic">Channel ID</span>
+					</th>
+				</tr>
+
+			</tbody></table>
+			
+            <br>
+            <div class="section_title dynamic" id="rs26">Upstream bonded channels</div>	
+            <table id="t_upstream_timeout" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+            	<th width="30%" class="" style="border-left: 0px;">
+            		<span id="c_03" class="dynamic">Channel</span>
+            	</th>
+            	<th width="20%" class=""><nobr><span id="rs38" class="dynamic">Channel Type</span></nobr></th>
+            	<th width="20%" class=""><nobr><span id="c_ns13" class="dynamic">T1 Timeouts</span></nobr></th>
+            	<th width="20%" class=""><nobr><span id="c_ns14" class="dynamic">T2 Timeouts</span></nobr></th>					
+            	<th width="20%" class=""><nobr><span id="c_ns15" class="dynamic">T3 Timeouts</span></nobr></th>
+            	<th width="20%" class="" style="white-space:nowrap; border-right: 0px;"><nobr><span id="c_ns16" class="dynamic">T4 Timeouts</span></nobr></th>										
+            	<!--<th width="15%" class="" style="white-space:nowrap; border-right: 0px;">
+            		<span id="c_ns07" class="dynamic">Channel ID</span>
+            	</th>-->
+            </tr>
+            
+            </tbody></table>			
+			
+		<br>	
+		
+		
+	    </div>
+		<!-----Config------------------------------------------------------------------------------>	
+        
+        <div id="VM_div_config" name="RouterStatusDiv" class="VM_inner_div">
+    		
+    		<div class="section_title dynamic" id="rs14" style="width:570px;">General Configuration</div>
+			<table id="t-cm-config" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<!--<tr>
+					<th width="80%" class="" style="border-left: 0px;">
+						<span id="" class="dynamic">Item</span>
+					</th>
+					<th width="30%" class=""><span id="" class="dynamic">Status</span></th>
+
+				</tr>-->
+				<tbody><tr id="cm-config" style="display:none;">
+					<td colspan="2" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>
+		<br>
+		
+    		<div class="section_title dynamic" id="rs15" style="width:570px;">Primary Downstream Service Flow</div>
+			<table id="t-cm-dssf" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<tbody><tr id="cm-dssf" style="display:none;">
+					<td colspan="2" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>
+		<br>
+
+    		<div class="section_title dynamic" id="rs16" style="width:570px;">Primary Upstream Service Flow</div>
+			<table id="t-cm-ussf" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<tbody><tr id="cm-ussf" style="display:none;">
+					<td colspan="2" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>
+		<br>		
+	    </div>
+	    
+        <!-----Network log------------------------------------------------------------------------------>
+        <div id="VM_div_netlog" name="RouterStatusDiv" class="VM_inner_div">
+    	<div class="section_title dynamic" id="rs22">Network Log</div>	
+    	<table id="" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<th id="logth" class="" style="border-left: 0px; width:0px;">
+					<span id="rs23" class="dynamic">Time</span>
+				</th>
+				<th class="" style="border-left: 0px; width:59px;"><span id="rs24" class="dynamic">Priority</span></th>
+                <th class="" style="border-left: 0px; width:560px;"><span id="rs25" class="dynamic">Description</span></th>
+			</tr>
+		</tbody></table>
+    		
+    		<div id="scroll_bar" style="width:770px;height:600px;overflow:scroll; margin:0px 0px 0px 0px;">	
+			<table id="t-mgr-eventlog" style="display:" class="data-tables" cellpadding="0" cellspacing="0">
+				<!--<tr>
+					<th width="15%" class="" style="border-left: 0px;">
+						<span id="rs23" class="dynamic">Time</span>
+					</th>
+					<th width="15%" class=""><span id="rs24" class="dynamic">Priority</span></th>
+                    <th width="80%" class=""><span id="rs25" class="dynamic">Description</span></th>
+				</tr>-->
+				<tbody><tr id="cm-netlog" style="display:none;">
+					<td colspan="2" class="table-apply">
+					</td>
+				</tr>
+			</tbody></table>
+			</div> 
+		<br>
+	    </div>        
+
+        <div><input type="button" id="c_37" name="VMbk" class="button_secondary dynamicValue" value="Back" onmouseover="$(this).addClass(&#39;button_secondary_hover&#39;);" onmouseout="$(this).removeClass(&#39;button_secondary_hover&#39;);" onclick="RouterStatusClose();"></div>
+        <br>
+
+	</div>
+
+    </div><!--end VM outer -->
+</div>
+
+<!--router status E-->
+</div>
+<script language="javascript" src="./Connect Box_files/jquery-1.11.1.min.js"></script>
+<script language="javascript" src="./Connect Box_files/multi_langs.js"></script>
+<script language="javascript" src="./Connect Box_files/common_api.js"></script>
+<script language="javascript">
+
+$(document).ready(function(){
+	if(GlobalSt["VMFuncEn"] === true){
+		//$("#cbnLogin").css({"background":"none"});
+		$(".overlay").css({"background":"url('../images/common_imgs/VM-generic-overlayBG.jpg') no-repeat scroll center top / 100% auto #322332", "opacity":"1.0"});	
+	}
+		cbnAjax({
+			url:"../xml/getter.xml",
+			type:"POST", data: {'fun':3},
+			dataType:"xml",
+			error:function(xmlResponse) {
+				displayErrorMessage();        	
+			},
+			success:function(xmlResponse) {
+				checkVIRGINMEDIA();	
+				$(".overlay").css({height:"100%"});
+				checkCmUpdating();
+				loginServer();
+				$("#loginPassword").bind('input propertychange', function() {RemoveErrMsg("loginPassword");});
+			}
+		});
+	updateContent();
+});
+function checkCmUpdating()
+{
+	ajaxGet({'fun':1},"",getglobalInfo);
+	if(_Cm_upgrade_status != 1)
+	{
+		$("#checkupdating").fadeIn(800);
+	}else
+	{
+		$("#checkupdating").hide();
+		$("#loginUserPassword").fadeIn(500);
+	}
+}
+function getglobalInfo(xmlResponse) {
+		_Cm_upgrade_status = $(xmlResponse).find('operStatus').text();
+	}
+function ForgotPassword()
+{
+	if(verifyEmail_ErrMsg('EmailID', 'EmailTextBoxErrMsg'))	
+	{	
+		cbnAjax({
+			url:"../xml/getter.xml", type:"POST", data: {'fun':3}, dataType:"xml",
+			error:function(xmlResponse) {
+				displayErrorMessage();        	
+			},
+			success:function(xmlResponse) {
+				SendEmail();
+			}
+		});    
+	}
+}
+
+function SendEmail()
+{
+		var Email = $("#EmailID").val();
+		var EmailLen = $("#EmailID").val().length;
+		var data = {'fun':139,'email':Email,'emailLen':EmailLen,'opt':0};		
+		cbnAjax({url: "../xml/setter.xml",type: 'POST',async: false,	dataType: "text", data: data,
+			success: function(response) {
+				if(response == "OK")
+				{
+					$("#loginUserPassword").show();
+					$("#ForgotUserPassword").hide();
+				}
+				else
+				{
+					$("#loginUserPassword").show();
+					$("#ForgotUserPassword").hide();
+					//alert(getLanguageResourcesById(response));
+				}
+			},
+		error: function(){}
+		});
+}
+
+function loginServer()
+{	
+	$("[name=id_common_login]").click(function(){
+		var sPassword = $("input[name='loginPassword']").val();	
+		if(sPassword == ""){
+			InputErrMsg("loginPassword","",getLanguageResourcesById('wm02'));
+			return false;
+		}		
+		LoginFunc();
+	});
+}
+
+$("#loginPassword").keypress(function(e){
+	var PWlength = parseInt($("#loginPassword").val().length);
+	code = (e.keyCode ? e.keyCode : e.which);
+	if (code == 13 && PWlength >0)
+	{
+		$( "[name=id_common_login]" ).trigger( "click" );
+	}
+});
+
+$("#loginPassword").keyup(function(){	
+	checkPskey();	
+});
+
+function checkPskey(){        	
+    if($('#loginPassword').val().length == 0)
+	{
+		$("[name=id_common_login]").prop('disabled', true).attr("class","button_main_deactivated dynamicValue");			
+	}
+	else
+	{	
+		$("[name=id_common_login]").prop('disabled', false).attr("class","button_main dynamicValue");			
+	}
+}
+
+function LoginFunc(){
+		var data;
+		data = {
+			'fun':15,
+			'Username':"NULL",
+			'Password':$("input[name='loginPassword']").val()
+		};
+		cbnAjax({
+			url: "../xml/setter.xml", type: 'POST', async: false, dataType:"text", data: data,
+			success: function(response){
+				updateSID(response);
+				var patt = new RegExp("successful");
+				if((patt.test(response)) != true)
+				{
+					if(response.match("cbnBlockContent"))
+						window.location.assign("../common_page/Blocked-content.html");
+					else if(response == "lockedout")
+						window.location.assign("../common_page/Access-denied.html");
+					else
+						InputErrMsg("loginPassword","",getLanguageResourcesById('wm02'));
+				}
+				else{					
+					parent.window.location.assign("../index.html");
+				}
+			},
+			error: function(response){/*alert(response);*/}
+		});
+}
+	
+//------------------Router Status-----------------------------------------
+
+function checkVIRGINMEDIA(){
+    if(GlobalSt["VMFuncEn"] === true){
+        $(VM_buttom).show();
+        return true;
+    }
+    return false;
+}
+function getRouterStatus(){
+
+    //ajaxGet({'fun':144},"",getCMtable);
+    
+	ajaxGet({'fun':10},"#t-cm-downstream",getDownstreamTable);
+	ajaxGet({'fun':11},"#t-cm-upstream",getUpstreamTable);
+	//ajaxGet({'fun':12},"#t-cm-signal",getSignalTable);
+	
+	ajaxGet({'fun':13},"#t-mgr-eventlog",getEventLogTable);
+    updateContent();
+    
+    $(loginUserPassword).hide(); 
+    $(ForgotUserPassword).hide();
+    
+    $(".overlay").css({height:"200%"});
+    
+    $("div[name='RouterStatusDiv']").hide();
+    
+    $(VM_buttom).hide();     
+    $(VM_Infocontent).show();
+    
+    Section_CMStatus();
+	TuneTabWitdh();
+}
+
+function RouterStatusClose(){
+    $('.data').remove();
+    $('#bubblecontent').empty();    
+    $(".overlay").css({height:"100%"});    
+    $('#loginUserPassword').show();
+    $('#VM_Infocontent').hide();
+    $(VM_buttom).show();
+}
+function adjustVMheight(){
+
+    var height='width: 800px; height: '+ $("#c_37[name='VMbk']").offset().top +'px;';
+    
+    if( $("#c_37[name='VMbk']").offset().top>1000){
+        $(".overlay").css({height:"300%"});
+    }else{
+        $(".overlay").css({height:"200%"});
+    }
+    $("#VM_Infocontent").attr('style',height);
+    
+}
+function getCMtable(xmlResponse, node)
+{   
+    $('[name="CMdata"]').remove();
+    
+    var provisioning_st_num = $(xmlResponse).find('provisioning_st_num').text();
+    var provisioning_st = $(xmlResponse).find('provisioning_st').text();
+    var cm_comment = $(xmlResponse).find('cm_comment').text();
+    var entry = "<tr class=\"data\" name=\"CMdata\" style=\"text-align: left;\" ><td class='dynamic' id='rs05'></td><td>"+provisioning_st+"</td><td>"+cm_comment+"</td></tr>";
+    $(entry).insertAfter( $( "#cm-cmstatus" ) );    
+
+
+	var indexUS = 1;
+	var us_num = $(xmlResponse).find('us_num').text();
+	if(us_num==0){ //Failed
+         var entry = "<tr class=\"data\" name=\"CMdata\" style=\"text-align: left;\"><td class='dynamic' id='rs07'></td><td>"+0+"</td><td>"+getLanguageResourcesById('rs08')+"</td></tr>";
+         $(entry).insertAfter( $( "#cm-cmstatus" ) );	    
+	}
+	
+
+	$(xmlResponse).find('upstream').each(function(){
+		var freq = $(this).find('freq').text();
+		var pow = $(this).find('power').text();
+		var mod = $(this).find('mod').text();
+		var srate = $(this).find('srate').text();
+		var usid = $(this).find('usid').text();
+		var state = $(this).find('state').text();
+		//CM_RANG_STAT_NULL = 0,CM_RANG_STAT_OTHER,CM_RANG_STAT_ABORTED,CM_RANG_STAT_RETRIES_EXCEED,CM_RANG_STAT_SUCCESS,CM_RANG_STAT_CONTINUE,CM_RANG_STAT_TMO_T4
+		//var USstate=new Array("","Other", "Aborted", "Retries exceed", "Success", "Countinue","TMO_T4");  
+		
+		//LGI 150309 requirement: US Comment: in progress, ranged, failed
+		var Comment;
+		if((indexUS==1)/*&&(state==4)*/){
+		    
+		    //console.log(provisioning_st_num);
+		    switch(provisioning_st_num){
+		        case '12': //DOCSIS_CM_STAT_PARAMS_OPERATIONAL:
+		            Comment=getLanguageResourcesById('rs27');
+		            break;		            
+		        case '5': //DOCSIS_CM_STAT_PARAMS_US_PARAMETERS_ACQUIRED:
+		        case '22': //DOCSIS_CM_STAT_PARAMS_RANGING_IN_PROGRESS:
+		            Comment=getLanguageResourcesById('rs28');
+		            break;
+		        case '6': //DOCSIS_CM_STAT_PARAMS_RANGING_COMPLETE:
+		            Comment=getLanguageResourcesById('rs27');
+		            break;
+		    }
+		     
+		    var entry = "<tr class=\"data\" name=\"CMdata\" style=\"text-align: left;\"><td class='dynamic' id='rs07'></td><td>"+freq+"</td><td>"+Comment+"</td></tr>";
+		     $(entry).insertAfter( $( "#cm-cmstatus" ) );
+		}
+		indexUS++;
+	}); 
+
+
+    var index = $(xmlResponse).find('ds_num').text();
+    $(xmlResponse).find('downstream').each(function(){
+        var freq = $(this).find('freq').text();
+		var pow = $(this).find('pow').text();
+		var snr = $(this).find('snr').text();
+		var mod = $(this).find('mod').text();
+		var chid = $(this).find('chid').text();
+		
+		var state = $(this).find('state').text();
+		//RX_CH_ST_DISABLE = 1,RX_CH_ST_IDLE,RX_CH_ST_NOT_LOCKED,RX_CH_ST_LOCKED,RX_CH_ST_QFM_LOST	
+		var DSstate=new Array("","Disable", "Idle", "Unlocked", "Locked", "QFM_Lost" );
+		
+		var primary = $(this).find('primarySettings').text();
+        
+		if(primary==1){
+		    //console.log('primarySettings');
+            var entry = "<tr class=\"data\" name=\"CMdata\" style=\"text-align: left;\" ><td class='dynamic' id='rs06'></td><td>"+freq+"</td><td>"+DSstate[state]+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-cmstatus" ) );		    
+		    
+		}
+		index--;
+	});
+	updateContent();
+	adjustVMheight();
+    
+}
+function getDownstreamTable(xmlResponse, node)
+{   
+    $('[name="DSdata"]').remove();
+    //console.log(xmlResponse);
+	var dst_content = "";
+	var index = $(xmlResponse).find('ds_num').text();
+	$(xmlResponse).find('downstream').each(function(){
+		var freq = $(this).find('freq').text();
+		var pow = $(this).find('pow').text();
+		var snr = $(this).find('snr').text();
+		var mod = $(this).find('mod').text();
+		var chid = $(this).find('chid').text();
+		var entry = "<tr class=\"data\" name=\"DSdata\"><td>"+index+"</td><td>"+freq+"</td><td>"+pow+
+						"</td><td>"+snr+"</td><td>"+mod+"</td><td>"+chid+"</td></tr>";
+		$(entry).insertAfter( $( "#cm-downstream" ) );
+		index--;
+	});
+
+	var index_ex = $(xmlResponse).find('ds_num').text();
+	$(xmlResponse).find('downstream').each(function(){
+		var RxMER = $(this).find('RxMER').text();
+		var PreRs = $(this).find('PreRs').text();
+		var PostRs = $(this).find('PostRs').text();
+
+		var IsQamLocked = $(this).find('IsQamLocked').text();
+		var IsFECLocked = $(this).find('IsFECLocked').text();
+		var IsMpegLocked = $(this).find('IsMpegLocked').text();
+		var lock_st;
+		
+        if(IsQamLocked==1){
+            lock_st=getLanguageResourcesById('rs34');//QAM lock
+            if(IsFECLocked==1){
+                lock_st=getLanguageResourcesById('rs35');//FEC Sync
+                if(IsMpegLocked==1){
+                    lock_st=getLanguageResourcesById('rs36');//Locked
+                }
+            }
+        }else{
+            lock_st=getLanguageResourcesById('rs33');//Unlock
+        }
+		updateContent();
+		var entry = "<tr class=\"data\" name=\"DSdata\"><td>"+index_ex+"</td><td>"+lock_st+"</td><td>"+RxMER+"</td><td>"+PreRs+
+						"</td><td>"+PostRs+"</td></tr>";
+		$(entry).insertAfter( $( "#ex_downstream" ) );
+		index_ex--;
+	});
+	$("#t_ex_downstream").show();	
+	
+	$(node).show();
+	adjustVMheight();
+}
+
+function getUpstreamTable(xmlResponse, node)
+{
+    $('[name="USdata"]').remove();    
+	var ust_content = "";
+	var timeout_content="";
+	var index = 1;
+	$(xmlResponse).find('upstream').each(function(){
+		var freq = $(this).find('freq').text();
+		var pow = $(this).find('power').text();
+		var mod = $(this).find('mod').text();
+		var srate = $(this).find('srate').text();
+		var usid = $(this).find('usid').text();
+		var entry = "<tr class=\"data\" name=\"USdata\"><td>"+index+"</td><td>"+freq+"</td><td>"+pow+
+						"</td><td>"+srate+"</td><td>"+mod+"</td><td>"+usid+"</td></tr>";
+		ust_content += entry;
+		
+		var T1timeout=$(this).find('t1Timeouts').text();
+		var T2timeout=$(this).find('t2Timeouts').text();
+		var T3timeout=$(this).find('t3Timeouts').text();
+		var T4timeout=$(this).find('t4Timeouts').text();
+		var messageType=$(this).find('messageType').text();
+		messageType = getUsMSGtype(messageType);
+		
+		var to_entry = "<tr class=\"data\" name=\"USdata\"><td>"+index+"</td><td>"+messageType+"</td><td>"+T1timeout+"</td><td>"+T2timeout+
+						"</td><td>"+T3timeout+"</td><td>"+T4timeout+"</td></tr>";
+		timeout_content += to_entry;
+		index++;
+	});
+	$(node).append(ust_content);
+	$(node).show();
+
+	$("#t_upstream_timeout").append(timeout_content);
+	$("#t_upstream_timeout").show();
+	
+	adjustVMheight();
+}
+
+function getSignalTable(xmlResponse, node)
+{
+	var sig_content = "";
+	var index = $(xmlResponse).find('sig_num').text();
+	$(xmlResponse).find('signal').each(function(){
+		var dsid = $(this).find('dsid').text();
+		var unerrored = $(this).find('unerrored').text();
+		var correctable = $(this).find('correctable').text();
+		var uncorrectable = $(this).find('uncorrectable').text();
+		var entry = "<tr class=\"data\"><td>"+dsid+"</td><td>"+unerrored+"</td><td>"+correctable+
+						"</td><td>"+uncorrectable+"</td></tr>";
+		$(entry).insertAfter( $( "#cm-signal" ) );
+		index--;
+	});
+	$(node).show();
+
+    adjustVMheight();
+}
+
+function getConfigtable(xmlResponse, node)
+{   
+    $('[name="Cfgdata"]').remove();
+    var cm_docsis_mode = $(xmlResponse).find('cm_docsis_mode').text();
+    var cm_network_access = $(xmlResponse).find('cm_network_access').text();
+    var NumberOfCpes = $(xmlResponse).find('dMaxCpes').text();
+    var bpiEnable = $(xmlResponse).find('bpiEnable').text();
+    if(bpiEnable==1){
+        var bpi='Enabled';
+    }else{ var bpi='Disabled'; }
+    
+    var FileName = $(xmlResponse).find('FileName').text();
+    
+    var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs01')+"</th><td style=\"width:250px;\">"+FileName+"</td></tr>";
+    $(entry).insertAfter( $( "#cm-config" ) );    
+    
+    var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs04')+"</th><td style=\"width:250px;\">"+cm_docsis_mode+"</td></tr>";
+    $(entry).insertAfter( $( "#cm-config" ) );    
+
+    var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs03')+"</th><td style=\"width:250px;\">"+bpi+"</td></tr>";
+    $(entry).insertAfter( $( "#cm-config" ) );      
+
+    var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs02')+"</th><td style=\"width:250px;\">"+NumberOfCpes+"</td></tr>";
+    $(entry).insertAfter( $( "#cm-config" ) );    
+
+    var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('c_if09')+"</th><td style=\"width:250px;\">"+cm_network_access+"</td></tr>";
+    $(entry).insertAfter( $( "#cm-config" ) ); 
+    
+    
+    $(xmlResponse).find('serviceflow').each(function(){
+		var Sfid = $(this).find('Sfid').text();
+		var direction = $(this).find('direction').text();  //Downstream 1 , Upstream 2
+		var MaxTrafficRate = $(this).find('pMaxTrafficRate').text();
+		var MaxTrafficBurst = $(this).find('pMaxTrafficBurst').text();
+		var MinReservedRate = $(this).find('pMinReservedRate').text();
+		var MaxConcatBurst = $(this).find('pMaxConcatBurst').text();
+		var SchedulingType = $(this).find('pSchedulingType').text();
+		SchedulingType=getSchedulingType(SchedulingType);
+
+		if(direction==1){
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs11')+"</th><td style=\"width:250px;\">"+MinReservedRate+" bps"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-dssf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs10')+"</th><td style=\"width:250px;\">"+MaxTrafficBurst+" bytes"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-dssf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs09')+"</th><td style=\"width:250px;\">"+MaxTrafficRate+" bps"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-dssf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+"SFID"+"</th><td style=\"width:250px;\">"+Sfid+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-dssf" ) );
+
+                        
+		}else if(direction==2){
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs13')+"</th><td style=\"width:250px;\">"+SchedulingType+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-ussf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs12')+"</th><td style=\"width:250px;\">"+MaxConcatBurst+" bytes"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-ussf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs11')+"</th><td style=\"width:250px;\">"+MinReservedRate+" bps"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-ussf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs10')+"</th><td style=\"width:250px;\">"+MaxTrafficBurst+" bytes"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-ussf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+getLanguageResourcesById('rs09')+"</th><td style=\"width:250px;\">"+MaxTrafficRate+" bps"+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-ussf" ) );
+            var entry = "<tr class=\"data\" name=\"Cfgdata\" style=\"text-align: left;\" ><th style=\"width:250px;\">"+"SFID"+"</th><td style=\"width:250px;\">"+Sfid+"</td></tr>";
+            $(entry).insertAfter( $( "#cm-ussf" ) );		
+		}
+
+	});
+    
+    
+    updateContent();
+    adjustVMheight();
+}
+function getEventLogTable(xmlResponse, node)
+{
+    $('[name="Netlogdata"]').remove();    
+	var content = "";
+	$(xmlResponse).find('eventlog').each(function(){
+		var prior = $(this).find('prior').text();
+		var time = $(this).find('time').text();
+		var text = $(this).find('text').text();
+		var entry = "<tr class=\"data\" name=\"Netlogdata\"><td id='logtd' style=\"text-align: left;\">"+time+"</td><td>"+prior+"</td><td style=\"text-align: left;\">"+text+"</td></tr>";
+		content = entry + content;
+	});
+	$(node).append(content);
+	$(node).show();
+	adjustVMheight();
+	
+	
+	var style='border-left: 0px; width:'+ ( $(logtd).width()+2 ) +'px;';
+	$(logth).attr('style',style);
+}
+
+function Section_CMStatus()
+{
+    ForcusOnVMtitle(1);
+    $("div[name='RouterStatusDiv']").hide();
+    $('[name="CMdata"]').remove();
+    ajaxGet({'fun':144},"",getCMtable);
+    $("#VM_div_CMstatus").show();
+}
+function Section_DS()
+{
+    ForcusOnVMtitle(2);    
+    $("div[name='RouterStatusDiv']").hide();
+    $('[name="DSdata"]').remove();
+	ajaxGet({'fun':10},"#t-cm-downstream",getDownstreamTable);  
+    $("#VM_div_DS").show();
+}
+function Section_US()
+{
+    ForcusOnVMtitle(3);
+    $("div[name='RouterStatusDiv']").hide();
+    $('[name="USdata"]').remove();
+	ajaxGet({'fun':11},"#t-cm-upstream",getUpstreamTable);
+    $("#VM_div_US").show();
+}
+function Section_Config()
+{
+    ForcusOnVMtitle(4);
+    $("div[name='RouterStatusDiv']").hide();
+    $('[name="Cfgdata"]').remove();
+    ajaxGet({'fun':144},"",getConfigtable);
+    $("#VM_div_config").show();
+}
+function Section_Netlog()
+{
+    ForcusOnVMtitle(5);
+    $("div[name='RouterStatusDiv']").hide();
+    $('[name="Netlogdata"]').remove();
+	ajaxGet({'fun':13},"#t-mgr-eventlog",getEventLogTable); 
+    $("#VM_div_netlog").show();
+}
+
+function getSchedulingType(index){
+	/*  Service flow Scheduling types    
+	#define SF_RESERVED                0
+    #define SF_TYPE_UNDEFINED          1
+    #define SF_BEST_EFFORT             2  // best effort
+    #define SF_NON_REALTIME_PS         3  // non real time polling service 
+    #define SF_REALTIME_PL             4  // real time polling service 
+    #define SF_UNSOLICIT_GRANT_AD      5  // unsolicited grant service with AD 
+    #define SF_UNSOLICIT_GRANT         6  // unsolicited grant service
+    #define SF_NOT_APPLICABLE          256
+	*/
+	
+	switch(index){
+
+        case '1':
+            return "Type Undefined";
+        break;
+        case '2':
+            return "Best Effort";
+        break;
+        case '3':
+            return "Non Real Time Polling Service";
+        break;
+        case '4':
+            return "Real Time Polling Service";
+        break;
+        case '5':
+            return "Unsolicited Grant Service With AD";
+        break;
+        case '6':
+            return "Unsolicited Grant Service";
+        break;
+        
+	}
+}	
+
+function ForcusOnVMtitle(index){
+    
+    switch(index){
+        case 1:
+            $("div[name='title_Status']").attr("class","VM_tab_selected dynamic");
+            $("div[name='title_Downstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Upstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Configuration']").attr("class","VM_tab dynamic");
+            $("div[name='title_Networklog']").attr("class","VM_tab dynamic");
+            
+            $("#rs32[name='VM_refresh']").attr("onclick","Section_CMStatus()");
+        break;
+        case 2:
+            $("div[name='title_Status']").attr("class","VM_tab dynamic");
+            $("div[name='title_Downstream']").attr("class","VM_tab_selected dynamic");
+            $("div[name='title_Upstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Configuration']").attr("class","VM_tab dynamic");
+            $("div[name='title_Networklog']").attr("class","VM_tab dynamic");
+            
+            $("#rs32[name='VM_refresh']").attr("onclick","Section_DS()");
+        break;
+        case 3:
+            $("div[name='title_Status']").attr("class","VM_tab dynamic");
+            $("div[name='title_Downstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Upstream']").attr("class","VM_tab_selected dynamic");
+            $("div[name='title_Configuration']").attr("class","VM_tab dynamic");
+            $("div[name='title_Networklog']").attr("class","VM_tab dynamic");
+            
+            $("#rs32[name='VM_refresh']").attr("onclick","Section_US()");
+        break;
+        case 4:
+            $("div[name='title_Status']").attr("class","VM_tab dynamic");
+            $("div[name='title_Downstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Upstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Configuration']").attr("class","VM_tab_selected dynamic");
+            $("div[name='title_Networklog']").attr("class","VM_tab dynamic");
+            
+            $("#rs32[name='VM_refresh']").attr("onclick","Section_Config()");
+        break;
+        case 5:
+            $("div[name='title_Status']").attr("class","VM_tab dynamic");
+            $("div[name='title_Downstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Upstream']").attr("class","VM_tab dynamic");
+            $("div[name='title_Configuration']").attr("class","VM_tab dynamic");
+            $("div[name='title_Networklog']").attr("class","VM_tab_selected dynamic");
+            
+            $("#rs32[name='VM_refresh']").attr("onclick","Section_Netlog()");
+        break;        
+    }
+
+}
+
+function TuneTabWitdh()
+{
+	$(".VM_tab_blank_free").width(0);
+	if(LANGUAGE_ID == 'cz')
+		$("#rs20,#rs29,#rs30,#rs31,#rs22").css({"padding":"15px 9px"});
+	else if(LANGUAGE_ID == 'pl')
+		$("#rs20,#rs29,#rs30,#rs31,#rs22").css({"padding":"15px 19px"});
+	else if(LANGUAGE_ID == 'ru')
+		$("#rs20,#rs29,#rs30,#rs31,#rs22").css({"padding":"15px 17px"});
+	else
+		$("#rs20,#rs29,#rs30,#rs31,#rs22").css({"padding":"15px 25px"});
+		
+	setTimeout(function(){ 
+		underline = $(".VM_outer_div").width() - $("#VM_rsbar").width() + 2;	
+		$(".VM_tab_blank_free").width(underline);
+	}, 1000);
+}
+</script>
+
+
+</body></html>

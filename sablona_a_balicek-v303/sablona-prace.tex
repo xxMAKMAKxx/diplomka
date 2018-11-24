@@ -29,7 +29,6 @@
 	%přetypuje nadpisy všech úrovní na bezpatkové, kromě \chapter, která je přenastavena zvlášť v thesis.sty
 	\allsectionsfont{\sffamily}
 
-
 \usepackage{graphicx} % Balíček 'graphicx' pro vkládání obrázků
 											% Nutné pro vložení log školy a fakulty
 
@@ -192,13 +191,13 @@
 \obsah
 
 %% Vysázení seznamu obrázků
-\seznamobrazku
+%\seznamobrazku
 
 %% Vysázení seznamu tabulek
-\seznamtabulek
+%\seznamtabulek
 
 %% Vysázení seznamu výpisů
-\lstlistoflistings
+%\lstlistoflistings
 
 \cleardoublepage\pagestyle{plain}   % zapnutí číslování stránek
 
@@ -216,19 +215,27 @@
 \include{text/zaver}
 
 %% Vložení souboru 'text/literatura' se seznamem literatury
-\include{text/literatura}
+%\include{text/literatura}
+\makeatletter
+\def\@openbib@code{\addcontentsline{toc}{chapter}{Bibliography}}
+\makeatother
+\bibliographystyle{czplain}
+\begin{flushleft}
+\bibliography{text/literatura_mak} % viz. literatura.bib
+\end{flushleft}
+
 
 %% Vložení souboru 'text/zkratky' se seznam použitých symbolů, veličin a zkratek
-\include{text/zkratky}
+%\include{text/zkratky}
 
 %% Začátek příloh
-\prilohy
+%\prilohy
 
 %% Vysázení seznamu příloh
-\seznampriloh
+%\seznampriloh
 
 %% Vložení souboru 'text/prilohy' s přílohami
-\include{text/prilohy}
+%\include{text/prilohy}
 
 %% Konec dokumentu
 \end{document}

@@ -1,0 +1,38 @@
+\makeatletter
+\@ifundefined{url}{\def\url#1{{\tt
+  $<$#1$>$}}}{\DeclareUrlCommand\url{\def\UrlLeft{<} \def\UrlRight{>}
+  \urlstyle{tt}}}
+\makeatother
+\begin{thebibliography}{1}
+
+\bibitem{andrasov2}
+{\sc\bgroup}Andrašov{\egroup}, I.
+\newblock {\em {Měření experimentální sítě PlanetLab}}.
+\newblock Brno: Brno, University of Technology, 2017.
+\newblock Bachelor thesis.
+\newblock Available at: ~{\tt
+  https://www.vutbr.cz/studenti/zav-prace/detail/110277}.
+
+\bibitem{lutz2013learning}
+{\sc\bgroup}Lutz{\egroup}, M.
+\newblock {\em Learning Python: Powerful Object-Oriented Programming}.
+\newblock [b.m.]: O'Reilly Media, 2013.
+\newblock Safari Books Online.
+\newblock Available at: ~{\tt https://books.google.cz/books?id=4pgQfXQvekcC}.
+\newblock ISBN 9781449355692.
+
+\bibitem{planetlababout}
+{\sc\bgroup}PlanetLab{\egroup}.
+\newblock {\em About PlanetLab project} [online].
+\newblock Revised: 29, May, 2017 [cit. 24.~November 2018].
+\newblock Available at: ~{\tt https://www.planet-lab.eu/about}.
+
+\bibitem{suba1}
+{\sc\bgroup}Šuba{\egroup}, F.
+\newblock {\em {Monitorování serverů s OS Linux}}.
+\newblock Brno: Brno, University of Technology, 2018.
+\newblock Bachelor thesis.
+\newblock Available at: ~{\tt
+  https://www.vutbr.cz/studenti/zav-prace/detail/110178}.
+
+\end{thebibliography}

@@ -1,21 +1,19 @@
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Introduction}{7}{section*.6}
-\contentsline {chapter}{\numberline {1}Teoretick\IeC {\'a} \IeC {\v c}\IeC {\'a}st studentsk\IeC {\'e} pr\IeC {\'a}ce}{8}{chapter.7}
-\contentsline {chapter}{\numberline {2}V\IeC {\'y}sledky studentsk\IeC {\'e} pr\IeC {\'a}ce}{9}{chapter.8}
-\contentsline {section}{\numberline {2.1}Programov\IeC {\'e} \IeC {\v r}e\IeC {\v s}en\IeC {\'\i }}{9}{section.9}
-\contentsline {section}{\numberline {2.2}V\IeC {\'y}sledky m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{9}{section.10}
-\contentsline {subsection}{\numberline {2.2.1}Etiam quis quam}{9}{subsection.11}
-\contentsline {subsubsection}{Integer rutrum orci vestibulum}{9}{section*.12}
-\contentsline {subsubsection}{Eger rutrum orci westibulum}{10}{section*.13}
-\contentsline {chapter}{\numberline {3}Z\IeC {\'a}v\IeC {\v e}r}{12}{chapter.14}
-\contentsline {chapter}{Bibliography}{13}{section*.16}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{14}{section*.18}
-\contentsline {chapter}{List of appendices}{15}{section*.20}
-\contentsline {chapter}{\numberline {A}N\IeC {\v e}kter\IeC {\'e} p\IeC {\v r}\IeC {\'\i }kazy bal\IeC {\'\i }\IeC {\v c}ku \texttt {thesis} }{16}{chapter.21}
-\contentsline {section}{\numberline {A.1}P\IeC {\v r}\IeC {\'\i }kazy pro sazbu veli\IeC {\v c}in a jednotek }{16}{section.22}
-\contentsline {section}{\numberline {A.2}P\IeC {\v r}\IeC {\'\i }kazy pro sazbu symbol\IeC {\r u} }{16}{section.24}
-\contentsline {chapter}{\numberline {B}Druh\IeC {\'a} p\IeC {\v r}\IeC {\'\i }loha }{17}{chapter.26}
-\contentsline {chapter}{\numberline {C}P\IeC {\v r}\IeC {\'\i }klad sazby zdrojov\IeC {\'y}ch k\IeC {\'o}d\IeC {\r u} }{18}{chapter.28}
-\contentsline {section}{\numberline {C.1}Bal\IeC {\'\i }\IeC {\v c}ek \texttt {listings} }{18}{section.29}
-\contentsline {chapter}{\numberline {D}Obsah p\IeC {\v r}ilo\IeC {\v z}en\IeC {\'e}ho CD }{21}{chapter.102}
+\contentsline {chapter}{Introduction}{4}{section*.3}
+\contentsline {chapter}{\numberline {1}Plbmng Tool}{5}{chapter.4}
+\contentsline {section}{\numberline {1.1}Current Tool Funcionality}{6}{section.8}
+\contentsline {section}{\numberline {1.2}Current Tool State}{6}{section.9}
+\contentsline {section}{\numberline {1.3}Areas of improvement}{6}{section.10}
+\contentsline {chapter}{\numberline {2} exttt{PlanetLab} Network}{7}{chapter.11}
+\contentsline {chapter}{\numberline {3}Linux and Virtualization}{8}{chapter.12}
+\contentsline {chapter}{\numberline {4}Plbmng Tool Improvements}{9}{chapter.13}
+\contentsline {chapter}{\numberline {5}V\IeC {\'y}sledky studentsk\IeC {\'e} pr\IeC {\'a}ce}{10}{chapter.14}
+\contentsline {section}{\numberline {5.1}Programov\IeC {\'e} \IeC {\v r}e\IeC {\v s}en\IeC {\'\i }}{10}{section.15}
+\contentsline {section}{\numberline {5.2}V\IeC {\'y}sledky m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{10}{section.16}
+\contentsline {subsection}{\numberline {5.2.1}Etiam quis quam}{10}{subsection.17}
+\contentsline {subsubsection}{Integer rutrum orci vestibulum}{10}{section*.18}
+\contentsline {subsubsection}{Eger rutrum orci westibulum}{11}{section*.19}
+\contentsline {chapter}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{13}{chapter.20}
+\contentsline {chapter}{Bibliography}{14}{section*.22}
+\contentsline {chapter}{Bibliography}{14}{section*.22}
