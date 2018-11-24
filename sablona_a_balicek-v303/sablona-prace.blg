@@ -7,7 +7,6 @@ A level-1 auxiliary file: text/vysledky.aux
 A level-1 auxiliary file: text/zaver.aux
 The style file: czplain.bst
 A level-1 auxiliary file: text/zkratky.aux
-A level-1 auxiliary file: text/prilohy.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -25,51 +24,64 @@ Warning--I didn't find a database entry for "CSN_ISO_690-2011"
 Warning--I didn't find a database entry for "CSN_ISO_7144-1997"
 Warning--I didn't find a database entry for "CSN_ISO_31-11"
 Warning--I didn't find a database entry for "BiernatovaSkupa2011:CSNISO690komentar"
+Warning--to sort, need author or key in Roscoe_PDN-02-002
+Warning--empty author in Roscoe_PDN-02-002
+Warning--"{" isn't a brace-balanced string for entry Roscoe_PDN-02-002
+while executing--line 6037 of file czplain.bst
+Warning--type empty in Roscoe_PDN-02-002
 Warning--"{" isn't a brace-balanced string for entry andrasov2
 while executing--line 6037 of file czplain.bst
 Warning--empty edition in lutz2013learning
+Warning--empty editor and organization in Park:2006:SWS:1267359.1267382
+Warning--empty edition in Park:2006:SWS:1267359.1267382
+Warning--empty isbn or issn in Park:2006:SWS:1267359.1267382
 Warning--empty year in planetlababout
+Warning--empty year in planetlabmain
+Warning--empty edition in Ramasubramanian:2004:DIN:1030194.1015504
+Warning--empty editor and organization in 1356981
+Warning--empty edition in 1356981
+Warning--empty year in pythonfastestgrowing
 Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
-You've used 4 entries,
+You've used 10 entries,
             3583 wiz_defined-function locations,
-            785 strings with 5894 characters,
-and the built_in function-call counts, 1591 in all, are:
-= -- 128
-> -- 46
-< -- 14
-+ -- 13
-- -- 12
-* -- 87
-:= -- 209
-add.period$ -- 16
-call.type$ -- 4
-change.case$ -- 26
-chr.to.int$ -- 20
-cite$ -- 6
-duplicate$ -- 107
-empty$ -- 170
-format.name$ -- 8
-if$ -- 366
+            829 strings with 7082 characters,
+and the built_in function-call counts, 4700 in all, are:
+= -- 374
+> -- 144
+< -- 44
++ -- 44
+- -- 41
+* -- 275
+:= -- 585
+add.period$ -- 40
+call.type$ -- 10
+change.case$ -- 69
+chr.to.int$ -- 70
+cite$ -- 23
+duplicate$ -- 296
+empty$ -- 499
+format.name$ -- 29
+if$ -- 1092
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 10
 missing$ -- 0
-newline$ -- 34
-num.names$ -- 8
-pop$ -- 32
+newline$ -- 75
+num.names$ -- 18
+pop$ -- 97
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 37
 quote$ -- 0
-skip$ -- 75
+skip$ -- 217
 stack$ -- 0
-substring$ -- 76
-swap$ -- 25
-text.length$ -- 6
+substring$ -- 300
+swap$ -- 76
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
-warning$ -- 2
-while$ -- 11
-width$ -- 5
-write$ -- 58
-(There were 13 warnings)
+type$ -- 22
+warning$ -- 13
+while$ -- 36
+width$ -- 12
+write$ -- 136
+(There were 25 warnings)

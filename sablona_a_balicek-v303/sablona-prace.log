@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  24 NOV 2018 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  24 NOV 2018 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,6 +400,20 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen113
+\c@pp@next@reset=\count92
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
 
@@ -409,12 +423,12 @@ Package: suffix 2006/07/15 1.5a Variant command support
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count92
-\decimalpart=\count93
+\integerpart=\count93
+\decimalpart=\count94
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\AC@clearlist=\toks18
+\AC@clearlist=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
@@ -468,16 +482,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen113
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
+\@linkdim=\dimen114
+\Hy@linkcounter=\count95
+\Hy@pagecounter=\count96
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count96
+\Hy@SavedSpaceFactor=\count97
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -498,17 +512,17 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count97
+\c@Hy@tempcnt=\count98
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen114
-\Fld@menulength=\count98
-\Field@Width=\dimen115
-\Fld@charsize=\dimen116
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count99
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -518,17 +532,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count99
-\c@Item=\count100
-\c@Hfootnote=\count101
+\Hy@abspage=\count100
+\c@Item=\count101
+\c@Hfootnote=\count102
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/21 v6.83p Hyperref driver for pdfTeX
-\Fld@listcount=\count102
-\c@bookmark@seq@number=\count103
+\Fld@listcount=\count103
+\c@bookmark@seq@number=\count104
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -545,15 +559,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count104
-\calc@Bcount=\count105
-\calc@Adimen=\dimen117
-\calc@Bdimen=\dimen118
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen118
+\calc@Bdimen=\dimen119
 \calc@Askip=\skip44
 \calc@Bskip=\skip45
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count106
+\calc@Ccount=\count107
 \calc@Cskip=\skip46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -576,25 +590,25 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\AM@pagewidth=\dimen119
-\AM@pageheight=\dimen120
+\AM@pagewidth=\dimen120
+\AM@pageheight=\dimen121
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
-\AM@global@opts=\toks19
-\AM@toc@title=\toks20
-\c@AM@survey=\count107
+\AM@global@opts=\toks20
+\AM@toc@title=\toks21
+\c@AM@survey=\count108
 \AM@templatesizebox=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip47
-\enit@outerparindent=\dimen121
-\enit@toks=\toks21
+\enit@outerparindent=\dimen122
+\enit@toks=\toks22
 \enit@inbox=\box28
-\enitdp@description=\count108
+\enitdp@description=\count109
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
@@ -604,43 +618,43 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 
 (/usr/share/texlive/texmf-dist/tex/generic/dirtree/dirtree.tex
 `dirtree' v0.32, 2012/12/11 (jcc)
-\DT@offset=\dimen122
-\DT@width=\dimen123
-\DT@sep=\dimen124
-\DT@all=\dimen125
-\DT@rulewidth=\dimen126
-\DT@dotwidth=\dimen127
-\DTbaselineskip=\dimen128
-\DT@counti=\count109
-\DT@countii=\count110
-\DT@countiii=\count111
-\DT@countiv=\count112
-\DT@indent=\dimen129
-\DT@parskip=\dimen130
-\DT@baselineskip=\dimen131
+\DT@offset=\dimen123
+\DT@width=\dimen124
+\DT@sep=\dimen125
+\DT@all=\dimen126
+\DT@rulewidth=\dimen127
+\DT@dotwidth=\dimen128
+\DTbaselineskip=\dimen129
+\DT@counti=\count110
+\DT@countii=\count111
+\DT@countiii=\count112
+\DT@countiv=\count113
+\DT@indent=\dimen130
+\DT@parskip=\dimen131
+\DT@baselineskip=\dimen132
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count113
+\lst@mode=\count114
 \lst@gtempboxa=\box29
-\lst@token=\toks22
-\lst@length=\count114
-\lst@currlwidth=\dimen132
-\lst@column=\count115
-\lst@pos=\count116
-\lst@lostspace=\dimen133
-\lst@width=\dimen134
-\lst@newlines=\count117
-\lst@lineno=\count118
-\lst@maxwidth=\dimen135
+\lst@token=\toks23
+\lst@length=\count115
+\lst@currlwidth=\dimen133
+\lst@column=\count116
+\lst@pos=\count117
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count118
+\lst@lineno=\count119
+\lst@maxwidth=\dimen136
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\lst@fmtcurrindent=\dimen136
-\lst@newlinesensured=\count119
-\c@lstnumber=\count120
-\lst@skipnumbers=\count121
+\lst@fmtcurrindent=\dimen137
+\lst@newlinesensured=\count120
+\c@lstnumber=\count121
+\lst@skipnumbers=\count122
 \lst@framebox=\box30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -662,11 +676,11 @@ Language: czech 2008/07/06 v3.1a Czech support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count122
-\U@D=\dimen137
+\babel@savecnt=\count123
+\U@D=\dimen138
 )
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count123
+\cs@wordlen=\count124
 Package babel Info: Making - an active character on input line 226.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
@@ -679,10 +693,10 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count124
-\float@exts=\toks23
+\c@float@type=\count125
+\float@exts=\toks24
 \float@box=\box31
-\@float@everytoks=\toks24
+\@float@everytoks=\toks25
 \@floatcapt=\box32
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lm/lmodern.sty
@@ -898,11 +912,11 @@ Package: thesis 2018/03/07v3.03LaTeX document class
 
 Styl 'thesis.sty' pro psani kvalifikacnich praci v(3.03) na VUT v Brne
 
-\type@semestral=\count125
-\type@bachelor=\count126
-\type@diploma=\count127
-\type@treatise=\count128
-\type@phd=\count129
+\type@semestral=\count126
+\type@bachelor=\count127
+\type@diploma=\count128
+\type@treatise=\count129
+\type@phd=\count130
 Originalni jazyk prace nastaven na 'english'
 Jazyk prace pro preklad nastaven na 'czech'
 
@@ -910,41 +924,42 @@ Jazyk prace pro preklad nastaven na 'czech'
 \thesis@tmp=\skip48
 )){/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{vafle.map}
 (./sablona-prace.aux (./text/uvod.aux) (./text/reseni.aux) (./text/vysledky.aux
-) (./text/zaver.aux))
+) (./text/zaver.aux) (./text/zkratky.aux))
 \openout1 = `sablona-prace.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 137.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 139.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 137.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 139.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 139.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 137.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -986,17 +1001,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen138
+\scratchcounter=\count131
+\scratchdimen=\dimen139
 \scratchbox=\box33
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen139
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen140
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1015,7 +1030,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 137.
+Package hyperref Info: Link coloring OFF on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1023,11 +1038,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 137.
-LaTeX Info: Redefining \pageref on input line 137.
-LaTeX Info: Redefining \nameref on input line 137.
+LaTeX Info: Redefining \ref on input line 139.
+LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \nameref on input line 139.
 
 (./sablona-prace.out) (./sablona-prace.out)
 \@outlinefile=\write4
@@ -1042,124 +1057,124 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count137
+\c@lstlisting=\count138
 
-<pdf/student-desky.pdf, id=64, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=92, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 
 <use pdf/student-desky.pdf>
-Package pdftex.def Info: pdf/student-desky.pdf used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf used on input line 144.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-desky.pdf Graphic file (type pdf)
  <use pdf/student-desky.pdf>
-Package pdftex.def Info: pdf/student-desky.pdf used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf used on input line 144.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-<pdf/student-desky.pdf, id=67, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=95, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 
 <use pdf/student-desky.pdf, page 1>
-Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 144.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-desky.pdf Graphic file (type pdf)
  <use pdf/student-desky.pdf, page 1>
-Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 144.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-desky.pdf Graphic file (type pdf)
 
 <use pdf/student-desky.pdf, page 1>
-Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 144.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-desky.pdf Graphic file (type pdf)
  <use pdf/student-desky.pdf, page 1>
-Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 144.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-desky.pdf Graphic file (type pdf)
 
 <use pdf/student-desky.pdf, page 1>
-Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 142.
+Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 144.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [1
 
  <./pdf/student-desky.pdf>]
-<pdf/student-titulka.pdf, id=83, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=111, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 
 <use pdf/student-titulka.pdf>
-Package pdftex.def Info: pdf/student-titulka.pdf used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf used on input line 151.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
  <use pdf/student-titulka.pdf>
-Package pdftex.def Info: pdf/student-titulka.pdf used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf used on input line 151.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-<pdf/student-titulka.pdf, id=86, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=114, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 151.
 
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
  <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 151.
 
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 151.
 
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
  <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 151.
 
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 
 <use pdf/student-titulka.pdf, page 1>
-Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 149.
+Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 151.
 
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [1 <./pdf/student-titulka.pdf>]
-<pdf/student-zadani.pdf, id=105, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=133, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 
 <use pdf/student-zadani.pdf>
-Package pdftex.def Info: pdf/student-zadani.pdf used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf used on input line 157.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
  <use pdf/student-zadani.pdf>
-Package pdftex.def Info: pdf/student-zadani.pdf used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf used on input line 157.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-<pdf/student-zadani.pdf, id=108, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=136, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 157.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
  <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 157.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 157.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
  <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 157.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 
 <use pdf/student-zadani.pdf, page 1>
-Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 155.
+Package pdftex.def Info: pdf/student-zadani.pdf, page1 used on input line 157.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [2 <./pdf/student-zadani.pdf>]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 191.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 193.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -1202,12 +1217,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout2 = `text/uvod.aux'.
 
 
-(./text/uvod.tex
-
-LaTeX Warning: Reference `chapter:planetlabnetwork' on page 4 undefined on inpu
-t line 7.
-
-) [4
+(./text/uvod.tex) [4
 
 
 
@@ -1216,7 +1226,8 @@ t line 7.
 
  (./text/reseni.tex
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3.
- (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1225,105 +1236,123 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+[][][]\T1/lmr/m/n/10 Link to PyPi repis-tory con-tain-ing Data miner for Plan-e
+t-Lab tool:
+ []
+
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<obrazky/planetlabmenuold.png, id=193, 834.11626pt x 598.235pt>
+<obrazky/planetlabmenuold.png, id=230, 834.11626pt x 598.235pt>
 File: obrazky/planetlabmenuold.png Graphic file (type png)
 
 <use obrazky/planetlabmenuold.png>
-Package pdftex.def Info: obrazky/planetlabmenuold.png used on input line 13.
+Package pdftex.def Info: obrazky/planetlabmenuold.png used on input line 14.
 (pdftex.def)             Requested size: 834.11423pt x 598.23354pt.
  [5
 
 
 
- <./obrazky/planetlabmenuold.png>]
-[6] [7
+] [6 <./obrazky/planetlabmenuold.png>]
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
-] [8
+ []
 
-]) [9
+[8
+
+] [9] [10
+
+]) [11
 
 ]
 \openout2 = `text/vysledky.aux'.
 
  (./text/vysledky.tex
 
-LaTeX Warning: Citation `sr02/2009' on page 10 undefined on input line 6.
+LaTeX Warning: Citation `sr02/2009' on page 12 undefined on input line 6.
 
 
-LaTeX Warning: Citation `sr02/2009' on page 10 undefined on input line 12.
+LaTeX Warning: Citation `sr02/2009' on page 12 undefined on input line 12.
 
 
-LaTeX Warning: Citation `pravidla' on page 10 undefined on input line 12.
+LaTeX Warning: Citation `pravidla' on page 12 undefined on input line 12.
 
-[10
+[12
 
 
 
 ]
 
-LaTeX Warning: Citation `Walter1999' on page 11 undefined on input line 19.
+LaTeX Warning: Citation `Walter1999' on page 13 undefined on input line 19.
 
 
-LaTeX Warning: Citation `Svacina1999IEEE' on page 11 undefined on input line 19
+LaTeX Warning: Citation `Svacina1999IEEE' on page 13 undefined on input line 19
 .
 
 
-LaTeX Warning: Citation `RajmicSysel2002' on page 11 undefined on input line 19
+LaTeX Warning: Citation `RajmicSysel2002' on page 13 undefined on input line 19
 .
 
 
-LaTeX Warning: Citation `CSN_ISO_690-2011' on page 11 undefined on input line 2
+LaTeX Warning: Citation `CSN_ISO_690-2011' on page 13 undefined on input line 2
 2.
 
 
-LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 11 undefined on input line 
+LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 13 undefined on input line 
 22.
 
 
-LaTeX Warning: Citation `CSN_ISO_31-11' on page 11 undefined on input line 22.
+LaTeX Warning: Citation `CSN_ISO_31-11' on page 13 undefined on input line 22.
 
 
-LaTeX Warning: Citation `BiernatovaSkupa2011:CSNISO690komentar' on page 11 unde
+LaTeX Warning: Citation `BiernatovaSkupa2011:CSNISO690komentar' on page 13 unde
 fined on input line 23.
 
-[11]) [12]
+[13]) [14]
 \openout2 = `text/zaver.aux'.
 
- (./text/zaver.tex) [13
+ (./text/zaver.tex) [15
 
 
 
-] (./sablona-prace.bbl [14
+] (./sablona-prace.bbl [16
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
- [14
+]) [17
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+\openout2 = `text/zkratky.aux'.
 
-(./sablona-prace.aux (./text/uvod.aux) (./text/reseni.aux) (./text/vysledky.aux
-) (./text/zaver.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+
+(./text/zkratky.tex [18
+
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+ (./sablona-prace.aux (./text/uvod.aux)
+(./text/reseni.aux) (./text/vysledky.aux) (./text/zaver.aux)
+(./text/zkratky.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 73B97CBF70319048E63CFCE7F9C55FBD;2111.
+(rerunfilecheck)             Checksum: 06CCFD3391B16EF2C32C5AC7D54ED57F;3952.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 14943 strings out of 494912
- 215175 string characters out of 6179683
- 302823 words of memory out of 5000000
- 17881 multiletter control sequences out of 15000+600000
- 82266 words of font info for 60 fonts, out of 8000000 for 9000
+ 15097 strings out of 494912
+ 217625 string characters out of 6179683
+ 307358 words of memory out of 5000000
+ 18004 multiletter control sequences out of 15000+600000
+ 82585 words of font info for 61 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
  37i,18n,49p,1162b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texli
@@ -1334,11 +1363,12 @@ lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
 ve/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/l
 m/lmri12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on sablona-prace.pdf (16 pages, 428809 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on sablona-prace.pdf (19 pages, 472094 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
