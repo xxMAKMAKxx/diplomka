@@ -33,6 +33,7 @@ Warning--empty edition in lutz2013learning
 Warning--empty year in linuxintro
 Warning--empty year and revised in linuxintro
 Warning--empty year in opensourcecom
+Warning--empty year in centosfirsts
 Warning--empty editor and organization in Park:2006:SWS:1267359.1267382
 Warning--empty edition in Park:2006:SWS:1267359.1267382
 Warning--empty isbn or issn in Park:2006:SWS:1267359.1267382
@@ -42,6 +43,8 @@ Warning--empty year in planetlabmain
 Warning--empty edition in Ramasubramanian:2004:DIN:1030194.1015504
 Warning--empty year in rhev
 Warning--empty year in rhdatasheet
+Warning--empty year in rhhistory
+Warning--empty year in rhtrusted
 Warning--empty year in kvmspeed
 Warning--empty editor and organization in 1356981
 Warning--empty edition in 1356981
@@ -50,45 +53,45 @@ Warning--empty year in StatCounter
 Warning--empty year in vmwarearch
 Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
-You've used 24 entries,
+You've used 27 entries,
             3583 wiz_defined-function locations,
-            890 strings with 8544 characters,
-and the built_in function-call counts, 11939 in all, are:
-= -- 924
-> -- 374
-< -- 167
-+ -- 96
-- -- 111
-* -- 599
-:= -- 1333
-add.period$ -- 85
-call.type$ -- 24
-change.case$ -- 151
-chr.to.int$ -- 294
-cite$ -- 53
-duplicate$ -- 770
-empty$ -- 1213
-format.name$ -- 55
-if$ -- 2863
+            903 strings with 8787 characters,
+and the built_in function-call counts, 13634 in all, are:
+= -- 1053
+> -- 431
+< -- 200
++ -- 108
+- -- 129
+* -- 671
+:= -- 1501
+add.period$ -- 94
+call.type$ -- 27
+change.case$ -- 169
+chr.to.int$ -- 354
+cite$ -- 59
+duplicate$ -- 878
+empty$ -- 1369
+format.name$ -- 61
+if$ -- 3280
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 161
-num.names$ -- 44
-pop$ -- 264
+newline$ -- 179
+num.names$ -- 50
+pop$ -- 303
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 87
 quote$ -- 0
-skip$ -- 692
+skip$ -- 809
 stack$ -- 0
-substring$ -- 777
-swap$ -- 232
-text.length$ -- 48
+substring$ -- 897
+swap$ -- 271
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
-warning$ -- 29
-while$ -- 96
-width$ -- 26
-write$ -- 305
-(There were 32 warnings)
+type$ -- 56
+warning$ -- 32
+while$ -- 111
+width$ -- 29
+write$ -- 341
+(There were 35 warnings)

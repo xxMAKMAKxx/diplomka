@@ -80,6 +80,12 @@
 \newblock Available at: ~{\tt
   https://opensource.com/article/18/5/places-find-linux}.
 
+\bibitem{centosfirsts}
+{\sc\bgroup}Newbigin{\egroup}, J.
+\newblock {\em CentOS-2 Final finally released} [online].
+\newblock Revised: 14, May, 2004 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/7HsZUP}.
+
 \bibitem{Park:2006:SWS:1267359.1267382}
 {\sc\bgroup}Park{\egroup}, K., {\sc\bgroup}Pai{\egroup}, V.~S.,
   {\sc\bgroup}Lee{\egroup}, K.-W. et~al.
@@ -131,6 +137,18 @@
 \newblock Revised: January, 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt
   https://www.redhat.com/en/resources/virtualization-datasheet}.
+
+\bibitem{rhhistory}
+{\sc\bgroup}Red Hat{\egroup}, I.
+\newblock {\em Timeline: Red Hat's history} [online].
+\newblock Revised: 2016 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/H5w6q7}.
+
+\bibitem{rhtrusted}
+{\sc\bgroup}Red Hat{\egroup}, I.
+\newblock {\em Trusted} [online].
+\newblock Revised: June, 2017 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://www.redhat.com/en/about/trusted}.
 
 \bibitem{kvmspeed}
 {\sc\bgroup}SAS{\egroup}, V. O.~S.
