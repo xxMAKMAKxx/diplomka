@@ -58,6 +58,19 @@
 \newblock Revised: 1, December, 2016 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/AUWfuH}.
 
+\bibitem{debianpopular}
+{\sc\bgroup}Katherine Noyes{\egroup}, P.
+\newblock {\em Debian Linux Named Most Popular Distro for Web Servers}
+  [online].
+\newblock Revised: 11, Jannuary, 2012 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/6ZXLZU}.
+
+\bibitem{linuxtrends}
+{\sc\bgroup}LLC{\egroup}, G.~I.
+\newblock {\em Google Trends} [online].
+\newblock Revised: 24, November, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://trends.google.com}.
+
 \bibitem{lutz2013learning}
 {\sc\bgroup}Lutz{\egroup}, M.
 \newblock {\em Learning Python: Powerful Object-Oriented Programming}.
@@ -177,6 +190,13 @@
 \newblock {\em Operating System Market Share Worldwide 2018} [online].
 \newblock Revised: October, 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt http://gs.statcounter.com/os-market-share}.
+
+\bibitem{debianfifty}
+{\sc\bgroup}Treinen{\egroup}, R.
+\newblock {\em 50.000 binary packages} [online].
+\newblock Revised: 8, Februray, 2016 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://lists.debian.org/debian-devel/2016/02/msg00122.html}.
 
 \bibitem{vmwarearch}
 {\sc\bgroup}VMware{\egroup}, I.
