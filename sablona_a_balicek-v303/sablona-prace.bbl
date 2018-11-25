@@ -10,6 +10,12 @@
 \newblock [b.m.]: PlanetLab Consortium, August 2002.
 \newblock PDN--02--002.
 
+\bibitem{BILHEQP2xqVnjbQi}
+{\em Linux: dokumentační projekt}.
+\newblock 4., aktualiz. vyd.
+\newblock Brno: Computer Press, 2007.
+\newblock ISBN 978-80-251-1525-1.
+
 \bibitem{andrasov2}
 {\sc\bgroup}Andrašov{\egroup}, I.
 \newblock {\em {Měření experimentální sítě PlanetLab}}.
@@ -17,6 +23,19 @@
 \newblock Bachelor thesis.
 \newblock Available at: ~{\tt
   https://www.vutbr.cz/studenti/zav-prace/detail/110277}.
+
+\bibitem{oracledatasheet}
+{\sc\bgroup}Corporation{\egroup}, O.
+\newblock {\em Oracle VM VirtualBox User Manual} [online].
+\newblock Revised: 09, November, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://download.virtualbox.org/virtualbox/5.2.22/UserManual.pdf}.
+
+\bibitem{oraclehome}
+{\sc\bgroup}Corporation{\egroup}, O.
+\newblock {\em Welcome to VirtualBox.org!} [online].
+\newblock Revised: 15, November, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://www.virtualbox.org/}.
 
 \bibitem{eckert2012linux+}
 {\sc\bgroup}Eckert{\egroup}, J.
@@ -33,6 +52,12 @@
 \newblock Available at: ~{\tt
   https://www.trustradius.com/server-virtualization}.
 
+\bibitem{kvmbenchmark}
+{\sc\bgroup}GrayBoltWolf{\egroup}.
+\newblock {\em How fast is KVM? Host vs virtual machine performance} [online].
+\newblock Revised: 1, December, 2016 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/AUWfuH}.
+
 \bibitem{lutz2013learning}
 {\sc\bgroup}Lutz{\egroup}, M.
 \newblock {\em Learning Python: Powerful Object-Oriented Programming}.
@@ -48,6 +73,13 @@
 \newblock Available at: ~{\tt
   https://folk.uio.no/georgios/other/IntroductiontoLinux.pdf}.
 
+\bibitem{opensourcecom}
+{\sc\bgroup}Neary{\egroup}, D.
+\newblock {\em Did you know Linux is in your TV?} [online].
+\newblock Revised: 08, May, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://opensource.com/article/18/5/places-find-linux}.
+
 \bibitem{Park:2006:SWS:1267359.1267382}
 {\sc\bgroup}Park{\egroup}, K., {\sc\bgroup}Pai{\egroup}, V.~S.,
   {\sc\bgroup}Lee{\egroup}, K.-W. et~al.
@@ -59,6 +91,12 @@
 \newblock ATEC '06.
 \newblock Available at: ~{\tt
   http://dl.acm.org/citation.cfm?id=1267359.1267382}.
+
+\bibitem{Pilgrimc2010}
+{\sc\bgroup}Pilgrim{\egroup}, M.
+\newblock {\em Ponořme se do Python(u) 3: Dive into Python 3}.
+\newblock Praha: CZ.NIC, c2010.
+\newblock ISBN 978-80-904248-2-1.
 
 \bibitem{planetlababout}
 {\sc\bgroup}Princeton University{\egroup}, T.~T. of.
@@ -94,6 +132,13 @@
 \newblock Available at: ~{\tt
   https://www.redhat.com/en/resources/virtualization-datasheet}.
 
+\bibitem{kvmspeed}
+{\sc\bgroup}SAS{\egroup}, V. O.~S.
+\newblock {\em The Virtual Open Systems video demos to virtualize ARM multicore
+  platforms} [online].
+\newblock Revised: 16, August, 2016 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/Me4ikn}.
+
 \bibitem{1356981}
 {\sc\bgroup}Sherwood{\egroup}, R., {\sc\bgroup}Braud{\egroup}, R.
   a~{\sc\bgroup}Bhattacharjee{\egroup}, B.
@@ -108,6 +153,12 @@
 \newblock Revised: 6, September, 2017 [cit. 24.~November 2018].
 \newblock Available at: ~{\tt
   https://stackoverflow.blog/2017/09/06/incredible-growth-python/}.
+
+\bibitem{StatCounter}
+{\sc\bgroup}StatCounter{\egroup}.
+\newblock {\em Operating System Market Share Worldwide 2018} [online].
+\newblock Revised: October, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt http://gs.statcounter.com/os-market-share}.
 
 \bibitem{vmwarearch}
 {\sc\bgroup}VMware{\egroup}, I.

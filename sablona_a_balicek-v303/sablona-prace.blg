@@ -16,70 +16,79 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: text/literatura_mak.bib
 Warning--to sort, need author or key in Roscoe_PDN-02-002
+Warning--to sort, need author, editor, or key in BILHEQP2xqVnjbQi
 Warning--empty author in Roscoe_PDN-02-002
 Warning--"{" isn't a brace-balanced string for entry Roscoe_PDN-02-002
 while executing--line 6037 of file czplain.bst
 Warning--type empty in Roscoe_PDN-02-002
+Warning--empty author and editor in BILHEQP2xqVnjbQi
 Warning--"{" isn't a brace-balanced string for entry andrasov2
 while executing--line 6037 of file czplain.bst
+Warning--empty year in oracledatasheet
+Warning--empty year in oraclehome
 Warning--empty edition in eckert2012linux+
 Warning--empty year in virtualizationpopular
+Warning--empty year in kvmbenchmark
 Warning--empty edition in lutz2013learning
 Warning--empty year in linuxintro
 Warning--empty year and revised in linuxintro
+Warning--empty year in opensourcecom
 Warning--empty editor and organization in Park:2006:SWS:1267359.1267382
 Warning--empty edition in Park:2006:SWS:1267359.1267382
 Warning--empty isbn or issn in Park:2006:SWS:1267359.1267382
+Warning--empty edition in Pilgrimc2010
 Warning--empty year in planetlababout
 Warning--empty year in planetlabmain
 Warning--empty edition in Ramasubramanian:2004:DIN:1030194.1015504
 Warning--empty year in rhev
 Warning--empty year in rhdatasheet
+Warning--empty year in kvmspeed
 Warning--empty editor and organization in 1356981
 Warning--empty edition in 1356981
 Warning--empty year in pythonfastestgrowing
+Warning--empty year in StatCounter
 Warning--empty year in vmwarearch
 Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
-You've used 16 entries,
+You've used 24 entries,
             3583 wiz_defined-function locations,
-            844 strings with 7539 characters,
-and the built_in function-call counts, 7890 in all, are:
-= -- 618
-> -- 248
-< -- 99
-+ -- 67
-- -- 73
-* -- 416
-:= -- 915
-add.period$ -- 60
-call.type$ -- 16
-change.case$ -- 105
-chr.to.int$ -- 170
-cite$ -- 36
-duplicate$ -- 503
-empty$ -- 807
-format.name$ -- 41
-if$ -- 1871
+            890 strings with 8544 characters,
+and the built_in function-call counts, 11939 in all, are:
+= -- 924
+> -- 374
+< -- 167
++ -- 96
+- -- 111
+* -- 599
+:= -- 1333
+add.period$ -- 85
+call.type$ -- 24
+change.case$ -- 151
+chr.to.int$ -- 294
+cite$ -- 53
+duplicate$ -- 770
+empty$ -- 1213
+format.name$ -- 55
+if$ -- 2863
 int.to.chr$ -- 0
-int.to.str$ -- 16
+int.to.str$ -- 24
 missing$ -- 0
-newline$ -- 113
-num.names$ -- 30
-pop$ -- 169
+newline$ -- 161
+num.names$ -- 44
+pop$ -- 264
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 78
 quote$ -- 0
-skip$ -- 428
+skip$ -- 692
 stack$ -- 0
-substring$ -- 512
-swap$ -- 145
-text.length$ -- 30
+substring$ -- 777
+swap$ -- 232
+text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 34
-warning$ -- 20
-while$ -- 63
-width$ -- 18
-write$ -- 211
-(There were 23 warnings)
+type$ -- 50
+warning$ -- 29
+while$ -- 96
+width$ -- 26
+write$ -- 305
+(There were 32 warnings)
