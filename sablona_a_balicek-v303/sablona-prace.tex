@@ -15,6 +15,9 @@
 \usepackage[utf8]		%	Kódování zdrojových souborů je UTF-8
 	{inputenc}					% Balíček pro nastavení kódování zdrojových souborů
 
+\usepackage{graphics}
+\usepackage{epstopdf}
+
 \usepackage[				% Nastavení okrajů
 	bindingoffset=10mm,		% Hřbet pro vazbu
 	hmargin={25mm,25mm},	% Vnitřní a vnější okraj
@@ -222,9 +225,9 @@
 \def\@openbib@code{\addcontentsline{toc}{chapter}{Bibliography}}
 \makeatother
 \bibliographystyle{czplain}
-\begin{flushleft}
+%\begin{flushleft}
 \bibliography{text/literatura_mak} % viz. literatura.bib
-\end{flushleft}
+%\end{flushleft}
 
 
 %% Vložení souboru 'text/zkratky' se seznam použitých symbolů, veličin a zkratek

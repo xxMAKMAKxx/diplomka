@@ -26,20 +26,21 @@
 \contentsline {paragraph}{KVM with QEMU}{15}{section*.34}
 \contentsline {chapter}{\numberline {4}Plbmng Tool Improvements}{17}{chapter.35}
 \contentsline {section}{\numberline {4.1}Implementation Details}{17}{section.36}
-\contentsline {subsection}{\numberline {4.1.1}Removing result limitation}{17}{subsection.37}
+\contentsline {subsection}{\numberline {4.1.1}Removing Result Limitation}{17}{subsection.37}
 \contentsline {subsection}{\numberline {4.1.2}Writing the Application as Library}{18}{subsection.47}
 \contentsline {subsection}{\numberline {4.1.3}Increasing Readability}{18}{subsection.48}
-\contentsline {subsection}{\numberline {4.1.4}Removal of Pre and Post Installation Steps}{19}{subsection.71}
-\contentsline {subsection}{\numberline {4.1.5}Set Credentials Improvement}{20}{subsection.82}
-\contentsline {subsection}{\numberline {4.1.6}Windows Support Preparation}{21}{subsection.85}
-\contentsline {subsection}{\numberline {4.1.7}Minor Bug Fixes}{22}{subsection.103}
-\contentsline {paragraph}{Removing headers from the searches}{22}{section*.104}
-\contentsline {paragraph}{Application crashes during return}{22}{section*.105}
-\contentsline {subsection}{\numberline {4.1.8}Minor Improvements}{22}{subsection.106}
-\contentsline {paragraph}{Clearing of the screen after cancel}{23}{section*.107}
-\contentsline {paragraph}{Recursion Removal for Return}{23}{section*.108}
-\contentsline {section}{\numberline {4.2}Description of Tool's Behavior}{23}{section.109}
-\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.110}
-\contentsline {chapter}{Bibliography}{26}{section*.112}
-\contentsline {chapter}{Bibliography}{26}{section*.112}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{29}{section*.114}
+\contentsline {subsection}{\numberline {4.1.4}Removal of Pre and Post Installation Steps}{20}{subsection.73}
+\contentsline {subsection}{\numberline {4.1.5}Set Credentials Improvement}{20}{subsection.84}
+\contentsline {subsection}{\numberline {4.1.6}Windows Support Preparation}{21}{subsection.87}
+\contentsline {subsection}{\numberline {4.1.7}Minor Bug Fixes}{22}{subsection.105}
+\contentsline {paragraph}{Removing headers from the searches}{22}{section*.106}
+\contentsline {paragraph}{Application crashes during return}{22}{section*.107}
+\contentsline {subsection}{\numberline {4.1.8}Minor Improvements}{22}{subsection.108}
+\contentsline {paragraph}{Clearing of the screen after cancel}{23}{section*.109}
+\contentsline {paragraph}{Recursion removal for return}{23}{section*.110}
+\contentsline {paragraph}{About is added to the menu}{23}{section*.111}
+\contentsline {section}{\numberline {4.2}Behavioral Diagram}{23}{section.112}
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.115}
+\contentsline {chapter}{Bibliography}{26}{section*.117}
+\contentsline {chapter}{Bibliography}{26}{section*.117}
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{29}{section*.119}
