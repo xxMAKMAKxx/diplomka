@@ -26,6 +26,13 @@
 \newblock Available at: ~{\tt https://books.google.cz/books?id=EHLH4S78LmsC}.
 \newblock ISBN 9781418837211.
 
+\bibitem{virtualizationpopular}
+{\sc\bgroup}Editors{\egroup}, T.
+\newblock {\em Top Server Virtualization Software in 2018} [online].
+\newblock Revised: 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://www.trustradius.com/server-virtualization}.
+
 \bibitem{lutz2013learning}
 {\sc\bgroup}Lutz{\egroup}, M.
 \newblock {\em Learning Python: Powerful Object-Oriented Programming}.
@@ -74,6 +81,19 @@
 \newblock Available at: ~{\tt http://doi.acm.org/10.1145/1030194.1015504}.
 \newblock ISSN 0146-4833.
 
+\bibitem{rhev}
+{\sc\bgroup}Red Hat{\egroup}, I.
+\newblock {\em Red Hat Virtualization} [online].
+\newblock Revised: 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/YAQ9Eb}.
+
+\bibitem{rhdatasheet}
+{\sc\bgroup}Red Hat{\egroup}, I.
+\newblock {\em Red Hat Virtualization Datasheet} [online].
+\newblock Revised: January, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://www.redhat.com/en/resources/virtualization-datasheet}.
+
 \bibitem{1356981}
 {\sc\bgroup}Sherwood{\egroup}, R., {\sc\bgroup}Braud{\egroup}, R.
   a~{\sc\bgroup}Bhattacharjee{\egroup}, B.
@@ -88,6 +108,12 @@
 \newblock Revised: 6, September, 2017 [cit. 24.~November 2018].
 \newblock Available at: ~{\tt
   https://stackoverflow.blog/2017/09/06/incredible-growth-python/}.
+
+\bibitem{vmwarearch}
+{\sc\bgroup}VMware{\egroup}, I.
+\newblock {\em Architecture of VMware ESXi} [online].
+\newblock Revised: 15, October, 2008 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/Gskpvf}.
 
 \bibitem{suba1}
 {\sc\bgroup}Šuba{\egroup}, F.

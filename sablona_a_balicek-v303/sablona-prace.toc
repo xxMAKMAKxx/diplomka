@@ -13,14 +13,12 @@
 \contentsline {chapter}{\numberline {3}Linux and Virtualization}{10}{chapter.17}
 \contentsline {section}{\numberline {3.1}Linux}{10}{section.18}
 \contentsline {section}{\numberline {3.2}Virtualization}{10}{section.19}
-\contentsline {chapter}{\numberline {4}Plbmng Tool Improvements}{11}{chapter.22}
-\contentsline {chapter}{\numberline {5}V\IeC {\'y}sledky studentsk\IeC {\'e} pr\IeC {\'a}ce}{12}{chapter.23}
-\contentsline {section}{\numberline {5.1}Programov\IeC {\'e} \IeC {\v r}e\IeC {\v s}en\IeC {\'\i }}{12}{section.24}
-\contentsline {section}{\numberline {5.2}V\IeC {\'y}sledky m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{12}{section.25}
-\contentsline {subsection}{\numberline {5.2.1}Etiam quis quam}{12}{subsection.26}
-\contentsline {subsubsection}{Integer rutrum orci vestibulum}{12}{section*.27}
-\contentsline {subsubsection}{Eger rutrum orci westibulum}{13}{section*.28}
-\contentsline {chapter}{\numberline {6}Z\IeC {\'a}v\IeC {\v e}r}{15}{chapter.29}
-\contentsline {chapter}{Bibliography}{17}{section*.31}
-\contentsline {chapter}{Bibliography}{17}{section*.31}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{19}{section*.33}
+\contentsline {subsection}{\numberline {3.2.1}VMware ESXi}{11}{subsection.22}
+\contentsline {subsection}{\numberline {3.2.2}Red Hat Enterprise Virtualization}{11}{subsection.23}
+\contentsline {subsection}{\numberline {3.2.3}Oracle Virtualbox}{12}{subsection.24}
+\contentsline {subsection}{\numberline {3.2.4}KVM with QEMU}{12}{subsection.25}
+\contentsline {chapter}{\numberline {4}Plbmng Tool Improvements}{13}{chapter.26}
+\contentsline {chapter}{\numberline {5}Conclusion}{14}{chapter.27}
+\contentsline {chapter}{Bibliography}{16}{section*.29}
+\contentsline {chapter}{Bibliography}{16}{section*.29}
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{18}{section*.31}

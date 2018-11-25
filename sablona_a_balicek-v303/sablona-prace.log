@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  24 NOV 2018 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  25 NOV 2018 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,112 +1264,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 [8
 
-] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+] [9] <obrazky/virt.pdf, id=283, 578.16pt x 246.9225pt>
+File: obrazky/virt.pdf Graphic file (type pdf)
+
+<use obrazky/virt.pdf>
+Package pdftex.def Info: obrazky/virt.pdf used on input line 63.
+(pdftex.def)             Requested size: 578.15858pt x 246.92188pt.
+ [10
+
+]
+Overfull \hbox (28.07848pt too wide) in paragraph at lines 68--69
+\T1/lmr/m/n/12 Some of the most pop-u-lar ones are \T1/lmtt/m/n/12 VMware ESXi\
+T1/lmr/m/n/12 , \T1/lmtt/m/n/12 Red Hat Enterprise Virtualization\T1/lmr/m/n/12
+ ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<obrazky/virt.pdf, id=282, 578.16pt x 246.9225pt>
-File: obrazky/virt.pdf Graphic file (type pdf)
- <use obrazky/virt.pdf>
-Package pdftex.def Info: obrazky/virt.pdf used on input line 60.
-(pdftex.def)             Requested size: 578.15858pt x 246.92188pt.
-
-[10
-
- <./obrazky/virt.pdf
+) [11 <./obrazky/virt.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./obrazky/virt.pdf): PDF inclusion: inv
 alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->]) [11
-
-]
+>] [12]
 \openout2 = `text/vysledky.aux'.
 
- (./text/vysledky.tex
-
-LaTeX Warning: Citation `sr02/2009' on page 12 undefined on input line 6.
-
-
-LaTeX Warning: Citation `sr02/2009' on page 12 undefined on input line 12.
-
-
-LaTeX Warning: Citation `pravidla' on page 12 undefined on input line 12.
-
-[12
+ (./text/vysledky.tex) [13
 
 
 
 ]
-
-LaTeX Warning: Citation `Walter1999' on page 13 undefined on input line 19.
-
-
-LaTeX Warning: Citation `Svacina1999IEEE' on page 13 undefined on input line 19
-.
-
-
-LaTeX Warning: Citation `RajmicSysel2002' on page 13 undefined on input line 19
-.
-
-
-LaTeX Warning: Citation `CSN_ISO_690-2011' on page 13 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation `CSN_ISO_7144-1997' on page 13 undefined on input line 
-22.
-
-
-LaTeX Warning: Citation `CSN_ISO_31-11' on page 13 undefined on input line 22.
-
-
-LaTeX Warning: Citation `BiernatovaSkupa2011:CSNISO690komentar' on page 13 unde
-fined on input line 23.
-
-[13]) [14]
 \openout2 = `text/zaver.aux'.
 
- (./text/zaver.tex) [15
+ (./text/zaver.tex) [14
 
 
 
-] (./sablona-prace.bbl [16
+] (./sablona-prace.bbl [15
 
-] [17
+] [16
 
-]) [18]
+]) [17]
 \openout2 = `text/zkratky.aux'.
 
-
-(./text/zkratky.tex [19
+ (./text/zkratky.tex [18
 
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
- (./sablona-prace.aux (./text/uvod.aux)
-(./text/reseni.aux) (./text/vysledky.aux) (./text/zaver.aux)
+ (./sablona-prace.aux
+(./text/uvod.aux) (./text/reseni.aux) (./text/vysledky.aux) (./text/zaver.aux)
 (./text/zkratky.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 343CF9BC2BDD865BB34E33D52D6D7ADC;3952.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: D8D63AA607A28D4615F220E69B4BBA5B;3970.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 15113 strings out of 494912
- 217869 string characters out of 6179683
- 307479 words of memory out of 5000000
- 18014 multiletter control sequences out of 15000+600000
- 82585 words of font info for 61 fonts, out of 8000000 for 9000
+ 15111 strings out of 494912
+ 217843 string characters out of 6179683
+ 307645 words of memory out of 5000000
+ 18012 multiletter control sequences out of 15000+600000
+ 79817 words of font info for 60 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
- 37i,18n,49p,1250b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,18n,49p,1340b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/font
 s/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -1380,10 +1343,10 @@ ts/type1/public/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/l
 m/lmri12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on sablona-prace.pdf (20 pages, 521717 bytes).
+Output written on sablona-prace.pdf (19 pages, 519311 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
  259 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -52,8 +52,11 @@ Big data transfers can become problematic during peaks when huge amount of clien
 \label{chapter:Linux}
 \section{Linux}
 In this section the operating system Linux that PlanetLab nodes are running on, and that \texttt{plbmng} tool is developed for, will be reviewed and described. Operating system is a connecting layer between hardware and software. It provides interface for work with system resources such as disk, processor or memory and at the same time it provides service layer for client software to run at. Linux is an open-source operating system originally created by Linus Torvalds who wrote it using \texttt{C language}. It was originally developed for personal computers based on the Intel x86 architecture but since its creation it has been ported to many other platforms such as mobile devices, television chips and many others. A package containing Linux operating system is called Linux distribution. The defining component of each distribution is the Linux kernel \cite{eckert2012linux+}. Original Linux kernel has been created by Linus in 1991 \cite{linuxintro} and since them many other forks of this kernel has emerged. Some of the most famous are \texttt{Red Hat Enterprise Linux},  \texttt{CentOS}, \texttt{Fedora}, \texttt{Ubuntu},  \texttt{Debian} or \texttt{SUSE Enterprise Linux}.\\
+TODO: Popsat jednotlive distribuce?\\
+Rozsireni linuxu v android zarizenich, televizich atp a vyhra opensource\\
+Pouzij citace ze zadani!
 \section{Virtualization}
-Virtualization 
+Virtualization is an alternative to the traditional architecture. Comparison schema between virtualization and traditional architecture can be found in  Figure~\ref{fig:virtschema}. The traditional architecture consist of a hardware, operating system on the host and the applications running on it. The applications needs to be compatible with the operating system to be able to run on it. On the other hand, virtualization is a layer over the hosting operating system and offers an interface for the guest operating system to use by emulating various resources such as disk, network usb and many more. Guest operating system are operating systems of the virtual hosts running on the hypervisor. Hypervisor is providing resources to each virtual host. This enables better resource handling since all the virtual machines share same resources and theoretically have access to much higher computing power. Another advantage is backward compatibility as various operating systems of a kind can be running one one host. Example is legacy version of a system that is no more compatible with current hardware but is compatible with the virtualization software. This can be particular useful for institutions that requires extremely stable well tested software running on legacy system.
 
 \begin{figure}[H]
 	\centering
@@ -62,6 +65,13 @@ Virtualization
 	\label{fig:virtschema}
 \end{figure}
 
+Currently there are many virtualization technologies available on the market. Some of the most popular ones are \texttt{VMware ESXi}, \texttt{Red Hat Enterprise Virtualization}, \texttt{Oracle Virtualbox} and \texttt{QEMU/KVM} \cite{virtualizationpopular}.\\
+\subsection{VMware ESXi}
+VMware is a company providing virtualization software. The company provides several versions of virtualization software including \texttt{VMware ESXi} which is an enterprise virtualization solution. \texttt{VMware ESXi} was developed to run directly on the bare-metal hardware and doesn't require any other operating system to be installed on the host as it uses its own operating system called VMkernel \cite{vmwarearch}. This allows the software direct access to the hardware as it includes its own vital OS components. As VMware states in their architecture document \cite{vmwarearch}, this also allows better hypervisor security, increased reliability,
+and simplified management. 
+\subsection{Red Hat Enterprise Virtualization}
+As Red Hat states on their website, \texttt{Red Hat Enterprise Virtualization} is an open, software-defined platform that virtualizes Linux and Microsoft Windows workloads \cite{rhev}. \texttt{Red Hat Enterprise Virtualization} is a software that is developed to run on Red Hat Enterprise Linux, a Linux distribution developed by the same company. As Red Hat states in \texttt{Red Hat Enterprise Virtualization} datasheet, the biggest advantage of the software is its integration with other \texttt{Red Hat} products \cite{rhdatasheet}.
+\subsection{Oracle Virtualbox}
+\texttt{Oracle Virtualbox} is open source virtualization software available for both enterprise as well as home use and is developed by Oracle Corporation. As stated on the Oracle Virtualbox website: "Presently, VirtualBox runs on Windows, Linux, Macintosh, and Solaris hosts and supports a large number of guest operating systems including but not limited to Windows (NT 4.0, 2000, XP, Server 2003, Vista, Windows 7, Windows 8, Windows 10), DOS/Windows 3.x, Linux (2.4, 2.6, 3.x and 4.x), Solaris and OpenSolaris, OS/2, and OpenBSD." \cite{oraclehome} which is a considerable amount. 
+\subsection{KVM with QEMU}
 
-\chapter{Plbmng Tool Improvements}
-\label{chapter:improve}
