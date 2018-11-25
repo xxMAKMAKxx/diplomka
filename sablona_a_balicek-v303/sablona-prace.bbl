@@ -163,6 +163,12 @@
 \newblock Revised: June, 2017 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://www.redhat.com/en/about/trusted}.
 
+\bibitem{pythonpep}
+{\sc\bgroup}Rossum{\egroup}, N.~C. Guido~van.
+\newblock {\em PEP 8 -- Style Guide for Python Code} [online].
+\newblock Revised: 1, August, 2013 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://www.python.org/dev/peps/pep-0008/}.
+
 \bibitem{kvmspeed}
 {\sc\bgroup}SAS{\egroup}, V. O.~S.
 \newblock {\em The Virtual Open Systems video demos to virtualize ARM multicore

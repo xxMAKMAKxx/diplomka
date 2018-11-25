@@ -1,4 +1,90 @@
 \chapter{Plbmng Tool Improvements}
 \label{chapter:improve}
+This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices and remove any post-installations steps. First, in Section~\ref{section:improvement} the implementation details will be described, then in Section~\ref{section:improvement} the application  ... bla bla toto se dodela na konci. 
+\section{Implementation Details}
+\label{section:implementapproach}
+In this Section the steps to achieve goal described in the chapter introduction will be shown more in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
+\subsection{Removing result limitation}
+The previous version of \texttt{plbmng} tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since \texttt{pythondialog} module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the \zk{zkGUI} (\zkratkatext{zkGUI}). Example of this functionality is shown in Listing~\ref{lst:removingresultlimit}. Currently, the tool is returning all results found.
+\begin{lstlisting}[language=Python, numbers=none, label={lst:removingresultlimit}, caption=Removing Result Limitation, frame=single, showstringspaces=false]
+def searchNodesGui(prepared_choices):
+	if not prepared_choices:
+		d.msgbox("No results found.", width=0,height=0)
+		return None
+	while True:
+		code, tag = d.menu("These are the results:",
+							choices=prepared_choices,
+							title="Search results")
+\end{lstlisting}
+\subsection{Writing the Application as Library}
+For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}.
+\subsection{Increasing Readability}
+Community is a powerful group that helps develop a tool and to add more functionality to it. To have community contribute to a tool, it should follow good practices and be easily readable. Previous version of the tool have been using main Bash script, calling Python script and creating new Bash scripts on a disk which was merging different pieces of code from pre-created \texttt{.dat} files in a \texttt{bin} folder. Finding a bug in this structure was difficult and non-intuitive. All these pieces of code were fully re-written into single Python library (which can be run as standalone script if needed) and logically divided into two sections. One section is for GUI functions and other is for logical functions. Each functions is very descriptive in its name as shown in Listing~\ref{lst:descriptive}. 
+
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[language=Python, numbers=none, label={lst:descriptive}, caption=Example of Function Names, frame=single, showstringspaces=false, breaklines=true]
+def searchNodes(option,regex=None):
+def initInterface():
+def plotServersOnMap(mode):
+def getPasswd():
+def searchNodesGui(prepared_choices):
+def printServerInfo(chosenOne):
+def setCredentialsGui():
+\end{lstlisting}
+\end{minipage}
+
+Each functions is trying to be as atomic as possible only having one purpose. This is helping to increase modularity of the application. Outside of this functions "categories" application is removing any \texttt{magic numbers} by defining constants at the beginning of the source code. This greatly helps to understand what is being passed as an argument and is shown in Listing~\ref{lst:constant} where it is descriptive what option is being passed as a search key to the \texttt{searchNodes} function. Also, the application has a block for \texttt{Initial settings} at the beginning for one single place where outside of functions definitions can be placed. Application is also honoring the conventions defined in \zk{zkPEP} (\zkratkatext{zkPEP}) 8 \cite{pythonpep}, like naming convention and space usage instead of tabs, as much as possible. All these small items described should increase the overall readability of the application for others to quickly familiarize with it.
+
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[language=Python, numbers=none, label={lst:constant}, caption=Example of Constant Usage, frame=single, showstringspaces=false, breaklines=true]
+code, tag = d.menu("Choose one of the following options:",
+					choices=[("1", "Serach by DNS"),
+				      		 ("2", "Search by IP"),
+					    	   ("3", "Search by location")],
+						       title="ACCESS SERVERS")
+if code == d.OK:
+	#Search by DNS
+	if(tag == "1"):
+		code, answer = d.inputbox("Search for:",title="Search")
+		if code == d.OK:
+			searchNodes(OPTION_DNS,answer)
+		else:
+			continue
+\end{lstlisting}
+\end{minipage}
+
+\subsection{Removal of Pre and Post Installation Steps}
+Previous version of application required several Pre and Post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPi package definition and are taken care off PyPi installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPi package. During installation, the PyPi installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. In these names there is definitely still an area for improvement.
+
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Plbmng Script Located in BIN, frame=single, showstringspaces=false, breaklines=true]
+#!/usr/bin/python3
+import plbmng.plbmng
+import sys
+
+if len(sys.argv) > 1:
+	if(str(sys.argv[1]) == 'crontab'):
+		plbmng.plbmng.crontabScript()
+		exit(0)
+plbmng.plbmng.initInterface()
+\end{lstlisting}
+\end{minipage}
+
+\subsection{Set Credentials Improvement}
+\subsection{Recursion Removal for Return}
+\subsection{Windows Support Preparation}
+\subsection{Working Purely in the Tool Space}
+\subsection{Minor Bug Fixes}
+In this Subsection, minor bug fixes will be described. This Subsection will be a changelog of its kind. 
+\paragraph{Removing headers from the searches}
+\paragraph{Application crashes during return}
+\paragraph{Removing headers from the searches}
+\subsection{Minor Improvements}
+\paragraph{Clearing of the screen after cancel}
+\paragraph{Signal handling}
+\section{Description of Tool's Behavior}
+\label{section:implementapproach}
+
 TODO: Add how many servers in planetlab are which distros
 TODO: How many servers are responding
+TODO: Ukaz jak si smazal nutnost lokalizace
