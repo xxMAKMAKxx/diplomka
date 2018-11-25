@@ -26,7 +26,14 @@ The tool currently contains a lot of bugs and bad coding practices. Example of b
 
 \chapter{PlanetLab Network}
 \label{chapter:planetlabnetwork}
-PlanetLab is a global research network that enables the development of new network services. According to the PlanetLab project main page it was used by more than 1000 researches at top academic institutions and industrial research labs to develop a new technologies for distributed storage, network mapping, peer-to-peer systems, distributed hash tables, and query processing since it launch at 2003 \cite{planetlabmain}. The main description also states t currently consists of 1353 nodes at 717 sites \footnote{Important aspect to mention is that not all nodes are accessible. The \texttt{plbmng} tool can monitor accessibility of the nodes so its users have always overview which nodes can be actually used for their projects.}. The current committee of the project consists of members like Princeton University, Cambridge University, Intel, Google and many more \cite{planetlabmain}.\\
+PlanetLab is a global research network that enables the development of new network services. According to the PlanetLab project main page it was used by more than 1000 researches at top academic institutions and industrial research labs to develop a new technologies for distributed storage, network mapping, peer-to-peer systems, distributed hash tables, and query processing since it launch at 2003 \cite{planetlabmain}. The main description also states that PlanetLab currently consists of 1353 nodes at 717 sites \footnote{Important aspect to mention is that not all nodes are accessible. The \texttt{plbmng} tool can monitor accessibility of the nodes so its users have always overview which nodes can be actually used for their projects.}. The tool's internal database created from PlanetLab \zk{zkAPI} (\zkratkatext{zkAPI}) consists of 1001 nodes where; as shown in Figure~\ref{fig:pingablepie}; only 196 are responding to \zk{zkICMP} (\zkratkatext{zkICMP}) packets and 805 are not, which is only around 19.58\% reponding nodes. The current committee of the project consists of members like Princeton University, Cambridge University, Intel, Google and many more \cite{planetlabmain}.\\
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.6}{\includegraphics{obrazky/pingablepie}}
+	\caption{Pie chart displaying number of nodes in PlanetLab network responding to ICMP packets.}
+	\label{fig:pingablepie}
+\end{figure}
 
 \section{Terminology}
 During the initial planning of \texttt{PlanetLab network} the authors agreed on using common terminology for aspects of the network and defined them in the \texttt{Phase 0 document} \cite{Roscoe_PDN-02-002} as follows:

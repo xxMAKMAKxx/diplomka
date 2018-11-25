@@ -71,20 +71,52 @@ plbmng.plbmng.initInterface()
 \end{minipage}
 
 \subsection{Set Credentials Improvement}
-\subsection{Recursion Removal for Return}
+In the previous version of the tool the credentials were filled using forms. When typing the credentials, nothing was shown, like stars, so user was unaware where is the position of the cursor. Also saving of the credentials was not working properly resulting into the need to adjust the configuration file itself which required locating the file first by inspecting the source code. In the new version settings credential is improved by creating a virtual editor in the graphical interface itself, as shown in Figure~\ref{fig:credentials}, that allows the user transparently set the credentials. One of the disadvantage of this approach is plain text visible password in the editor as it is not hidden and user needs to be careful about setting the credentials in a safe environment.
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.5}{\includegraphics{obrazky/credentials_figure}}
+	\caption{New window for setting up credentials.}
+	\label{fig:credentials}
+\end{figure}
+
 \subsection{Windows Support Preparation}
-\subsection{Working Purely in the Tool Space}
+As was mentioned Python is multi-platform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve this compatibility.
+
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[language=Python, numbers=none, label={lst:testping}, caption=Function testPing, frame=single, showstringspaces=false, breaklines=true]
+def testPing(target):
+	if system().lower()=='windows':
+		pingParam='-n'
+	else:
+		pingParam='-c'
+	command = ['ping', pingParam, '1', target]
+	p = subprocess.Popen(command, stdout = subprocess.PIPE)
+	if system().lower()=='windows':
+		avg=re.compile('Average = ([0-9]+)ms')
+	else:
+		avg=re.compile('min/avg/max/mdev = [0-9.]+/([0-9.]+)/[0-9.]+/[0-9.]+')
+	avgStr=avg.findall(str(p.communicate()[0]))
+	if(p.returncode != 0):
+		return "N/A"
+	p.kill()
+	return avgStr[0]
+\end{lstlisting}
+\end{minipage} 
+
 \subsection{Minor Bug Fixes}
-In this Subsection, minor bug fixes will be described. This Subsection will be a changelog of its kind. 
+In this Subsection, minor bug fixes will be described which were not considered as enough improving to have their own Subsection. 
 \paragraph{Removing headers from the searches}
+During the search, previous version of the script has also included header of the file containing information about nodes resulting into false search results. Header is now skipped and these false results are removed.
 \paragraph{Application crashes during return}
-\paragraph{Removing headers from the searches}
+When returning from a child menu window to a parent page, the application tend to crash on \texttt{grep} tool not being able to find file. During re-implementation this bug was fixed and returning now fully works.
 \subsection{Minor Improvements}
+In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having their own Subsection. More improvements to the tool will be done in the Diploma thesis following this Semestral thesis.
 \paragraph{Clearing of the screen after cancel}
-\paragraph{Signal handling}
+When signal was send to the application using \texttt{CTRL + C} key combination, the previous version of the application was not clearing the current terminal window and the GUI. To use the same terminal user was forced to clear the window manually. In the new version, when signal is send to the application, signal handler will catch it and clean after itself.
+\paragraph{Recursion Removal for Return}
+When returning from child window to a parent page, the previous version of application was recursively calling the GUI function. This is not following good coding habits as each recursive call means storing the previous function details into the system stack, unnecessarily filling it. In the new version, while cycle is used instead and returning from a function results into new iteration of the while cycle not storing anything onto the system stack. 
 \section{Description of Tool's Behavior}
 \label{section:implementapproach}
-
-TODO: Add how many servers in planetlab are which distros
+TODO: ukaz zavislosti
 TODO: How many servers are responding
-TODO: Ukaz jak si smazal nutnost lokalizace
