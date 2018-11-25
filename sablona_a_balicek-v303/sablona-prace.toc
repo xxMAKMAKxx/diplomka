@@ -42,5 +42,4 @@
 \contentsline {section}{\numberline {4.2}Behavioral Diagram}{23}{section.112}
 \contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.115}
 \contentsline {chapter}{Bibliography}{26}{section*.117}
-\contentsline {chapter}{Bibliography}{26}{section*.117}
 \contentsline {chapter}{List of symbols, physical constants and abbreviations}{29}{section*.119}
