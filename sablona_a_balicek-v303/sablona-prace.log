@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  26 NOV 2018 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  26 NOV 2018 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1078,7 +1078,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count138
 
-<pdf/student-desky.pdf, id=121, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=125, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 
 <use pdf/student-desky.pdf>
@@ -1089,7 +1089,7 @@ File: pdf/student-desky.pdf Graphic file (type pdf)
 Package pdftex.def Info: pdf/student-desky.pdf used on input line 147.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-<pdf/student-desky.pdf, id=124, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=128, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 
 <use pdf/student-desky.pdf, page 1>
@@ -1116,7 +1116,7 @@ Package pdftex.def Info: pdf/student-desky.pdf, page1 used on input line 147.
  [1
 
  <./pdf/student-desky.pdf>]
-<pdf/student-titulka.pdf, id=140, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=144, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 
 <use pdf/student-titulka.pdf>
@@ -1127,7 +1127,7 @@ File: pdf/student-titulka.pdf Graphic file (type pdf)
 Package pdftex.def Info: pdf/student-titulka.pdf used on input line 154.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-<pdf/student-titulka.pdf, id=143, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=147, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 
 <use pdf/student-titulka.pdf, page 1>
@@ -1157,7 +1157,7 @@ Package pdftex.def Info: pdf/student-titulka.pdf, page1 used on input line 154.
 
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [1 <./pdf/student-titulka.pdf>]
-<pdf/student-zadani.pdf, id=162, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=166, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 
 <use pdf/student-zadani.pdf>
@@ -1168,7 +1168,7 @@ File: pdf/student-zadani.pdf Graphic file (type pdf)
 Package pdftex.def Info: pdf/student-zadani.pdf used on input line 160.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-<pdf/student-zadani.pdf, id=165, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=169, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 
 <use pdf/student-zadani.pdf, page 1>
@@ -1265,7 +1265,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<obrazky/planetlabmenuold.png, id=266, 834.11626pt x 598.235pt>
+<obrazky/planetlabmenuold.png, id=271, 834.11626pt x 598.235pt>
 File: obrazky/planetlabmenuold.png Graphic file (type png)
 
 <use obrazky/planetlabmenuold.png>
@@ -1287,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<obrazky/pingablepie.pdf, id=300, 454.69875pt x 245.91875pt>
+<obrazky/pingablepie.pdf, id=305, 454.69875pt x 245.91875pt>
 File: obrazky/pingablepie.pdf Graphic file (type pdf)
 
 <use obrazky/pingablepie.pdf>
@@ -1303,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[13] <obrazky/virt.pdf, id=375, 578.16pt x 246.9225pt>
+[13] <obrazky/virt.pdf, id=380, 578.16pt x 246.9225pt>
 File: obrazky/virt.pdf Graphic file (type pdf)
  <use obrazky/virt.pdf>
 Package pdftex.def Info: obrazky/virt.pdf used on input line 98.
@@ -1385,7 +1385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-<obrazky/plbmng_basic.png, id=467, 703.62875pt x 432.61626pt>
+<obrazky/plbmng_basic.png, id=472, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 
 <use obrazky/plbmng_basic.png>
@@ -1399,7 +1399,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 69--82
 []$[]$ 
  []
 
-<obrazky/credentials_figure.png, id=491, 703.62875pt x 540.0175pt>
+<obrazky/credentials_figure.png, id=496, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 
 <use obrazky/credentials_figure.png>
@@ -1414,13 +1414,13 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 96--116
  []
 
 [21 <./obrazky/credentials_figure.png>] [22]
-<obrazky/BehavioralPlbmng.pdf, id=538, 569.12625pt x 614.295pt>
+<obrazky/BehavioralPlbmng.pdf, id=543, 569.12625pt x 614.295pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 
 <use obrazky/BehavioralPlbmng.pdf>
-Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf used on input line 136.
+Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf used on input line 138.
 (pdftex.def)             Requested size: 569.12486pt x 614.29349pt.
-) [23] [24 <./obrazky/BehavioralPlbmng.pdf
+ [23]) [24 <./obrazky/BehavioralPlbmng.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./obrazky/BehavioralPlbmng.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
@@ -1432,7 +1432,7 @@ clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 
 
 
-] (./sablona-prace.bbl
+] [26] (./sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 20--26
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ Plan-et-Lab\T1/lmr/m/n/12 .  Brno: Brno,
@@ -1509,7 +1509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--88
 \T1/lmr/m/n/12 line].  [cit. 24. Novem-ber 2018].  Avail-able at:
  []
 
-[26
+[27
 
 
 ]
@@ -1565,7 +1565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--153
 
  []
 
-[27]
+[28]
 Underfull \hbox (badness 2600) in paragraph at lines 188--193
 []\T1/lmr/m/sc/12 StackOverflow\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 The In-cred-i-
 ble Growth of Python \T1/lmr/m/n/12 [on-line].  Re-
@@ -1606,10 +1606,10 @@ Underfull \hbox (badness 6220) in paragraph at lines 214--220
 able at:
  []
 
-) [28]
+) [29]
 \openout2 = `text/zkratky.aux'.
 
- (./text/zkratky.tex [29
+ (./text/zkratky.tex [30
 
 
 
@@ -1622,7 +1622,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 8D606B8B0D7B5DC0B1D0D23DE4724CF0;5494.
+(rerunfilecheck)             Checksum: 1E56356F4E2DF624C04FF498EB484FA4;5644.
 
 
 LaTeX Warning: There were undefined references.
@@ -1630,10 +1630,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 15989 strings out of 494912
- 228468 string characters out of 6179683
- 395781 words of memory out of 5000000
- 18738 multiletter control sequences out of 15000+600000
+ 15996 strings out of 494912
+ 228544 string characters out of 6179683
+ 396798 words of memory out of 5000000
+ 18741 multiletter control sequences out of 15000+600000
  83222 words of font info for 63 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
  42i,18n,49p,1645b,1661s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1649,10 +1649,10 @@ m/lmri12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
 live/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (30 pages, 677421 bytes).
+Output written on sablona-prace.pdf (31 pages, 681250 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 181 named destinations out of 1000 (max. 500000)
- 335 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 585 compressed objects within 6 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

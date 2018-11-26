@@ -39,7 +39,9 @@
 \contentsline {paragraph}{Clearing of the screen after cancel}{23}{section*.109}
 \contentsline {paragraph}{Recursion removal for return}{23}{section*.110}
 \contentsline {paragraph}{About is added to the menu}{23}{section*.111}
-\contentsline {section}{\numberline {4.2}Behavioral Diagram}{23}{section.112}
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.115}
-\contentsline {chapter}{Bibliography}{26}{section*.117}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{29}{section*.119}
+\contentsline {paragraph}{Crontab mode created}{23}{section*.112}
+\contentsline {section}{\numberline {4.2}Behavioral Diagram}{23}{section.113}
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.116}
+\contentsline {section}{\numberline {5.1}Future Development}{25}{section.118}
+\contentsline {chapter}{Bibliography}{27}{section*.120}
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{30}{section*.122}
