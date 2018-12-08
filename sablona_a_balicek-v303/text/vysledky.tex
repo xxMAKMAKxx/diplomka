@@ -67,8 +67,8 @@ As mentioned in the Section~\ref{section:improvement}, renaming certain parts of
 Previous version of application required several Pre and Post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPi package definition and are taken care off PyPi installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPi package. During installation, the PyPi installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. In these names there is definitely still an area for improvement.
 
 \begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Plbmng Script Located in BIN, frame=single, showstringspaces=false, breaklines=true]
-#!/usr/bin/python3
+\begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Source Code of Plbmng Executable Script, frame=single, showstringspaces=false, breaklines=true]
+#!/usr/bin/env python3
 import plbmng.plbmng
 import sys
 
