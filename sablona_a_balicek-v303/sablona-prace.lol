@@ -1,3 +1,5 @@
-\contentsline {lstlisting}{\numberline {C.1}Uk\IeC {\'a}zka sazby zkratek}{22}{lstlisting.42}
-\contentsline {lstlisting}{\numberline {C.2}P\IeC {\v r}\IeC {\'\i }klad Schur-Cohnova testu stability v~prost\IeC {\v r}ed\IeC {\'\i } Matlab.}{23}{lstlisting.49}
-\contentsline {lstlisting}{\numberline {C.3}P\IeC {\v r}\IeC {\'\i }klad implementace prvn\IeC {\'\i } kanonick\IeC {\'e} formy v~jazyce C.}{24}{lstlisting.78}
+\contentsline {lstlisting}{\numberline {5.1}Removing Result Limitation}{19}{lstlisting.37}
+\contentsline {lstlisting}{\numberline {5.2}Example of Function Names}{19}{lstlisting.48}
+\contentsline {lstlisting}{\numberline {5.3}Example of Constant Usage}{20}{lstlisting.56}
+\contentsline {lstlisting}{\numberline {5.4}Source Code of Plbmng Executable Script}{21}{lstlisting.73}
+\contentsline {lstlisting}{\numberline {5.5}Function testPing}{23}{lstlisting.87}

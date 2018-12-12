@@ -1,3 +1,8 @@
 \select@language {english}
 \select@language {english}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Alen\IeC {\v c}ino zrcadlo}}{21}{figure.30}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Pie chart displaying number of nodes in PlanetLab network responding to ICMP packets.}}{8}{figure.10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Data miner for PlanetLab menu.}}{12}{figure.20}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Virtualization vs traditional architecture schema.}}{17}{figure.30}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces New re-designed menu with added name, version and various name changes.}}{22}{figure.72}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces New window for setting up credentials.}}{24}{figure.86}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Plbmng tool behavioral diagram.}}{27}{figure.115}

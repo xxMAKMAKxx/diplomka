@@ -1,11 +1,12 @@
-\chapter{Plbmng Tool Improvements}
+\chapter{Implemented Improvements to PlanetLab Server Manager}
 \label{chapter:improve}
-This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices and remove any post-installations steps. First, in Section~\ref{section:implementapproach} the implementation details will be described, then in Section~\ref{section:section:toolbehavior} the application behavioral diagram will be shown and explained. 
+This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices and remove any post-installations steps. First, in Section~\ref{section:implementapproach} the implementation details will be described, then in Section~\ref{section:toolbehavior} the application behavioral diagram will be shown and explained. 
 \section{Implementation Details}
 \label{section:implementapproach}
 In this Section the steps to achieve goal described in this Chapter introduction will be shown more in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
 \subsection{Removing Result Limitation}
 The previous version of \texttt{plbmng} tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since \texttt{pythondialog} module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the \zk{zkGUI} (\zkratkatext{zkGUI}). Example of this functionality is shown in Listing~\ref{lst:removingresultlimit}. Currently, the tool is returning all results found.
+\begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:removingresultlimit}, caption=Removing Result Limitation, frame=single, showstringspaces=false]
 def searchNodesGui(prepared_choices):
 	if not prepared_choices:
@@ -16,6 +17,7 @@ def searchNodesGui(prepared_choices):
 							choices=prepared_choices,
 							title="Search results")
 \end{lstlisting}
+\end{minipage}
 \subsection{Writing the Application as Library}
 For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}.
 \subsection{Increasing Readability}
