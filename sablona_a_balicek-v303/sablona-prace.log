@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  12 DEC 2018 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  12 DEC 2018 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,15 +1248,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 \openout2 = `text/uvod.aux'.
 
- (./text/uvod.tex) [6
+ (./text/uvod.tex)
+Overfull \hbox (16.95448pt too wide) in paragraph at lines 5--211
+\T1/lmr/m/n/12 eval-u-ated whether the used im-ple-men-ta-tion is cor-rect or n
+ot. Dur-ing re-implementation,
+ []
+
+[6
 
 
 
 ]
 \openout2 = `text/reseni.aux'.
 
-
-(./text/reseni.tex <obrazky/mapa_planetlab.png, id=272, 2055.68pt x 1188.44pt>
+ (./text/reseni.tex
+<obrazky/mapa_planetlab.png, id=273, 2055.68pt x 1188.44pt>
 File: obrazky/mapa_planetlab.png Graphic file (type png)
 
 <use obrazky/mapa_planetlab.png>
@@ -1271,7 +1277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<obrazky/pingablepie.pdf, id=277, 454.69875pt x 245.91875pt>
+<obrazky/pingablepie.pdf, id=278, 454.69875pt x 245.91875pt>
 File: obrazky/pingablepie.pdf Graphic file (type pdf)
 
 <use obrazky/pingablepie.pdf>
@@ -1299,11 +1305,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 45.
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[][][]\T1/lmr/m/n/10 Link to PyPi repis-tory con-tain-ing Data miner for Plan-e
-t-Lab tool:
+[][][]\T1/lmr/m/n/10 Link to PyPi repis-tory con-tain-ing Data miner for Planet
+Lab tool:
  []
 
-<obrazky/planetlabmenuold.png, id=314, 834.11626pt x 598.235pt>
+<obrazky/planetlabmenuold.png, id=315, 834.11626pt x 598.235pt>
 File: obrazky/planetlabmenuold.png Graphic file (type png)
 
 <use obrazky/planetlabmenuold.png>
@@ -1321,17 +1327,17 @@ Package acronym Warning: Acronym `zkPYPI' is not defined on input line 65.
 [11 <./obrazky/planetlabmenuold.png>] [12] [13
 
 ] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<obrazky/virt.pdf, id=382, 578.16pt x 246.9225pt>
+<obrazky/virt.pdf, id=383, 578.16pt x 246.9225pt>
 File: obrazky/virt.pdf Graphic file (type pdf)
  <use obrazky/virt.pdf>
-Package pdftex.def Info: obrazky/virt.pdf used on input line 104.
+Package pdftex.def Info: obrazky/virt.pdf used on input line 105.
 (pdftex.def)             Requested size: 578.15858pt x 246.92188pt.
 
-Overfull \hbox (28.07848pt too wide) in paragraph at lines 109--110
+Overfull \hbox (28.07848pt too wide) in paragraph at lines 110--111
 \T1/lmr/m/n/12 Some of the most pop-u-lar ones are \T1/lmtt/m/n/12 VMware ESXi\
 T1/lmr/m/n/12 , \T1/lmtt/m/n/12 Red Hat Enterprise Virtualization\T1/lmr/m/n/12
  ,
@@ -1344,19 +1350,19 @@ T1/lmr/m/n/12 , \T1/lmtt/m/n/12 Red Hat Enterprise Virtualization\T1/lmr/m/n/12
 pdfTeX warning: /usr/bin/pdflatex (file ./obrazky/virt.pdf): PDF inclusion: inv
 alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-Overfull \hbox (11.24529pt too wide) in paragraph at lines 114--115
+Overfull \hbox (11.24529pt too wide) in paragraph at lines 115--116
 \T1/lmr/m/n/12 Linux and Mi-crosoft Win-dows work-loads [[]]. \T1/lmtt/m/n/12 R
 ed Hat Enterprise Virtualization
  []
 
 
-Overfull \hbox (1.99612pt too wide) in paragraph at lines 114--115
+Overfull \hbox (1.99612pt too wide) in paragraph at lines 115--116
 \T1/lmr/m/n/12 de-signed for cre-at-ing vir-tual ma-chines called \T1/lmtt/m/n/
 12 Red Hat Enterprise Virtualization
  []
 
 
-Overfull \hbox (3.39868pt too wide) in paragraph at lines 116--118
+Overfull \hbox (3.39868pt too wide) in paragraph at lines 117--119
  []\T1/lmss/bx/n/12 Oracle Vir-tu-al-box[] \T1/lmtt/m/n/12 Oracle Virtualbox \T
 1/lmr/m/n/12 is open source vir-tu-al-iza-tion soft-ware avail-
  []
@@ -1400,7 +1406,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[21] <obrazky/plbmng_basic.png, id=489, 703.62875pt x 432.61626pt>
+[21] <obrazky/plbmng_basic.png, id=490, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 
 <use obrazky/plbmng_basic.png>
@@ -1415,7 +1421,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 81--94
  []
 
 [22 <./obrazky/plbmng_basic.png>]
-<obrazky/credentials_figure.png, id=499, 703.62875pt x 540.0175pt>
+<obrazky/credentials_figure.png, id=500, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 
 <use obrazky/credentials_figure.png>
@@ -1431,7 +1437,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 108--128
  []
 
 [24 <./obrazky/credentials_figure.png>] [25]
-<obrazky/plbmng_repo.png, id=547, 1724.4425pt x 1251.67625pt>
+<obrazky/plbmng_repo.png, id=548, 1724.4425pt x 1251.67625pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 
 <use obrazky/plbmng_repo.png>
@@ -1443,7 +1449,7 @@ Overfull \hbox (4.3182pt too wide) in paragraph at lines 151--152
  []
 
 [26] [27 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=575, 569.12625pt x 614.295pt>
+<obrazky/BehavioralPlbmng.pdf, id=576, 569.12625pt x 614.295pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 
 <use obrazky/BehavioralPlbmng.pdf>
@@ -1469,7 +1475,7 @@ ine 3.
 ] [31] (./sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 20--26
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
-men-tální sít¥ Plan-et-Lab\T1/lmr/m/n/12 .  Brno: Brno,
+men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
  []
 
 
@@ -1584,7 +1590,7 @@ at:
 
 Underfull \hbox (badness 3826) in paragraph at lines 121--125
 []\T1/lmr/m/sc/12 Princeton Uni-ver-sity\T1/lmr/m/n/12 , T. T. of.  \T1/lmr/m/i
-t/12 About Plan-et-Lab project \T1/lmr/m/n/12 [on-
+t/12 About PlanetLab project \T1/lmr/m/n/12 [on-
  []
 
 
@@ -1664,12 +1670,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 16032 strings out of 494912
- 229046 string characters out of 6179683
- 396616 words of memory out of 5000000
- 18753 multiletter control sequences out of 15000+600000
+ 16035 strings out of 494912
+ 229104 string characters out of 6179683
+ 396653 words of memory out of 5000000
+ 18755 multiletter control sequences out of 15000+600000
  88790 words of font info for 65 fonts, out of 8000000 for 9000
- 25 hyphenation exceptions out of 8191
+ 26 hyphenation exceptions out of 8191
  42i,18n,49p,1645b,1721s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/texmf-dist/font
@@ -1685,10 +1691,10 @@ ve/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist
 blic/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (36 pages, 1346453 bytes).
+Output written on sablona-prace.pdf (36 pages, 1346678 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 611 compressed objects within 7 object streams
+ 727 PDF objects out of 1000 (max. 8388607)
+ 612 compressed objects within 7 object streams
  200 named destinations out of 1000 (max. 500000)
  321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
