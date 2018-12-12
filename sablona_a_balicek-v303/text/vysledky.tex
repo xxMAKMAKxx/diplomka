@@ -1,7 +1,17 @@
 \chapter{Implemented Improvements to PlanetLab Server Manager}
 \label{chapter:improve}
-This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices and remove any post-installations steps. First, in Section~\ref{section:implementapproach} the implementation details will be described, then in Section~\ref{section:toolbehavior} the application behavioral diagram will be shown and explained. 
-\section{Implementation Details}
+This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices and remove any post-installations steps. Improvements includes:
+\begin{itemize}
+	\item Removing result limitation by dynamically creating menu using Python \texttt{list}.
+	\item Adding support to use application as library by logically separating each function.
+	\item Increasing readability and improve orientation in the application by renaming menu components and using descriptive functions names.
+	\item Eliminating pre and post installation steps by using automatic Pip dependency installer.
+	\item Improving credentials set up by adding internal text editor.
+	\item Extending Windows support to several functions by detecting operating system and dynamically changing parameters.
+	\item Few minor bug fixes and improvements.
+\end{itemize}
+
+\section{Description of Improvements}
 \label{section:implementapproach}
 In this Section the steps to achieve goal described in this Chapter introduction will be shown more in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
 \subsection{Removing Result Limitation}
@@ -66,7 +76,7 @@ As mentioned in the Section~\ref{section:improvement}, renaming certain parts of
 \end{figure}
 
 \subsection{Removal of Pre and Post Installation Steps}
-Previous version of application required several Pre and Post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPi package definition and are taken care off PyPi installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPi package. During installation, the PyPi installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. In these names there is definitely still an area for improvement.
+Previous version of application required several pre and post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPi package definition and are taken care off PyPi installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPi package. During installation, the PyPi installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. In these names there is definitely still an area for improvement.
 
 \begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Source Code of Plbmng Executable Script, frame=single, showstringspaces=false, breaklines=true]
@@ -132,12 +142,41 @@ When returning from child window to a parent page, the previous version of appli
 About section is added to the menu displaying version, authors and the license.
 \paragraph{Crontab mode created}
 Application is possible to run with \texttt{crontab} argument which will trigger just monitoring of the nodes. This is in particular useful when setting the \texttt{crontab} since the call can be simply \texttt{plbmng crontab}. 
-\section{Behavioral Diagram}
-\label{section:toolbehavior}
-In this Section, behavioral diagram can be seen in Figure~\ref{fig:behavioral}. The behavioral diagram describes current structure of the tool and its functions. For clarity the Figure is missing returning arrows however each node in the diagram is able to return to its parent. As seen in the Figure, first step is when menu is being initialized. From there user has option to either open \texttt{Access server menu}, \texttt{Monitor servers}, \texttt{Plot servers on map}, \texttt{Set credentials} or select \texttt{About}. \texttt{About} is a single window option that will show information about the software, its authors and license. \texttt{Set credentials} option will open an interactive editor where user can fill the credentials for PlanetLab network. Next option is \texttt{Plot servers on map} which offers user to choose which map elements should be rendered. After confirmation the map is generated and opened in the system default browser. \texttt{Monitor servers} option divides into three different options. First enables user to setup \texttt{crontab} to periodically scan for nodes, second option is for setting up monitoring elements and third triggers the scanning immediately. At last, \texttt{Access servers} allows users to access the nodes by searching for them either using DNS name, IP address or location. After the search key is inserted, the available results are shown. When specific node is chosen, information about the node are displayed and user has options to connect to the node using ssh, Midnight Commander or show the node on map.
+
+\section{Current Installation and Use of Application}
+In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure~\ref{fig:workflowdiagram}. After implementing improvements, application has been updated in the PyPi repository and is available at \url{https://pypi.org/project/plbmng/} in version \texttt{0.2.1}. Application repository web page can be seen in Figure~\ref{fig:plbmngrepo} describes the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to user to see release history or download the source files of the project. It also show the maintainers of the projects and the license under which the application is written.
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.25}{\includegraphics{obrazky/plbmng_repo}}
+	\caption{PlanetLab Server Manager page in PyPi repository.}
+	\label{fig:plbmngrepo}
+\end{figure}
+
+The installation steps are described in detail in the tool's repository page and consist of:
+
+\begin{enumerate}
+	\item Installing the application using \texttt{pip3 install plbmng} command.
+	\item Starting the application using \texttt{plbmng} command.
+	\item In first start it is required to set up credentials using the \texttt{Set credentials} option in menu.
+\end{enumerate}
+
+After this basic setup all the application functionality is available. It is recommended though, to update the list of nodes using \texttt{Get nodes} option in \texttt{Monitoring} menu. Installation steps are successfully reduced compared to the old version which consisted of:
+
+\begin{enumerate}
+	\item Installing system packages using \texttt{sudo dnf install -y dialog pssh fping} command.
+	\item Installing the application using \texttt{pip install plbmng} command.
+	\item Locating the application in a hidden folder of pip tool.
+	\item Finding a configuration file and using an editor to update it.
+	\item Running the application using absolute path.
+\end{enumerate}
+
+\paragraph{} To summarize, current application functionality workflow diagram can be seen in Figure~\ref{fig:workflowdiagram}. For clarity, the Figure is missing returning arrows however each node in the diagram is able to return to its parent. As seen in the Figure, first step is when menu is being initialized. From there user has option to either open \texttt{Access server menu}, \texttt{Monitor servers}, \texttt{Plot servers on map}, \texttt{Set credentials} or select \texttt{About}. \texttt{About} is a single window option that will show information about the software, its authors and license. \texttt{Set credentials} option will open an interactive editor where user can fill the credentials for PlanetLab network. Next option is \texttt{Plot servers on map} which offers user to choose which map elements should be rendered. After confirmation the map is generated and opened in the system default browser. \texttt{Monitor servers} option divides into three different options. First enables user to setup \texttt{crontab} to periodically scan for nodes, second option is for setting up monitoring elements and third triggers the scanning immediately. At last, \texttt{Access servers} allows users to access the nodes by searching for them either using DNS name, IP address or location. After the search key is inserted, the available results are shown. When specific node is chosen, information about the node are displayed and user has options to connect to the node using ssh, Midnight Commander or show the node on map.
+
 \begin{figure}[H]
 	\centering
 	\scalebox{0.7}{\includegraphics{obrazky/BehavioralPlbmng}}
-	\caption{Plbmng tool behavioral diagram.}
-	\label{fig:behavioral}
+	\caption{PlanetLab Server Manager workflow diagram.}
+	\label{fig:workflowdiagram}
 \end{figure}
+ 
