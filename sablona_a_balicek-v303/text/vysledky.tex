@@ -1,11 +1,11 @@
 \chapter{Implemented Improvements to PlanetLab Server Manager}
 \label{chapter:improve}
-This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices and remove any post-installations steps. Improvements includes:
+This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section~\ref{section:improvement}. The implementation details will be described and shown. The goal of the re-implementation is to make the \texttt{plmbng} tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices, remove any post-installations steps and making small improvements. Improvements includes:
 \begin{itemize}
 	\item Removing result limitation by dynamically creating menu using Python \texttt{list}.
 	\item Adding support to use application as library by logically separating each function.
 	\item Increasing readability and improve orientation in the application by renaming menu components and using descriptive functions names.
-	\item Eliminating pre and post installation steps by using automatic Pip dependency installer.
+	\item Eliminating pre and post installation steps by using automatic \texttt{pip} dependency installer.
 	\item Improving credentials set up by adding internal text editor.
 	\item Extending Windows support to several functions by detecting operating system and dynamically changing parameters.
 	\item Few minor bug fixes and improvements.
@@ -13,7 +13,7 @@ This Chapter will discuss improvements made to the PlanetLab application. The im
 
 \section{Description of Improvements}
 \label{section:implementapproach}
-In this Section the steps to achieve goal described in this Chapter introduction will be shown more in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
+In this Section, the steps to achieve goals; which were described in the Chapter introduction; will be shown in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
 \subsection{Removing Result Limitation}
 The previous version of \texttt{plbmng} tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since \texttt{pythondialog} module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the \zk{zkGUI} (\zkratkatext{zkGUI}). Example of this functionality is shown in Listing~\ref{lst:removingresultlimit}. Currently, the tool is returning all results found.
 \begin{minipage}{\linewidth}
@@ -29,10 +29,19 @@ def searchNodesGui(prepared_choices):
 \end{lstlisting}
 \end{minipage}
 \subsection{Writing the Application as Library}
-For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}.
+For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}. If the application is called as a standalone script, it will trigger part of the code that is shown in Listing~\ref{lst:pythoninit} and initialize a graphical interface for the user to use. If imported as a library, it allows the user to call any function defined in the script.
+
+\begin{minipage}{\linewidth}
+	\begin{lstlisting}[language=Python, numbers=none, label={lst:pythoninit}, caption=Removing Result Limitation, frame=single, showstringspaces=false]
+if __name__ == "__main__":
+	initInterface()
+	exit(0)
+	\end{lstlisting}
+\end{minipage}
+
 \subsection{Increasing Readability}
 \label{subsection:readability}
-Community is a powerful group that helps develop a tool and to add more functionality to it. To have community contribute to a tool, it should follow good practices and be easily readable. Previous version of the tool have been using main Bash script, calling Python script and creating new Bash scripts on a disk which was merging different pieces of code from pre-created \texttt{.dat} files in a \texttt{bin} folder. Finding a bug in this structure was difficult and non-intuitive. All these pieces of code were fully re-written into single Python library (which can be run as standalone script if needed) and logically divided into two sections. One section is for GUI functions and other is for logical functions. Each functions is very descriptive in its name as shown in Listing~\ref{lst:descriptive}. 
+Community is a powerful group that helps develop a tool and to add more functionality to it. To have community contribute to a tool, it should follow good practices and be easily readable. Previous version of the tool was using Bash script which was calling Python script and creating new Bash scripts on a disk which was merging using different pieces of code from pre-created \texttt{.dat} files in a \texttt{bin} folder. Finding a bug in this structure was difficult and non-intuitive. All these pieces of code were fully re-written into single Python script and logically divided into two sections. One section is for GUI functions and other is for logical functions. Each functions is very descriptive in its name as shown in Listing~\ref{lst:descriptive}. 
 
 \begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:descriptive}, caption=Example of Function Names, frame=single, showstringspaces=false, breaklines=true]
@@ -46,7 +55,7 @@ def setCredentialsGui():
 \end{lstlisting}
 \end{minipage}
 
-Each functions is trying to be as atomic as possible only having one purpose. This is helping to increase modularity of the application. Outside of this functions "categories" application is removing any \texttt{magic numbers} by defining constants at the beginning of the source code. This greatly helps to understand what is being passed as an argument and is shown in Listing~\ref{lst:constant} where it is descriptive what option is being passed as a search key to the \texttt{searchNodes} function. Also, the application has a block for \texttt{Initial settings} at the beginning for one single place where outside of functions definitions can be placed. Application is also honoring the conventions defined in \zk{zkPEP} (\zkratkatext{zkPEP}) 8 \cite{pythonpep}, like naming convention and space usage instead of tabs, as much as possible. All these small items described should increase the overall readability of the application for others to quickly familiarize with it.
+Each functions is trying to be as atomic as possible only having one purpose. This is helping to increase modularity of the application. Outside of this functions "categories" application is removing any \texttt{magic numbers} by defining constants at the beginning of the source code. This greatly helps to understand what is being passed as an argument and is shown in Listing~\ref{lst:constant} where it is descriptive what option is being passed as a search key to the \texttt{searchNodes} function. Also, the application has a block for \texttt{Initial settings} at the beginning for one single place where outside of functions definitions can be placed. Application is also honoring the conventions defined in \zk{zkPEP} (\zkratkatext{zkPEP}) 8 \cite{pythonpep}, like naming convention and space usage instead of tabs, as much as possible. All these small items described are increasing the overall readability of the application for others to quickly become familiarized with it.
 
 \begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:constant}, caption=Example of Constant Usage, frame=single, showstringspaces=false, breaklines=true]
@@ -76,7 +85,7 @@ As mentioned in the Section~\ref{section:improvement}, renaming certain parts of
 \end{figure}
 
 \subsection{Removal of Pre and Post Installation Steps}
-Previous version of application required several pre and post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPi package definition and are taken care off PyPi installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPi package. During installation, the PyPi installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. In these names there is definitely still an area for improvement.
+Previous version of application required several pre and post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPI package definition and are taken care off PyPI installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPI package. During installation, the PyPI installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names seen in the Listing are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. This area is a good candidate for additional improvements that will be made later in the following Diploma thesis.
 
 \begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Source Code of Plbmng Executable Script, frame=single, showstringspaces=false, breaklines=true]
@@ -98,12 +107,12 @@ In the previous version of the tool the credentials were filled using forms. Whe
 \begin{figure}[H]
 	\centering
 	\scalebox{0.5}{\includegraphics{obrazky/credentials_figure}}
-	\caption{New window for setting up credentials.}
+	\caption{New window for setting up credentials using internal text editor.}
 	\label{fig:credentials}
 \end{figure}
 
 \subsection{Windows Support Preparation}
-As was mentioned Python is multi-platform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve this compatibility.
+As was mentioned previously, Python is multi-platform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve the compatibility.
 
 \begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:testping}, caption=Function testPing, frame=single, showstringspaces=false, breaklines=true]
@@ -127,13 +136,13 @@ def testPing(target):
 \end{minipage} 
 
 \subsection{Minor Bug Fixes}
-In this Subsection, minor bug fixes will be described which were not considered as enough improving to have their own Subsection. 
+In this Subsection, minor bug fixes will be described which were not considered as enough improving to be included in separate Subsection. 
 \paragraph{Removing headers from the searches}
 During the search, previous version of the script has also included header of the file containing information about nodes resulting into false search results. Header is now skipped and these false results are removed.
 \paragraph{Application crashes during return}
 When returning from a child menu window to a parent page, the application tend to crash on \texttt{grep} tool not being able to find file. During re-implementation this bug was fixed and returning now fully works.
 \subsection{Minor Improvements}
-In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having their own Subsection. More improvements to the tool will be done in the Diploma thesis following this Semestral thesis.
+In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having separate Subsection. More improvements to the tool will be done in the Diploma thesis following up on this Semestral thesis.
 \paragraph{Clearing of the screen after cancel}
 When signal was send to the application using \texttt{CTRL + C} key combination, the previous version of the application was not clearing the current terminal window and the GUI. To use the same terminal user was forced to clear the window manually. In the new version, when signal is send to the application, signal handler will catch it and clean after itself.
 \paragraph{Recursion removal for return}
@@ -144,12 +153,12 @@ About section is added to the menu displaying version, authors and the license.
 Application is possible to run with \texttt{crontab} argument which will trigger just monitoring of the nodes. This is in particular useful when setting the \texttt{crontab} since the call can be simply \texttt{plbmng crontab}. 
 
 \section{Current Installation and Use of Application}
-In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure~\ref{fig:workflowdiagram}. After implementing improvements, application has been updated in the PyPi repository and is available at \url{https://pypi.org/project/plbmng/} in version \texttt{0.2.1}. Application repository web page can be seen in Figure~\ref{fig:plbmngrepo} describes the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to user to see release history or download the source files of the project. It also show the maintainers of the projects and the license under which the application is written.
+In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure~\ref{fig:workflowdiagram}. After implementing improvements, application has been updated in the PyPI repository and is available at \url{https://pypi.org/project/plbmng/} in version \texttt{0.2.1}. Application repository web page can be seen in Figure~\ref{fig:plbmngrepo} and is describing the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to the user to see release history or download the source files of the project. It also show the maintainers of the projects and allows users to contact them. License under which the application is written can be found the repository page as well.
 
 \begin{figure}[H]
 	\centering
 	\scalebox{0.25}{\includegraphics{obrazky/plbmng_repo}}
-	\caption{PlanetLab Server Manager page in PyPi repository.}
+	\caption{PlanetLab Server Manager web page in PyPI repository.}
 	\label{fig:plbmngrepo}
 \end{figure}
 
