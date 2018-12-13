@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sablona-prace.aux
 A level-1 auxiliary file: text/uvod.aux
 A level-1 auxiliary file: text/reseni.aux
@@ -15,87 +15,85 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: text/literatura_mak.bib
-Warning--to sort, need author or key in Roscoe_PDN-02-002
 Warning--to sort, need author, editor, or key in BILHEQP2xqVnjbQi
-Warning--empty author in Roscoe_PDN-02-002
-Warning--"{" isn't a brace-balanced string for entry Roscoe_PDN-02-002
-while executing--line 6037 of file czplain.bst
-Warning--type empty in Roscoe_PDN-02-002
 Warning--empty author and editor in BILHEQP2xqVnjbQi
 Warning--"{" isn't a brace-balanced string for entry andrasov2
 while executing--line 6037 of file czplain.bst
-Warning--empty year in oracledatasheet
-Warning--empty year in oraclehome
 Warning--empty edition in eckert2012linux+
-Warning--empty year in virtualizationpopular
-Warning--empty year in kvmbenchmark
-Warning--empty year in debianpopular
 Warning--empty year in linuxtrends
 Warning--empty edition in lutz2013learning
 Warning--empty year in linuxintro
 Warning--empty year and revised in linuxintro
 Warning--empty year in opensourcecom
 Warning--empty year in centosfirsts
+Warning--empty year in debianpopular
+Warning--empty year in oracledatasheet
+Warning--empty year in oraclehome
 Warning--empty editor and organization in Park:2006:SWS:1267359.1267382
 Warning--empty edition in Park:2006:SWS:1267359.1267382
 Warning--empty isbn or issn in Park:2006:SWS:1267359.1267382
 Warning--empty edition in Pilgrimc2010
-Warning--empty year in planetlababout
-Warning--empty year in planetlabmain
+Warning--empty year in kvmbenchmark
 Warning--empty edition in Ramasubramanian:2004:DIN:1030194.1015504
 Warning--empty year in rhev
 Warning--empty year in rhdatasheet
 Warning--empty year in rhhistory
 Warning--empty year in rhtrusted
+Warning--"{" isn't a brace-balanced string for entry Roscoe_PDN-02-002
+while executing--line 6037 of file czplain.bst
+Warning--type empty in Roscoe_PDN-02-002
 Warning--empty year in pythonpep
-Warning--empty year in kvmspeed
 Warning--empty editor and organization in 1356981
 Warning--empty edition in 1356981
 Warning--empty year in pythonfastestgrowing
 Warning--empty year in StatCounter
+Warning--empty year in planetlababout
+Warning--empty year in planetlabmain
 Warning--empty year in debianfifty
+Warning--empty year in virtualizationpopular
+Warning--empty year in kvmspeed
 Warning--empty year in vmwarearch
 Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
 You've used 31 entries,
             3583 wiz_defined-function locations,
-            923 strings with 9310 characters,
-and the built_in function-call counts, 15895 in all, are:
-= -- 1225
-> -- 507
+            924 strings with 9386 characters,
+and the built_in function-call counts, 16026 in all, are:
+= -- 1236
+> -- 525
 < -- 244
-+ -- 124
-- -- 153
-* -- 768
-:= -- 1725
++ -- 130
+- -- 159
+* -- 783
+:= -- 1751
 add.period$ -- 106
 call.type$ -- 31
-change.case$ -- 193
+change.case$ -- 196
 chr.to.int$ -- 434
-cite$ -- 67
-duplicate$ -- 1022
-empty$ -- 1577
-format.name$ -- 69
-if$ -- 3836
+cite$ -- 65
+duplicate$ -- 1023
+empty$ -- 1576
+format.name$ -- 75
+if$ -- 3860
 int.to.chr$ -- 0
 int.to.str$ -- 31
 missing$ -- 0
-newline$ -- 203
-num.names$ -- 58
-pop$ -- 355
+newline$ -- 204
+num.names$ -- 60
+pop$ -- 358
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 103
 quote$ -- 0
-skip$ -- 965
+skip$ -- 970
 stack$ -- 0
-substring$ -- 1057
+substring$ -- 1058
 swap$ -- 323
 text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 64
-warning$ -- 36
-while$ -- 131
+warning$ -- 34
+while$ -- 133
 width$ -- 33
-write$ -- 389
-(There were 39 warnings)
+write$ -- 391
+(There were 37 warnings)

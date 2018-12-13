@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  12 DEC 2018 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,175 +1457,187 @@ clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 
 
 ] [31] (./sablona-prace.bbl
-Underfull \hbox (badness 1715) in paragraph at lines 20--26
+Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 20--26
+Underfull \hbox (badness 6220) in paragraph at lines 15--21
 \T1/lmr/m/n/12 Uni-ver-sity of Tech-nol-ogy, 2017.  Bach-e-lor the-sis.  Avail-
 able at:
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 28--33
-\T1/lmr/m/n/12 vised: 09, Novem-ber, 2018 [cit. 25. Novem-ber 2018].  Avail-abl
-e at:
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 35--39
-[]\T1/lmr/m/sc/12 Corporation\T1/lmr/m/n/12 , O.  \T1/lmr/m/it/12 Wel-come to V
-ir-tu-al-Box.org! \T1/lmr/m/n/12 [on-line].  Re-
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 35--39
-\T1/lmr/m/n/12 vised: 15, Novem-ber, 2018 [cit. 25. Novem-ber 2018].  Avail-abl
-e at:
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 41--47
+Underfull \hbox (badness 1297) in paragraph at lines 23--29
 []\T1/lmr/m/sc/12 Eckert\T1/lmr/m/n/12 , J.  \T1/lmr/m/it/12 Linux+ Guide to Li
 nux Cer-ti-fi-ca-tion\T1/lmr/m/n/12 .  [b.m.]: Cen-gage
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 41--47
-\T1/lmr/m/n/12 Learn-ing, 2012.  Net-work-ing (Course Tech-nol-ogy, Inc.).  Ava
-il-able at:
+Underfull \hbox (badness 1454) in paragraph at lines 23--29
+\T1/lmr/m/n/12 Learn-ing, 2012.  Net-work-ing (Course Tech-nol-ogy, Inc).  Avai
+l-able at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--54
-[]\T1/lmr/m/sc/12 Editors\T1/lmr/m/n/12 , T.  \T1/lmr/m/it/12 Top Server Vir-tu
--al-iza-tion Soft-ware in 2018 \T1/lmr/m/n/12 [on-
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+[]\T1/lmr/m/sc/12 Google In-ter-na-tional LLC\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 
+Google Trends \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 49--54
-\T1/lmr/m/n/12 line].  Re-vised: 2018 [cit. 25. Novem-ber 2018].  Avail-able at
-:
+Underfull \hbox (badness 1975) in paragraph at lines 31--35
+\T1/lmr/m/n/12 vised: 24, Novem-ber, 2018 [cit. 25. Novem-ber 2018].  Avail-abl
+e at:
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 75--81
+Underfull \hbox (badness 2134) in paragraph at lines 37--43
 []\T1/lmr/m/sc/12 Lutz\T1/lmr/m/n/12 , M.  \T1/lmr/m/it/12 Learn-ing Python: Po
 w-er-ful Object-Oriented Pro-gram-ming\T1/lmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 75--81
+Underfull \hbox (badness 2205) in paragraph at lines 37--43
 \T1/lmr/m/n/12 [b.m.]: O'Reilly Me-dia, 2013.  Sa-fari Books On-line.  Avail-ab
 le at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-[]\T1/lmr/m/sc/12 Magklaras\T1/lmr/m/n/12 , D. G.  \T1/lmr/m/it/12 In-tro-duc-t
-ion to Linux \T1/lmr/m/n/12 [on-
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+[]\T1/lmr/m/sc/12 Magklaras\T1/lmr/m/n/12 , G.  \T1/lmr/m/it/12 In-tro-duc-tion
+ to Linux \T1/lmr/m/n/12 [on-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
 \T1/lmr/m/n/12 line].  [cit. 24. Novem-ber 2018].  Avail-able at:
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 52--57
+[]\T1/lmr/m/sc/12 Neary\T1/lmr/m/n/12 , D.  \T1/lmr/m/it/12 Did you know Linux 
+is in your TV? \T1/lmr/m/n/12 [on-line].  Re-
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 52--57
+\T1/lmr/m/n/12 vised: 08, May, 2018 [cit. 25. Novem-ber 2018].  Avail-able at:
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 79--83
+[]\T1/lmr/m/sc/12 Oracle Cor-po-ra-tion\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Wel-co
+me to Vir-tu-al-Box.org! \T1/lmr/m/n/12 [on-line].  Re-
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 79--83
+\T1/lmr/m/n/12 vised: 15, Novem-ber, 2018 [cit. 25. Novem-ber 2018].  Avail-abl
+e at:
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 85--95
+[]\T1/lmr/m/sc/12 Park\T1/lmr/m/n/12 , K., \T1/lmr/m/sc/12 Pai\T1/lmr/m/n/12 , 
+V. S., \T1/lmr/m/sc/12 Lee\T1/lmr/m/n/12 , K.-W. et al.  Se-cur-ing Web Ser-
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 85--95
+\T1/lmr/m/n/12 vice by Au-to-matic Robot De-tec-tion.  \T1/lmr/m/it/12 Pro-ceed
+-ings of the An-nual Con-
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 85--95
+\T1/lmr/m/it/12 fer-ence on USENIX '06 An-nual Tech-ni-cal Con-fer-ence\T1/lmr/
+m/n/12 .  Berke-ley, CA,
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 85--95
+\T1/lmr/m/n/12 USA: USENIX As-so-ci-a-tion.  S. 23--23.  ATEC '06.  Avail-able 
+at:
  []
 
 [32
 
 
 ]
-Underfull \hbox (badness 2828) in paragraph at lines 90--95
-[]\T1/lmr/m/sc/12 Neary\T1/lmr/m/n/12 , D.  \T1/lmr/m/it/12 Did you know Linux 
-is in your TV? \T1/lmr/m/n/12 [on-line].  Re-
+Underfull \hbox (badness 4229) in paragraph at lines 124--129
+[]\T1/lmr/m/sc/12 Red Hat Inc\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Red Hat Vir-tu-a
+l-iza-tion Datasheet \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 90--95
-\T1/lmr/m/n/12 vised: 08, May, 2018 [cit. 25. Novem-ber 2018].  Avail-able at:
- []
-
-
-Underfull \hbox (badness 4144) in paragraph at lines 103--113
-[]\T1/lmr/m/sc/12 Park\T1/lmr/m/n/12 , K., \T1/lmr/m/sc/12 Pai\T1/lmr/m/n/12 , 
-V. S., \T1/lmr/m/sc/12 Lee\T1/lmr/m/n/12 , K.-W. et al.  Se-cur-ing Web Ser-
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 103--113
-\T1/lmr/m/n/12 vice by Au-to-matic Robot De-tec-tion.  \T1/lmr/m/it/12 Pro-ceed
--ings of the An-nual Con-
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 103--113
-\T1/lmr/m/it/12 fer-ence on USENIX '06 An-nual Tech-ni-cal Con-fer-ence\T1/lmr/
-m/n/12 .  Berke-ley, CA,
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 103--113
-\T1/lmr/m/n/12 USA: USENIX As-so-ci-a-tion.  S. 23--23.  ATEC '06.  Avail-able 
-at:
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 121--125
-[]\T1/lmr/m/sc/12 Princeton Uni-ver-sity\T1/lmr/m/n/12 , T. T. of.  \T1/lmr/m/i
-t/12 About PlanetLab project \T1/lmr/m/n/12 [on-
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 148--153
-[]\T1/lmr/m/sc/12 Red Hat\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 Red Hat Vir-tu-al
--iza-tion Datasheet \T1/lmr/m/n/12 [on-line].  Re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
 \T1/lmr/m/n/12 vised: Jan-uary, 2018 [cit. 25. Novem-ber 2018].  Avail-able at:
 
  []
 
-[33]
-Underfull \hbox (badness 2600) in paragraph at lines 188--193
+
+Underfull \hbox (badness 2600) in paragraph at lines 164--169
 []\T1/lmr/m/sc/12 StackOverflow\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 The In-cred-i-
 ble Growth of Python \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 188--193
+Underfull \hbox (badness 2277) in paragraph at lines 164--169
 \T1/lmr/m/n/12 vised: 6, Septem-ber, 2017 [cit. 24. Novem-ber 2018].  Avail-abl
 e at:
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 195--199
+Underfull \hbox (badness 1546) in paragraph at lines 171--175
 []\T1/lmr/m/sc/12 StatCounter\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Ope-ra-ting Sys-
 tem Mar-ket Share World-wide 2018 \T1/lmr/m/n/12 [on-
  []
 
+[33]
+Underfull \hbox (badness 1478) in paragraph at lines 183--187
+[]\T1/lmr/m/sc/12 The Trustees of Prince-ton Uni-ver-sity\T1/lmr/m/n/12 .  \T1/
+lmr/m/it/12 PlanetLab Main Page
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+
+Underfull \hbox (badness 3646) in paragraph at lines 183--187
+\T1/lmr/m/n/12 [on-line].  Re-vised: 2017 [cit. 24. Novem-ber 2018].  Avail-abl
+e at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
 []\T1/lmr/m/sc/12 Treinen\T1/lmr/m/n/12 , R.  \T1/lmr/m/it/12 50.000 bi-nary pa
 ck-ages \T1/lmr/m/n/12 [on-line].  Re-vised:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
 \T1/lmr/m/n/12 8, Febru-ray, 2016 [cit. 25. Novem-ber 2018].  Avail-able at:
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 214--220
+Underfull \hbox (badness 1668) in paragraph at lines 196--201
+[]\T1/lmr/m/sc/12 TrustRadius Ed-i-tors\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Top Se
+rver Vir-tu-al-iza-tion Soft-ware in 2018
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 196--201
+\T1/lmr/m/n/12 [on-line].  Re-vised: 2018 [cit. 25. Novem-ber 2018].  Avail-abl
+e at:
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 216--222
 []\T1/lmr/m/sc/12 ’uba\T1/lmr/m/n/12 , F.  \T1/lmr/m/it/12 Mon-i-torování serve
 r· s OS Linux\T1/lmr/m/n/12 .  Brno: Brno,
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 214--220
+Underfull \hbox (badness 6220) in paragraph at lines 216--222
 \T1/lmr/m/n/12 Uni-ver-sity of Tech-nol-ogy, 2018.  Bach-e-lor the-sis.  Avail-
 able at:
  []
@@ -1671,7 +1683,7 @@ ve/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist
 blic/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (36 pages, 1348821 bytes).
+Output written on sablona-prace.pdf (36 pages, 1348744 bytes).
 PDF statistics:
  737 PDF objects out of 1000 (max. 8388607)
  622 compressed objects within 7 object streams

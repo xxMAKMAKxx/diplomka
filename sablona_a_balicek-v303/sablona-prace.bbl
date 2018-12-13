@@ -5,11 +5,6 @@
 \makeatother
 \begin{thebibliography}{10}
 
-\bibitem{Roscoe_PDN-02-002}
-{\em {PlanetLab Phase 0: Technical Specification}}.
-\newblock [b.m.]: PlanetLab Consortium, August 2002.
-\newblock PDN--02--002.
-
 \bibitem{BILHEQP2xqVnjbQi}
 {\em Linux: dokumentační projekt}.
 \newblock 4., aktualiz. vyd.
@@ -24,49 +19,16 @@
 \newblock Available at: ~{\tt
   https://www.vutbr.cz/studenti/zav-prace/detail/110277}.
 
-\bibitem{oracledatasheet}
-{\sc\bgroup}Corporation{\egroup}, O.
-\newblock {\em Oracle VM VirtualBox User Manual} [online].
-\newblock Revised: 09, November, 2018 [cit. 25.~November 2018].
-\newblock Available at: ~{\tt
-  https://download.virtualbox.org/virtualbox/5.2.22/UserManual.pdf}.
-
-\bibitem{oraclehome}
-{\sc\bgroup}Corporation{\egroup}, O.
-\newblock {\em Welcome to VirtualBox.org!} [online].
-\newblock Revised: 15, November, 2018 [cit. 25.~November 2018].
-\newblock Available at: ~{\tt https://www.virtualbox.org/}.
-
 \bibitem{eckert2012linux+}
 {\sc\bgroup}Eckert{\egroup}, J.
 \newblock {\em Linux+ Guide to Linux Certification}.
 \newblock [b.m.]: Cengage Learning, 2012.
-\newblock Networking (Course Technology, Inc.).
+\newblock Networking (Course Technology, Inc).
 \newblock Available at: ~{\tt https://books.google.cz/books?id=EHLH4S78LmsC}.
 \newblock ISBN 9781418837211.
 
-\bibitem{virtualizationpopular}
-{\sc\bgroup}Editors{\egroup}, T.
-\newblock {\em Top Server Virtualization Software in 2018} [online].
-\newblock Revised: 2018 [cit. 25.~November 2018].
-\newblock Available at: ~{\tt
-  https://www.trustradius.com/server-virtualization}.
-
-\bibitem{kvmbenchmark}
-{\sc\bgroup}GrayBoltWolf{\egroup}.
-\newblock {\em How fast is KVM? Host vs virtual machine performance} [online].
-\newblock Revised: 1, December, 2016 [cit. 25.~November 2018].
-\newblock Available at: ~{\tt https://goo.gl/AUWfuH}.
-
-\bibitem{debianpopular}
-{\sc\bgroup}Katherine Noyes{\egroup}, P.
-\newblock {\em Debian Linux Named Most Popular Distro for Web Servers}
-  [online].
-\newblock Revised: 11, Jannuary, 2012 [cit. 25.~November 2018].
-\newblock Available at: ~{\tt https://goo.gl/6ZXLZU}.
-
 \bibitem{linuxtrends}
-{\sc\bgroup}LLC{\egroup}, G.~I.
+{\sc\bgroup}{\relax Google International LLC}{\egroup}.
 \newblock {\em Google Trends} [online].
 \newblock Revised: 24, November, 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://trends.google.com}.
@@ -80,7 +42,7 @@
 \newblock ISBN 9781449355692.
 
 \bibitem{linuxintro}
-{\sc\bgroup}Magklaras{\egroup}, D.~G.
+{\sc\bgroup}Magklaras{\egroup}, G.
 \newblock {\em Introduction to Linux} [online].
 \newblock [cit. 24.~November 2018].
 \newblock Available at: ~{\tt
@@ -98,6 +60,26 @@
 \newblock {\em CentOS-2 Final finally released} [online].
 \newblock Revised: 14, May, 2004 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/7HsZUP}.
+
+\bibitem{debianpopular}
+{\sc\bgroup}Noyes{\egroup}, K.
+\newblock {\em Debian Linux Named Most Popular Distro for Web Servers}
+  [online].
+\newblock Revised: 11, Jannuary, 2012 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/6ZXLZU}.
+
+\bibitem{oracledatasheet}
+{\sc\bgroup}{\relax Oracle Corporation}{\egroup}.
+\newblock {\em Oracle VM VirtualBox User Manual} [online].
+\newblock Revised: 09, November, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://download.virtualbox.org/virtualbox/5.2.22/UserManual.pdf}.
+
+\bibitem{oraclehome}
+{\sc\bgroup}{\relax Oracle Corporation}{\egroup}.
+\newblock {\em Welcome to VirtualBox.org!} [online].
+\newblock Revised: 15, November, 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://www.virtualbox.org/}.
 
 \bibitem{Park:2006:SWS:1267359.1267382}
 {\sc\bgroup}Park{\egroup}, K., {\sc\bgroup}Pai{\egroup}, V.~S.,
@@ -117,17 +99,11 @@
 \newblock Praha: CZ.NIC, c2010.
 \newblock ISBN 978-80-904248-2-1.
 
-\bibitem{planetlababout}
-{\sc\bgroup}Princeton University{\egroup}, T.~T. of.
-\newblock {\em About PlanetLab project} [online].
-\newblock Revised: 29, May, 2017 [cit. 24.~November 2018].
-\newblock Available at: ~{\tt https://www.planet-lab.eu/about}.
-
-\bibitem{planetlabmain}
-{\sc\bgroup}Princeton University{\egroup}, T.~T. of.
-\newblock {\em PlanetLab Main Page} [online].
-\newblock Revised: 2017 [cit. 24.~November 2018].
-\newblock Available at: ~{\tt https://www.planet-lab.org/}.
+\bibitem{kvmbenchmark}
+{\sc\bgroup}Pruitt{\egroup}, G.
+\newblock {\em How fast is KVM? Host vs virtual machine performance} [online].
+\newblock Revised: 1, December, 2016 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/AUWfuH}.
 
 \bibitem{Ramasubramanian:2004:DIN:1030194.1015504}
 {\sc\bgroup}Ramasubramanian{\egroup}, V. a~{\sc\bgroup}Sirer{\egroup}, E.~G.
@@ -139,42 +115,42 @@
 \newblock ISSN 0146-4833.
 
 \bibitem{rhev}
-{\sc\bgroup}Red Hat{\egroup}, I.
+{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
 \newblock {\em Red Hat Virtualization} [online].
 \newblock Revised: 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/YAQ9Eb}.
 
 \bibitem{rhdatasheet}
-{\sc\bgroup}Red Hat{\egroup}, I.
+{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
 \newblock {\em Red Hat Virtualization Datasheet} [online].
 \newblock Revised: January, 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt
   https://www.redhat.com/en/resources/virtualization-datasheet}.
 
 \bibitem{rhhistory}
-{\sc\bgroup}Red Hat{\egroup}, I.
+{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
 \newblock {\em Timeline: Red Hat's history} [online].
 \newblock Revised: 2016 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/H5w6q7}.
 
 \bibitem{rhtrusted}
-{\sc\bgroup}Red Hat{\egroup}, I.
+{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
 \newblock {\em Trusted} [online].
 \newblock Revised: June, 2017 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://www.redhat.com/en/about/trusted}.
 
+\bibitem{Roscoe_PDN-02-002}
+{\sc\bgroup}Roscoe{\egroup}, T.
+\newblock {\em {PlanetLab Phase 0: Technical Specification}}.
+\newblock [b.m.]: PlanetLab Consortium, August 2002.
+\newblock PDN--02--002.
+
 \bibitem{pythonpep}
-{\sc\bgroup}Rossum{\egroup}, N.~C. Guido~van.
+{\sc\bgroup}Rossum{\egroup}, G.~v., {\sc\bgroup}Warsaw{\egroup}, B.
+  a~{\sc\bgroup}Coghlan{\egroup}, N.
 \newblock {\em PEP 8 -- Style Guide for Python Code} [online].
 \newblock Revised: 1, August, 2013 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://www.python.org/dev/peps/pep-0008/}.
-
-\bibitem{kvmspeed}
-{\sc\bgroup}SAS{\egroup}, V. O.~S.
-\newblock {\em The Virtual Open Systems video demos to virtualize ARM multicore
-  platforms} [online].
-\newblock Revised: 16, August, 2016 [cit. 25.~November 2018].
-\newblock Available at: ~{\tt https://goo.gl/Me4ikn}.
 
 \bibitem{1356981}
 {\sc\bgroup}Sherwood{\egroup}, R., {\sc\bgroup}Braud{\egroup}, R.
@@ -197,6 +173,18 @@
 \newblock Revised: October, 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt http://gs.statcounter.com/os-market-share}.
 
+\bibitem{planetlababout}
+{\sc\bgroup}{\relax The Trustees of Princeton University}{\egroup}.
+\newblock {\em About PlanetLab project} [online].
+\newblock Revised: 29, May, 2017 [cit. 24.~November 2018].
+\newblock Available at: ~{\tt https://www.planet-lab.eu/about}.
+
+\bibitem{planetlabmain}
+{\sc\bgroup}{\relax The Trustees of Princeton University}{\egroup}.
+\newblock {\em PlanetLab Main Page} [online].
+\newblock Revised: 2017 [cit. 24.~November 2018].
+\newblock Available at: ~{\tt https://www.planet-lab.org/}.
+
 \bibitem{debianfifty}
 {\sc\bgroup}Treinen{\egroup}, R.
 \newblock {\em 50.000 binary packages} [online].
@@ -204,8 +192,22 @@
 \newblock Available at: ~{\tt
   https://lists.debian.org/debian-devel/2016/02/msg00122.html}.
 
+\bibitem{virtualizationpopular}
+{\sc\bgroup}{\relax TrustRadius Editors}{\egroup}.
+\newblock {\em Top Server Virtualization Software in 2018} [online].
+\newblock Revised: 2018 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt
+  https://www.trustradius.com/server-virtualization}.
+
+\bibitem{kvmspeed}
+{\sc\bgroup}{\relax Virtual Open Systems SAS}{\egroup}.
+\newblock {\em The Virtual Open Systems video demos to virtualize ARM multicore
+  platforms} [online].
+\newblock Revised: 16, August, 2016 [cit. 25.~November 2018].
+\newblock Available at: ~{\tt https://goo.gl/Me4ikn}.
+
 \bibitem{vmwarearch}
-{\sc\bgroup}VMware{\egroup}, I.
+{\sc\bgroup}{\relax VMware, Inc}{\egroup}.
 \newblock {\em Architecture of VMware ESXi} [online].
 \newblock Revised: 15, October, 2008 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/Gskpvf}.
