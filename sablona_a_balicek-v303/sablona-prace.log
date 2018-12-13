@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1542,9 +1542,9 @@ at:
 
 
 ]
-Underfull \hbox (badness 4229) in paragraph at lines 122--127
-[]\T1/lmr/m/sc/12 Red Hat Inc\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Red Hat Vir-tu-a
-l-iza-tion Datasheet \T1/lmr/m/n/12 [on-line].  Re-
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+[]\T1/lmr/m/sc/12 Red Hat\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Red Hat Vir-tu-al-iz
+a-tion Datasheet \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
@@ -1659,7 +1659,7 @@ ve/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist
 blic/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (36 pages, 1349020 bytes).
+Output written on sablona-prace.pdf (36 pages, 1348924 bytes).
 PDF statistics:
  737 PDF objects out of 1000 (max. 8388607)
  622 compressed objects within 7 object streams

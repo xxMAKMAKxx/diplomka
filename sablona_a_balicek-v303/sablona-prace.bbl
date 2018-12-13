@@ -113,26 +113,26 @@
 \newblock ISSN 0146-4833.
 
 \bibitem{rhev}
-{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
+{\sc\bgroup}{\relax Red Hat}{\egroup}.
 \newblock {\em Red Hat Virtualization} [online].
 \newblock Revised: 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/YAQ9Eb}.
 
 \bibitem{rhdatasheet}
-{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
+{\sc\bgroup}{\relax Red Hat}{\egroup}.
 \newblock {\em Red Hat Virtualization Datasheet} [online].
 \newblock Revised: January, 2018 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt
   https://www.redhat.com/en/resources/virtualization-datasheet}.
 
 \bibitem{rhhistory}
-{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
+{\sc\bgroup}{\relax Red Hat}{\egroup}.
 \newblock {\em Timeline: Red Hat's history} [online].
 \newblock Revised: 2016 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/H5w6q7}.
 
 \bibitem{rhtrusted}
-{\sc\bgroup}{\relax Red Hat Inc}{\egroup}.
+{\sc\bgroup}{\relax Red Hat}{\egroup}.
 \newblock {\em Trusted} [online].
 \newblock Revised: June, 2017 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://www.redhat.com/en/about/trusted}.
@@ -140,7 +140,7 @@
 \bibitem{Roscoe_PDN-02-002}
 {\sc\bgroup}Roscoe{\egroup}, T.
 \newblock {\em {PlanetLab Phase 0: Technical Specification}}.
-\newblock [b.m.]: PlanetLab Consortium, August 2002.
+\newblock Princeton, New Jersey: PlanetLab Consortium, August 2002.
 \newblock PDN--02--002.
 
 \bibitem{pythonpep}
@@ -205,7 +205,7 @@
 \newblock Available at: ~{\tt https://goo.gl/Me4ikn}.
 
 \bibitem{vmwarearch}
-{\sc\bgroup}{\relax VMware, Inc}{\egroup}.
+{\sc\bgroup}{\relax VMware}{\egroup}.
 \newblock {\em Architecture of VMware ESXi} [online].
 \newblock Revised: 15, October, 2008 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/Gskpvf}.

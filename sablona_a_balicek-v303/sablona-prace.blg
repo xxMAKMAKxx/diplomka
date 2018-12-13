@@ -55,7 +55,7 @@ Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
 You've used 31 entries,
             3583 wiz_defined-function locations,
-            923 strings with 9277 characters,
+            924 strings with 9289 characters,
 and the built_in function-call counts, 16018 in all, are:
 = -- 1232
 > -- 528
