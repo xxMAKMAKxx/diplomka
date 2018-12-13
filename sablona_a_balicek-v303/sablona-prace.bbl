@@ -20,11 +20,10 @@
   https://www.vutbr.cz/studenti/zav-prace/detail/110277}.
 
 \bibitem{eckert2012linux+}
-{\sc\bgroup}Eckert{\egroup}, J.
+{\sc\bgroup}Eckert{\egroup}, J.~W.
 \newblock {\em Linux+ Guide to Linux Certification}.
-\newblock [b.m.]: Cengage Learning, 2012.
-\newblock Networking (Course Technology, Inc).
-\newblock Available at: ~{\tt https://books.google.cz/books?id=EHLH4S78LmsC}.
+\newblock 3rd.
+\newblock Boston, MA, United States: Course Technology Press, 2011.
 \newblock ISBN 9781418837211.
 
 \bibitem{linuxtrends}
@@ -35,11 +34,10 @@
 
 \bibitem{lutz2013learning}
 {\sc\bgroup}Lutz{\egroup}, M.
-\newblock {\em Learning Python: Powerful Object-Oriented Programming}.
-\newblock [b.m.]: O'Reilly Media, 2013.
-\newblock Safari Books Online.
-\newblock Available at: ~{\tt https://books.google.cz/books?id=4pgQfXQvekcC}.
-\newblock ISBN 9781449355692.
+\newblock {\em Learning Python}.
+\newblock 2. vyd.
+\newblock Sebastopol, CA, USA: O'Reilly \& Associates, Inc., 2003.
+\newblock ISBN 0596002815.
 
 \bibitem{linuxintro}
 {\sc\bgroup}Magklaras{\egroup}, G.
