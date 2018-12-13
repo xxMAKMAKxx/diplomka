@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,6 +960,9 @@ Jazyk prace pro preklad nastaven na 'czech'
 \thesis@tmp=\skip48
 )){/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{vafle.map}
 (./sablona-prace.aux (./text/uvod.aux) (./text/reseni.aux) (./text/vysledky.aux
+
+LaTeX Warning: Label `lst:descriptive' multiply defined.
+
 ) (./text/zaver.aux) (./text/zkratky.aux))
 \openout1 = `sablona-prace.aux'.
 
@@ -1369,33 +1372,24 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 
 
 ]
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 34--41
-[]$[]$ 
- []
+
+LaTeX Warning: Reference `lst:pythoninit' on page 20 undefined on input line 32
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 46--57
-[]$[]$ 
- []
-
-[20] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [20]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 60--77
-[]$[]$ 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-[21] <obrazky/plbmng_basic.png, id=499, 703.62875pt x 432.61626pt>
+[21] <obrazky/plbmng_basic.png, id=498, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 
 <use obrazky/plbmng_basic.png>
@@ -1404,13 +1398,8 @@ Package pdftex.def Info: obrazky/plbmng_basic.png used on input line 82.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 90--103
-[]$[]$ 
- []
-
-[22 <./obrazky/plbmng_basic.png>]
-<obrazky/credentials_figure.png, id=509, 703.62875pt x 540.0175pt>
+) [22 <./obrazky/plbmng_basic.png>] <obrazky/credentials_figure.png, id=508, 70
+3.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 
 <use obrazky/credentials_figure.png>
@@ -1420,13 +1409,8 @@ Package pdftex.def Info: obrazky/credentials_figure.png used on input line 109.
  [23]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 117--137
-[]$[]$ 
- []
-
-[24 <./obrazky/credentials_figure.png>] [25]
-<obrazky/plbmng_repo.png, id=557, 1724.4425pt x 1251.67625pt>
+) [24 <./obrazky/credentials_figure.png>] [25]
+<obrazky/plbmng_repo.png, id=556, 1724.4425pt x 1251.67625pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 
 <use obrazky/plbmng_repo.png>
@@ -1438,7 +1422,7 @@ Overfull \hbox (4.3182pt too wide) in paragraph at lines 161--162
  []
 
 [26] [27 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=585, 569.12625pt x 614.295pt>
+<obrazky/BehavioralPlbmng.pdf, id=584, 569.12625pt x 614.295pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 
 <use obrazky/BehavioralPlbmng.pdf>
@@ -1623,34 +1607,49 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
 (rerunfilecheck)             Checksum: D8495599179749027D38B170261B8C03;5370.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
- ) 
+ )
+(\end occurred inside a group at level 5)
+
+### simple group (level 5) entered at line 117 ({)
+### simple group (level 4) entered at line 60 ({)
+### simple group (level 3) entered at line 46 ({)
+### simple group (level 2) entered at line 34 ({)
+### simple group (level 1) entered at line 19 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
  16049 strings out of 494912
- 229375 string characters out of 6179683
- 396925 words of memory out of 5000000
- 18761 multiletter control sequences out of 15000+600000
+ 229376 string characters out of 6179683
+ 396916 words of memory out of 5000000
+ 18760 multiletter control sequences out of 15000+600000
  88790 words of font info for 65 fonts, out of 8000000 for 9000
- 28 hyphenation exceptions out of 8191
- 42i,18n,49p,1645b,1721s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/texmf-dist/font
-s/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
-lm/lmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/lm/lmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmri12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (36 pages, 1348829 bytes).
+ 29 hyphenation exceptions out of 8191
+ 42i,18n,49p,1645b,1794s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts
+/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/l
+m/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm
+/lmri12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
+Output written on sablona-prace.pdf (36 pages, 1349138 bytes).
 PDF statistics:
- 737 PDF objects out of 1000 (max. 8388607)
- 622 compressed objects within 7 object streams
+ 736 PDF objects out of 1000 (max. 8388607)
+ 621 compressed objects within 7 object streams
  204 named destinations out of 1000 (max. 500000)
  321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
