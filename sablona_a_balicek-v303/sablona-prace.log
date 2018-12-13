@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  13 DEC 2018 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1469,18 +1469,6 @@ able at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
-[]\T1/lmr/m/sc/12 Google In-ter-na-tional LLC\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 
-Google Trends \T1/lmr/m/n/12 [on-line].  Re-
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 30--34
-\T1/lmr/m/n/12 vised: 24, Novem-ber, 2018 [cit. 25. Novem-ber 2018].  Avail-abl
-e at:
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 43--48
 []\T1/lmr/m/sc/12 Magklaras\T1/lmr/m/n/12 , G.  \T1/lmr/m/it/12 In-tro-duc-tion
  to Linux \T1/lmr/m/n/12 [on-
@@ -1659,7 +1647,7 @@ ve/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist
 blic/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (36 pages, 1348924 bytes).
+Output written on sablona-prace.pdf (36 pages, 1348829 bytes).
 PDF statistics:
  737 PDF objects out of 1000 (max. 8388607)
  622 compressed objects within 7 object streams
