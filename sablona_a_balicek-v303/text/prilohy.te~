@@ -150,7 +150,7 @@ end
 disp(' '); disp('Kontrola pomoci Schur-Cohn:');
 ma = zeros( length(a)-1,length(a));
 ma(1,:) = a/a(1);
-for( k~= 1:length(a)-2)
+for( k = 1:length(a)-2)
     aa = ma(k,1:end-k+1);
     bb = fliplr( aa);
     ma(k+1,1:end-k+1) = (aa-aa(end)*bb)/(1-aa(end)^2);
@@ -178,7 +178,7 @@ short fxdf2t( short coef[][5], short sample)
 	short k;
 
 	x = sample;
-	for( k~= 0; k~< SECTIONS; k++){
+	for( k = 0; k < SECTIONS; k++){
 		accu = v1[k] >> 1;
 		y = _sadd( accu, _smpy( coef[k][0], x));
 		y = _sshl(y, 1) >> 16;
