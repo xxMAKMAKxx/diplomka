@@ -11,6 +11,10 @@ This Chapter will discuss improvements made to the PlanetLab application. The im
 	\item Few minor bug fixes and improvements.
 \end{itemize}
 
+\section{Re-design of Application}
+\label{section:redesign}
+blabla, architektura bla bla
+
 \section{Description of Improvements}
 \label{section:implementapproach}
 In this Section, the steps to achieve goals; which were described in the Chapter introduction; will be shown in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
@@ -85,7 +89,7 @@ As mentioned in the Section~\ref{section:improvement}, renaming certain parts of
 \end{figure}
 
 \subsection{Removal of Pre and Post Installation Steps}
-Previous version of application required several pre and post installation steps. In the new version developed as part of this Semestral thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPI package definition and are taken care off PyPI installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPI package. During installation, the PyPI installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names seen in the Listing are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. This area is a good candidate for additional improvements that will be made later in the following Diploma thesis.
+Previous version of application required several pre and post installation steps. In the new version developed as part of this Diploma thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPI package definition and are taken care off PyPI installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPI package. During installation, the PyPI installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names seen in the Listing are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. This area is a good candidate for additional improvements that will be made later in the following Diploma thesis.
 
 {\noindent\begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Source Code of Plbmng Executable Script, frame=single, showstringspaces=false, breaklines=true]
@@ -111,38 +115,20 @@ In the previous version of the tool the credentials were filled using forms. Whe
 	\label{fig:credentials}
 \end{figure}
 
-\subsection{Windows Support Preparation}
-As was mentioned previously, Python is multi-platform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve the compatibility.
+\subsection{Application Folder Structure Re-design}
+blabla
 
-{\noindent\begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:testping}, caption=Function testPing, frame=single, showstringspaces=false, breaklines=true]
-def testPing(target):
-	if system().lower()=='windows':
-		pingParam='-n'
-	else:
-		pingParam='-c'
-	command = ['ping', pingParam, '1', target]
-	p = subprocess.Popen(command, stdout = subprocess.PIPE)
-	if system().lower()=='windows':
-		avg=re.compile('Average = ([0-9]+)ms')
-	else:
-		avg=re.compile('min/avg/max/mdev = [0-9.]+/([0-9.]+)/[0-9.]+/[0-9.]+')
-	avgStr=avg.findall(str(p.communicate()[0]))
-	if(p.returncode != 0):
-		return "N/A"
-	p.kill()
-	return avgStr[0]
-\end{lstlisting}
-\end{minipage} 
+\subsection{Filtering Function}
+blabla
 
-\subsection{Minor Bug Fixes}
-In this Subsection, minor bug fixes will be described which were not considered as enough improving to be included in separate Subsection. 
-\paragraph{Removing headers from the searches}
-During the search, previous version of the script has also included header of the file containing information about nodes resulting into false search results. Header is now skipped and these false results are removed.
-\paragraph{Application crashes during return}
-When returning from a child menu window to a parent page, the application tend to crash on \texttt{grep} tool not being able to find file. During re-implementation this bug was fixed and returning now fully works.
+\subsection{Status Database}
+blabla multi-processing bla bla
+
+\subsection{Map Improvements}
+bla bla
+
 \subsection{Minor Improvements}
-In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having separate Subsection. More improvements to the tool will be done in the Diploma thesis following up on this Semestral thesis.
+In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having separate Subsection. More improvements to the tool will be done in the Diploma thesis following up on this Diploma thesis.
 \paragraph{Clearing of the screen after cancel}
 When signal was send to the application using \texttt{CTRL + C} key combination, the previous version of the application was not clearing the current terminal window and the GUI. To use the same terminal user was forced to clear the window manually. In the new version, when signal is send to the application, signal handler will catch it and clean after itself.
 \paragraph{Recursion removal for return}
@@ -151,6 +137,54 @@ When returning from child window to a parent page, the previous version of appli
 About section is added to the menu displaying version, authors and the license.
 \paragraph{Crontab mode created}
 Application is possible to run with \texttt{crontab} argument which will trigger just monitoring of the nodes. This is in particular useful when setting the \texttt{crontab} since the call can be simply \texttt{plbmng crontab}. 
+\paragraph{pep8 score..}
+blablabla
+\paragraph{Last server access}
+blablabla
+\paragraph{Support of Multiple Platforms}
+As was mentioned previously, Python is multi-platform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve the compatibility.
+
+{\noindent\begin{minipage}{\linewidth}
+		\begin{lstlisting}[language=Python, numbers=none, label={lst:testping}, caption=Multi-Platform Function testPing, frame=single, showstringspaces=false, breaklines=true]
+def testPing(target, returnbool=False):
+	pingPacketWaitTime = None
+	if system().lower() == 'windows':
+		pingParam = '-n'
+	else:
+		pingParam = '-c'
+	#for Linux ping parameter takes seconds while MAC OS ping takes miliseconds
+	if system().lower() == 'linux':
+		pingPacketWaitTime = 1
+	else:
+		pingPacketWaitTime = 800
+	command = ['ping', pingParam, '1', target, '-W', str(pingPacketWaitTime)]
+	p = subprocess.Popen(command, stdout=subprocess.PIPE,
+	stderr=subprocess.PIPE)
+	# prepare the regular expression to get time
+	if system().lower() == 'windows':
+		avg = re.compile('Average = ([0-9]+)ms')
+	else:
+		avg = re.compile(
+		'min/avg/max/[a-z]+ = [0-9.]+/([0-9.]+)/[0-9.]+/[0-9.]+')
+		avgStr = avg.findall(str(p.communicate()[0]))
+	if p.returncode != 0:
+		if not returnbool:
+			return "Not reachable via ICMP"
+		return False
+	else:
+		p.kill()
+		if not returnbool:
+			return avgStr[0]+" ms"
+		return True
+		\end{lstlisting}
+	\end{minipage} 
+
+\subsection{Minor Bug Fixes}
+In this Subsection, minor bug fixes will be described which were not considered as enough improving to be included in separate Subsection. 
+\paragraph{Removing headers from the searches}
+During the search, previous version of the script has also included header of the file containing information about nodes resulting into false search results. Header is now skipped and these false results are removed.
+\paragraph{Application crashes during return}
+When returning from a child menu window to a parent page, the application tend to crash on \texttt{grep} tool not being able to find file. During re-implementation this bug was fixed and returning now fully works.
 
 \section{Current Installation and Use of Application}
 \label{section:currentapp}
@@ -189,4 +223,12 @@ After this basic setup all the application functionality is available. It is rec
 	\caption{PlanetLab Server Manager workflow diagram.}
 	\label{fig:workflowdiagram}
 \end{figure}
+
+
+\chapter{PlanetLab Network Analysis Using Plbmng Tool}
+\label{chapter:analysis}
+blablabla
  
+ \chapter{Example of Use Cases}
+ \label{chapter:usecase}
+ blablabla

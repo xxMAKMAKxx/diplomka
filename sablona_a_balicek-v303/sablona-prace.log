@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.19)  21 APR 2019 21:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.19)  21 APR 2019 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,7 +1129,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count139
-<pdf/student-desky.pdf, id=109, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=137, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 <use pdf/student-desky.pdf>
 Package pdftex.def Info: pdf/student-desky.pdf  used on input line 147.
@@ -1138,7 +1138,7 @@ File: pdf/student-desky.pdf Graphic file (type pdf)
 <use pdf/student-desky.pdf>
 Package pdftex.def Info: pdf/student-desky.pdf  used on input line 147.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<pdf/student-desky.pdf, id=112, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=140, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 <use pdf/student-desky.pdf, page 1>
 Package pdftex.def Info: pdf/student-desky.pdf , page1 used on input line 147.
@@ -1162,7 +1162,7 @@ Package pdftex.def Info: pdf/student-desky.pdf , page1 used on input line 147.
  [1
 
  <./pdf/student-desky.pdf>]
-<pdf/student-titulka.pdf, id=128, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=156, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
 Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 154.
@@ -1171,7 +1171,7 @@ File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
 Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 154.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<pdf/student-titulka.pdf, id=131, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=159, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
 Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 154
@@ -1198,7 +1198,7 @@ Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 154
 .
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [1 <./pdf/student-titulka.pdf>]
-<pdf/student-zadani.pdf, id=150, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=178, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
 Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 160.
@@ -1207,7 +1207,7 @@ File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
 Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 160.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<pdf/student-zadani.pdf, id=153, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=181, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
 Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 160.
@@ -1296,12 +1296,12 @@ Overfull \hbox (0.22023pt too wide) in paragraph at lines 172--183
 ] [6
 
 ]
-<loga/SIX_logo_zahlavi.png, id=226, 280.4076pt x 108.405pt>
+<loga/SIX_logo_zahlavi.png, id=254, 280.4076pt x 108.405pt>
 File: loga/SIX_logo_zahlavi.png Graphic file (type png)
 <use loga/SIX_logo_zahlavi.png>
 Package pdftex.def Info: loga/SIX_logo_zahlavi.png  used on input line 193.
 (pdftex.def)             Requested size: 217.66736pt x 84.14864pt.
-<loga/logolink-op_vavpi.png, id=227, 4100.31876pt x 975.645pt>
+<loga/logolink-op_vavpi.png, id=255, 4100.31876pt x 975.645pt>
 File: loga/logolink-op_vavpi.png Graphic file (type png)
 <use loga/logolink-op_vavpi.png>
 Package pdftex.def Info: loga/logolink-op_vavpi.png  used on input line 193.
@@ -1309,29 +1309,37 @@ Package pdftex.def Info: loga/logolink-op_vavpi.png  used on input line 193.
  [7
 
  <./loga/SIX_logo_zahlavi.png> <./loga/logolink-op_vavpi.png>]
-(./sablona-prace.toc)
+(./sablona-prace.toc [8
+
+
+])
 \tf@toc=\write5
 \openout5 = `sablona-prace.toc'.
 
- [8
-
-
-] (./sablona-prace.lol)
+ [9] (./sablona-prace.lol)
 \tf@lol=\write6
 \openout6 = `sablona-prace.lol'.
 
- [9
+ [10
 
 ]
 \openout2 = `text/uvod.aux'.
 
- (./text/uvod.tex)
+ (./text/uvod.tex
+
+LaTeX Warning: Reference `chapter:Linux' on page 11 undefined on input line 7.
+
+
+LaTeX Warning: Reference `chapter:Virtualization' on page 11 undefined on input
+ line 7.
+
+)
 Overfull \hbox (16.95448pt too wide) in paragraph at lines 5--211
 \T1/lmr/m/n/12 eval-u-ated whether the used im-ple-men-ta-tion is cor-rect or n
 ot. Dur-ing re-implementation,
  []
 
-[10
+[11
 
 
 
@@ -1339,7 +1347,7 @@ ot. Dur-ing re-implementation,
 \openout2 = `text/reseni.aux'.
 
  (./text/reseni.tex
-<obrazky/mapa_planetlab.png, id=305, 2055.68pt x 1188.44pt>
+<obrazky/mapa_planetlab.png, id=342, 2055.68pt x 1188.44pt>
 File: obrazky/mapa_planetlab.png Graphic file (type png)
 <use obrazky/mapa_planetlab.png>
 Package pdftex.def Info: obrazky/mapa_planetlab.png  used on input line 7.
@@ -1349,12 +1357,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<obrazky/pingablepie.pdf, id=310, 454.69875pt x 245.91875pt>
+<obrazky/pingablepie.pdf, id=347, 454.69875pt x 245.91875pt>
 File: obrazky/pingablepie.pdf Graphic file (type pdf)
 <use obrazky/pingablepie.pdf>
 Package pdftex.def Info: obrazky/pingablepie.pdf  used on input line 16.
 (pdftex.def)             Requested size: 454.69763pt x 245.91814pt.
-[11
+[12
 
 
 
@@ -1363,57 +1371,53 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 24.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [12 <./obrazky/pingablepie.pdf>] [13]
-Overfull \hbox (6.17024pt too wide) in paragraph at lines 43--43
-[]\T1/lmss/bx/n/20.74 Present State Of Ap-pli-ca-tion De-vel-op-ment 
- []
-
-<obrazky/planetlabmenuold.png, id=350, 834.11626pt x 598.235pt>
-File: obrazky/planetlabmenuold.png Graphic file (type png)
-<use obrazky/planetlabmenuold.png>
-Package pdftex.def Info: obrazky/planetlabmenuold.png  used on input line 57.
-(pdftex.def)             Requested size: 834.11423pt x 598.23354pt.
-[14
-
-] [15 <./obrazky/planetlabmenuold.png>] [16] [17
-
-] [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+) [13 <./obrazky/pingablepie.pdf>] [14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<obrazky/virt.pdf, id=417, 578.16pt x 246.9225pt>
+<obrazky/virt.pdf, id=415, 578.16pt x 246.9225pt>
 File: obrazky/virt.pdf Graphic file (type pdf)
 <use obrazky/virt.pdf>
-Package pdftex.def Info: obrazky/virt.pdf  used on input line 104.
+Package pdftex.def Info: obrazky/virt.pdf  used on input line 82.
 (pdftex.def)             Requested size: 578.15858pt x 246.92188pt.
-
-Overfull \hbox (28.07848pt too wide) in paragraph at lines 109--110
+[17]
+Overfull \hbox (28.07848pt too wide) in paragraph at lines 87--88
 \T1/lmr/m/n/12 Some of the most pop-u-lar ones are \T1/lmtt/m/n/12 VMware ESXi\
 T1/lmr/m/n/12 , \T1/lmtt/m/n/12 Red Hat Enterprise Virtualization\T1/lmr/m/n/12
  ,
  []
 
-[20
 
- <./obrazky/virt.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./obrazky/virt.pdf): PDF inc
-lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
- ignored.
->]
-Overfull \hbox (11.24529pt too wide) in paragraph at lines 114--115
+Overfull \hbox (11.24529pt too wide) in paragraph at lines 92--93
 \T1/lmr/m/n/12 Linux and Mi-crosoft Win-dows work-loads [[]]. \T1/lmtt/m/n/12 R
 ed Hat Enterprise Virtualization
  []
 
 
-Overfull \hbox (3.39868pt too wide) in paragraph at lines 116--118
+Overfull \hbox (3.39868pt too wide) in paragraph at lines 94--96
  []\T1/lmss/bx/n/12 Oracle Vir-tu-al-box[] \T1/lmtt/m/n/12 Oracle Virtualbox \T
 1/lmr/m/n/12 is open source vir-tu-al-iza-tion soft-ware avail-
  []
 
-) [21] [22]
+[18 <./obrazky/virt.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./obrazky/virt.pdf): PDF inc
+lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
+ ignored.
+>] [19]
+Overfull \hbox (6.17024pt too wide) in paragraph at lines 105--105
+[]\T1/lmss/bx/n/20.74 Present State Of Ap-pli-ca-tion De-vel-op-ment 
+ []
+
+<obrazky/planetlabmenuold.png, id=479, 834.11626pt x 598.235pt>
+File: obrazky/planetlabmenuold.png Graphic file (type png)
+<use obrazky/planetlabmenuold.png>
+Package pdftex.def Info: obrazky/planetlabmenuold.png  used on input line 119.
+(pdftex.def)             Requested size: 834.11423pt x 598.23354pt.
+[20
+
+]) [21 <./obrazky/planetlabmenuold.png>] [22]
 \openout2 = `text/vysledky.aux'.
 
  (./text/vysledky.tex
@@ -1421,66 +1425,83 @@ Overfull \hbox (3.39868pt too wide) in paragraph at lines 116--118
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 20.
+nput line 24.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 25.
  [23
 
 
 
 ]
 
-LaTeX Warning: Reference `lst:pythoninit' on page 24 undefined on input line 32
+LaTeX Warning: Reference `lst:pythoninit' on page 24 undefined on input line 36
 .
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[25]
-<obrazky/plbmng_basic.png, id=527, 703.62875pt x 432.61626pt>
+<obrazky/plbmng_basic.png, id=546, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
-Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 82.
+Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 86.
 (pdftex.def)             Requested size: 703.62703pt x 432.6152pt.
- [26 <./obrazky/plbmng_basic.png>]
-<obrazky/credentials_figure.png, id=537, 703.62875pt x 540.0175pt>
+[26 <./obrazky/plbmng_basic.png>]
+<obrazky/credentials_figure.png, id=570, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 <use obrazky/credentials_figure.png>
-Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 109
+Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 113
 .
 (pdftex.def)             Requested size: 703.62703pt x 540.01617pt.
- [27] [28 <./obrazky/credentials_figure.png>] [29]
-<obrazky/plbmng_repo.png, id=585, 1724.4425pt x 1251.67625pt>
+ [27] [28 <./obrazky/credentials_figure.png>]
+[29] [30]
+<obrazky/plbmng_repo.png, id=642, 1724.4425pt x 1251.67625pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 <use obrazky/plbmng_repo.png>
-Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 161.
+Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 195.
 (pdftex.def)             Requested size: 1724.43831pt x 1251.6732pt.
 
-Overfull \hbox (4.3182pt too wide) in paragraph at lines 161--162
+Overfull \hbox (4.3182pt too wide) in paragraph at lines 195--196
  [][] 
  []
 
-[30] [31 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=613, 569.12625pt x 614.295pt>
+[31] [32 <./obrazky/plbmng_repo.png>]
+<obrazky/BehavioralPlbmng.pdf, id=667, 569.12625pt x 614.295pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 <use obrazky/BehavioralPlbmng.pdf>
-Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 188.
+Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 222.
 (pdftex.def)             Requested size: 569.12486pt x 614.29349pt.
- [32]) [33 <./obrazky/BehavioralPlbmng.pdf
+ [33] [34 <./obrazky/BehavioralPlbmng.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./obrazky/BehavioralPlbmng.p
 df): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', ty
 pe <array>); ignored.
 >]
+Overfull \hbox (4.44917pt too wide) in paragraph at lines 228--228
+[]\T1/lmss/bx/n/20.74 PlanetLab Net-work Anal-y-sis Us-ing Plbmng
+ []
+
+[35
+
+]) [36
+
+]
 \openout2 = `text/zaver.aux'.
 
- (./text/zaver.tex) [34
+ (./text/zaver.tex
+
+LaTeX Warning: Reference `chapter:Linux' on page 37 undefined on input line 2.
+
+
+LaTeX Warning: Reference `chapter:Virtualization' on page 37 undefined on input
+ line 2.
+
+) [37
 
 
 
-] [35] (./sablona-prace.bbl
+] [38] (./sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
@@ -1550,7 +1571,7 @@ Underfull \hbox (badness 2435) in paragraph at lines 83--93
 at:
  []
 
-[36
+[39
 
 
 ]
@@ -1583,7 +1604,7 @@ Underfull \hbox (badness 1546) in paragraph at lines 169--173
 tem Mar-ket Share World-wide 2018 \T1/lmr/m/n/12 [on-
  []
 
-[37]
+[40]
 Underfull \hbox (badness 1478) in paragraph at lines 181--185
 []\T1/lmr/m/sc/12 The Trustees of Prince-ton Uni-ver-sity\T1/lmr/m/n/12 .  \T1/
 lmr/m/it/12 PlanetLab Main Page
@@ -1630,10 +1651,10 @@ Underfull \hbox (badness 6220) in paragraph at lines 214--220
 able at:
  []
 
-) [38]
+) [41]
 \openout2 = `text/zkratky.aux'.
 
- (./text/zkratky.tex [39
+ (./text/zkratky.tex [42
 
 
 
@@ -1646,7 +1667,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: D8495599179749027D38B170261B8C03;5370.
+(rerunfilecheck)             Checksum: F7B228F2BCF31018447F9815B9F47B6E;6814.
 
 
 LaTeX Warning: There were undefined references.
@@ -1658,20 +1679,20 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  )
 (\end occurred inside a group at level 5)
 
-### simple group (level 5) entered at line 117 ({)
-### simple group (level 4) entered at line 60 ({)
-### simple group (level 3) entered at line 46 ({)
-### simple group (level 2) entered at line 34 ({)
-### simple group (level 1) entered at line 19 ({)
+### simple group (level 5) entered at line 147 ({)
+### simple group (level 4) entered at line 64 ({)
+### simple group (level 3) entered at line 50 ({)
+### simple group (level 2) entered at line 38 ({)
+### simple group (level 1) entered at line 23 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16068 strings out of 492649
- 229932 string characters out of 6129622
- 408989 words of memory out of 5000000
- 19351 multiletter control sequences out of 15000+600000
+ 16120 strings out of 492649
+ 230655 string characters out of 6129622
+ 444683 words of memory out of 5000000
+ 19376 multiletter control sequences out of 15000+600000
  94374 words of font info for 67 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 42i,18n,49p,1645b,1456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,49p,1645b,1460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
 c}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2
@@ -1689,10 +1710,10 @@ e1/public/lm/lmsso12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (40 pages, 1747003 bytes).
+Output written on sablona-prace.pdf (43 pages, 1754618 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 208 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 843 PDF objects out of 1000 (max. 8388607)
+ 711 compressed objects within 8 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
