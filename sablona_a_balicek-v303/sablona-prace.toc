@@ -1,45 +1,47 @@
-\select@language {english}
-\select@language {english}
-\contentsline {chapter}{Introduction}{6}{section*.4}
-\contentsline {chapter}{\numberline {1}PlanetLab Network}{7}{chapter.5}
-\contentsline {section}{\numberline {1.1}Terminology}{8}{section.10}
-\contentsline {section}{\numberline {1.2}Selected Projects Based on PlanetLab}{8}{section.11}
-\contentsline {subsection}{\numberline {1.2.1}Securing Web Service by Automatic Robot Detection}{9}{subsection.12}
-\contentsline {subsection}{\numberline {1.2.2}The Design and Implementation of Next Generation Name Service for Internet}{9}{subsection.13}
-\contentsline {subsection}{\numberline {1.2.3}Slurpie: Cooperative Bulk Data Transfer Protocol}{9}{subsection.14}
-\contentsline {chapter}{\numberline {2}Present State Of Application Development}{10}{chapter.15}
-\contentsline {section}{\numberline {2.1}Description of Current Tool}{10}{section.17}
-\contentsline {section}{\numberline {2.2}Current Problems}{11}{section.20}
-\contentsline {chapter}{\numberline {3}Linux}{13}{chapter.21}
-\contentsline {paragraph}{Red Hat Enterprise Linux}{14}{section*.22}
-\contentsline {paragraph}{CentOS}{14}{section*.23}
-\contentsline {paragraph}{Fedora}{14}{section*.24}
-\contentsline {paragraph}{Debian}{15}{section*.25}
-\contentsline {paragraph}{Ubuntu}{15}{section*.26}
-\contentsline {chapter}{\numberline {4}Virtualization}{16}{chapter.27}
-\contentsline {paragraph}{VMware ESXi}{17}{section*.30}
-\contentsline {paragraph}{Red Hat Enterprise Virtualization}{17}{section*.31}
-\contentsline {paragraph}{Oracle Virtualbox}{17}{section*.32}
-\contentsline {paragraph}{KVM with QEMU}{17}{section*.33}
-\contentsline {chapter}{\numberline {5}Implemented Improvements to PlanetLab Server Manager}{19}{chapter.34}
-\contentsline {section}{\numberline {5.1}Description of Improvements}{19}{section.35}
-\contentsline {subsection}{\numberline {5.1.1}Removing Result Limitation}{19}{subsection.36}
-\contentsline {subsection}{\numberline {5.1.2}Writing the Application as Library}{20}{subsection.46}
-\contentsline {subsection}{\numberline {5.1.3}Increasing Readability}{20}{subsection.51}
-\contentsline {subsection}{\numberline {5.1.4}Removal of Pre and Post Installation Steps}{22}{subsection.76}
-\contentsline {subsection}{\numberline {5.1.5}Set Credentials Improvement}{23}{subsection.87}
-\contentsline {subsection}{\numberline {5.1.6}Windows Support Preparation}{24}{subsection.90}
-\contentsline {subsection}{\numberline {5.1.7}Minor Bug Fixes}{25}{subsection.108}
-\contentsline {paragraph}{Removing headers from the searches}{25}{section*.109}
-\contentsline {paragraph}{Application crashes during return}{25}{section*.110}
-\contentsline {subsection}{\numberline {5.1.8}Minor Improvements}{25}{subsection.111}
-\contentsline {paragraph}{Clearing of the screen after cancel}{26}{section*.112}
-\contentsline {paragraph}{Recursion removal for return}{26}{section*.113}
-\contentsline {paragraph}{About is added to the menu}{26}{section*.114}
-\contentsline {paragraph}{Crontab mode created}{26}{section*.115}
-\contentsline {section}{\numberline {5.2}Current Installation and Use of Application}{26}{section.116}
-\contentsline {paragraph}{}{28}{section*.127}
-\contentsline {chapter}{\numberline {6}Conclusion}{30}{chapter.130}
-\contentsline {paragraph}{Future Development}{30}{section*.132}
-\contentsline {chapter}{Bibliography}{32}{section*.134}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{35}{section*.136}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {czech}{}
+\babel@toc {english}{}
+\contentsline {chapter}{Introduction}{10}{section*.4}
+\contentsline {chapter}{\numberline {1}PlanetLab Network}{11}{chapter.5}
+\contentsline {section}{\numberline {1.1}Terminology}{12}{section.10}
+\contentsline {section}{\numberline {1.2}Selected Projects Based on PlanetLab}{12}{section.11}
+\contentsline {subsection}{\numberline {1.2.1}Securing Web Service by Automatic Robot Detection}{13}{subsection.12}
+\contentsline {subsection}{\numberline {1.2.2}The Design and Implementation of Next Generation Name Service for Internet}{13}{subsection.13}
+\contentsline {subsection}{\numberline {1.2.3}Slurpie: Cooperative Bulk Data Transfer Protocol}{13}{subsection.14}
+\contentsline {chapter}{\numberline {2}Present State Of Application Development}{14}{chapter.15}
+\contentsline {section}{\numberline {2.1}Description of Current Tool}{14}{section.17}
+\contentsline {section}{\numberline {2.2}Current Problems}{15}{section.20}
+\contentsline {chapter}{\numberline {3}Linux}{17}{chapter.21}
+\contentsline {paragraph}{Red Hat Enterprise Linux}{18}{section*.22}
+\contentsline {paragraph}{CentOS}{18}{section*.23}
+\contentsline {paragraph}{Fedora}{18}{section*.24}
+\contentsline {paragraph}{Debian}{19}{section*.25}
+\contentsline {paragraph}{Ubuntu}{19}{section*.26}
+\contentsline {chapter}{\numberline {4}Virtualization}{20}{chapter.27}
+\contentsline {paragraph}{VMware ESXi}{21}{section*.30}
+\contentsline {paragraph}{Red Hat Enterprise Virtualization}{21}{section*.31}
+\contentsline {paragraph}{Oracle Virtualbox}{21}{section*.32}
+\contentsline {paragraph}{KVM with QEMU}{21}{section*.33}
+\contentsline {chapter}{\numberline {5}Implemented Improvements to PlanetLab Server Manager}{23}{chapter.34}
+\contentsline {section}{\numberline {5.1}Description of Improvements}{23}{section.35}
+\contentsline {subsection}{\numberline {5.1.1}Removing Result Limitation}{23}{subsection.36}
+\contentsline {subsection}{\numberline {5.1.2}Writing the Application as Library}{24}{subsection.46}
+\contentsline {subsection}{\numberline {5.1.3}Increasing Readability}{24}{subsection.51}
+\contentsline {subsection}{\numberline {5.1.4}Removal of Pre and Post Installation Steps}{26}{subsection.76}
+\contentsline {subsection}{\numberline {5.1.5}Set Credentials Improvement}{27}{subsection.87}
+\contentsline {subsection}{\numberline {5.1.6}Windows Support Preparation}{28}{subsection.90}
+\contentsline {subsection}{\numberline {5.1.7}Minor Bug Fixes}{29}{subsection.108}
+\contentsline {paragraph}{Removing headers from the searches}{29}{section*.109}
+\contentsline {paragraph}{Application crashes during return}{29}{section*.110}
+\contentsline {subsection}{\numberline {5.1.8}Minor Improvements}{29}{subsection.111}
+\contentsline {paragraph}{Clearing of the screen after cancel}{30}{section*.112}
+\contentsline {paragraph}{Recursion removal for return}{30}{section*.113}
+\contentsline {paragraph}{About is added to the menu}{30}{section*.114}
+\contentsline {paragraph}{Crontab mode created}{30}{section*.115}
+\contentsline {section}{\numberline {5.2}Current Installation and Use of Application}{30}{section.116}
+\contentsline {paragraph}{}{32}{section*.127}
+\contentsline {chapter}{\numberline {6}Conclusion}{34}{chapter.130}
+\contentsline {paragraph}{Future Development}{34}{section*.132}
+\contentsline {chapter}{Bibliography}{36}{section*.134}
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{39}{section*.136}
