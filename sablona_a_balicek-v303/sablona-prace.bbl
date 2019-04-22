@@ -19,6 +19,12 @@
 \newblock Available at: ~{\tt
   https://www.vutbr.cz/studenti/zav-prace/detail/110277}.
 
+\bibitem{Beaulieu:2005:LS:1098720}
+{\sc\bgroup}Beaulieu{\egroup}, A.
+\newblock {\em Learning SQL}.
+\newblock [b.m.]: O'Reilly Media, Inc., 2005.
+\newblock ISBN 0596007272.
+
 \bibitem{eckert2012linux+}
 {\sc\bgroup}Eckert{\egroup}, J.~W.
 \newblock {\em Linux+ Guide to Linux Certification}.

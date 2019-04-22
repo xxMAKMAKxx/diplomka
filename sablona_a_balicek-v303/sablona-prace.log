@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.19)  21 APR 2019 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.19)  22 APR 2019 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1421,87 +1421,113 @@ Package pdftex.def Info: obrazky/planetlabmenuold.png  used on input line 119.
 \openout2 = `text/vysledky.aux'.
 
  (./text/vysledky.tex
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 24.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 25.
- [23
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+<obrazky/PlbmngArchitecture.pdf, id=508, 536.0025pt x 355.3275pt>
+File: obrazky/PlbmngArchitecture.pdf Graphic file (type pdf)
+<use obrazky/PlbmngArchitecture.pdf>
+Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 20.
+
+(pdftex.def)             Requested size: 536.00119pt x 355.32661pt.
+
+Overfull \hbox (2.01122pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+[23
 
 
 
 ]
-
-LaTeX Warning: Reference `lst:pythoninit' on page 24 undefined on input line 36
-.
-
-[24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<obrazky/plbmng_basic.png, id=546, 703.62875pt x 432.61626pt>
+[24 <./obrazky/PlbmngArchitecture.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./obrazky/PlbmngArchitecture
+.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', 
+type <array>); ignored.
+>] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 34.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 35.
+
+[25]
+
+LaTeX Warning: Reference `lst:pythoninit' on page 26 undefined on input line 46
+.
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[27]
+<obrazky/plbmng_basic.png, id=602, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
-Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 86.
+Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 96.
 (pdftex.def)             Requested size: 703.62703pt x 432.6152pt.
-[26 <./obrazky/plbmng_basic.png>]
-<obrazky/credentials_figure.png, id=570, 703.62875pt x 540.0175pt>
+ [28 <./obrazky/plbmng_basic.png>]
+<obrazky/credentials_figure.png, id=612, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 <use obrazky/credentials_figure.png>
-Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 113
+Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 123
 .
 (pdftex.def)             Requested size: 703.62703pt x 540.01617pt.
- [27] [28 <./obrazky/credentials_figure.png>]
-[29] [30]
-<obrazky/plbmng_repo.png, id=642, 1724.4425pt x 1251.67625pt>
+ [29] [30 <./obrazky/credentials_figure.png>] [31] [32]
+<obrazky/plbmng_repo.png, id=683, 1724.4425pt x 1251.67625pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 <use obrazky/plbmng_repo.png>
-Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 195.
+Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 205.
 (pdftex.def)             Requested size: 1724.43831pt x 1251.6732pt.
 
-Overfull \hbox (4.3182pt too wide) in paragraph at lines 195--196
+Overfull \hbox (4.3182pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-[31] [32 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=667, 569.12625pt x 614.295pt>
+[33] [34 <./obrazky/plbmng_repo.png>]
+<obrazky/BehavioralPlbmng.pdf, id=709, 569.12625pt x 614.295pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 <use obrazky/BehavioralPlbmng.pdf>
-Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 222.
+Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 232.
 (pdftex.def)             Requested size: 569.12486pt x 614.29349pt.
- [33] [34 <./obrazky/BehavioralPlbmng.pdf
+ [35] [36 <./obrazky/BehavioralPlbmng.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./obrazky/BehavioralPlbmng.p
 df): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', ty
 pe <array>); ignored.
 >]
-Overfull \hbox (4.44917pt too wide) in paragraph at lines 228--228
+Overfull \hbox (4.44917pt too wide) in paragraph at lines 237--237
 []\T1/lmss/bx/n/20.74 PlanetLab Net-work Anal-y-sis Us-ing Plbmng
  []
 
-[35
+[37
 
-]) [36
+]) [38
 
 ]
 \openout2 = `text/zaver.aux'.
 
  (./text/zaver.tex
 
-LaTeX Warning: Reference `chapter:Linux' on page 37 undefined on input line 2.
+LaTeX Warning: Reference `chapter:Linux' on page 39 undefined on input line 2.
 
 
-LaTeX Warning: Reference `chapter:Virtualization' on page 37 undefined on input
+LaTeX Warning: Reference `chapter:Virtualization' on page 39 undefined on input
  line 2.
 
-) [37
+) [39
 
 
 
-] [38] (./sablona-prace.bbl
+] [40] (./sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
@@ -1514,147 +1540,147 @@ able at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 []\T1/lmr/m/sc/12 Magklaras\T1/lmr/m/n/12 , G.  \T1/lmr/m/it/12 In-tro-duc-tion
  to Linux \T1/lmr/m/n/12 [on-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 \T1/lmr/m/n/12 line].  [cit. 24. Novem-ber 2018].  Avail-able at:
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 50--55
+Underfull \hbox (badness 2828) in paragraph at lines 56--61
 []\T1/lmr/m/sc/12 Neary\T1/lmr/m/n/12 , D.  \T1/lmr/m/it/12 Did you know Linux 
 is in your TV? \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 50--55
+Underfull \hbox (badness 6078) in paragraph at lines 56--61
 \T1/lmr/m/n/12 vised: 08, May, 2018 [cit. 25. Novem-ber 2018].  Avail-able at:
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 77--81
+Underfull \hbox (badness 1430) in paragraph at lines 83--87
 []\T1/lmr/m/sc/12 Oracle Cor-po-ra-tion\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Wel-co
 me to Vir-tu-al-Box.org! \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 77--81
+Underfull \hbox (badness 1975) in paragraph at lines 83--87
 \T1/lmr/m/n/12 vised: 15, Novem-ber, 2018 [cit. 25. Novem-ber 2018].  Avail-abl
 e at:
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 83--93
+Underfull \hbox (badness 4144) in paragraph at lines 89--99
 []\T1/lmr/m/sc/12 Park\T1/lmr/m/n/12 , K., \T1/lmr/m/sc/12 Pai\T1/lmr/m/n/12 , 
 V. S., \T1/lmr/m/sc/12 Lee\T1/lmr/m/n/12 , K.-W. et al.  Se-cur-ing Web Ser-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 83--93
+Underfull \hbox (badness 1270) in paragraph at lines 89--99
 \T1/lmr/m/n/12 vice by Au-to-matic Robot De-tec-tion.  \T1/lmr/m/it/12 Pro-ceed
 -ings of the An-nual Con-
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 83--93
+Underfull \hbox (badness 1629) in paragraph at lines 89--99
 \T1/lmr/m/it/12 fer-ence on USENIX '06 An-nual Tech-ni-cal Con-fer-ence\T1/lmr/
 m/n/12 .  Berke-ley, CA,
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 83--93
+Underfull \hbox (badness 2435) in paragraph at lines 89--99
 \T1/lmr/m/n/12 USA: USENIX As-so-ci-a-tion.  S. 23--23.  ATEC '06.  Avail-able 
 at:
  []
 
-[39
+[41
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 122--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
 []\T1/lmr/m/sc/12 Red Hat\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Red Hat Vir-tu-al-iz
 a-tion Datasheet \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--127
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
 \T1/lmr/m/n/12 vised: Jan-uary, 2018 [cit. 25. Novem-ber 2018].  Avail-able at:
 
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 162--167
+Underfull \hbox (badness 2600) in paragraph at lines 168--173
 []\T1/lmr/m/sc/12 StackOverflow\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 The In-cred-i-
 ble Growth of Python \T1/lmr/m/n/12 [on-line].  Re-
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 162--167
+Underfull \hbox (badness 2277) in paragraph at lines 168--173
 \T1/lmr/m/n/12 vised: 6, Septem-ber, 2017 [cit. 24. Novem-ber 2018].  Avail-abl
 e at:
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 169--173
+Underfull \hbox (badness 1546) in paragraph at lines 175--179
 []\T1/lmr/m/sc/12 StatCounter\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Ope-ra-ting Sys-
 tem Mar-ket Share World-wide 2018 \T1/lmr/m/n/12 [on-
  []
 
-[40]
-Underfull \hbox (badness 1478) in paragraph at lines 181--185
+[42]
+Underfull \hbox (badness 1478) in paragraph at lines 187--191
 []\T1/lmr/m/sc/12 The Trustees of Prince-ton Uni-ver-sity\T1/lmr/m/n/12 .  \T1/
 lmr/m/it/12 PlanetLab Main Page
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 181--185
+Underfull \hbox (badness 3646) in paragraph at lines 187--191
 \T1/lmr/m/n/12 [on-line].  Re-vised: 2017 [cit. 24. Novem-ber 2018].  Avail-abl
 e at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 []\T1/lmr/m/sc/12 Treinen\T1/lmr/m/n/12 , R.  \T1/lmr/m/it/12 50.000 bi-nary pa
 ck-ages \T1/lmr/m/n/12 [on-line].  Re-vised:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 \T1/lmr/m/n/12 8, Febru-ray, 2016 [cit. 25. Novem-ber 2018].  Avail-able at:
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 194--199
+Underfull \hbox (badness 1668) in paragraph at lines 200--205
 []\T1/lmr/m/sc/12 TrustRadius Ed-i-tors\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Top Se
 rver Vir-tu-al-iza-tion Soft-ware in 2018
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 194--199
+Underfull \hbox (badness 3646) in paragraph at lines 200--205
 \T1/lmr/m/n/12 [on-line].  Re-vised: 2018 [cit. 25. Novem-ber 2018].  Avail-abl
 e at:
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 214--220
+Underfull \hbox (badness 7667) in paragraph at lines 220--226
 []\T1/lmr/m/sc/12 ’uba\T1/lmr/m/n/12 , F.  \T1/lmr/m/it/12 Mon-i-torování serve
 r· s OS Linux\T1/lmr/m/n/12 .  Brno: Brno,
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 214--220
+Underfull \hbox (badness 6220) in paragraph at lines 220--226
 \T1/lmr/m/n/12 Uni-ver-sity of Tech-nol-ogy, 2018.  Bach-e-lor the-sis.  Avail-
 able at:
  []
 
-) [41]
+) [43]
 \openout2 = `text/zkratky.aux'.
 
- (./text/zkratky.tex [42
+ (./text/zkratky.tex [44
 
 
 
@@ -1667,7 +1693,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: F7B228F2BCF31018447F9815B9F47B6E;6814.
+(rerunfilecheck)             Checksum: 24881E08B9CFD76F1B6B98E9E42614DE;6814.
 
 
 LaTeX Warning: There were undefined references.
@@ -1679,20 +1705,20 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  )
 (\end occurred inside a group at level 5)
 
-### simple group (level 5) entered at line 147 ({)
-### simple group (level 4) entered at line 64 ({)
-### simple group (level 3) entered at line 50 ({)
-### simple group (level 2) entered at line 38 ({)
-### simple group (level 1) entered at line 23 ({)
+### simple group (level 5) entered at line 157 ({)
+### simple group (level 4) entered at line 74 ({)
+### simple group (level 3) entered at line 60 ({)
+### simple group (level 2) entered at line 48 ({)
+### simple group (level 1) entered at line 33 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16120 strings out of 492649
- 230655 string characters out of 6129622
- 444683 words of memory out of 5000000
- 19376 multiletter control sequences out of 15000+600000
+ 16132 strings out of 492649
+ 230946 string characters out of 6129622
+ 444849 words of memory out of 5000000
+ 19382 multiletter control sequences out of 15000+600000
  94374 words of font info for 67 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 42i,18n,49p,1645b,1460s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,49p,2661b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
 c}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2
@@ -1710,10 +1736,10 @@ e1/public/lm/lmsso12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (43 pages, 1754618 bytes).
+Output written on sablona-prace.pdf (45 pages, 1818892 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 711 compressed objects within 8 object streams
- 235 named destinations out of 1000 (max. 500000)
- 399 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 884 PDF objects out of 1000 (max. 8388607)
+ 741 compressed objects within 8 object streams
+ 240 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
 

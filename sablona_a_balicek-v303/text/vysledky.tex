@@ -13,7 +13,17 @@ This Chapter will discuss improvements made to the PlanetLab application. The im
 
 \section{Re-design of Application}
 \label{section:redesign}
-blabla, architektura bla bla
+This Section will describe the approach taken to improve the application. The issues of the application, described more in Section~\ref{section:improvement}, are that there are two different languages, functions are scattered and configuration management is not existing. During re-design, all these problems were taken into consideration and addressed. First problem, already well described, was solved by re-writing the application fully into Python 3 language. Second and third problem were resolved using re-design of the application folder structure and architecture. The overall architecture of re-designed application is shown in Figure~\ref{fig:archdiagram} and will be described in the next paragraph.\\
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.8}{\includegraphics{obrazky/PlbmngArchitecture}}
+	\caption{PlanetLab Server Manager architecture diagram.}
+	\label{fig:archdiagram}
+\end{figure}
+
+Issue with scattered functions was solved using single file, the \texttt{engine.py}, for all the common internal functions and graphic functions and libraries for more complex functionality of the application. To make it easier to navigate inside the engine file, it was divided between graphic and internal logic sections. A question why not to split the graphical and internal logic might come to a mind. Currently, the engine module graphical and internal functions are calling each other as an reaction to certain states. Splitting them would mean importing each other in a circle which is not an ideal state. Having both sections in one file makes it one solid logical component, called the engine. However as mentioned, there are certain independent components that are split into their own files. In the Figure~\ref{fig:archdiagram}, these are described as \texttt{libs} and contains several utility functions that can be called independently and are imported as a library inside the \texttt{engine}. Currently, there are three of these utility modules. PlanetLab API interface, which provides functionality to update the list of servers, port scanner which allows to check port accessibility of remote host and lastly module that allows to render map of nodes using a dictionary of nodes as input. On of the challenges during re-design was a placeholder for all the information about nodes that application can later used. Previously, a text file was used to store this data. Issue with this is to implement a filter function for example, it would require to write a custom module for queries which is an unnecessary overhead as there are already solutions available to provide such module. One of these solution is relational database with SQL used as a query language. SQL is a structured query language designed to manipulate data in relational tables which are nothing more than set of related information~\cite{Beaulieu:2005:LS:1098720}. This fits perfectly application needs as it stores a set of nodes with their related status information. In the Figure~\ref{fig:archdiagram}, this is shown as an internal database module. Engine triggers update of status of available nodes whereas PlanetLab API interface library updates the list of nodes. Python provides a \texttt{SQLite3} library that allows creating a custom database stored on disk. This database file is placed inside the database folder in the application configuration management. Mentioned architecture decisions will allow application to be more easily salable and maintainable in the later development phases.\\
+
 
 \section{Description of Improvements}
 \label{section:implementapproach}
@@ -116,7 +126,7 @@ In the previous version of the tool the credentials were filled using forms. Whe
 \end{figure}
 
 \subsection{Application Folder Structure Re-design}
-blabla
+With these changes to the architecture of the application, it is easier to make changes to it. Also, the application should be now more transparent as configuration files are now really in configuration folder, state file are in database folder and libraries are in library folder. This should allow developers to get familiarized with the application more easily in order to make changes to it.
 
 \subsection{Filtering Function}
 blabla
@@ -223,7 +233,6 @@ After this basic setup all the application functionality is available. It is rec
 	\caption{PlanetLab Server Manager workflow diagram.}
 	\label{fig:workflowdiagram}
 \end{figure}
-
 
 \chapter{PlanetLab Network Analysis Using Plbmng Tool}
 \label{chapter:analysis}
