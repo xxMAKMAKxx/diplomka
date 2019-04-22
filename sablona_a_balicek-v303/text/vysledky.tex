@@ -126,10 +126,29 @@ In the previous version of the tool the credentials were filled using forms. Whe
 \end{figure}
 
 \subsection{Application Folder Structure Re-design}
-With these changes to the architecture of the application, it is easier to make changes to it. Also, the application should be now more transparent as configuration files are now really in configuration folder, state file are in database folder and libraries are in library folder. This should allow developers to get familiarized with the application more easily in order to make changes to it.
+With changes to the architecture of the application, folder management needs to be also adjusted accordingly. The root folder of the application contains two main parts, outside of necessary \texttt{PyPi} files. It is the \texttt{bin} folder with \texttt{plbmng} script itself and the \texttt{plbmng} folder which contains the whole application logic and graphical interface. This folder will be now described in detail. As shown in Section~\ref{section:redesign}, libraries are placed in the \texttt{lib} folder instead of \texttt{python\_scripts} previously. In past, the configuration files were stored in \texttt{bin} folder with some shell libraries. This is now re-named to \texttt{conf} folder and library functions are moved to the \texttt{lib} folder. There are information that needs to be stored persistently, like information about accessibility of nodes. For this purposes, there is a folder called \texttt{database} which contains file like \texttt{internal.db} which is already mentioned \texttt{SQLite3} database. With all these changes to the folder structure, the project should be now more transparent, clear and easier for other developers to join the project.
 
-\subsection{Filtering Function}
-blabla
+\subsection{Filtering Nodes Based on Accessibility}
+One of the goals if this Diploma thesis was to add a functionality to filter nodes based on their accessibility. This subsection will describe how the functionality was designed and implemented. The overall idea was to add a way to filter current node based on their availability, have an option to change these settings, show these settings and have a way to update the data. In the following paragraph, all these items will be described more in detail.\\
+As it was mentioned in Section~\ref{section:redesign}, the core of this functionality was to have a placeholder for the data about the nodes. This was achieved using the \texttt{SQLite3} Python library. To store the information, table \texttt{availability} was created and its structure can be seen in Table~\ref{table:availability}. First, \texttt{nkey} column is a primary key column that contains ID of the table row. Next is \texttt{shash} that contains unique hash of the node hostname. This hash is used to find already existing records so these are not duplicated but only updated. Hash is generated using md5 function and \texttt{hashlib} Python library. Next column is a \texttt{hostname} of the node for purposes of filtering and lastly there is the double \texttt{bssh} and \texttt{bping} which are Boolean flag displaying node accessibility. During inserting into the database, \texttt{nkey} is automatically incremented so only the other values needs to be specified. Before the filtering is explained, first the internal logic working with nodes needs to be explained. When an user asks to show nodes, the search function takes a dictionary of nodes as an input parameter. This simple logic is used for the filtering itself. In the function \texttt{getNodes()}, before the list of nodes is parsed, the current settings are loaded from the database from the \texttt{configuration} table which contains simply ID, name of the setting and Boolean if it is enabled or not. These settings are used to get all hostnames of the nodes that fits the current settings. For example if user wants to filter only ssh available nodes, the query will be \texttt{select * from availability where bssh='T'}. With the list of desired nodes the function will always return only nodes that fits user's filter criteria.  \\
+
+\begin{table}[htb]
+	\resizebox{\textwidth}{!}{\begin{tabular}{|l|l|l|l|l|}
+			\hline
+			\rowcolor[HTML]{EFEFEF} 
+			nkey & shash                            & shostname                                & bssh & bping \\ \hline
+			2    & fe27ca7d1707e86e1739b1819743dc79 & planetlab2.fri.uni-lj.si                 & F    & F     \\ \hline
+			3    & 57da801bf4370f2a163a81bdf6bafa8c & ple01.fc.univie.ac.at                    & T    & F     \\ \hline
+			4    & 3c956d5e295f17cb303773f83c84bf17 & aladdin.planetlab.extranet.uni-passau.de & T    & T     \\ \hline
+		\end{tabular}
+	}
+\centering
+\caption{Structure and examples of availability table for filtering functionality.}
+\label{table:availability}
+\end{table}
+
+Changing the settings \\
+Updating the database \\ 
 
 \subsection{Status Database}
 blabla multi-processing bla bla
