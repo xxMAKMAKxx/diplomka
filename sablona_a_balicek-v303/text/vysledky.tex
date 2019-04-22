@@ -147,11 +147,34 @@ As it was mentioned in Section~\ref{section:redesign}, the core of this function
 \label{table:availability}
 \end{table}
 
-Changing the settings \\
-Updating the database \\ 
+Applying filters is done using \texttt{Filtering options} in the \texttt{Access servers} menu. As shown in Figure~\ref{fig:filtering}, user can choose between ssh or ping available nodes. The selection is done using checkboxes. The choices are then shown in the  \texttt{Access servers} menu on the top as \textit{Active filters} line with the listing of the active options. \\
 
-\subsection{Status Database}
-blabla multi-processing bla bla
+\begin{figure}[H]
+	\centering
+	\scalebox{0.6}{\includegraphics{obrazky/filtering}}
+	\caption{Figure showing menu where user can select active filters.}
+	\label{fig:filtering}
+\end{figure}
+
+\subsection{Updating Status Database}
+Updating the status database, or to be precise updating table inside the database, can be triggered from the \texttt{Monitor servers} menu. This will start a progress bar that takes approximately two minutes after optimization. Before optimization, the procedure took around 40 minutes. This speed was reached using multi-processing. Once procedure to update database is triggered, fifty processes are spawned at a same time using Python \textit{multiprocessing} library. List of nodes is passed as an iterator to go over in a loop to the Pool object as shown in Listing~\ref{lst:multiprocess}. In addition, one lock is created to take over critical section of updating the shared status database and progress bar. Critical section can be defined as an area in a computer program where process operates on the shared variable by changes its value \cite{gebali2011algorithms}. Once a process reaches the critical section, it needs to acquire the lock to enter into it. Once a process has acquired the lock, it can start writing into the shared memory without any issue. As soon as it is done, the lock is released and another process can acquire it and start writing into the critical section. To be able to show correctly the progress, once a process finishes a task, it will lock the progress bar value, increase the progress variable with an increment that is derived from total number of nodes and then unlock the progress bar iterating to another node to gather information about it. The code of entering the critical section can be seen in  Listing~\ref{lst:lock}\\
+ 
+{\noindent\begin{minipage}{\linewidth}
+		\begin{lstlisting}[language=Python, numbers=none, label={lst:multiprocess}, caption=Creating a multi-processing object with fifty processes\, three shared variables and list of nodes as iterator., frame=single, showstringspaces=false, breaklines=true]
+pool = Pool(50, initializer=multiProcessingInit,
+			initargs=(lock,base,increment, ))
+pool.map(updateAvailabilityDatabase, nodes)
+		\end{lstlisting}
+	\end{minipage} 
+
+{\noindent\begin{minipage}{\linewidth}
+		\begin{lstlisting}[language=Python, numbers=none, label={lst:lock}, caption=Entering a critical section and acquiring a lock., frame=single, showstringspaces=false, breaklines=true]
+lock.acquire()
+base.value = base.value = increment.value
+updateProgressBarMultiProcessing(base.value)
+lock.release()
+		\end{lstlisting}
+	\end{minipage} 
 
 \subsection{Map Improvements}
 bla bla
