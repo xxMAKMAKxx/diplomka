@@ -36,22 +36,22 @@
 \contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{30}{subsection.88}% 
 \contentsline {subsection}{\numberline {3.2.8}Updating Status Database}{32}{subsection.91}% 
 \contentsline {subsection}{\numberline {3.2.9}Map Improvements}{33}{subsection.101}% 
-\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{33}{subsection.102}% 
-\contentsline {paragraph}{Clearing of the screen after cancel}{33}{section*.103}% 
-\contentsline {paragraph}{Recursion removal for return}{33}{section*.104}% 
-\contentsline {paragraph}{About is added to the menu}{34}{section*.105}% 
-\contentsline {paragraph}{Crontab mode created}{34}{section*.106}% 
-\contentsline {paragraph}{pep8 score..}{34}{section*.107}% 
-\contentsline {paragraph}{Last server access}{34}{section*.108}% 
-\contentsline {paragraph}{Support of Multiple Platforms}{34}{section*.109}% 
-\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{36}{subsection.141}% 
-\contentsline {paragraph}{Removing headers from the searches}{36}{section*.142}% 
-\contentsline {paragraph}{Application crashes during return}{36}{section*.143}% 
-\contentsline {section}{\numberline {3.3}Current Installation and Use of Application}{36}{section.144}% 
-\contentsline {paragraph}{}{38}{section*.154}% 
-\contentsline {chapter}{\numberline {4}PlanetLab Network Analysis Using Plbmng Tool}{40}{chapter.156}% 
-\contentsline {chapter}{\numberline {5}Example of Use Cases}{41}{chapter.157}% 
-\contentsline {chapter}{\numberline {6}Conclusion}{42}{chapter.158}% 
-\contentsline {paragraph}{Future Development}{42}{section*.160}% 
-\contentsline {chapter}{Bibliography}{44}{section*.162}% 
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{47}{section*.164}% 
+\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{34}{subsection.103}% 
+\contentsline {paragraph}{Clearing of the screen after cancel}{34}{section*.104}% 
+\contentsline {paragraph}{Recursion removal for return}{34}{section*.105}% 
+\contentsline {paragraph}{About is added to the menu}{35}{section*.106}% 
+\contentsline {paragraph}{Crontab mode created}{35}{section*.107}% 
+\contentsline {paragraph}{pep8 score..}{35}{section*.108}% 
+\contentsline {paragraph}{Last server access}{35}{section*.109}% 
+\contentsline {paragraph}{Support of Multiple Platforms}{35}{section*.110}% 
+\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{37}{subsection.142}% 
+\contentsline {paragraph}{Removing headers from the searches}{37}{section*.143}% 
+\contentsline {paragraph}{Application crashes during return}{37}{section*.144}% 
+\contentsline {section}{\numberline {3.3}Current Installation and Use of Application}{37}{section.145}% 
+\contentsline {paragraph}{}{39}{section*.155}% 
+\contentsline {chapter}{\numberline {4}PlanetLab Network Analysis Using Plbmng Tool}{41}{chapter.157}% 
+\contentsline {chapter}{\numberline {5}Example of Use Cases}{42}{chapter.158}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.159}% 
+\contentsline {paragraph}{Future Development}{43}{section*.161}% 
+\contentsline {chapter}{Bibliography}{45}{section*.163}% 
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{48}{section*.165}% 

@@ -177,7 +177,14 @@ lock.release()
 	\end{minipage} 
 
 \subsection{Map Improvements}
-bla bla
+In the previous version of the application, user could render all nodes in the node database on a map. It displayed markers which, upon clicking, showed hostname of the node. During implementation of filters, maps were also enhanced. Now, user can select between three maps to render; full map, map of nodes available over ssh and map of nodes that are ping-able. In addition, upon clicking, user can see all the stored information about the node as can be seen in Figure~\ref{fig:mapnodedetail}. The library for rendering the map was changed to use the same principle as search function. Instead of reading nodes from a file, it gets them passed as a parameter. While triggering the map module, nodes are loaded using \texttt{getNodes()} function that takes filtering into consideration in default. The filter in this case is only adjusted by the user's choice. Later, in Chapter~\ref{chapter:analysis} the information from map filters will be used to analyze \textit{PlanetLab Network} more in detail. For user, maps filters are good opportunity to see which server are actually available for project testing and possibly create an uniform list of candidate nodes that are spread all over the world. 
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.65}{\includegraphics{obrazky/mapnodedetail}}
+	\caption{Figure showing the detail of a node upon clicking on its marker.}
+	\label{fig:mapnodedetail}
+\end{figure}
 
 \subsection{Minor Improvements}
 In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having separate Subsection. More improvements to the tool will be done in the Diploma thesis following up on this Diploma thesis.
@@ -194,7 +201,7 @@ blablabla
 \paragraph{Last server access}
 blablabla
 \paragraph{Support of Multiple Platforms}
-As was mentioned previously, Python is multi-platform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve the compatibility.
+As was mentioned previously, Python is multi-platform language and brings possibility of porting the application to all kinds of operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on Linux, Mac and possibly later on even Windows. Example of this multi-platform implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting all mentioned operating systems. As both Linux and Mac are Unix based, the implementation for these operating system is fairly simple and only minor changes are usually in several parameters. Perfect example is \texttt{ping} function. On Mac, time-out parameter takes one integer in millisecond as input variable. However, on Linux, the time-out parameter takes the integer variable in seconds. These little differences needs to be kept in mind when implementing platform-based functions. For Windows however, the differences are even more complex and all the libraries used in \texttt{plbmng} have to have Windows support. This was never tested yet even though most of the functions were written with Windows in mind. Adding full Windows support is a good initiative for the future development of \texttt{plbmng}.
 
 {\noindent\begin{minipage}{\linewidth}
 		\begin{lstlisting}[language=Python, numbers=none, label={lst:testping}, caption=Multi-Platform Function testPing, frame=single, showstringspaces=false, breaklines=true]
