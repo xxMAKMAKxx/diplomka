@@ -195,11 +195,19 @@ When returning from child window to a parent page, the previous version of appli
 \paragraph{About is added to the menu}
 About section is added to the menu displaying version, authors and the license.
 \paragraph{Crontab mode created}
-Application is possible to run with \texttt{crontab} argument which will trigger just monitoring of the nodes. This is in particular useful when setting the \texttt{crontab} since the call can be simply \texttt{plbmng crontab}. 
-\paragraph{pep8 score..}
-blablabla
+Application is possible to run with \texttt{crontab} argument which will trigger just monitoring of the nodes. This is in particular useful when setting the \texttt{crontab} since the call can be simply \texttt{plbmng crontab}. This mode can be used to setup a regular updates in background to the node database.
 \paragraph{Last server access}
-blablabla
+User has now ability to return to last accessed server it the \texttt{Access servers} menu. In default, this option will just print warning message that no node was accessed. However, as soon as user access first node, this node is stored into the database in form of dump of the node dictionary variable. If user wants to access the last accessed node, this dictionary is dumped back to an internal variable and used to show this node with all the information and options.
+\paragraph{Menu with statistics}
+Since status database already contains all the necessary information a simple functionality regarding accessibility of the stored nodes was added to the application as can be seen in Figure~\ref{fig:statmenu}. 
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.6}{\includegraphics{obrazky/statmenu}}
+	\caption{Newly added option to display current statistics about accessibility of stored nodes.}
+	\label{fig:statmenu}
+\end{figure}
+
 \paragraph{Support of Multiple Platforms}
 As was mentioned previously, Python is multi-platform language and brings possibility of porting the application to all kinds of operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on Linux, Mac and possibly later on even Windows. Example of this multi-platform implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting all mentioned operating systems. As both Linux and Mac are Unix based, the implementation for these operating system is fairly simple and only minor changes are usually in several parameters. Perfect example is \texttt{ping} function. On Mac, time-out parameter takes one integer in millisecond as input variable. However, on Linux, the time-out parameter takes the integer variable in seconds. These little differences needs to be kept in mind when implementing platform-based functions. For Windows however, the differences are even more complex and all the libraries used in \texttt{plbmng} have to have Windows support. This was never tested yet even though most of the functions were written with Windows in mind. Adding full Windows support is a good initiative for the future development of \texttt{plbmng}.
 
@@ -237,6 +245,12 @@ def testPing(target, returnbool=False):
 		return True
 		\end{lstlisting}
 	\end{minipage} 
+
+\paragraph{pep8 score..}
+blablabla
+
+\paragraph{updated pypi information..}
+blablabla
 
 \subsection{Minor Bug Fixes}
 In this Subsection, minor bug fixes will be described which were not considered as enough improving to be included in separate Subsection. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  23 APR 2019 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  23 APR 2019 22:24
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1598,54 +1598,60 @@ File: obrazky/mapnodedetail.png Graphic file (type png)
 <use obrazky/mapnodedetail.png>
 Package pdftex.def Info: obrazky/mapnodedetail.png  used on input line 184.
 (pdftex.def)             Requested size: 628.34596pt x 473.76884pt.
- [33] [34 <./obrazky/mapnodedetail.png>] [35]
-[36]
-<obrazky/plbmng_repo.png, id=717, 1724.4425pt x 1251.67625pt>
+ [33] [34 <./obrazky/mapnodedetail.png>]
+<obrazky/statmenu.png, id=670, 600.2425pt x 429.605pt>
+File: obrazky/statmenu.png Graphic file (type png)
+<use obrazky/statmenu.png>
+Package pdftex.def Info: obrazky/statmenu.png  used on input line 208.
+(pdftex.def)             Requested size: 600.24103pt x 429.60394pt.
+ [35]
+[36 <./obrazky/statmenu.png>] [37]
+<obrazky/plbmng_repo.png, id=726, 1724.4425pt x 1251.67625pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 <use obrazky/plbmng_repo.png>
-Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 254.
+Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 264.
 (pdftex.def)             Requested size: 1724.43831pt x 1251.6732pt.
 
-Overfull \hbox (4.3182pt too wide) in paragraph at lines 254--255
+Overfull \hbox (4.3182pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-[37] [38 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=741, 569.12625pt x 614.295pt>
+[38] [39 <./obrazky/plbmng_repo.png>]
+<obrazky/BehavioralPlbmng.pdf, id=750, 569.12625pt x 614.295pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 <use obrazky/BehavioralPlbmng.pdf>
-Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 281.
+Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 291.
 (pdftex.def)             Requested size: 569.12486pt x 614.29349pt.
- [39] [40 <./obrazky/BehavioralPlbmng.pdf
+ [40] [41 <./obrazky/BehavioralPlbmng.pdf
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/BehavioralPlbmng.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >]
-Overfull \hbox (4.44917pt too wide) in paragraph at lines 286--286
+Overfull \hbox (4.44917pt too wide) in paragraph at lines 296--296
 []\T1/lmss/bx/n/20.74 PlanetLab Net-work Anal-y-sis Us-ing Plbmng
  []
 
-[41
+[42
 
-]) [42
+]) [43
 
 ]
 \openout2 = `text/zaver.aux'.
 
  (text/zaver.tex
 
-LaTeX Warning: Reference `chapter:Linux' on page 43 undefined on input line 2.
+LaTeX Warning: Reference `chapter:Linux' on page 44 undefined on input line 2.
 
 
-LaTeX Warning: Reference `chapter:Virtualization' on page 43 undefined on input
+LaTeX Warning: Reference `chapter:Virtualization' on page 44 undefined on input
  line 2.
 
-) [43
+) [44
 
 
 
-] [44] (sablona-prace.bbl
+] [45] (sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
@@ -1691,7 +1697,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 90--94
 e at:
  []
 
-[45
+[46
 
 
 ]
@@ -1742,7 +1748,7 @@ Underfull \hbox (badness 2277) in paragraph at lines 175--180
 e at:
  []
 
-[46]
+[47]
 Underfull \hbox (badness 1546) in paragraph at lines 182--186
 []\T1/lmr/m/sc/12 StatCounter\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Ope-ra-ting Sys-
 tem Mar-ket Share World-wide 2018 \T1/lmr/m/n/12 [on-
@@ -1795,10 +1801,10 @@ Underfull \hbox (badness 6220) in paragraph at lines 214--220
 able at:
  []
 
-) [47]
+) [48]
 \openout2 = `text/zkratky.aux'.
 
- (text/zkratky.tex [48
+ (text/zkratky.tex [49
 
 
 
@@ -1810,7 +1816,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: E9D56B753F31FB5242F3AC7CC47D1B07;7001.
+(rerunfilecheck)             Checksum: BE00B68E67144436B9BDC696985DE390;7001.
 
 
 LaTeX Warning: There were undefined references.
@@ -1822,7 +1828,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  )
 (\end occurred inside a group at level 7)
 
-### simple group (level 7) entered at line 206 ({)
+### simple group (level 7) entered at line 216 ({)
 ### simple group (level 6) entered at line 170 ({)
 ### simple group (level 5) entered at line 162 ({)
 ### simple group (level 4) entered at line 74 ({)
@@ -1831,10 +1837,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
 ### simple group (level 1) entered at line 33 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17461 strings out of 492942
- 258840 string characters out of 3126539
- 627437 words of memory out of 3000000
- 20696 multiletter control sequences out of 15000+200000
+ 17470 strings out of 492942
+ 259002 string characters out of 3126539
+ 626558 words of memory out of 3000000
+ 20701 multiletter control sequences out of 15000+200000
  94374 words of font info for 67 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
  42i,18n,49p,2663b,1510s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1858,9 +1864,9 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/z400/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (49 pages, 2102033 bytes).
+Output written on sablona-prace.pdf (50 pages, 2112085 bytes).
 PDF statistics:
- 914 PDF objects out of 1000 (max. 8388607)
- 248 named destinations out of 1000 (max. 500000)
- 414 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 251 named destinations out of 1000 (max. 500000)
+ 419 words of extra memory for PDF output out of 10000 (max. 10000000)
 
