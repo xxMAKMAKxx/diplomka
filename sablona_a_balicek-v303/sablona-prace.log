@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  23 APR 2019 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  24 APR 2019 22:15
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1554,25 +1554,24 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 LaTeX Warning: Reference `lst:pythoninit' on page 26 undefined on input line 46
 .
 
-[26]
+[26] [27]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[27]
-<obrazky/plbmng_basic.png, id=597, 703.62875pt x 432.61626pt>
+<obrazky/plbmng_basic.png, id=584, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
 Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 96.
 (pdftex.def)             Requested size: 703.62703pt x 432.6152pt.
- [28 <./obrazky/plbmng_basic.png>]
-<obrazky/credentials_figure.png, id=606, 703.62875pt x 540.0175pt>
+[28 <./obrazky/plbmng_basic.png>] [29]
+<obrazky/credentials_figure.png, id=621, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 <use obrazky/credentials_figure.png>
 Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 123
 .
 (pdftex.def)             Requested size: 703.62703pt x 540.01617pt.
- [29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
@@ -1582,7 +1581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-<obrazky/filtering.png, id=631, 628.3475pt x 473.77pt>
+<obrazky/filtering.png, id=632, 628.3475pt x 473.77pt>
 File: obrazky/filtering.png Graphic file (type png)
 <use obrazky/filtering.png>
 Package pdftex.def Info: obrazky/filtering.png  used on input line 154.
@@ -1593,42 +1592,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
  []
 
 [32 <./obrazky/filtering.png>]
-<obrazky/mapnodedetail.png, id=649, 628.3475pt x 473.77pt>
+<obrazky/mapnodedetail.png, id=650, 628.3475pt x 473.77pt>
 File: obrazky/mapnodedetail.png Graphic file (type png)
 <use obrazky/mapnodedetail.png>
 Package pdftex.def Info: obrazky/mapnodedetail.png  used on input line 184.
 (pdftex.def)             Requested size: 628.34596pt x 473.76884pt.
  [33] [34 <./obrazky/mapnodedetail.png>]
-<obrazky/statmenu.png, id=670, 600.2425pt x 429.605pt>
+<obrazky/statmenu.png, id=671, 600.2425pt x 429.605pt>
 File: obrazky/statmenu.png Graphic file (type png)
 <use obrazky/statmenu.png>
-Package pdftex.def Info: obrazky/statmenu.png  used on input line 208.
+Package pdftex.def Info: obrazky/statmenu.png  used on input line 206.
 (pdftex.def)             Requested size: 600.24103pt x 429.60394pt.
- [35]
-[36 <./obrazky/statmenu.png>] [37]
-<obrazky/plbmng_repo.png, id=726, 1724.4425pt x 1251.67625pt>
+ [35 <./obrazky/statmenu.png>] [36] [37]
+<obrazky/plbmng_repo.png, id=727, 896.59969pt x 666.99188pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 <use obrazky/plbmng_repo.png>
-Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 264.
-(pdftex.def)             Requested size: 1724.43831pt x 1251.6732pt.
+Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 265.
+(pdftex.def)             Requested size: 896.5975pt x 666.99025pt.
 
-Overfull \hbox (4.3182pt too wide) in paragraph at lines 264--265
+Overfull \hbox (12.54633pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
 [38] [39 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=750, 569.12625pt x 614.295pt>
+<obrazky/BehavioralPlbmng.pdf, id=751, 358.4592pt x 799.06526pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 <use obrazky/BehavioralPlbmng.pdf>
-Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 291.
-(pdftex.def)             Requested size: 569.12486pt x 614.29349pt.
+Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 292.
+(pdftex.def)             Requested size: 358.45831pt x 799.06332pt.
  [40] [41 <./obrazky/BehavioralPlbmng.pdf
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/BehavioralPlbmng.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >]
-Overfull \hbox (4.44917pt too wide) in paragraph at lines 296--296
+Overfull \hbox (4.44917pt too wide) in paragraph at lines 297--297
 []\T1/lmss/bx/n/20.74 PlanetLab Net-work Anal-y-sis Us-ing Plbmng
  []
 
@@ -1816,7 +1814,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: BE00B68E67144436B9BDC696985DE390;7001.
+(rerunfilecheck)             Checksum: 45EB42E8544979F887A58C2A7327F7F1;6978.
 
 
 LaTeX Warning: There were undefined references.
@@ -1828,7 +1826,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  )
 (\end occurred inside a group at level 7)
 
-### simple group (level 7) entered at line 216 ({)
+### simple group (level 7) entered at line 214 ({)
 ### simple group (level 6) entered at line 170 ({)
 ### simple group (level 5) entered at line 162 ({)
 ### simple group (level 4) entered at line 74 ({)
@@ -1839,7 +1837,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
 Here is how much of TeX's memory you used:
  17470 strings out of 492942
  259002 string characters out of 3126539
- 626558 words of memory out of 3000000
+ 625558 words of memory out of 3000000
  20701 multiletter control sequences out of 15000+200000
  94374 words of font info for 67 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
@@ -1864,9 +1862,9 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/z400/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (50 pages, 2112085 bytes).
+Output written on sablona-prace.pdf (50 pages, 2036620 bytes).
 PDF statistics:
- 923 PDF objects out of 1000 (max. 8388607)
+ 924 PDF objects out of 1000 (max. 8388607)
  251 named destinations out of 1000 (max. 500000)
  419 words of extra memory for PDF output out of 10000 (max. 10000000)
 

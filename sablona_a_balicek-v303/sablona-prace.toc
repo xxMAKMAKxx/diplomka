@@ -30,10 +30,10 @@
 \contentsline {subsection}{\numberline {3.2.1}Removing Result Limitation}{25}{subsection.35}% 
 \contentsline {subsection}{\numberline {3.2.2}Writing the Application as Library}{26}{subsection.45}% 
 \contentsline {subsection}{\numberline {3.2.3}Increasing Readability}{26}{subsection.50}% 
-\contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{28}{subsection.74}% 
-\contentsline {subsection}{\numberline {3.2.5}Set Credentials Improvement}{29}{subsection.85}% 
+\contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.74}% 
+\contentsline {subsection}{\numberline {3.2.5}Credentials Improvement}{29}{subsection.85}% 
 \contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{30}{subsection.87}% 
-\contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{30}{subsection.88}% 
+\contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.88}% 
 \contentsline {subsection}{\numberline {3.2.8}Updating Status Database}{32}{subsection.91}% 
 \contentsline {subsection}{\numberline {3.2.9}Map Improvements}{33}{subsection.101}% 
 \contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{34}{subsection.103}% 
@@ -41,10 +41,10 @@
 \contentsline {paragraph}{Recursion removal for return}{34}{section*.105}% 
 \contentsline {paragraph}{About is added to the menu}{35}{section*.106}% 
 \contentsline {paragraph}{Crontab mode created}{35}{section*.107}% 
-\contentsline {paragraph}{pep8 score..}{35}{section*.108}% 
-\contentsline {paragraph}{Last server access}{35}{section*.109}% 
-\contentsline {paragraph}{Menu with statistics}{35}{section*.110}% 
-\contentsline {paragraph}{Support of Multiple Platforms}{36}{section*.112}% 
+\contentsline {paragraph}{Last server access}{35}{section*.108}% 
+\contentsline {paragraph}{Menu with statistics}{35}{section*.109}% 
+\contentsline {paragraph}{Support of Multiple Platforms}{36}{section*.111}% 
+\contentsline {paragraph}{updated pypi information..}{37}{section*.143}% 
 \contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{38}{subsection.144}% 
 \contentsline {paragraph}{Removing headers from the searches}{38}{section*.145}% 
 \contentsline {paragraph}{Application crashes during return}{38}{section*.146}% 
