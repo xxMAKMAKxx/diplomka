@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  28 APR 2019 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  28 APR 2019 23:03
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1717,22 +1717,14 @@ File: obrazky/plbmng_ssh_nodes.png Graphic file (type png)
 <use obrazky/plbmng_ssh_nodes.png>
 Package pdftex.def Info: obrazky/plbmng_ssh_nodes.png  used on input line 360.
 (pdftex.def)             Requested size: 765.60843pt x 502.12471pt.
-) [44 <./obrazky/plbmng_ssh_nodes.png>]
+) [44 <./obrazky/plbmng_ssh_nodes.png>] [45]
 \openout2 = `text/zaver.aux'.
 
- (text/zaver.tex
-
-LaTeX Warning: Reference `chapter:Linux' on page 45 undefined on input line 2.
-
-
-LaTeX Warning: Reference `chapter:Virtualization' on page 45 undefined on input
- line 2.
-
-) [45
+ (text/zaver.tex) [46
 
 
 
-] [46] (sablona-prace.bbl
+] [47] (sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
@@ -1778,7 +1770,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 90--94
 e at:
  []
 
-[47
+[48
 
 
 ]
@@ -1829,7 +1821,7 @@ Underfull \hbox (badness 2277) in paragraph at lines 175--180
 e at:
  []
 
-[48]
+[49]
 Underfull \hbox (badness 1546) in paragraph at lines 182--186
 []\T1/lmr/m/sc/12 StatCounter\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 Ope-ra-ting Sys-
 tem Mar-ket Share World-wide 2018 \T1/lmr/m/n/12 [on-
@@ -1882,10 +1874,10 @@ Underfull \hbox (badness 6220) in paragraph at lines 214--220
 able at:
  []
 
-) [49]
+) [50]
 \openout2 = `text/zkratky.aux'.
 
- (text/zkratky.tex [50
+ (text/zkratky.tex [51
 
 
 
@@ -1919,9 +1911,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
 ### bottom level 
 Here is how much of TeX's memory you used:
  17560 strings out of 492942
- 260865 string characters out of 3126539
- 631120 words of memory out of 3000000
- 20768 multiletter control sequences out of 15000+200000
+ 260860 string characters out of 3126539
+ 631145 words of memory out of 3000000
+ 20767 multiletter control sequences out of 15000+200000
  91604 words of font info for 66 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
  42i,18n,49p,2663b,1511s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1944,9 +1936,9 @@ rograms/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/z400/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (51 pages, 2074794 bytes).
+Output written on sablona-prace.pdf (52 pages, 2076741 bytes).
 PDF statistics:
- 954 PDF objects out of 1000 (max. 8388607)
- 258 named destinations out of 1000 (max. 500000)
+ 962 PDF objects out of 1000 (max. 8388607)
+ 259 named destinations out of 1000 (max. 500000)
  442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
