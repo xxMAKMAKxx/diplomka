@@ -312,7 +312,7 @@ Geographically, the nodes are all over the world and are more then suitable to t
 \begin{figure}[H]
 	\centering
 	\scalebox{0.55}{\includegraphics{obrazky/plbmng_all_nodes}}
-	\caption{Displaying the countries on a world map using the PlanetLab Server Manager server database and map rendering functionality from April 2019.}
+	\caption{Displaying the nodes on a world map using the PlanetLab Server Manager server database and map rendering functionality from April 2019.}
 	\label{fig:allnodes}
 \end{figure}
 
@@ -320,20 +320,48 @@ However, not all the nodes are available. As seen in Figure~\ref{fig:nodestats},
 
 \begin{figure}[H]
 	\centering
-	\scalebox{1}{\includegraphics{obrazky/nodestats}}
-	\caption{PlanetLab network node statistics by April 2019 from \texttt{cesnet\_utko} slice.}
+	\scalebox{0.9}{\includegraphics{obrazky/nodestats}}
+	\caption{Number of PlanetLab nodes logically divided by their accessibility by April 2019 using \texttt{cesnet\_utko} slice.}
 	\label{fig:nodestats}
 \end{figure}
 
-sshcountriesgraph
+If the data are pulled for continents respectively, we will get graph with \texttt{ssh} accessible nodes in Figure~\ref{fig:sshcountriesgraph}. On the X axis, you can see continents and on the Y axis you can see number of accessible nodes on that particular continent. For Europe and America, the numbers are very similar. Interesting is that from South America, only 6 nodes are accessible and all are from Brazil.
 
 \begin{figure}[H]
 	\centering
-	\scalebox{1}{\includegraphics{obrazky/sshcountriesgraph}}
-	\caption{Servers accessible over SSH divided into countries.}
+	\scalebox{0.9}{\includegraphics{obrazky/sshcountriesgraph}}
+	\caption{Number of ssh accessible nodes logically divided into continents.}
 	\label{fig:sshcountriesgraph}
 \end{figure}
 
+In more detailed breakdown, that can be seen in  Table~\ref{table:continentavailability}, it can be observed that Europe, with its 12\%, has the biggest percentage of ssh-accessible servers compared to overall number of nodes of all continents. Ssh accessible node means node available for project testing. On the other hand, the lowest percentage of available server has China with only 10.7\%.
 
-\section{Testing Network Project with Planet Lab Server Manager}
+\begin{table}[htb]
+		\resizebox{\textwidth}{!}{
+				\begin{tabular}{|c|c|c|c|c|c|c|c|}
+					\hline
+					\rowcolor[HTML]{C0C0C0} 
+					\multicolumn{2}{|c|}{\cellcolor[HTML]{C0C0C0}Europe} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}America} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}Asia} & \multicolumn{2}{c|}{\cellcolor[HTML]{C0C0C0}Oceania} \\ \hline
+					\rowcolor[HTML]{EFEFEF} 
+					All nodes              & Ssh accessible              & All nodes              & Ssh accessible              & All nodes             & Ssh accessible            & All nodes              & Ssh accessible              \\ \hline
+					332                    & 60                          & 422                    & 51                          & 177                   & 19                        & 18                     & 2                           \\ \hline
+					100\%                  & 18.6\%                      & 100\%                  & 12\%                        & 100\%                 & 10.7\%                    & 100\%                  & 11.1\%                      \\ \hline
+				\end{tabular}
+		}
+\centering
+\caption{Table comparing number of all nodes versus ssh accessible nodes per continent using plbmng status database.}
+\label{table:continentavailability}
+\end{table}
+
+If map with all nodes, seen in Figure~\ref{fig:allnodes}, is compared to map with only ssh accessible nodes, seen in Figure~\ref{fig:sshnodes}, the difference is even more clear. Map rendering functionality can be used to plan project testing and offers filtering only ssh available nodes.
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.55}{\includegraphics{obrazky/plbmng_ssh_nodes}}
+	\caption{World map displaying only ssh-accessible nodes from April 2019.}
+	\label{fig:sshnodes}
+\end{figure}
+
+
+\section{Testing Network Projects with Planet Lab Server Manager}
 \label{section:testing}
