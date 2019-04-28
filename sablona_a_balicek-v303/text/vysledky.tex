@@ -287,14 +287,53 @@ After this basic setup all the application functionality is available. It is rec
 \begin{figure}[H]
 	\centering
 	\scalebox{0.8}{\includegraphics{obrazky/BehavioralPlbmng}}
-	\caption{PlanetLab Server Manager workflow diagram.}
+	\caption{PlanetLab Server Manager behavioral diagram.}
 	\label{fig:workflowdiagram}
 \end{figure}
 
-\chapter{PlanetLab Network Analysis Using Plbmng Tool}
-\label{chapter:analysis}
-blablabla
- 
- \chapter{Example of Use Cases}
- \label{chapter:usecase}
- blablabla
+\chapter{PlanetLab Server Manager Use Cases}
+\label{chapter:usecase}
+In this Chapter, various use cases of the PlanetLab Server Manager tool will be revised and described. First, analysis of the PlanetLab Network will be done in Section~\ref{section:analysis}. In Section~\ref{section:testing}, the very basic use case of the application, testing network projects in the PlanetLab Network, will be described and shown.
+
+\section{PlanetLab Network Analysis Using Plbmng Tool}
+\label{section:analysis}
+In this Chapter, the Planet Lab network will be analyzed and discussed using the newly developed features plus using the \texttt{plbmng} database of servers pulled from the PlanetLab API. Also, data from Chapter~\ref{chapter:planetlabnetwork} introduction will be compared to new ones with time difference of five months.\\
+PlanetLab Network is a huge project which consists of 1353 nodes at 717 sites \cite{planetlabmain}. Currently, there are around one thousand servers available to the \textit{cesnet\_utko} user from 52 countries world wide. The Figure~\ref{fig:allcountriesgraph} shows 20 countries, represented by their country code, with the most node contribution to the network which X axis showing the country and on the Y axis showing the node count for the specific country. Most of the countries are from United States with the impressive node count of 388, second is China with its 58 nodes and third is Germany with their 49 nodes. 
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.44}{\includegraphics{obrazky/allcountriesgraph}}
+	\caption{Graph displaying top twenty countries and number of nodes they have contributed to the PlanetLab Network.}
+	\label{fig:allcountriesgraph}
+\end{figure}
+
+Geographically, the nodes are all over the world and are more then suitable to test large scale network project requiring multiple servers in different locations all over the world. All the nodes on a world map can be seen in Figure~\ref{fig:allnodes} which was created using \texttt{plbmng} application.
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.55}{\includegraphics{obrazky/plbmng_all_nodes}}
+	\caption{Displaying the countries on a world map using the PlanetLab Server Manager server database and map rendering functionality from April 2019.}
+	\label{fig:allnodes}
+\end{figure}
+
+However, not all the nodes are available. As seen in Figure~\ref{fig:nodestats}, from the database 1004 nodes only 168 nodes are responding to ICMP packets and only 140 are listening on port 22 which is usually used for ssh. That is a very low availability percentage of only 16.7\% nodes responding to ping and even less 13.9\% listening on port 22. That is extremely low number of available nodes and shows that the universities offering their nodes often do not maintain them to make sure these are still available or have left the project without decommissioning the node in the PlanetLab interface. Also, an interesting fact is that there are 28 nodes that are responding to ICMP packets but are not listening on port 22. Explanation can lie in stuck \texttt{sshd} agent or some network restrictions which are preventing to access the port 22 on specific server.
+
+\begin{figure}[H]
+	\centering
+	\scalebox{1}{\includegraphics{obrazky/nodestats}}
+	\caption{PlanetLab network node statistics by April 2019 from \texttt{cesnet\_utko} slice.}
+	\label{fig:nodestats}
+\end{figure}
+
+sshcountriesgraph
+
+\begin{figure}[H]
+	\centering
+	\scalebox{1}{\includegraphics{obrazky/sshcountriesgraph}}
+	\caption{Servers accessible over SSH divided into countries.}
+	\label{fig:sshcountriesgraph}
+\end{figure}
+
+
+\section{Testing Network Project with Planet Lab Server Manager}
+\label{section:testing}
