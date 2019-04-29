@@ -21,6 +21,7 @@ Warning--"{" isn't a brace-balanced string for entry andrasov2
 while executing--line 6037 of file czplain.bst
 Warning--empty edition in Beaulieu:2005:LS:1098720
 Warning--empty edition in gebali2011algorithms
+Warning--empty year in ports
 Warning--empty year in linuxtrends
 Warning--empty year in linuxintro
 Warning--empty year and revised in linuxintro
@@ -55,45 +56,45 @@ Warning--empty year in kvmspeed
 Warning--empty year in vmwarearch
 Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 6037 of file czplain.bst
-You've used 33 entries,
+You've used 34 entries,
             3583 wiz_defined-function locations,
-            937 strings with 9513 characters,
-and the built_in function-call counts, 16689 in all, are:
-= -- 1284
-> -- 546
-< -- 245
-+ -- 136
-- -- 163
-* -- 805
-:= -- 1844
-add.period$ -- 111
-call.type$ -- 33
-change.case$ -- 207
+            943 strings with 9658 characters,
+and the built_in function-call counts, 17009 in all, are:
+= -- 1309
+> -- 555
+< -- 247
++ -- 139
+- -- 165
+* -- 825
+:= -- 1886
+add.period$ -- 114
+call.type$ -- 34
+change.case$ -- 213
 chr.to.int$ -- 440
-cite$ -- 67
-duplicate$ -- 1072
-empty$ -- 1662
-format.name$ -- 79
-if$ -- 4019
+cite$ -- 69
+duplicate$ -- 1089
+empty$ -- 1703
+format.name$ -- 81
+if$ -- 4096
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 34
 missing$ -- 0
-newline$ -- 215
-num.names$ -- 64
-pop$ -- 379
+newline$ -- 221
+num.names$ -- 66
+pop$ -- 388
 preamble$ -- 1
-purify$ -- 109
+purify$ -- 112
 quote$ -- 0
-skip$ -- 1003
+skip$ -- 1017
 stack$ -- 0
-substring$ -- 1085
-swap$ -- 333
-text.length$ -- 67
+substring$ -- 1093
+swap$ -- 337
+text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
-warning$ -- 34
-while$ -- 139
-width$ -- 35
-write$ -- 411
-(There were 37 warnings)
+type$ -- 70
+warning$ -- 35
+while$ -- 141
+width$ -- 36
+write$ -- 423
+(There were 38 warnings)

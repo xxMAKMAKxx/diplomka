@@ -6,3 +6,5 @@
 \contentsline {lstlisting}{\numberline {3.6}Creating a multi-processing object with fifty processes\, three shared variables and list of nodes as iterator.}{33}{lstlisting.92}
 \contentsline {lstlisting}{\numberline {3.7}Entering a critical section and acquiring a lock.}{33}{lstlisting.96}
 \contentsline {lstlisting}{\numberline {3.8}Multi-Platform Function testPing}{37}{lstlisting.112}
+\contentsline {lstlisting}{\numberline {4.1}Code of echo server.}{48}{lstlisting.169}
+\contentsline {lstlisting}{\numberline {4.2}Code of echo client.}{48}{lstlisting.189}

@@ -30,6 +30,7 @@ Issue with scattered functions was solved using single file, the \texttt{engine.
 In this Section, the steps to achieve goals; which were described in the Chapter introduction; will be shown in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
 \subsection{Removing Result Limitation}
 The previous version of \texttt{plbmng} tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since \texttt{pythondialog} module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the \zk{zkGUI} (\zkratkatext{zkGUI}). Example of this functionality is shown in Listing~\ref{lst:removingresultlimit}. Currently, the tool is returning all results found.
+
 {\noindent\begin{minipage}{\linewidth}
 \begin{lstlisting}[language=Python, numbers=none, label={lst:removingresultlimit}, caption=Removing Result Limitation, frame=single, showstringspaces=false]
 def searchNodesGui(prepared_choices):
@@ -42,6 +43,7 @@ def searchNodesGui(prepared_choices):
 							title="Search results")
 \end{lstlisting}
 \end{minipage}
+
 \subsection{Writing the Application as Library}
 For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}. If the application is called as a standalone script, it will trigger part of the code that is shown in Listing~\ref{lst:pythoninit} and initialize a graphical interface for the user to use. If imported as a library, it allows the user to call any function defined in the script.
 
@@ -255,11 +257,11 @@ When returning from a child menu window to a parent page, the application tend t
 
 \section{Current Installation and Use of Application}
 \label{section:currentapp}
-In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure~\ref{fig:workflowdiagram}. After implementing improvements, application has been updated in the PyPI repository and is available at \url{https://pypi.org/project/plbmng/} in version \texttt{0.3.5}. Application repository web page can be seen in Figure~\ref{fig:plbmngrepo} and is describing the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to the user to see release history or download the source files of the project. It also show the maintainers of the projects and allows users to contact them. License under which the application is written can be found the repository page as well. As part of this Diploma thesis, the description was completely changed to reflect the current settings. It was improved to be more simple for the user by reducing amount of text on the page and keeping only necessary information.
+In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure~\ref{fig:workflowdiagram}. After implementing improvements, application has been updated in the PyPI repository and is available at \url{https://pypi.org/project/plbmng/} in version \texttt{0.3.6}. Application repository web page can be seen in Figure~\ref{fig:plbmngrepo} and is describing the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to the user to see release history or download the source files of the project. It also show the maintainers of the projects and allows users to contact them. License under which the application is written can be found the repository page as well. As part of this Diploma thesis, the description was completely changed to reflect the current settings. It was improved to be more simple for the user by reducing amount of text on the page and keeping only necessary information.
 
 \begin{figure}[H]
 	\centering
-	\scalebox{0.49}{\includegraphics{obrazky/plbmng_repo}}
+	\scalebox{0.38}{\includegraphics{obrazky/plbmng_repo}}
 	\caption{PlanetLab Server Manager web page in PyPI repository.}
 	\label{fig:plbmngrepo}
 \end{figure}
@@ -365,4 +367,64 @@ When map with all nodes, seen in Figure~\ref{fig:allnodes}, is compared to map w
 
 \section{Testing Network Projects with Planet Lab Server Manager}
 \label{section:testing}
-In this Section, a use case of testing ... @TODO UT
+In this Section, a use case of testing a network projects, on of the most crucial use cases, will be shown and illustrated. For the purpose of illustration a simple imaginary project of running a listener on port 8765 in America and accessing it from China and Europe will be described. The idea of the project is to record the times that are required to establish a connection and log necessary time for a packet to travel between continents.\\
+First, credentials needs to be updated in the \texttt{Set credentials} menu options. As a next step, filter is turned on to show only ssh accessible servers in the \texttt{Access servers} menu section. Next, a server is found using the \texttt{Search by location} menu option and credentials are verified. If the connection is successful, testing can continue. For this purposes, simple Python script will be used. There will be a server as seen in Listings~\ref{lst:echoserver} and client as seen in Listings~\ref{lst:echoclient} which all are inspired from \texttt{cyberciti.biz} site \cite{ports}. Server will be listening on port 8765 address 0.0.0.0 and client will send a packet with message "\texttt{Test successful.}" that will be send back to the client from the server as an echo reply. The results can be seen in Figure~\ref{fig:testingusecase} where, in the terminal, three consecutive runs of plbmng application were started and using the filter and \texttt{Search by location} menu option the ssh available servers from America, China and Europe were found and connected into. On the bottom, server from America is shown running the echo server script. On the top left, server from China is shown running the echo client script and on the right top corner the server from Europe is shown running also echo client script. 
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.42}{\includegraphics{obrazky/testingusecase}}
+	\caption{Terminal view illustrating usage of PlanetLab Server Manager to find proper servers and run server/client echo script on them to measure round times of packets between Europe, China and America.}
+	\label{fig:testingusecase}
+\end{figure}
+
+Script was copied into servers using Midnight Commander which provides extensive interface for managing files on both local and remote locations and can be seen in Figure~\ref{fig:midnightcommander}. As you can see by the results, the packets were successfully delivered and the packet round time were 0.248 seconds for Europe and 0.575 second for the China. Of course, any script can be run on the computers as long as it uses only installed software. 
+
+\begin{figure}[H]
+	\centering
+	\scalebox{0.295}{\includegraphics{obrazky/midnightcommander}}
+	\caption{Illustration of midnight commander used to copy scripts from localhost to a remote server inside the PlanetLab network.}
+	\label{fig:midnightcommander}
+\end{figure}
+
+{\noindent\begin{minipage}{\linewidth}
+		\begin{lstlisting}[language=Python, numbers=none, label={lst:echoserver}, caption=Code of echo server., frame=single, showstringspaces=false]
+#!/usr/bin/python
+
+#Demo echo server for use case example
+import socket
+
+SOURCE_HOST = source_server_ip
+PORT = 8765
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((SOURCE_HOST, PORT))
+s.listen(1)
+conn, addr = s.accept()
+print 'Connected by: ', addr
+while 1:
+	data = conn.recv(1024)
+	if not data:
+		break
+	conn.send(data)
+	conn.close()
+		\end{lstlisting}
+	\end{minipage}
+
+{\noindent\begin{minipage}{\linewidth}
+		\begin{lstlisting}[language=Python, numbers=none, label={lst:echoclient}, caption=Code of echo client., frame=single, showstringspaces=false]
+#!/usr/bin/python
+
+#Demo echo client for use case example
+import socket
+
+TARGET_HOST = target_server_ip
+PORT = 8765
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((TARGET_HOST, PORT))
+s.send('Test successful.')
+data = s.recv(1024)
+s.close()
+print 'Received: ', repr(data)
+		\end{lstlisting}
+\end{minipage}

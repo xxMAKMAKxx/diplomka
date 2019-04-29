@@ -39,6 +39,13 @@
 \newblock Wiley Series on Parallel and Distributed Computing.
 \newblock ISBN 9780470934630.
 
+\bibitem{ports}
+{\sc\bgroup}Gite{\egroup}, V.
+\newblock {\em HowTo: UNIX / Linux Open TCP / UDP Ports} [online].
+\newblock Revised: 3, September, 2010 [cit. !2019-4-29].
+\newblock Available at: ~{\tt
+  https://www.cyberciti.biz/faq/linux-unix-open-ports/}.
+
 \bibitem{linuxtrends}
 {\sc\bgroup}{\relax Google}{\egroup}.
 \newblock {\em Google Trends} [online].
