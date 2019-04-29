@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  29 APR 2019 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2018.11.18)  29 APR 2019 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1659,12 +1659,16 @@ File: obrazky/testingusecase.png Graphic file (type png)
 Package pdftex.def Info: obrazky/testingusecase.png used on input line 375.
 (pdftex.def)             Requested size: 1016.79628pt x 305.13924pt.
  [46 <./obrazky/testingusecase.png>]
-<obrazky/midnightcommander.png, id=839, 1445.4pt x 810.02625pt>
+<obrazky/midnightcommander.png, id=839, 1013.7875pt x 813.0375pt>
 File: obrazky/midnightcommander.png Graphic file (type png)
 
 <use obrazky/midnightcommander.png>
 Package pdftex.def Info: obrazky/midnightcommander.png used on input line 384.
-(pdftex.def)             Requested size: 1445.39648pt x 810.02426pt.
+(pdftex.def)             Requested size: 1013.78505pt x 813.03552pt.
+
+Overfull \hbox (2.04391pt too wide) in paragraph at lines 384--385
+ [][] 
+ []
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -1902,7 +1906,7 @@ ive/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/share/texlive/texmf-dist
 blic/lm/lmtk10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (55 pages, 2147881 bytes).
+Output written on sablona-prace.pdf (55 pages, 2132181 bytes).
 PDF statistics:
  1042 PDF objects out of 1200 (max. 8388607)
  879 compressed objects within 9 object streams
