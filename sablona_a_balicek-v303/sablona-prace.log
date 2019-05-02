@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  2 MAY 2019 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  2 MAY 2019 22:52
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -164,6 +164,245 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunitx\siunitx.sty
+" ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.st
+y"
+Package: expl3 2019-01-28 L3 programming layer (loader) 
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-code
+.tex"
+Package: expl3 2019-01-28 L3 programming layer (code)
+\c_max_int=\count93
+\l_tmpa_int=\count94
+\l_tmpb_int=\count95
+\g_tmpa_int=\count96
+\g_tmpb_int=\count97
+\g__kernel_prg_map_int=\count98
+\c_log_iow=\count99
+\l_iow_line_count_int=\count100
+\l__iow_line_target_int=\count101
+\l__iow_one_indent_int=\count102
+\l__iow_indent_int=\count103
+\c_zero_dim=\dimen114
+\c_max_dim=\dimen115
+\l_tmpa_dim=\dimen116
+\l_tmpb_dim=\dimen117
+\g_tmpa_dim=\dimen118
+\g_tmpb_dim=\dimen119
+\c_zero_skip=\skip43
+\c_max_skip=\skip44
+\l_tmpa_skip=\skip45
+\l_tmpb_skip=\skip46
+\g_tmpa_skip=\skip47
+\g_tmpb_skip=\skip48
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count104
+\l__intarray_loop_int=\count105
+\c__intarray_sp_dim=\dimen120
+\g__intarray_font_int=\count106
+\c__fp_leading_shift_int=\count107
+\c__fp_middle_shift_int=\count108
+\c__fp_trailing_shift_int=\count109
+\c__fp_big_leading_shift_int=\count110
+\c__fp_big_middle_shift_int=\count111
+\c__fp_big_trailing_shift_int=\count112
+\c__fp_Bigg_leading_shift_int=\count113
+\c__fp_Bigg_middle_shift_int=\count114
+\c__fp_Bigg_trailing_shift_int=\count115
+\c__kernel_randint_max_int=\count116
+\g__fp_array_int=\count117
+\l__fp_array_loop_int=\count118
+\l__sort_length_int=\count119
+\l__sort_min_int=\count120
+\l__sort_top_int=\count121
+\l__sort_max_int=\count122
+\l__sort_true_max_int=\count123
+\l__sort_block_int=\count124
+\l__sort_begin_int=\count125
+\l__sort_end_int=\count126
+\l__sort_A_int=\count127
+\l__sort_B_int=\count128
+\l__sort_C_int=\count129
+\l__tl_analysis_normal_int=\count130
+\l__tl_analysis_index_int=\count131
+\l__tl_analysis_nesting_int=\count132
+\l__tl_analysis_type_int=\count133
+\l__regex_internal_a_int=\count134
+\l__regex_internal_b_int=\count135
+\l__regex_internal_c_int=\count136
+\l__regex_balance_int=\count137
+\l__regex_group_level_int=\count138
+\l__regex_mode_int=\count139
+\c__regex_cs_in_class_mode_int=\count140
+\c__regex_cs_mode_int=\count141
+\l__regex_catcodes_int=\count142
+\l__regex_default_catcodes_int=\count143
+\c__regex_catcode_D_int=\count144
+\c__regex_catcode_S_int=\count145
+\c__regex_catcode_L_int=\count146
+\c__regex_catcode_O_int=\count147
+\c__regex_catcode_A_int=\count148
+\c__regex_all_catcodes_int=\count149
+\l__regex_show_lines_int=\count150
+\l__regex_min_state_int=\count151
+\l__regex_max_state_int=\count152
+\l__regex_left_state_int=\count153
+\l__regex_right_state_int=\count154
+\l__regex_capturing_group_int=\count155
+\l__regex_min_pos_int=\count156
+\l__regex_max_pos_int=\count157
+\l__regex_curr_pos_int=\count158
+\l__regex_start_pos_int=\count159
+\l__regex_success_pos_int=\count160
+\l__regex_curr_char_int=\count161
+\l__regex_curr_catcode_int=\count162
+\l__regex_last_char_int=\count163
+\l__regex_case_changed_char_int=\count164
+\l__regex_curr_state_int=\count165
+\l__regex_step_int=\count166
+\l__regex_min_active_int=\count167
+\l__regex_max_active_int=\count168
+\l__regex_replacement_csnames_int=\count169
+\l__regex_match_count_int=\count170
+\l__regex_min_submatch_int=\count171
+\l__regex_submatch_int=\count172
+\l__regex_zeroth_submatch_int=\count173
+\g__regex_trace_regex_int=\count174
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen121
+\l__box_bottom_dim=\dimen122
+\l__box_left_dim=\dimen123
+\l__box_right_dim=\dimen124
+\l__box_top_new_dim=\dimen125
+\l__box_bottom_new_dim=\dimen126
+\l__box_left_new_dim=\dimen127
+\l__box_right_new_dim=\dimen128
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen129
+\l__coffin_offset_x_dim=\dimen130
+\l__coffin_offset_y_dim=\dimen131
+\l__coffin_x_dim=\dimen132
+\l__coffin_y_dim=\dimen133
+\l__coffin_x_prime_dim=\dimen134
+\l__coffin_y_prime_dim=\dimen135
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\g_tmpa_coffin=\box39
+\g_tmpb_coffin=\box40
+\c__coffin_empty_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
+\g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen139
+\l__coffin_left_corner_dim=\dimen140
+\l__coffin_right_corner_dim=\dimen141
+\l__coffin_bottom_corner_dim=\dimen142
+\l__coffin_top_corner_dim=\dimen143
+\l__coffin_scaled_total_height_dim=\dimen144
+\l__coffin_scaled_width_dim=\dimen145
+\l__seq_internal_a_int=\count175
+\l__seq_internal_b_int=\count176
+)
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode.
+def"
+File: l3pdfmode.def 2019-01-28 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count177
+))
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\x
+parse.sty"
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count178
+\g__xparse_grabber_int=\count179
+\l__xparse_m_args_int=\count180
+\l__xparse_mandatory_args_int=\count181
+\l__xparse_v_nesting_int=\count182
+)
+Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen146
+)) ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box45
+\extrarowheight=\dimen148
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box46
+)
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3keys2e
+\l3keys2e.sty"
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box47
+\l__siunitx_tmp_dim=\dimen149
+\l__siunitx_tmp_int=\count183
+\l__siunitx_number_mantissa_length_int=\count184
+\l__siunitx_number_uncert_length_int=\count185
+\l__siunitx_round_int=\count186
+\l__siunitx_process_decimal_int=\count187
+\l__siunitx_process_uncertainty_int=\count188
+\l__siunitx_process_fixed_int=\count189
+\l__siunitx_process_integer_min_int=\count190
+\l__siunitx_process_precision_int=\count191
+\l__siunitx_group_min_int=\count192
+\l__siunitx_angle_marker_box=\box48
+\l__siunitx_angle_unit_box=\box49
+\l__siunitx_angle_marker_dim=\dimen150
+\l__siunitx_angle_unit_dim=\dimen151
+\l__siunitx_unit_int=\count193
+\l__siunitx_unit_denominator_int=\count194
+\l__siunitx_unit_numerator_int=\count195
+\l__siunitx_unit_prefix_int=\count196
+\l__siunitx_unit_prefix_base_int=\count197
+\l__siunitx_unit_prefix_gram_int=\count198
+\l__siunitx_number_product_int=\count199
+\c__siunitx_one_fill_skip=\skip51
+\l__siunitx_table_unit_align_skip=\skip52
+\l__siunitx_table_exponent_dim=\dimen152
+\l__siunitx_table_integer_dim=\dimen153
+\l__siunitx_table_mantissa_dim=\dimen154
+\l__siunitx_table_marker_dim=\dimen155
+\l__siunitx_table_result_dim=\dimen156
+\l__siunitx_table_uncert_dim=\dimen157
+\l__siunitx_table_fill_pre_dim=\dimen158
+\l__siunitx_table_fill_post_dim=\dimen159
+\l__siunitx_table_fill_mid_dim=\dimen160
+\l__siunitx_table_pre_box=\box50
+\l__siunitx_table_post_box=\box51
+\l__siunitx_table_mantissa_box=\box52
+\l__siunitx_table_result_box=\box53
+\l__siunitx_table_number_align_skip=\skip53
+\l__siunitx_table_text_align_skip=\skip54
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or.sty"
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -176,20 +415,10 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.s
 ty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
- ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen114
-\ar@mcellbox=\box27
-\extrarowheight=\dimen115
-\NC@list=\toks19
-\extratabsurround=\skip43
-\backup@length=\skip44
-\ar@cellbox=\box28
+\everycr=\toks21
+\minrowclearance=\skip55
 )
-\everycr=\toks20
-\minrowclearance=\skip45
-)
-\rownum=\count93
+\rownum=\count266
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -203,10 +432,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.s
 ty"
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip46
-\multirow@cntb=\count94
-\multirow@dima=\skip47
-\bigstrutjot=\dimen116
+\multirow@colwidth=\skip56
+\multirow@cntb=\count267
+\multirow@dima=\skip57
+\bigstrutjot=\dimen161
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
 "
@@ -216,16 +445,16 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 y"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen117
-\captionmargin@=\dimen118
-\captionwidth=\dimen119
-\caption@tempdima=\dimen120
-\caption@indent=\dimen121
-\caption@parindent=\dimen122
-\caption@hangindent=\dimen123
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
 )
-\c@caption@flags=\count95
-\c@ContinuedFloat=\count96
+\c@caption@flags=\count268
+\c@ContinuedFloat=\count269
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/acronym\acronym.sty
 "
@@ -238,12 +467,12 @@ Package: suffix 2006/07/15 1.5a Variant command support
 "
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xstring\xstring.t
 ex"
-\integerpart=\count97
-\decimalpart=\count98
+\integerpart=\count270
+\decimalpart=\count271
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks21
+\AC@clearlist=\toks22
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.s
 ty"
@@ -288,9 +517,9 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 y"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen124
-\Hy@linkcounter=\count99
-\Hy@pagecounter=\count100
+\@linkdim=\dimen169
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def
 "
@@ -298,7 +527,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count101
+\Hy@SavedSpaceFactor=\count274
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.c
 fg"
@@ -320,16 +549,16 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count102
+\c@Hy@tempcnt=\count275
  ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen125
-\Fld@menulength=\count103
-\Field@Width=\dimen126
-\Fld@charsize=\dimen127
+\XeTeXLinkMargin=\dimen170
+\Fld@menulength=\count276
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -339,17 +568,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count104
-\c@Item=\count105
-\c@Hfootnote=\count106
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.de
 f"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count107
-\c@bookmark@seq@number=\count108
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfilec
 heck.sty"
@@ -357,7 +586,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip48
+\Hy@SectionHShift=\skip58
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.s
 ty"
@@ -366,42 +595,42 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count109
-\calc@Bcount=\count110
-\calc@Adimen=\dimen128
-\calc@Bdimen=\dimen129
-\calc@Askip=\skip49
-\calc@Bskip=\skip50
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count111
-\calc@Cskip=\skip51
+\calc@Ccount=\count284
+\calc@Cskip=\skip61
 ) ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.s
 ty"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
-\AM@pagewidth=\dimen130
-\AM@pageheight=\dimen131
+\AM@pagewidth=\dimen175
+\AM@pageheight=\dimen176
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.d
 ef"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box29
-\AM@global@opts=\toks22
-\AM@toc@title=\toks23
-\c@AM@survey=\count112
-\AM@templatesizebox=\box30
+\AM@pagebox=\box54
+\AM@global@opts=\toks23
+\AM@toc@title=\toks24
+\c@AM@survey=\count285
+\AM@templatesizebox=\box55
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.s
 ty"
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip52
-\enit@outerparindent=\dimen132
-\enit@toks=\toks24
-\enit@inbox=\box31
-\enit@count@id=\count113
-\enitdp@description=\count114
+\labelindent=\skip62
+\enit@outerparindent=\dimen177
+\enit@toks=\toks25
+\enit@inbox=\box56
+\enit@count@id=\count286
+\enitdp@description=\count287
 ) ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cmap\cmap.sty"
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
@@ -411,46 +640,46 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/generic/dirtree\dirtree.t
 ex" `dirtree' v0.32, 2012/12/11 (jcc)
-\DT@offset=\dimen133
-\DT@width=\dimen134
-\DT@sep=\dimen135
-\DT@all=\dimen136
-\DT@rulewidth=\dimen137
-\DT@dotwidth=\dimen138
-\DTbaselineskip=\dimen139
-\DT@counti=\count115
-\DT@countii=\count116
-\DT@countiii=\count117
-\DT@countiv=\count118
-\DT@indent=\dimen140
-\DT@parskip=\dimen141
-\DT@baselineskip=\dimen142
+\DT@offset=\dimen178
+\DT@width=\dimen179
+\DT@sep=\dimen180
+\DT@all=\dimen181
+\DT@rulewidth=\dimen182
+\DT@dotwidth=\dimen183
+\DTbaselineskip=\dimen184
+\DT@counti=\count288
+\DT@countii=\count289
+\DT@countiii=\count290
+\DT@countiv=\count291
+\DT@indent=\dimen185
+\DT@parskip=\dimen186
+\DT@baselineskip=\dimen187
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.s
 ty"
-\lst@mode=\count119
-\lst@gtempboxa=\box32
-\lst@token=\toks25
-\lst@length=\count120
-\lst@currlwidth=\dimen143
-\lst@column=\count121
-\lst@pos=\count122
-\lst@lostspace=\dimen144
-\lst@width=\dimen145
-\lst@newlines=\count123
-\lst@lineno=\count124
-\lst@maxwidth=\dimen146
+\lst@mode=\count292
+\lst@gtempboxa=\box57
+\lst@token=\toks26
+\lst@length=\count293
+\lst@currlwidth=\dimen188
+\lst@column=\count294
+\lst@pos=\count295
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count296
+\lst@lineno=\count297
+\lst@maxwidth=\dimen191
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
 y"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\lst@fmtcurrindent=\dimen147
-\lst@newlinesensured=\count125
-\c@lstnumber=\count126
-\lst@skipnumbers=\count127
-\lst@framebox=\box33
+\lst@fmtcurrindent=\dimen192
+\lst@newlinesensured=\count298
+\c@lstnumber=\count299
+\lst@skipnumbers=\count300
+\lst@framebox=\box58
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.c
 fg"
@@ -485,15 +714,15 @@ Language: czech 2008/07/06 v3.1a Czech support from the babel system
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count128
-\U@D=\dimen148
+\babel@savecnt=\count301
+\U@D=\dimen193
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
 f")
-\bbl@dirlevel=\count129
+\bbl@dirlevel=\count302
 )
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count130
+\cs@wordlen=\count303
 Package babel Info: Making - an active character on input line 226.
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engli
@@ -505,11 +734,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 ))
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count131
-\float@exts=\toks26
-\float@box=\box34
-\@float@everytoks=\toks27
-\@floatcapt=\box35
+\c@float@type=\count304
+\float@exts=\toks27
+\float@box=\box59
+\@float@everytoks=\toks28
+\@floatcapt=\box60
 )
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -1083,22 +1312,19 @@ Package: thesis 2018/03/07v3.03LaTeX document class
 
 Styl 'thesis.sty' pro psani kvalifikacnich praci v(3.03) na VUT v Brne
 
-\type@semestral=\count132
-\type@bachelor=\count133
-\type@diploma=\count134
-\type@treatise=\count135
-\type@phd=\count136
+\type@semestral=\count305
+\type@bachelor=\count306
+\type@diploma=\count307
+\type@treatise=\count308
+\type@phd=\count309
 Originalni jazyk prace nastaven na 'english'
 Jazyk prace pro preklad nastaven na 'czech'
 
 \symupgreek=\mathgroup4
-\thesis@tmp=\skip53
+\thesis@tmp=\skip63
 )){C:/Users/z400/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}{./vafle.map
-} (sablona-prace.aux (text/uvod.aux) (text/reseni.aux) (text/vysledky.aux
-
-LaTeX Warning: Label `lst:descriptive' multiply defined.
-
-) (text/zaver.aux) (text/zkratky.aux))
+} (sablona-prace.aux (text/uvod.aux) (text/reseni.aux) (text/vysledky.aux)
+(text/zaver.aux) (text/zkratky.aux))
 \openout1 = `sablona-prace.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
@@ -1141,17 +1367,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mki
 i"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen149
-\scratchbox=\box36
-\nofMPsegments=\count138
-\nofMParguments=\count139
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen150
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count310
+\scratchdimen=\dimen194
+\scratchbox=\box61
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen195
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks30
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1188,12 +1414,21 @@ i"
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunitx\siunitx-abb
+reviations.cfg"
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box37
+\AtBeginShipoutBox=\box62
 Package hyperref Info: Link coloring OFF on input line 148.
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
@@ -1204,7 +1439,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 string.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count316
 )
 LaTeX Info: Redefining \ref on input line 148.
 LaTeX Info: Redefining \pageref on input line 148.
@@ -1224,8 +1459,51 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count144
-<pdf/student-desky.pdf, id=140, 597.51233pt x 845.0471pt>
+\c@lstlisting=\count317
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 148.
+
+ ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<ot1.cmap>>
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 148.
+
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<oml.cmap>>
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 148
+.
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<oms.cmap>>
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 148
+.
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 148.
+<<omx.cmap>>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 148.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 148.
+<<lgr.cmap>>
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 148
+.
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 148
+.
+
+("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)<<ot1tt.cmap>>
+<pdf/student-desky.pdf, id=146, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 <use pdf/student-desky.pdf>
 Package pdftex.def Info: pdf/student-desky.pdf  used on input line 153.
@@ -1234,7 +1512,7 @@ File: pdf/student-desky.pdf Graphic file (type pdf)
 <use pdf/student-desky.pdf>
 Package pdftex.def Info: pdf/student-desky.pdf  used on input line 153.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<pdf/student-desky.pdf, id=143, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-desky.pdf, id=149, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-desky.pdf Graphic file (type pdf)
 <use pdf/student-desky.pdf, page 1>
 Package pdftex.def Info: pdf/student-desky.pdf , page1 used on input line 153.
@@ -1258,7 +1536,7 @@ Package pdftex.def Info: pdf/student-desky.pdf , page1 used on input line 153.
  [1
 
  <./pdf/student-desky.pdf>]
-<pdf/student-titulka.pdf, id=159, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=165, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
 Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 160.
@@ -1267,7 +1545,7 @@ File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf>
 Package pdftex.def Info: pdf/student-titulka.pdf  used on input line 160.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<pdf/student-titulka.pdf, id=162, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-titulka.pdf, id=168, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-titulka.pdf Graphic file (type pdf)
 <use pdf/student-titulka.pdf, page 1>
 Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 160
@@ -1294,7 +1572,7 @@ Package pdftex.def Info: pdf/student-titulka.pdf , page1 used on input line 160
 .
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [1 <./pdf/student-titulka.pdf>]
-<pdf/student-zadani.pdf, id=181, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=187, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
 Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 166.
@@ -1303,7 +1581,7 @@ File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf>
 Package pdftex.def Info: pdf/student-zadani.pdf  used on input line 166.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<pdf/student-zadani.pdf, id=184, page=1, 597.51233pt x 845.0471pt>
+<pdf/student-zadani.pdf, id=190, page=1, 597.51233pt x 845.0471pt>
 File: pdf/student-zadani.pdf Graphic file (type pdf)
 <use pdf/student-zadani.pdf, page 1>
 Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 166.
@@ -1329,44 +1607,14 @@ File: pdf/student-zadani.pdf Graphic file (type pdf)
 Package pdftex.def Info: pdf/student-zadani.pdf , page1 used on input line 166.
 
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [2 <./pdf/student-zadani.pdf>]
+
+[2 <./pdf/student-zadani.pdf>]
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 173.
 
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 173.
-
-
-("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 173.
-
- ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 173
-.
-
-("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 173
-.
-
-("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 173.
-<<omx.cmap>>
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 173.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 173.
-<<lgr.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1399,23 +1647,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--184
 \tf@toc=\write4
 \openout4 = `sablona-prace.toc'.
 
- [9] (sablona-prace.lol)
-\tf@lol=\write5
-\openout5 = `sablona-prace.lol'.
+ [9] (sablona-prace.lof)
+\tf@lof=\write5
+\openout5 = `sablona-prace.lof'.
 
  [10
+
+
+]
+(sablona-prace.lol)
+\tf@lol=\write6
+\openout6 = `sablona-prace.lol'.
+
+ [11
 
 ]
 \openout2 = `text/uvod.aux'.
 
-
-(text/uvod.tex)
+ (text/uvod.tex)
 Overfull \hbox (16.95448pt too wide) in paragraph at lines 5--212
 \T1/lmr/m/n/12 eval-u-ated whether the used im-ple-men-ta-tion is cor-rect or n
 ot. Dur-ing re-implementation,
  []
 
-[11
+[12
 
 
 
@@ -1423,7 +1678,7 @@ ot. Dur-ing re-implementation,
 \openout2 = `text/reseni.aux'.
 
  (text/reseni.tex
-<obrazky/mapa_planetlab.png, id=352, 2055.68pt x 1188.44pt>
+<obrazky/mapa_planetlab.png, id=411, 2055.68pt x 1188.44pt>
 File: obrazky/mapa_planetlab.png Graphic file (type png)
 <use obrazky/mapa_planetlab.png>
 Package pdftex.def Info: obrazky/mapa_planetlab.png  used on input line 7.
@@ -1433,12 +1688,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<obrazky/pingablepie.pdf, id=357, 454.69875pt x 245.91875pt>
+<obrazky/pingablepie.pdf, id=416, 454.69875pt x 245.91875pt>
 File: obrazky/pingablepie.pdf Graphic file (type pdf)
 <use obrazky/pingablepie.pdf>
 Package pdftex.def Info: obrazky/pingablepie.pdf  used on input line 16.
 (pdftex.def)             Requested size: 454.69763pt x 245.91814pt.
-[12
+[13
 
 
 
@@ -1448,17 +1703,17 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 25.
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[13 <./obrazky/pingablepie.pdf>] [14] [15] [16]
+[14 <./obrazky/pingablepie.pdf>] [15] [16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<obrazky/virt.pdf, id=421, 578.16pt x 246.9225pt>
+<obrazky/virt.pdf, id=479, 578.16pt x 246.9225pt>
 File: obrazky/virt.pdf Graphic file (type pdf)
 <use obrazky/virt.pdf>
 Package pdftex.def Info: obrazky/virt.pdf  used on input line 83.
 (pdftex.def)             Requested size: 578.15858pt x 246.92188pt.
-[17]
+[18]
 Overfull \hbox (28.07848pt too wide) in paragraph at lines 88--89
 \T1/lmr/m/n/12 Some of the most pop-u-lar ones are \T1/lmtt/m/n/12 VMware ESXi\
 T1/lmr/m/n/12 , \T1/lmtt/m/n/12 Red Hat Enterprise Virtualization\T1/lmr/m/n/12
@@ -1477,23 +1732,23 @@ Overfull \hbox (3.39868pt too wide) in paragraph at lines 95--97
 1/lmr/m/n/12 is open source vir-tu-al-iza-tion soft-ware avail-
  []
 
-[18 <./obrazky/virt.pdf
+[19 <./obrazky/virt.pdf
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/virt.pdf): PDF inclusion: invalid 
 other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [19]
+>] [20]
 Overfull \hbox (6.17024pt too wide) in paragraph at lines 106--106
 []\T1/lmss/bx/n/20.74 Present State Of Ap-pli-ca-tion De-vel-op-ment 
  []
 
-<obrazky/planetlabmenuold.png, id=484, 834.11626pt x 598.235pt>
+<obrazky/planetlabmenuold.png, id=541, 834.11626pt x 598.235pt>
 File: obrazky/planetlabmenuold.png Graphic file (type png)
 <use obrazky/planetlabmenuold.png>
 Package pdftex.def Info: obrazky/planetlabmenuold.png  used on input line 120.
 (pdftex.def)             Requested size: 834.11423pt x 598.23354pt.
-[20
+[21
 
-]) [21 <./obrazky/planetlabmenuold.png>] [22]
+]) [22 <./obrazky/planetlabmenuold.png>] [23]
 \openout2 = `text/vysledky.aux'.
 
  (text/vysledky.tex
@@ -1501,7 +1756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<obrazky/PlbmngArchitecture.pdf, id=511, 536.0025pt x 355.3275pt>
+<obrazky/PlbmngArchitecture.pdf, id=567, 536.0025pt x 355.3275pt>
 File: obrazky/PlbmngArchitecture.pdf Graphic file (type pdf)
 <use obrazky/PlbmngArchitecture.pdf>
 Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 20.
@@ -1512,7 +1767,7 @@ Overfull \hbox (2.01122pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
-[23
+[24
 
 
 
@@ -1521,7 +1776,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[24 <./obrazky/PlbmngArchitecture.pdf
+[25 <./obrazky/PlbmngArchitecture.pdf
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/PlbmngArchitecture.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
@@ -1533,25 +1788,18 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 35.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 36.
- [25]
-
-LaTeX Warning: Reference `lst:pythoninit' on page 26 undefined on input line 48
-.
-
-[26] [27]
+ [26] [27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<obrazky/plbmng_basic.png, id=590, 703.62875pt x 432.61626pt>
+<obrazky/plbmng_basic.png, id=645, 703.62875pt x 432.61626pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
 Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 98.
 (pdftex.def)             Requested size: 703.62703pt x 432.6152pt.
-[28 <./obrazky/plbmng_basic.png>] [29]
-<obrazky/credentials_figure.png, id=627, 703.62875pt x 540.0175pt>
+[29 <./obrazky/plbmng_basic.png>] [30]
+<obrazky/credentials_figure.png, id=681, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 <use obrazky/credentials_figure.png>
 Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 125
@@ -1562,40 +1810,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
-[30 <./obrazky/credentials_figure.png>]
+[31 <./obrazky/credentials_figure.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-<obrazky/filtering.png, id=638, 628.3475pt x 473.77pt>
+<obrazky/filtering.png, id=691, 628.3475pt x 473.77pt>
 File: obrazky/filtering.png Graphic file (type png)
 <use obrazky/filtering.png>
 Package pdftex.def Info: obrazky/filtering.png  used on input line 156.
 (pdftex.def)             Requested size: 628.34596pt x 473.76884pt.
-[31]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-[32 <./obrazky/filtering.png>]
+[33 <./obrazky/filtering.png>]
 
-LaTeX Warning: Reference `chapter:analysis' on page 33 undefined on input line 
+LaTeX Warning: Reference `chapter:analysis' on page 34 undefined on input line 
 182.
 
-<obrazky/mapnodedetail.png, id=656, 628.3475pt x 473.77pt>
+<obrazky/mapnodedetail.png, id=708, 628.3475pt x 473.77pt>
 File: obrazky/mapnodedetail.png Graphic file (type png)
 <use obrazky/mapnodedetail.png>
 Package pdftex.def Info: obrazky/mapnodedetail.png  used on input line 186.
 (pdftex.def)             Requested size: 628.34596pt x 473.76884pt.
-[33] [34 <./obrazky/mapnodedetail.png>]
-<obrazky/statmenu.png, id=677, 600.2425pt x 429.605pt>
+[34] [35 <./obrazky/mapnodedetail.png>]
+<obrazky/statmenu.png, id=728, 600.2425pt x 429.605pt>
 File: obrazky/statmenu.png Graphic file (type png)
 <use obrazky/statmenu.png>
 Package pdftex.def Info: obrazky/statmenu.png  used on input line 208.
 (pdftex.def)             Requested size: 600.24103pt x 429.60394pt.
- [35] [36 <./obrazky/statmenu.png>]
-[37]
-<obrazky/plbmng_repo.png, id=732, 1139.25626pt x 887.315pt>
+ [36] [37 <./obrazky/statmenu.png>]
+[38]
+<obrazky/plbmng_repo.png, id=782, 1139.25626pt x 887.315pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 <use obrazky/plbmng_repo.png>
 Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 264.
@@ -1605,13 +1853,13 @@ Overfull \hbox (6.13051pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-[38] [39 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=756, 358.4592pt x 799.06526pt>
+[39] [40 <./obrazky/plbmng_repo.png>]
+<obrazky/BehavioralPlbmng.pdf, id=804, 358.4592pt x 799.06526pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 <use obrazky/BehavioralPlbmng.pdf>
 Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 291.
 (pdftex.def)             Requested size: 358.45831pt x 799.06332pt.
- [40] [41 <./obrazky/BehavioralPlbmng.pdf
+ [41] [42 <./obrazky/BehavioralPlbmng.pdf
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/BehavioralPlbmng.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
@@ -1633,7 +1881,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./obrazky/allcountriesgraph-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<obrazky/allcountriesgraph-eps-converted-to.pdf, id=780, 1007.765pt x 565.11125
+<obrazky/allcountriesgraph-eps-converted-to.pdf, id=829, 1007.765pt x 565.11125
 pt>
 File: obrazky/allcountriesgraph-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/allcountriesgraph-eps-converted-to.pdf>
@@ -1645,10 +1893,10 @@ Overfull \hbox (16.6266pt too wide) in paragraph at lines 307--308
  [][] 
  []
 
-[42
+[43
 
  <./obrazky/allcountriesgraph-eps-converted-to.pdf>]
-<obrazky/plbmng_all_nodes.png, id=790, 777.65532pt x 517.935pt>
+<obrazky/plbmng_all_nodes.png, id=837, 777.65532pt x 517.935pt>
 File: obrazky/plbmng_all_nodes.png Graphic file (type png)
 <use obrazky/plbmng_all_nodes.png>
 Package pdftex.def Info: obrazky/plbmng_all_nodes.png  used on input line 316.
@@ -1672,13 +1920,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/nodestats-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/nodestats-eps-converted-to.pdf, id=792, 455.7025pt x 255.95625pt>
+<obrazky/nodestats-eps-converted-to.pdf, id=839, 455.7025pt x 255.95625pt>
 File: obrazky/nodestats-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/nodestats-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/nodestats-eps-converted-to.pdf  used on input 
 line 325.
 (pdftex.def)             Requested size: 455.70137pt x 255.95561pt.
-[43 <./obrazky/plbmng_all_nodes.png>]
+[44 <./obrazky/plbmng_all_nodes.png>]
 Package epstopdf Info: Source file: <obrazky/sshcountriesgraph.eps>
 (epstopdf)                    date: 2019-04-28 19:54:28
 (epstopdf)                    size: 76687 bytes
@@ -1695,28 +1943,28 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./obrazky/sshcountriesgraph-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<obrazky/sshcountriesgraph-eps-converted-to.pdf, id=801, 455.7025pt x 255.95625
+<obrazky/sshcountriesgraph-eps-converted-to.pdf, id=846, 455.7025pt x 255.95625
 pt>
 File: obrazky/sshcountriesgraph-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/sshcountriesgraph-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/sshcountriesgraph-eps-converted-to.pdf  used o
 n input line 334.
 (pdftex.def)             Requested size: 455.70137pt x 255.95561pt.
-[44 <./obrazky/nodestats-eps-converted-to.pdf> <./obrazky/sshcountriesgraph-eps
+[45 <./obrazky/nodestats-eps-converted-to.pdf> <./obrazky/sshcountriesgraph-eps
 -converted-to.pdf>]
-<obrazky/plbmng_ssh_nodes.png, id=814, 765.6103pt x 502.12593pt>
+<obrazky/plbmng_ssh_nodes.png, id=858, 765.6103pt x 502.12593pt>
 File: obrazky/plbmng_ssh_nodes.png Graphic file (type png)
 <use obrazky/plbmng_ssh_nodes.png>
 Package pdftex.def Info: obrazky/plbmng_ssh_nodes.png  used on input line 362.
 (pdftex.def)             Requested size: 765.60843pt x 502.12471pt.
- [45 <./obrazky/plbmng_ssh_nodes.png>]
-<obrazky/testingusecase.png, id=826, 1016.79875pt x 305.14pt>
+ [46 <./obrazky/plbmng_ssh_nodes.png>]
+<obrazky/testingusecase.png, id=869, 1016.79875pt x 305.14pt>
 File: obrazky/testingusecase.png Graphic file (type png)
 <use obrazky/testingusecase.png>
 Package pdftex.def Info: obrazky/testingusecase.png  used on input line 375.
 (pdftex.def)             Requested size: 1016.79628pt x 305.13924pt.
- [46 <./obrazky/testingusecase.png>]
-<obrazky/midnightcommander.png, id=835, 1013.7875pt x 813.0375pt>
+ [47 <./obrazky/testingusecase.png>]
+<obrazky/midnightcommander.png, id=877, 1013.7875pt x 813.0375pt>
 File: obrazky/midnightcommander.png Graphic file (type png)
 <use obrazky/midnightcommander.png>
 Package pdftex.def Info: obrazky/midnightcommander.png  used on input line 384.
@@ -1727,14 +1975,14 @@ Overfull \hbox (2.04391pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
-[47 <./obrazky/midnightcommander.png>]) [48]
+[48 <./obrazky/midnightcommander.png>]) [49]
 \openout2 = `text/zaver.aux'.
 
- (text/zaver.tex) [49
+ (text/zaver.tex) [50
 
 
 
-] [50]
+]
 (sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
@@ -1912,13 +2160,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 1076B0895A8F7D0CEA030DD34F04F4E3;7416.
+(rerunfilecheck)             Checksum: ED826E11457AEAD9DEA3EEBDE25A48F7;7488.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  )
@@ -1935,35 +2180,37 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
 ### simple group (level 1) entered at line 34 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17678 strings out of 492942
- 262481 string characters out of 3126539
- 632086 words of memory out of 3000000
- 20842 multiletter control sequences out of 15000+200000
- 91604 words of font info for 66 fonts, out of 3000000 for 9000
+ 29453 strings out of 492942
+ 515525 string characters out of 3126539
+ 838502 words of memory out of 3000000
+ 32548 multiletter control sequences out of 15000+200000
+ 638189 words of font info for 87 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
- 42i,18n,49p,2709b,1566s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,18n,63p,2709b,1578s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
 s/lm/lm-ec.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
 /lm/lm-ts1.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathsy.enc}<C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/lm/lmbx12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmcsc10.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmr10.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmr12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/lm/lmr7.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmr8.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmri12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/z400/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/z400/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/z400/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/z400/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (55 pages, 2223562 bytes).
+/lm/lm-mathit.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
+ips/lm/lm-rm.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-mathsy.enc}<C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmbx12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmcsc10.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmr10.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmr12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/z400/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/z400/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/z400/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/z400/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/z400/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
+Output written on sablona-prace.pdf (55 pages, 2210833 bytes).
 PDF statistics:
- 1035 PDF objects out of 1200 (max. 8388607)
+ 1074 PDF objects out of 1200 (max. 8388607)
  300 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 

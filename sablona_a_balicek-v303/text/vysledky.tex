@@ -32,7 +32,7 @@ In this Section, the steps to achieve goals; which were described in the Chapter
 The previous version of \texttt{plbmng} tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since \texttt{pythondialog} module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the \zk{zkGUI} (\zkratkatext{zkGUI}). Example of this functionality is shown in Listing~\ref{lst:removingresultlimit}. Currently, the tool is returning all results found.
 
 {\noindent\begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:removingresultlimit}, caption=Removing Result Limitation, frame=single, showstringspaces=false]
+\begin{lstlisting}[language=Python, numbers=left, label={lst:removingresultlimit}, caption=Removing Result Limitation, frame=single, showstringspaces=false, keywordstyle=\color{blue},captionpos=b]
 def searchNodesGui(prepared_choices):
 	if not prepared_choices:
 		d.msgbox("No results found.", width=0,height=0)
@@ -45,10 +45,10 @@ def searchNodesGui(prepared_choices):
 \end{minipage}
 
 \subsection{Writing the Application as Library}
-For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}. If the application is called as a standalone script, it will trigger part of the code that is shown in Listing~\ref{lst:pythoninit} and initialize a graphical interface for the user to use. If imported as a library, it allows the user to call any function defined in the script.
+For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection~\ref{section:improvement}. If the application is called as a standalone script, it will trigger part of the code that is shown in ~\ref{lst:pythoninit} and initialize a graphical interface for the user to use. If imported as a library, it allows the user to call any function defined in the script.
 
 {\noindent\begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:descriptive}, caption=Example of Function Names, frame=single, showstringspaces=false, breaklines=true]
+\begin{lstlisting}[language=Python, numbers=left, label={lst:pythoninit}, caption=Condition to recognize that application is being called as a standalone script., frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 if __name__ == "__main__":
 	initInterface()
 	exit(0)
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 Community is a powerful group that helps develop a tool and to add more functionality to it. To have community contribute to a tool, it should follow good practices and be easily readable. Previous version of the tool was using Bash script which was calling Python script and creating new Bash scripts on a disk which was merging using different pieces of code from pre-created \texttt{.dat} files in a \texttt{bin} folder. Finding a bug in this structure was difficult and non-intuitive. All these pieces of code were fully re-written into single Python script and logically divided into two sections. One section is for GUI functions and other is for logical functions. Each functions is very descriptive in its name as shown in Listing~\ref{lst:descriptive}.
 
 {\noindent\begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:descriptive}, caption=Example of Function Names, frame=single, showstringspaces=false, breaklines=true]
+\begin{lstlisting}[language=Python, numbers=left, label={lst:descriptive}, caption=Example of Function Names, frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 def searchNodes(option,regex=None):
 def initInterface():
 def plotServersOnMap(mode):
@@ -74,7 +74,7 @@ def setCredentialsGui():
 Each functions is trying to be as atomic as possible only having one purpose. This is helping to increase modularity of the application. Outside of this functions "categories" application is removing any \texttt{magic numbers} by defining constants at the beginning of the source code. This greatly helps to understand what is being passed as an argument and is shown in Listing~\ref{lst:constant} where it is descriptive what option is being passed as a search key to the \texttt{searchNodes} function. Also, the application has a block for \texttt{Initial settings} at the beginning for one single place where outside of functions definitions can be placed. Application is also honoring the conventions defined in \zk{zkPEP} (\zkratkatext{zkPEP}) 8 \cite{pythonpep}, like naming convention and space usage instead of tabs, as much as possible. In default, scripts like \texttt{pylint} uses snake case style naming convention however camel case that is actually described in the official pep 8 standards as a recommended descriptive naming style \cite{pythonpep}. All these small items described are increasing the overall readability of the application for others to quickly become familiarized with it. Currently, \texttt{engine.py} received score of 7.38  \texttt{pylint} with main complains being about missing doc strings and certain small warnings regarding wrong import and other small deviation from the PEP 8 standard.
 
 {\noindent\begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:constant}, caption=Example of Constant Usage, frame=single, showstringspaces=false, breaklines=true]
+\begin{lstlisting}[language=Python, numbers=left, label={lst:constant}, caption=Example of Constant Usage, frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 code, tag = d.menu("Choose one of the following options:",
 					choices=[("1", "Serach by DNS"),
 				      		 ("2", "Search by IP"),
@@ -104,7 +104,7 @@ As mentioned in the Section~\ref{section:improvement}, renaming certain parts of
 Previous version of application required several pre and post installation steps. In the new version developed as part of this Diploma thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPI package definition and are taken care off PyPI installer during installation of the tool. Post-installation steps were removed by adding the application into \texttt{bin} folder in the PyPI package. During installation, the PyPI installer automatically puts any scripts in the \texttt{bin} folder into a \texttt{\$PATH} folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in \texttt{bin} folder can be seen in Listing~\ref{lst:plbmngbin}. The duplication of names seen in the Listing are created by having the \texttt{plbmng.py} script in the \texttt{plbmng} folder describing the library. This area is a good candidate for additional improvements that will be made later in the following Diploma thesis.
 
 {\noindent\begin{minipage}{\linewidth}
-\begin{lstlisting}[language=Python, numbers=none, label={lst:plbmngbin}, caption=Source Code of Plbmng Executable Script, frame=single, showstringspaces=false, breaklines=true]
+\begin{lstlisting}[language=Python, numbers=left, label={lst:plbmngbin}, caption=Source Code of Plbmng Executable Script, frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 #!/usr/bin/env python3
 import plbmng.plbmng
 import sys
@@ -162,7 +162,7 @@ Applying filters is done using \texttt{Filtering options} in the \texttt{Access 
 Updating the status database, or to be precise updating table inside the database, can be triggered from the \texttt{Monitor servers} menu. This will start a progress bar that takes approximately two minutes after optimization. Before optimization, the procedure took around 40 minutes. This speed was reached using multi-processing. Once procedure to update database is triggered, fifty processes are spawned at a same time using Python \textit{multiprocessing} library. List of nodes is passed as an iterator to go over in a loop to the Pool object as shown in Listing~\ref{lst:multiprocess}. In addition, one lock is created to take over critical section of updating the shared status database and progress bar. Critical section can be defined as an area in a computer program where process operates on the shared variable by changes its value \cite{gebali2011algorithms}. Once a process reaches the critical section, it needs to acquire the lock to enter into it. Once a process has acquired the lock, it can start writing into the shared memory without any issue. As soon as it is done, the lock is released and another process can acquire it and start writing into the critical section. To be able to show correctly the progress, once a process finishes a task, it will lock the progress bar value, increase the progress variable with an increment that is derived from total number of nodes and then unlock the progress bar iterating to another node to gather information about it. The code of entering the critical section can be seen in  Listing~\ref{lst:lock}\\
  
 {\noindent\begin{minipage}{\linewidth}
-		\begin{lstlisting}[language=Python, numbers=none, label={lst:multiprocess}, caption=Creating a multi-processing object with fifty processes\, three shared variables and list of nodes as iterator., frame=single, showstringspaces=false, breaklines=true]
+		\begin{lstlisting}[language=Python, numbers=left, label={lst:multiprocess}, caption=Creating a multi-processing object with fifty processes\, three shared variables and list of nodes as iterator., frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 pool = Pool(50, initializer=multiProcessingInit,
 			initargs=(lock,base,increment, ))
 pool.map(updateAvailabilityDatabase, nodes)
@@ -170,7 +170,7 @@ pool.map(updateAvailabilityDatabase, nodes)
 	\end{minipage} 
 
 {\noindent\begin{minipage}{\linewidth}
-		\begin{lstlisting}[language=Python, numbers=none, label={lst:lock}, caption=Entering a critical section and acquiring a lock., frame=single, showstringspaces=false, breaklines=true]
+		\begin{lstlisting}[language=Python, numbers=left, label={lst:lock}, caption=Entering a critical section and acquiring a lock., frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 lock.acquire()
 base.value = base.value = increment.value
 updateProgressBarMultiProcessing(base.value)
@@ -214,7 +214,7 @@ Since status database already contains all the necessary information a simple fu
 As was mentioned previously, Python is multi-platform language and brings possibility of porting the application to all kinds of operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on Linux, Mac and possibly later on even Windows. Example of this multi-platform implementation can be seen in Listing~\ref{lst:testping} showing function \texttt{testPing} supporting all mentioned operating systems. As both Linux and Mac are Unix based, the implementation for these operating system is fairly simple and only minor changes are usually in several parameters. Perfect example is \texttt{ping} function. On Mac, time-out parameter takes one integer in millisecond as input variable. However, on Linux, the time-out parameter takes the integer variable in seconds. These little differences needs to be kept in mind when implementing platform-based functions. For Windows however, the differences are even more complex and all the libraries used in \texttt{plbmng} have to have Windows support. This was never tested yet even though most of the functions were written with Windows in mind. Adding full Windows support is a good initiative for the future development of \texttt{plbmng}.
 
 {\noindent\begin{minipage}{\linewidth}
-		\begin{lstlisting}[language=Python, numbers=none, label={lst:testping}, caption=Multi-Platform Function testPing, frame=single, showstringspaces=false, breaklines=true]
+		\begin{lstlisting}[language=Python, numbers=left, label={lst:testping}, caption=Multi-Platform Function testPing, frame=single, showstringspaces=false, breaklines=true, keywordstyle=\color{blue},captionpos=b]
 def testPing(target, returnbool=False):
 	pingPacketWaitTime = None
 	if system().lower() == 'windows':
@@ -255,7 +255,7 @@ During the search, previous version of the script has also included header of th
 \paragraph{Application crashes during return}
 When returning from a child menu window to a parent page, the application tend to crash on \texttt{grep} tool not being able to find file. During re-implementation this bug was fixed and returning now fully works.
 
-\section{Current Installation and Use of Application}
+\section{Improved Installation and Use of Application}
 \label{section:currentapp}
 In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure~\ref{fig:workflowdiagram}. After implementing improvements, application has been updated in the PyPI repository and is available at \url{https://pypi.org/project/plbmng/} in version \texttt{0.3.7}. Application repository web page can be seen in Figure~\ref{fig:plbmngrepo} and is describing the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to the user to see release history or download the source files of the project. It also show the maintainers of the projects and allows users to contact them. License under which the application is written can be found the repository page as well. As part of this Diploma thesis, the description was completely changed to reflect the current settings. It was improved to be more simple for the user by reducing amount of text on the page and keeping only necessary information.
 
@@ -318,7 +318,7 @@ Geographically, the nodes are all over the world and are more then suitable to t
 	\label{fig:allnodes}
 \end{figure}
 
-However, not all the nodes are available. As seen in Figure~\ref{fig:nodestats}, from the database 1004 nodes only 168 nodes are responding to ICMP packets and only 140 are listening on port 22 which is usually used for ssh. That is a very low availability percentage of only 16.7\% nodes responding to ping and even less 13.9\% listening on port 22. That is extremely low number of available nodes and shows that the universities offering their nodes often do not maintain them to make sure these are still available or have left the project without decommissioning the node in the PlanetLab interface. Also, an interesting fact is that there are 28 nodes that are responding to ICMP packets but are not listening on port 22. Explanation can lie in stuck \texttt{sshd} agent or some network restrictions which are preventing to access the port 22 on specific server.
+However, not all the nodes are available. As seen in Figure~\ref{fig:nodestats}, from the database 1004 nodes only 168 nodes are responding to ICMP packets and only 140 are listening on port 22 which is usually used for ssh. That is a very low availability percentage of only \SI{16.7}{\percent} nodes responding to ping and even less \SI{13.9}{\percent} listening on port 22. That is extremely low number of available nodes and shows that the universities offering their nodes often do not maintain them to make sure these are still available or have left the project without decommissioning the node in the PlanetLab interface. Also, an interesting fact is that there are 28 nodes that are responding to ICMP packets but are not listening on port 22. Explanation can lie in stuck \texttt{sshd} agent or some network restrictions which are preventing to access the port 22 on specific server.
 
 \begin{figure}[H]
 	\centering
@@ -336,7 +336,7 @@ If the data are pulled for continents respectively, we will get graph with \text
 	\label{fig:sshcountriesgraph}
 \end{figure}
 
-In more detailed breakdown, that can be seen in  Table~\ref{table:continentavailability}, it can be observed that Europe, with its 12\%, has the biggest percentage of ssh-accessible servers compared to overall number of nodes of all continents. Ssh accessible node means node available for project testing. On the other hand, the lowest percentage of available server has China with only 10.7\%.
+In more detailed breakdown, that can be seen in  Table~\ref{table:continentavailability}, it can be observed that Europe, with its \SI{12}{\percent}, has the biggest percentage of ssh-accessible servers compared to overall number of nodes of all continents. Ssh accessible node means node available for project testing. On the other hand, the lowest percentage of available server has China with only \SI{10.7}{\percent}.
 
 \begin{table}[htb]
 		\resizebox{\textwidth}{!}{
@@ -347,7 +347,7 @@ In more detailed breakdown, that can be seen in  Table~\ref{table:continentavail
 					\rowcolor[HTML]{EFEFEF} 
 					All nodes              & Ssh accessible              & All nodes              & Ssh accessible              & All nodes             & Ssh accessible            & All nodes              & Ssh accessible              \\ \hline
 					332                    & 60                          & 422                    & 51                          & 177                   & 19                        & 18                     & 2                           \\ \hline
-					100\%                  & 18.6\%                      & 100\%                  & 12\%                        & 100\%                 & 10.7\%                    & 100\%                  & 11.1\%                      \\ \hline
+					\SI{100}{\percent}                  & \SI{18.6}{\percent}                      & \SI{100}{\percent}                  & \SI{12}{\percent}                        & \SI{100}{\percent}                 & \SI{10.7}{\percent}                    & \SI{100}{\percent}                  & \SI{11.1}{\percent}                      \\ \hline
 				\end{tabular}
 		}
 \centering
@@ -377,7 +377,7 @@ First, credentials needs to be updated in the \texttt{Set credentials} menu opti
 	\label{fig:testingusecase}
 \end{figure}
 
-Script was copied into servers using Midnight Commander which provides extensive interface for managing files on both local and remote locations and can be seen in Figure~\ref{fig:midnightcommander}. As you can see by the results, the packets were successfully delivered and the packet round time were 0.248 seconds for Europe and 0.575 second for the China. This use case demonstrate very simple project but the same use case can be applied basically to any project as long as it use existing tools available on the servers. Even though only a bit above 10\% servers are available, PlanetLab still offers a vast network of nodes for project testing. 
+Script was copied into servers using Midnight Commander which provides extensive interface for managing files on both local and remote locations and can be seen in Figure~\ref{fig:midnightcommander}. As you can see by the results, the packets were successfully delivered and the packet round time were 0.248 seconds for Europe and 0.575 second for the China. This use case demonstrate very simple project but the same use case can be applied basically to any project as long as it use existing tools available on the servers. Even though only a bit above \SI{10}{\percent} servers are available, PlanetLab still offers a vast network of nodes for project testing. 
 
 \begin{figure}[H]
 	\centering
@@ -387,7 +387,7 @@ Script was copied into servers using Midnight Commander which provides extensive
 \end{figure}
 
 {\noindent\begin{minipage}{\linewidth}
-		\begin{lstlisting}[language=Python, numbers=none, label={lst:echoserver}, caption=Code of echo server., frame=single, showstringspaces=false]
+		\begin{lstlisting}[language=Python, numbers=left, label={lst:echoserver}, caption=Code of echo server., frame=single, showstringspaces=false, keywordstyle=\color{blue},captionpos=b]
 #!/usr/bin/python
 
 #Demo echo server for use case example
@@ -411,7 +411,7 @@ while 1:
 	\end{minipage}
 
 {\noindent\begin{minipage}{\linewidth}
-		\begin{lstlisting}[language=Python, numbers=none, label={lst:echoclient}, caption=Code of echo client., frame=single, showstringspaces=false]
+		\begin{lstlisting}[language=Python, numbers=left, label={lst:echoclient}, caption=Code of echo client., frame=single, showstringspaces=false, keywordstyle=\color{blue},captionpos=b]
 #!/usr/bin/python
 
 #Demo echo client for use case example
