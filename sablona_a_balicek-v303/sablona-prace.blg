@@ -1,24 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: sablona-prace.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: sablona-prace.aux
 A level-1 auxiliary file: text/uvod.aux
 A level-1 auxiliary file: text/reseni.aux
 A level-1 auxiliary file: text/vysledky.aux
 A level-1 auxiliary file: text/zaver.aux
 The style file: czplain.bst
 A level-1 auxiliary file: text/zkratky.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: text/literatura_mak.bib
 Warning--to sort, need author, editor, or key in BILHEQP2xqVnjbQi
 Warning--empty author and editor in BILHEQP2xqVnjbQi
 Warning--"{" isn't a brace-balanced string for entry andrasov2
-while executing--line 6037 of file czplain.bst
+while executing--line 3019 of file czplain.bst
 Warning--empty edition in Beaulieu:2005:LS:1098720
 Warning--empty edition in gebali2011algorithms
 Warning--empty year in ports
@@ -41,7 +32,7 @@ Warning--empty year in rhdatasheet
 Warning--empty year in rhhistory
 Warning--empty year in rhtrusted
 Warning--"{" isn't a brace-balanced string for entry Roscoe_PDN-02-002
-while executing--line 6037 of file czplain.bst
+while executing--line 3019 of file czplain.bst
 Warning--type empty in Roscoe_PDN-02-002
 Warning--empty year in pythonpep
 Warning--empty editor and organization in 1356981
@@ -52,49 +43,8 @@ Warning--empty year in planetlababout
 Warning--empty year in planetlabmain
 Warning--empty year in debianfifty
 Warning--empty year in virtualizationpopular
+Warning--"{" isn't a brace-balanced string for entry suba1
+while executing--line 3019 of file czplain.bst
 Warning--empty year in kvmspeed
 Warning--empty year in vmwarearch
-Warning--"{" isn't a brace-balanced string for entry suba1
-while executing--line 6037 of file czplain.bst
-You've used 34 entries,
-            3583 wiz_defined-function locations,
-            943 strings with 9658 characters,
-and the built_in function-call counts, 17009 in all, are:
-= -- 1309
-> -- 555
-< -- 247
-+ -- 139
-- -- 165
-* -- 825
-:= -- 1886
-add.period$ -- 114
-call.type$ -- 34
-change.case$ -- 213
-chr.to.int$ -- 440
-cite$ -- 69
-duplicate$ -- 1089
-empty$ -- 1703
-format.name$ -- 81
-if$ -- 4096
-int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 0
-newline$ -- 221
-num.names$ -- 66
-pop$ -- 388
-preamble$ -- 1
-purify$ -- 112
-quote$ -- 0
-skip$ -- 1017
-stack$ -- 0
-substring$ -- 1093
-swap$ -- 337
-text.length$ -- 70
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 70
-warning$ -- 35
-while$ -- 141
-width$ -- 36
-write$ -- 423
 (There were 38 warnings)
