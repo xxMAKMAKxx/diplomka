@@ -31,27 +31,27 @@
 \contentsline {subsection}{\numberline {3.2.2}Writing the Application as Library}{26}{subsection.46}% 
 \contentsline {subsection}{\numberline {3.2.3}Increasing Readability}{26}{subsection.51}% 
 \contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.75}% 
-\contentsline {subsection}{\numberline {3.2.5}Credentials Improvement}{29}{subsection.86}% 
-\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{30}{subsection.88}% 
+\contentsline {subsection}{\numberline {3.2.5}Credentials Improvement}{30}{subsection.86}% 
+\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{31}{subsection.88}% 
 \contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.89}% 
-\contentsline {subsection}{\numberline {3.2.8}Updating Status Database}{32}{subsection.92}% 
-\contentsline {subsection}{\numberline {3.2.9}Map Improvements}{33}{subsection.102}% 
-\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{34}{subsection.104}% 
-\contentsline {paragraph}{Clearing of the screen after cancel}{34}{section*.105}% 
-\contentsline {paragraph}{Recursion removal for return}{34}{section*.106}% 
-\contentsline {paragraph}{About is added to the menu}{35}{section*.107}% 
-\contentsline {paragraph}{Crontab mode created}{35}{section*.108}% 
-\contentsline {paragraph}{Last server access}{35}{section*.109}% 
-\contentsline {paragraph}{Menu with statistics}{35}{section*.110}% 
+\contentsline {subsection}{\numberline {3.2.8}Updating Status Database}{33}{subsection.92}% 
+\contentsline {subsection}{\numberline {3.2.9}Map Improvements}{34}{subsection.102}% 
+\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{35}{subsection.104}% 
+\contentsline {paragraph}{Clearing of the screen after cancel}{35}{section*.105}% 
+\contentsline {paragraph}{Recursion removal for return}{35}{section*.106}% 
+\contentsline {paragraph}{About is added to the menu}{36}{section*.107}% 
+\contentsline {paragraph}{Crontab mode created}{36}{section*.108}% 
+\contentsline {paragraph}{Last server access}{36}{section*.109}% 
+\contentsline {paragraph}{Menu with statistics}{36}{section*.110}% 
 \contentsline {paragraph}{Support of Multiple Platforms}{36}{section*.112}% 
-\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{38}{subsection.144}% 
-\contentsline {paragraph}{Removing headers from the searches}{38}{section*.145}% 
-\contentsline {paragraph}{Application crashes during return}{38}{section*.146}% 
-\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{38}{section.147}% 
-\contentsline {paragraph}{}{40}{section*.157}% 
-\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{42}{chapter.159}% 
-\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{42}{section.160}% 
-\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{46}{section.167}% 
-\contentsline {chapter}{\numberline {5}Conclusion}{49}{chapter.205}% 
-\contentsline {chapter}{Bibliography}{50}{section*.208}% 
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{53}{section*.210}% 
+\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{39}{subsection.144}% 
+\contentsline {paragraph}{Removing headers from the searches}{39}{section*.145}% 
+\contentsline {paragraph}{Application crashes during return}{39}{section*.146}% 
+\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{39}{section.147}% 
+\contentsline {paragraph}{}{41}{section*.157}% 
+\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{43}{chapter.159}% 
+\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{43}{section.160}% 
+\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{47}{section.167}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{50}{chapter.205}% 
+\contentsline {chapter}{Bibliography}{51}{section*.208}% 
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{54}{section*.210}% 
