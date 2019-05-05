@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  5 MAY 2019 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  5 MAY 2019 23:12
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -2175,7 +2175,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
 Here is how much of TeX's memory you used:
  29461 strings out of 492942
  515644 string characters out of 3126539
- 838656 words of memory out of 3000000
+ 839656 words of memory out of 3000000
  32552 multiletter control sequences out of 15000+200000
  638189 words of font info for 87 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
@@ -2201,7 +2201,7 @@ grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (57 pages, 2235533 bytes).
+Output written on sablona-prace.pdf (57 pages, 2235765 bytes).
 PDF statistics:
  1091 PDF objects out of 1200 (max. 8388607)
  304 named destinations out of 1000 (max. 500000)
