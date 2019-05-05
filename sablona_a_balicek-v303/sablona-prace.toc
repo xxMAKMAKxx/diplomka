@@ -2,56 +2,56 @@
 \babel@toc {english}{}
 \babel@toc {czech}{}
 \babel@toc {english}{}
-\contentsline {chapter}{Introduction}{11}{section*.5}% 
-\contentsline {chapter}{\numberline {1}PlanetLab Network}{12}{chapter.6}% 
-\contentsline {section}{\numberline {1.1}Use and Terminology}{13}{section.9}% 
-\contentsline {section}{\numberline {1.2}Selected Projects Based on PlanetLab}{13}{section.10}% 
-\contentsline {paragraph}{Securing Web Service by Automatic Robot Detection}{14}{section*.11}% 
-\contentsline {paragraph}{The Design and Implementation of Next Generation Name Service for Internet}{14}{section*.12}% 
-\contentsline {paragraph}{Slurpie: Cooperative Bulk Data Transfer Protocol}{14}{section*.13}% 
-\contentsline {section}{\numberline {1.3}PlanetLab Inftrastructure}{14}{section.14}% 
-\contentsline {subsection}{\numberline {1.3.1}Operating System Linux}{14}{subsection.15}% 
-\contentsline {paragraph}{Red Hat Enterprise Linux}{16}{section*.16}% 
-\contentsline {paragraph}{CentOS}{16}{section*.17}% 
-\contentsline {paragraph}{Fedora}{16}{section*.18}% 
-\contentsline {paragraph}{Debian}{16}{section*.19}% 
-\contentsline {paragraph}{Ubuntu}{16}{section*.20}% 
-\contentsline {subsection}{\numberline {1.3.2}Distributed Set of Resources Using Virtualization}{17}{subsection.21}% 
-\contentsline {paragraph}{VMware ESXi}{18}{section*.23}% 
-\contentsline {paragraph}{Red Hat Enterprise Virtualization}{18}{section*.24}% 
-\contentsline {paragraph}{Oracle Virtualbox}{18}{section*.25}% 
-\contentsline {paragraph}{KVM with QEMU}{19}{section*.26}% 
-\contentsline {chapter}{\numberline {2}Present State Of Application Development}{20}{chapter.27}% 
-\contentsline {section}{\numberline {2.1}Description of Current Functionality}{20}{section.29}% 
-\contentsline {section}{\numberline {2.2}Identified Problems}{21}{section.31}% 
-\contentsline {chapter}{\numberline {3}Implemented Improvements to PlanetLab Server Manager}{23}{chapter.32}% 
-\contentsline {section}{\numberline {3.1}Re-design of Application}{23}{section.33}% 
-\contentsline {section}{\numberline {3.2}Description of Improvements}{25}{section.35}% 
-\contentsline {subsection}{\numberline {3.2.1}Removal of Search Result Limitation}{25}{subsection.36}% 
-\contentsline {subsection}{\numberline {3.2.2}Writing the Application as Library}{26}{subsection.46}% 
-\contentsline {subsection}{\numberline {3.2.3}Code Readability Improvement}{26}{subsection.51}% 
-\contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.75}% 
-\contentsline {subsection}{\numberline {3.2.5}Improvement of Credentials Management}{30}{subsection.86}% 
-\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{31}{subsection.88}% 
-\contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.89}% 
-\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{33}{subsection.92}% 
-\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{34}{subsection.102}% 
-\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{35}{subsection.104}% 
-\contentsline {paragraph}{Clearing of the screen after cancel}{35}{section*.105}% 
-\contentsline {paragraph}{Recursion removal for return}{35}{section*.106}% 
-\contentsline {paragraph}{About is added to the menu}{36}{section*.107}% 
-\contentsline {paragraph}{Crontab mode created}{36}{section*.108}% 
-\contentsline {paragraph}{Last server access}{36}{section*.109}% 
-\contentsline {paragraph}{Menu with statistics}{36}{section*.110}% 
-\contentsline {paragraph}{Support of Multiple Platforms}{36}{section*.112}% 
-\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{39}{subsection.144}% 
-\contentsline {paragraph}{Removing headers from the searches}{39}{section*.145}% 
-\contentsline {paragraph}{Application crashes during return}{39}{section*.146}% 
-\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{39}{section.147}% 
-\contentsline {paragraph}{}{41}{section*.157}% 
-\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{43}{chapter.159}% 
-\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{43}{section.160}% 
-\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{47}{section.167}% 
-\contentsline {chapter}{\numberline {5}Conclusion}{51}{chapter.205}% 
-\contentsline {chapter}{Bibliography}{52}{section*.208}% 
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{55}{section*.210}% 
+\contentsline {chapter}{Introduction}{12}{section*.5}% 
+\contentsline {chapter}{\numberline {1}PlanetLab Network}{13}{chapter.6}% 
+\contentsline {section}{\numberline {1.1}Use and Terminology}{14}{section.9}% 
+\contentsline {section}{\numberline {1.2}Selected Projects Based on PlanetLab}{14}{section.10}% 
+\contentsline {paragraph}{Securing Web Service by Automatic Robot Detection}{15}{section*.11}% 
+\contentsline {paragraph}{The Design and Implementation of Next Generation Name Service for Internet}{15}{section*.12}% 
+\contentsline {paragraph}{Slurpie: Cooperative Bulk Data Transfer Protocol}{15}{section*.13}% 
+\contentsline {section}{\numberline {1.3}PlanetLab Inftrastructure}{15}{section.14}% 
+\contentsline {subsection}{\numberline {1.3.1}Operating System Linux}{15}{subsection.15}% 
+\contentsline {paragraph}{Red Hat Enterprise Linux}{17}{section*.16}% 
+\contentsline {paragraph}{CentOS}{17}{section*.17}% 
+\contentsline {paragraph}{Fedora}{17}{section*.18}% 
+\contentsline {paragraph}{Debian}{17}{section*.19}% 
+\contentsline {paragraph}{Ubuntu}{18}{section*.20}% 
+\contentsline {subsection}{\numberline {1.3.2}Distributed Set of Resources Using Virtualization}{18}{subsection.21}% 
+\contentsline {paragraph}{VMware ESXi}{19}{section*.23}% 
+\contentsline {paragraph}{Red Hat Enterprise Virtualization}{19}{section*.24}% 
+\contentsline {paragraph}{Oracle Virtualbox}{20}{section*.25}% 
+\contentsline {paragraph}{KVM with QEMU}{20}{section*.26}% 
+\contentsline {chapter}{\numberline {2}Present State Of Application Development}{21}{chapter.27}% 
+\contentsline {section}{\numberline {2.1}Description of Current Functionality}{21}{section.29}% 
+\contentsline {section}{\numberline {2.2}Identified Problems}{22}{section.31}% 
+\contentsline {chapter}{\numberline {3}Implemented Improvements to PlanetLab Server Manager}{24}{chapter.32}% 
+\contentsline {section}{\numberline {3.1}Re-design of Application}{24}{section.33}% 
+\contentsline {section}{\numberline {3.2}Description of Improvements}{26}{section.35}% 
+\contentsline {subsection}{\numberline {3.2.1}Removal of Search Result Limitation}{26}{subsection.36}% 
+\contentsline {subsection}{\numberline {3.2.2}Writing the Application as Library}{27}{subsection.46}% 
+\contentsline {subsection}{\numberline {3.2.3}Code Readability Improvement}{27}{subsection.51}% 
+\contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{30}{subsection.75}% 
+\contentsline {subsection}{\numberline {3.2.5}Improvement of Credentials Management}{31}{subsection.86}% 
+\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{32}{subsection.88}% 
+\contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{32}{subsection.89}% 
+\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{34}{subsection.92}% 
+\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{35}{subsection.102}% 
+\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{36}{subsection.104}% 
+\contentsline {paragraph}{Clearing of the screen after cancel}{36}{section*.105}% 
+\contentsline {paragraph}{Recursion removal for return}{36}{section*.106}% 
+\contentsline {paragraph}{About is added to the menu}{37}{section*.107}% 
+\contentsline {paragraph}{Crontab mode created}{37}{section*.108}% 
+\contentsline {paragraph}{Last server access}{37}{section*.109}% 
+\contentsline {paragraph}{Menu with statistics}{37}{section*.110}% 
+\contentsline {paragraph}{Support of Multiple Platforms}{37}{section*.112}% 
+\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{40}{subsection.144}% 
+\contentsline {paragraph}{Removing headers from the searches}{40}{section*.145}% 
+\contentsline {paragraph}{Application crashes during return}{40}{section*.146}% 
+\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{40}{section.147}% 
+\contentsline {paragraph}{}{42}{section*.157}% 
+\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{44}{chapter.159}% 
+\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{44}{section.160}% 
+\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{48}{section.167}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{52}{chapter.205}% 
+\contentsline {chapter}{Bibliography}{53}{section*.208}% 
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{56}{section*.210}% 
