@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  5 MAY 2019 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  5 MAY 2019 12:54
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1793,11 +1793,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<obrazky/plbmng_basic.png, id=626, 703.62875pt x 432.61626pt>
+<obrazky/plbmng_basic.png, id=626, 729.72626pt x 381.425pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
 Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 98.
-(pdftex.def)             Requested size: 703.62703pt x 432.6152pt.
+(pdftex.def)             Requested size: 729.72449pt x 381.42406pt.
 [28] [29 <./obrazky/plbmng_basic.png>]
 <obrazky/credentials_figure.png, id=652, 703.62875pt x 540.0175pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
@@ -2217,7 +2217,7 @@ grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (56 pages, 2218697 bytes).
+Output written on sablona-prace.pdf (56 pages, 2220130 bytes).
 PDF statistics:
  1064 PDF objects out of 1200 (max. 8388607)
  301 named destinations out of 1000 (max. 500000)
