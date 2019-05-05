@@ -86,6 +86,12 @@
 \newblock Revised: 11, Jannuary, 2012 [cit. 25.~November 2018].
 \newblock Available at: ~{\tt https://goo.gl/6ZXLZU}.
 
+\bibitem{OpenStreetMap}
+{\sc\bgroup}{OpenStreetMap contributors}{\egroup}.
+\newblock {\em {Planet dump retrieved from https://planet.osm.org }} [\url{
+  https://www.openstreetmap.org }].
+\newblock 2017.
+
 \bibitem{oracledatasheet}
 {\sc\bgroup}{\relax Oracle Corporation}{\egroup}.
 \newblock {\em Oracle VM VirtualBox User Manual} [online].

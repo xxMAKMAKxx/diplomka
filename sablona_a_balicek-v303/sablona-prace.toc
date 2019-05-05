@@ -16,7 +16,7 @@
 \contentsline {paragraph}{Fedora}{16}{section*.18}% 
 \contentsline {paragraph}{Debian}{16}{section*.19}% 
 \contentsline {paragraph}{Ubuntu}{16}{section*.20}% 
-\contentsline {subsection}{\numberline {1.3.2}Virtualization}{17}{subsection.21}% 
+\contentsline {subsection}{\numberline {1.3.2}Distributed Set of Resources Using Virtualization}{17}{subsection.21}% 
 \contentsline {paragraph}{VMware ESXi}{18}{section*.23}% 
 \contentsline {paragraph}{Red Hat Enterprise Virtualization}{18}{section*.24}% 
 \contentsline {paragraph}{Oracle Virtualbox}{18}{section*.25}% 

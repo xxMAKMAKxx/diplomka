@@ -21,6 +21,10 @@ Warning--empty year and revised in linuxintro
 Warning--empty year in opensourcecom
 Warning--empty year in centosfirsts
 Warning--empty year in debianpopular
+Warning--"{" isn't a brace-balanced string for entry OpenStreetMap
+while executing--line 3019 of file czplain.bst
+Warning--empty cited in OpenStreetMap
+Warning--empty url in OpenStreetMap
 Warning--empty year in oracledatasheet
 Warning--empty year in oraclehome
 Warning--empty editor and organization in Park:2006:SWS:1267359.1267382
@@ -49,4 +53,4 @@ Warning--"{" isn't a brace-balanced string for entry suba1
 while executing--line 3019 of file czplain.bst
 Warning--empty year in kvmspeed
 Warning--empty year in vmwarearch
-(There were 39 warnings)
+(There were 42 warnings)
