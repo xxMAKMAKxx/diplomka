@@ -18,7 +18,7 @@ This Section will describe the approach taken to improve the application. The is
 \begin{figure}[H]
 	\centering
 	\scalebox{0.8}{\includegraphics{obrazky/PlbmngArchitecture}}
-	\caption{PlanetLab Server Manager architecture diagram.}
+	\caption{New PlanetLab Server Manager architecture diagram.}
 	\label{fig:archdiagram}
 \end{figure}
 
@@ -28,7 +28,7 @@ Issue with scattered functions was solved using single file, the \texttt{engine.
 \section{Description of Improvements}
 \label{section:implementapproach}
 In this Section, the steps to achieve goals; which were described in the Chapter introduction; will be shown in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses \texttt{pythondialog} module, at the start of the tool an instance of the \texttt{Dialog} class is spawned and will be later described just as the \texttt{instance}.
-\subsection{Removing Result Limitation}
+\subsection{Removal of Search Result Limitation}
 The previous version of \texttt{plbmng} tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since \texttt{pythondialog} module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the \zk{zkGUI} (\zkratkatext{zkGUI}). Example of this functionality is shown in Listing~\ref{lst:removingresultlimit}. Currently, the tool is returning all results found.
 
 {\noindent\begin{minipage}{\linewidth}
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 \end{lstlisting}
 \end{minipage}
 
-\subsection{Increasing Readability}
+\subsection{Code Readability Improvement}
 \label{subsection:readability}
 Community is a powerful group that helps develop a tool and to add more functionality to it. To have community contribute to a tool, it should follow good practices and be easily readable. Previous version of the tool was using Bash script which was calling Python script and creating new Bash scripts on a disk which was merging using different pieces of code from pre-created \texttt{.dat} files in a \texttt{bin} folder. Finding a bug in this structure was difficult and non-intuitive. All these pieces of code were fully re-written into single Python script and logically divided into two sections. One section is for GUI functions and other is for logical functions. Each functions is very descriptive in its name as shown in Listing~\ref{lst:descriptive}.
 
@@ -96,7 +96,7 @@ As mentioned in the Section~\ref{section:improvement}, renaming certain parts of
 \begin{figure}[H]
 	\centering
 	\scalebox{0.55}{\includegraphics{obrazky/plbmng_basic}}
-	\caption{New re-designed menu with added name, version and various name changes.}
+	\caption{Re-designed menu of new PlanetLab Server Manager.}
 	\label{fig:redesigned}
 \end{figure}
 
@@ -117,7 +117,7 @@ plbmng.plbmng.initInterface()
 \end{lstlisting}
 \end{minipage}}
 
-\subsection{Credentials Improvement}
+\subsection{Improvement of Credentials Management}
 In the previous version of the tool the credentials were filled using \texttt{dialog} forms. When typing the credentials, nothing was shown except stars thus user was unaware where is the position of the cursor. Also saving of the credentials was not working properly resulting into the need to adjust the configuration file itself which required locating the file first by inspecting the source code. In the new version settings credential is improved by creating a virtual editor in the graphical interface itself, as shown in Figure~\ref{fig:credentials}, that allows the user transparently set the credentials. One of the disadvantage of this approach is plain text visible password in the editor as it is not hidden and user needs to be careful about setting the credentials in a safe environment. To the addition of this improvement, various credentials checks were added to the application. First run of the application will always trigger window advising user to fill credentials first. If a user chose to update a database without having credentials filled a warning message will pop-up warning the user about that fact. Also, when user wants to ssh to a server without having username and key filled he will have warning text near the ssh option. These improvements should prevent users forgetting about filling credentials and failing actions in the application.
 
 \begin{figure}[H]
@@ -154,11 +154,11 @@ Applying filters is done using \texttt{Filtering options} in the \texttt{Access 
 \begin{figure}[H]
 	\centering
 	\scalebox{1}{\includegraphics{obrazky/filtering}}
-	\caption{Figure showing menu where user can select active filters.}
+	\caption{Figure showing new menu where user can choose active filters.}
 	\label{fig:filtering}
 \end{figure}
 
-\subsection{Updating Status Database}
+\subsection{Multiprocessing Update of Status Database}
 Updating the status database, or to be precise updating table inside the database, can be triggered from the \texttt{Monitor servers} menu. This will start a progress bar that takes approximately two minutes after optimization. Before optimization, the procedure took around 40 minutes. This speed was reached using multi-processing. Once procedure to update database is triggered, fifty processes are spawned at a same time using Python \textit{multiprocessing} library. List of nodes is passed as an iterator to go over in a loop to the Pool object as shown in Listing~\ref{lst:multiprocess}. In addition, one lock is created to take over critical section of updating the shared status database and progress bar. Critical section can be defined as an area in a computer program where process operates on the shared variable by changes its value \cite{gebali2011algorithms}. Once a process reaches the critical section, it needs to acquire the lock to enter into it. Once a process has acquired the lock, it can start writing into the shared memory without any issue. As soon as it is done, the lock is released and another process can acquire it and start writing into the critical section. To be able to show correctly the progress, once a process finishes a task, it will lock the progress bar value, increase the progress variable with an increment that is derived from total number of nodes and then unlock the progress bar iterating to another node to gather information about it. The code of entering the critical section can be seen in  Listing~\ref{lst:lock}\\
  
 {\noindent\begin{minipage}{\linewidth}
@@ -178,13 +178,13 @@ lock.release()
 		\end{lstlisting}
 	\end{minipage} 
 
-\subsection{Map Improvements}
+\subsection{Improvements of Node Visualization}
 In the previous version of the application, user could render all nodes in the node database on a map. It displayed markers which, upon clicking, showed hostname of the node. During implementation of filters, maps were also enhanced. Now, user can select between three maps to render; full map, map of nodes available over ssh and map of nodes that are ping-able. In addition, upon clicking, user can see all the stored information about the node as can be seen in Figure~\ref{fig:mapnodedetail}. The library for rendering the map was changed to use the same principle as search function. Instead of reading nodes from a file, it gets them passed as a parameter. While triggering the map module, nodes are loaded using \texttt{getNodes()} function that takes filtering into consideration in default. The filter in this case is only adjusted by the user's choice. Later, in Chapter~\ref{chapter:analysis} the information from map filters will be used to analyze \textit{PlanetLab Network} more in detail. For user, maps filters are good opportunity to see which server are actually available for project testing and possibly create an uniform list of candidate nodes that are spread all over the world. 
 
 \begin{figure}[H]
 	\centering
 	\scalebox{0.65}{\includegraphics{obrazky/mapnodedetail}}
-	\caption{Figure showing the detail of a node upon clicking on its marker.}
+	\caption{Detail of node marker with newly added information about the particular node.}
 	\label{fig:mapnodedetail}
 \end{figure}
 
@@ -262,7 +262,7 @@ In this Section, the post-improvements installation procedure is described and w
 \begin{figure}[H]
 	\centering
 	\scalebox{0.38}{\includegraphics{obrazky/plbmng_repo}}
-	\caption{PlanetLab Server Manager web page in PyPI repository.}
+	\caption{New PlanetLab Server Manager web page in PyPI repository.}
 	\label{fig:plbmngrepo}
 \end{figure}
 
@@ -289,7 +289,7 @@ After this basic setup all the application functionality is available. It is rec
 \begin{figure}[H]
 	\centering
 	\scalebox{0.8}{\includegraphics{obrazky/BehavioralPlbmng}}
-	\caption{PlanetLab Server Manager behavioral diagram.}
+	\caption{Behavioral diagram of new PlanetLab Server Manager.}
 	\label{fig:workflowdiagram}
 \end{figure}
 
@@ -314,7 +314,7 @@ Geographically, the nodes are all over the world and are more then suitable to t
 \begin{figure}[H]
 	\centering
 	\scalebox{0.55}{\includegraphics{obrazky/plbmng_all_nodes}}
-	\caption{Map of nodes on world map using the PlanetLab Server Manager node database and map rendering functionality. Data from April 2019.}
+	\caption{Nodes displayed on world map using the PlanetLab Server Manager map rendering functionality. Data from April 2019.}
 	\label{fig:allnodes}
 \end{figure}
 
@@ -322,7 +322,7 @@ However, not all the nodes are available. As seen in Figure~\ref{fig:nodestats},
 
 \begin{figure}[H]
 	\centering
-	\scalebox{0.9}{\includegraphics{obrazky/nodestats}}
+	\scalebox{0.95}{\includegraphics{obrazky/nodestats}}
 	\caption{Number of PlanetLab nodes logically divided by their accessibility. Data from April 2019.}
 	\label{fig:nodestats}
 \end{figure}
@@ -331,7 +331,7 @@ If the data are pulled for continents respectively, we will get graph with \text
 
 \begin{figure}[H]
 	\centering
-	\scalebox{0.9}{\includegraphics{obrazky/sshcountriesgraph}}
+	\scalebox{0.95}{\includegraphics{obrazky/sshcountriesgraph}}
 	\caption{Number of ssh accessible nodes logically divided into continents.}
 	\label{fig:sshcountriesgraph}
 \end{figure}

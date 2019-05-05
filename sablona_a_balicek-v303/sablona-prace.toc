@@ -27,15 +27,15 @@
 \contentsline {chapter}{\numberline {3}Implemented Improvements to PlanetLab Server Manager}{23}{chapter.32}% 
 \contentsline {section}{\numberline {3.1}Re-design of Application}{23}{section.33}% 
 \contentsline {section}{\numberline {3.2}Description of Improvements}{25}{section.35}% 
-\contentsline {subsection}{\numberline {3.2.1}Removing Result Limitation}{25}{subsection.36}% 
+\contentsline {subsection}{\numberline {3.2.1}Removal of Search Result Limitation}{25}{subsection.36}% 
 \contentsline {subsection}{\numberline {3.2.2}Writing the Application as Library}{26}{subsection.46}% 
-\contentsline {subsection}{\numberline {3.2.3}Increasing Readability}{26}{subsection.51}% 
+\contentsline {subsection}{\numberline {3.2.3}Code Readability Improvement}{26}{subsection.51}% 
 \contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.75}% 
-\contentsline {subsection}{\numberline {3.2.5}Credentials Improvement}{30}{subsection.86}% 
+\contentsline {subsection}{\numberline {3.2.5}Improvement of Credentials Management}{30}{subsection.86}% 
 \contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{31}{subsection.88}% 
 \contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.89}% 
-\contentsline {subsection}{\numberline {3.2.8}Updating Status Database}{33}{subsection.92}% 
-\contentsline {subsection}{\numberline {3.2.9}Map Improvements}{34}{subsection.102}% 
+\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{33}{subsection.92}% 
+\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{34}{subsection.102}% 
 \contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{35}{subsection.104}% 
 \contentsline {paragraph}{Clearing of the screen after cancel}{35}{section*.105}% 
 \contentsline {paragraph}{Recursion removal for return}{35}{section*.106}% 
@@ -52,6 +52,6 @@
 \contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{43}{chapter.159}% 
 \contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{43}{section.160}% 
 \contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{47}{section.167}% 
-\contentsline {chapter}{\numberline {5}Conclusion}{50}{chapter.205}% 
-\contentsline {chapter}{Bibliography}{51}{section*.208}% 
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{54}{section*.210}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{51}{chapter.205}% 
+\contentsline {chapter}{Bibliography}{52}{section*.208}% 
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{55}{section*.210}% 

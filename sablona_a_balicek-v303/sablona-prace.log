@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  4 MAY 2019 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  5 MAY 2019 12:17
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1907,11 +1907,11 @@ Overfull \hbox (0.92038pt too wide) in paragraph at lines 316--317
  []
 
 Package epstopdf Info: Source file: <obrazky/nodestats.eps>
-(epstopdf)                    date: 2019-04-28 18:27:27
-(epstopdf)                    size: 70214 bytes
+(epstopdf)                    date: 2019-05-05 12:14:15
+(epstopdf)                    size: 83523 bytes
 (epstopdf)             Output file: <obrazky/nodestats-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-28 18:28:46
-(epstopdf)                    size: 18168 bytes
+(epstopdf)                    date: 2019-05-05 12:14:29
+(epstopdf)                    size: 25143 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/nodestats-eps-conve
 rted-to.pdf obrazky/nodestats.eps>
 (epstopdf)             \includegraphics on input line 325.
@@ -1926,14 +1926,19 @@ File: obrazky/nodestats-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: obrazky/nodestats-eps-converted-to.pdf  used on input 
 line 325.
 (pdftex.def)             Requested size: 455.70137pt x 255.95561pt.
+
+Overfull \hbox (6.12354pt too wide) in paragraph at lines 325--326
+ [][] 
+ []
+
 [44 <./obrazky/plbmng_all_nodes.png>]
 Package epstopdf Info: Source file: <obrazky/sshcountriesgraph.eps>
-(epstopdf)                    date: 2019-04-28 19:54:28
-(epstopdf)                    size: 76687 bytes
+(epstopdf)                    date: 2019-05-05 12:12:56
+(epstopdf)                    size: 84178 bytes
 (epstopdf)             Output file: <obrazky/sshcountriesgraph-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2019-04-28 19:54:37
-(epstopdf)                    size: 15165 bytes
+(epstopdf)                    date: 2019-05-05 12:14:30
+(epstopdf)                    size: 20432 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/sshcountriesgraph-e
 ps-converted-to.pdf obrazky/sshcountriesgraph.eps>
 (epstopdf)             \includegraphics on input line 334.
@@ -1950,21 +1955,25 @@ File: obrazky/sshcountriesgraph-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: obrazky/sshcountriesgraph-eps-converted-to.pdf  used o
 n input line 334.
 (pdftex.def)             Requested size: 455.70137pt x 255.95561pt.
-[45 <./obrazky/nodestats-eps-converted-to.pdf> <./obrazky/sshcountriesgraph-eps
--converted-to.pdf>]
-<obrazky/plbmng_ssh_nodes.png, id=843, 765.6103pt x 502.12593pt>
+
+Overfull \hbox (6.12354pt too wide) in paragraph at lines 334--335
+ [][] 
+ []
+
+[45 <./obrazky/nodestats-eps-converted-to.pdf>]
+<obrazky/plbmng_ssh_nodes.png, id=841, 765.6103pt x 502.12593pt>
 File: obrazky/plbmng_ssh_nodes.png Graphic file (type png)
 <use obrazky/plbmng_ssh_nodes.png>
 Package pdftex.def Info: obrazky/plbmng_ssh_nodes.png  used on input line 362.
 (pdftex.def)             Requested size: 765.60843pt x 502.12471pt.
- [46 <./obrazky/plbmng_ssh_nodes.png>]
-<obrazky/testingusecase.png, id=854, 1016.79875pt x 305.14pt>
+ [46 <./obrazky/sshcountriesgraph-eps-converted-to.pdf>] [47 <./obrazky/plbmng_
+ssh_nodes.png>]
+<obrazky/testingusecase.png, id=859, 1016.79875pt x 305.14pt>
 File: obrazky/testingusecase.png Graphic file (type png)
 <use obrazky/testingusecase.png>
 Package pdftex.def Info: obrazky/testingusecase.png  used on input line 375.
 (pdftex.def)             Requested size: 1016.79628pt x 305.13924pt.
- [47 <./obrazky/testingusecase.png>]
-<obrazky/midnightcommander.png, id=862, 1013.7875pt x 813.0375pt>
+<obrazky/midnightcommander.png, id=861, 1013.7875pt x 813.0375pt>
 File: obrazky/midnightcommander.png Graphic file (type png)
 <use obrazky/midnightcommander.png>
 Package pdftex.def Info: obrazky/midnightcommander.png  used on input line 384.
@@ -1975,15 +1984,15 @@ Overfull \hbox (2.04391pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
-[48 <./obrazky/midnightcommander.png>]) [49]
+[48 <./obrazky/testingusecase.png>] [49 <./obrazky/midnightcommander.png>])
+[50]
 \openout2 = `text/zaver.aux'.
 
- (text/zaver.tex) [50
+ (text/zaver.tex) [51
 
 
 
-]
-(sablona-prace.bbl
+] (sablona-prace.bbl
 Underfull \hbox (badness 1715) in paragraph at lines 15--21
 []\T1/lmr/m/sc/12 Andra²ov\T1/lmr/m/n/12 , I.  \T1/lmr/m/it/12 M¥°ení ex-per-i-
 men-tální sít¥ PlanetLab\T1/lmr/m/n/12 .  Brno: Brno,
@@ -2029,7 +2038,7 @@ Underfull \hbox (badness 6078) in paragraph at lines 70--75
 \T1/lmr/m/n/12 vised: 08, May, 2018 [cit. 25. Novem-ber 2018].  Avail-able at:
  []
 
-[51
+[52
 
 
 ]
@@ -2080,7 +2089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--147
 
  []
 
-[52]
+[53]
 Underfull \hbox (badness 2600) in paragraph at lines 182--187
 []\T1/lmr/m/sc/12 StackOverflow\T1/lmr/m/n/12 .  \T1/lmr/m/it/12 The In-cred-i-
 ble Growth of Python \T1/lmr/m/n/12 [on-line].  Re-
@@ -2145,10 +2154,10 @@ Underfull \hbox (badness 6220) in paragraph at lines 221--227
 able at:
  []
 
-) [53]
+) [54]
 \openout2 = `text/zkratky.aux'.
 
- (text/zkratky.tex [54
+ (text/zkratky.tex [55
 
 
 
@@ -2160,7 +2169,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 9012A435F3EDB99C8CEE07D727094C2E;6393.
+(rerunfilecheck)             Checksum: A9C15630AAA98CE3EE0DB2183C7C9EB4;6740.
 
 
 LaTeX Warning: There were undefined references.
@@ -2180,9 +2189,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
 ### simple group (level 1) entered at line 34 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29450 strings out of 492942
- 515474 string characters out of 3126539
- 837530 words of memory out of 3000000
+ 29451 strings out of 492942
+ 515481 string characters out of 3126539
+ 837667 words of memory out of 3000000
  32545 multiletter control sequences out of 15000+200000
  638189 words of font info for 87 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
@@ -2208,9 +2217,9 @@ grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (55 pages, 2205237 bytes).
+Output written on sablona-prace.pdf (56 pages, 2218697 bytes).
 PDF statistics:
- 1059 PDF objects out of 1200 (max. 8388607)
- 300 named destinations out of 1000 (max. 500000)
+ 1064 PDF objects out of 1200 (max. 8388607)
+ 301 named destinations out of 1000 (max. 500000)
  432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
