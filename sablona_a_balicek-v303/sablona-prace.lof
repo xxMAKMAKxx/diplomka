@@ -20,4 +20,4 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Number of ssh accessible nodes logically divided into continents.\relax }}{46}{figure.caption.164}% 
 \contentsline {figure}{\numberline {4.5}{\ignorespaces World map displaying only ssh-accessible nodes using application database. Data from April 2019.\relax }}{47}{figure.caption.166}% 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Terminal view illustrating usage of PlanetLab Server Manager to find proper servers and run server/client echo script on them to measure round times of packets between Europe, China and America.\relax }}{48}{figure.caption.168}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Illustration of midnight commander used to copy scripts from localhost to a remote server inside the PlanetLab network.\relax }}{49}{figure.caption.169}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Illustration of midnight commander used to copy scripts from localhost (green rectangle) to a remote server (red rectangle) inside the PlanetLab network.\relax }}{49}{figure.caption.169}% 
