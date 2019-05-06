@@ -1,23 +1,23 @@
-\select@language {english}
-\select@language {english}
-\select@language {czech}
-\select@language {english}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Map displaying location of the PlanetLab network nodes \cite {OpenStreetMap}.\relax }}{13}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Pie chart displaying number of nodes in PlanetLab network responding to ICMP packets. Data from November 2018.\relax }}{14}{figure.caption.8}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Virtualization vs traditional architecture schema.\relax }}{19}{figure.caption.22}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Menu of previous version of the application called Data miner for PlanetLab.\relax }}{22}{figure.caption.30}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces New PlanetLab Server Manager architecture diagram.\relax }}{25}{figure.caption.34}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Re-designed menu of new PlanetLab Server Manager.\relax }}{30}{figure.caption.74}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces New window for setting up credentials using internal text editor.\relax }}{32}{figure.caption.88}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Figure showing new menu where user can choose active filters.\relax }}{34}{figure.caption.92}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Detail of node marker with newly added information about the particular node \cite {OpenStreetMap}.\relax }}{36}{figure.caption.104}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Newly added option to display current statistics about accessibility of stored nodes.\relax }}{37}{figure.caption.112}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces New PlanetLab Server Manager web page in PyPI repository.\relax }}{41}{figure.caption.149}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Behavioral diagram of new PlanetLab Server Manager.\relax }}{43}{figure.caption.159}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Graph displaying top twenty countries and number of nodes they have contributed to the PlanetLab Network.\relax }}{44}{figure.caption.162}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Nodes displayed on world map using the PlanetLab Server Manager map rendering functionality \cite {OpenStreetMap}. Data~from April 2019.\relax }}{45}{figure.caption.163}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Number of PlanetLab nodes logically divided by their accessibility. Data~from April 2019.\relax }}{46}{figure.caption.164}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Number of ssh accessible nodes logically divided into continents.\relax }}{47}{figure.caption.165}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces World map displaying only ssh-accessible nodes using application database \cite {OpenStreetMap}. Data~from April 2019.\relax }}{48}{figure.caption.167}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Terminal view illustrating usage of PlanetLab Server Manager to find proper servers and run server/client echo script on them to measure round times of packets between Europe, China~and America.\relax }}{49}{figure.caption.169}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Illustration of midnight commander used to copy scripts from localhost (green rectangle) to a~remote server (red rectangle) inside the PlanetLab network.\relax }}{50}{figure.caption.170}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {czech}{}
+\babel@toc {english}{}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Map displaying location of the PlanetLab network nodes \cite {OpenStreetMap}.\relax }}{13}{figure.caption.7}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Pie chart displaying number of nodes in PlanetLab network responding to ICMP packets. Data from November 2018.\relax }}{14}{figure.caption.8}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Virtualization vs traditional architecture schema.\relax }}{19}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Menu of previous version of the application called Data miner for PlanetLab.\relax }}{22}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces New PlanetLab Server Manager architecture diagram.\relax }}{25}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Re-designed menu of new PlanetLab Server Manager.\relax }}{30}{figure.caption.74}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces New window for setting up credentials using internal text editor.\relax }}{32}{figure.caption.88}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Figure showing new menu where user can choose active filters.\relax }}{34}{figure.caption.92}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Detail of node marker with newly added information about the particular node \cite {OpenStreetMap}.\relax }}{36}{figure.caption.104}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Newly added option to display current statistics about accessibility of stored nodes.\relax }}{37}{figure.caption.112}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces New PlanetLab Server Manager web page in PyPI repository.\relax }}{41}{figure.caption.149}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Behavioral diagram of new PlanetLab Server Manager.\relax }}{43}{figure.caption.159}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Graph displaying top twenty countries and number of nodes they have contributed to the PlanetLab Network.\relax }}{44}{figure.caption.162}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Nodes displayed on world map using the PlanetLab Server Manager map rendering functionality \cite {OpenStreetMap}. Data~from April 2019.\relax }}{45}{figure.caption.163}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Number of PlanetLab nodes logically divided by their accessibility. Data~from April 2019.\relax }}{46}{figure.caption.164}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Number of ssh accessible nodes logically divided into continents.\relax }}{47}{figure.caption.165}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces World map displaying only ssh-accessible nodes using application database \cite {OpenStreetMap}. Data~from April 2019.\relax }}{48}{figure.caption.167}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Terminal view illustrating usage of PlanetLab Server Manager to find proper servers and run server/client echo script on them to measure round times of packets between Europe, China~and America.\relax }}{49}{figure.caption.169}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Illustration of midnight commander used to copy scripts from localhost (green rectangle) to a~remote server (red rectangle) inside the PlanetLab network.\relax }}{50}{figure.caption.170}% 
