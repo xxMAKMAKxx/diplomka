@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  6 MAY 2019 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.4.14)  6 MAY 2019 19:02
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1630,13 +1630,30 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [3
 
 ] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 185.
 
+ ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (19.41545pt too wide) in paragraph at lines 185--186
+[]\T1/lmr/m/n/12 Odstran¥ní lim-i-tace výsledk· vyh-ledávání díky pouºití kon-s
+trukcí jazyka Python 3,
+ []
+
+
+Overfull \hbox (15.98892pt too wide) in paragraph at lines 185--186
+\T1/lmr/m/n/12 který do-voluje zjed-ndou²e-nou práci s pouºi-tou kni-hov-nou pr
+o uºi-va-tel-ské rozhraní. 
  []
 
 [5
 
-] [6] [7
+]
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[6] [7
 
 ] [8
 
@@ -1654,8 +1671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--183
  [10
 
 
-]
-(sablona-prace.lol)
+] (sablona-prace.lol)
 \tf@lol=\write6
 \openout6 = `sablona-prace.lol'.
 
@@ -1672,7 +1688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--183
 \openout2 = `text/reseni.aux'.
 
  (text/reseni.tex
-<obrazky/mapa_planetlab.png, id=402, 2055.68pt x 1188.44pt>
+<obrazky/mapa_planetlab.png, id=404, 2055.68pt x 1188.44pt>
 File: obrazky/mapa_planetlab.png Graphic file (type png)
 <use obrazky/mapa_planetlab.png>
 Package pdftex.def Info: obrazky/mapa_planetlab.png  used on input line 7.
@@ -1682,7 +1698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<obrazky/pingablepie.pdf, id=409, 454.69875pt x 245.91875pt>
+<obrazky/pingablepie.pdf, id=411, 454.69875pt x 245.91875pt>
 File: obrazky/pingablepie.pdf Graphic file (type pdf)
 <use obrazky/pingablepie.pdf>
 Package pdftex.def Info: obrazky/pingablepie.pdf  used on input line 16.
@@ -1691,19 +1707,14 @@ Package pdftex.def Info: obrazky/pingablepie.pdf  used on input line 16.
 
 
 
- <./obrazky/mapa_planetlab.png>]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 25.
-
-("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[14 <./obrazky/pingablepie.pdf>] [15] [16] [17]
+ <./obrazky/mapa_planetlab.png>] [14 <./obrazky/pingablepie.pdf>] [15]
+[16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 [18]
-<obrazky/virt.pdf, id=487, 578.16pt x 246.9225pt>
+<obrazky/virt.pdf, id=488, 578.16pt x 246.9225pt>
 File: obrazky/virt.pdf Graphic file (type pdf)
 <use obrazky/virt.pdf>
 Package pdftex.def Info: obrazky/virt.pdf  used on input line 83.
@@ -1732,12 +1743,17 @@ Overfull \hbox (3.39868pt too wide) in paragraph at lines 94--96
  []
 
 [20]
-<obrazky/planetlabmenuold.png, id=540, 834.11626pt x 598.235pt>
+Overfull \hbox (10.83836pt too wide) in paragraph at lines 107--109
+\T1/lmr/m/n/12 Application PlanetLab Server Man-ager, orig-i-nally called \T1/l
+mtt/m/n/12 Data miner for PlanetLab\T1/lmr/m/n/12 ,
+ []
+
+<obrazky/planetlabmenuold.png, id=541, 834.11626pt x 598.235pt>
 File: obrazky/planetlabmenuold.png Graphic file (type png)
 <use obrazky/planetlabmenuold.png>
 Package pdftex.def Info: obrazky/planetlabmenuold.png  used on input line 119.
 (pdftex.def)             Requested size: 834.11423pt x 598.23354pt.
- [21
+[21
 
 ]) [22 <./obrazky/planetlabmenuold.png>] [23]
 \openout2 = `text/vysledky.aux'.
@@ -1747,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<obrazky/PlbmngArchitecture.pdf, id=566, 536.0025pt x 355.3275pt>
+<obrazky/PlbmngArchitecture.pdf, id=567, 536.0025pt x 355.3275pt>
 File: obrazky/PlbmngArchitecture.pdf Graphic file (type pdf)
 <use obrazky/PlbmngArchitecture.pdf>
 Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 24.
@@ -1784,13 +1800,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<obrazky/plbmng_basic.png, id=644, 729.72626pt x 381.425pt>
+<obrazky/plbmng_basic.png, id=645, 729.72626pt x 381.425pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
 Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 101.
 (pdftex.def)             Requested size: 729.72449pt x 381.42406pt.
 [29] [30 <./obrazky/plbmng_basic.png>]
-<obrazky/credentials_figure.png, id=671, 806.01125pt x 507.8975pt>
+<obrazky/credentials_figure.png, id=672, 806.01125pt x 507.8975pt>
 File: obrazky/credentials_figure.png Graphic file (type png)
 <use obrazky/credentials_figure.png>
 Package pdftex.def Info: obrazky/credentials_figure.png  used on input line 129
@@ -1806,7 +1822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-<obrazky/filtering.png, id=695, 316.18124pt x 201.75375pt>
+<obrazky/filtering.png, id=696, 316.18124pt x 201.75375pt>
 File: obrazky/filtering.png Graphic file (type png)
 <use obrazky/filtering.png>
 Package pdftex.def Info: obrazky/filtering.png  used on input line 160.
@@ -1817,19 +1833,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
  []
 
 [34 <./obrazky/filtering.png>]
-<obrazky/mapnodedetail.png, id=713, 628.3475pt x 473.77pt>
+<obrazky/mapnodedetail.png, id=714, 628.3475pt x 473.77pt>
 File: obrazky/mapnodedetail.png Graphic file (type png)
 <use obrazky/mapnodedetail.png>
 Package pdftex.def Info: obrazky/mapnodedetail.png  used on input line 190.
 (pdftex.def)             Requested size: 628.34596pt x 473.76884pt.
  [35] [36 <./obrazky/mapnodedetail.png>]
-<obrazky/statmenu.png, id=736, 385.44pt x 195.73125pt>
+<obrazky/statmenu.png, id=737, 385.44pt x 195.73125pt>
 File: obrazky/statmenu.png Graphic file (type png)
 <use obrazky/statmenu.png>
 Package pdftex.def Info: obrazky/statmenu.png  used on input line 212.
 (pdftex.def)             Requested size: 385.43906pt x 195.73076pt.
  [37 <./obrazky/statmenu.png>] [38] [39]
-<obrazky/plbmng_repo.png, id=789, 1139.25626pt x 887.315pt>
+<obrazky/plbmng_repo.png, id=790, 1139.25626pt x 887.315pt>
 File: obrazky/plbmng_repo.png Graphic file (type png)
 <use obrazky/plbmng_repo.png>
 Package pdftex.def Info: obrazky/plbmng_repo.png  used on input line 268.
@@ -1840,7 +1856,7 @@ Overfull \hbox (6.13051pt too wide) in paragraph at lines 268--269
  []
 
 [40] [41 <./obrazky/plbmng_repo.png>]
-<obrazky/BehavioralPlbmng.pdf, id=812, 358.4592pt x 799.06526pt>
+<obrazky/BehavioralPlbmng.pdf, id=813, 358.4592pt x 799.06526pt>
 File: obrazky/BehavioralPlbmng.pdf Graphic file (type pdf)
 <use obrazky/BehavioralPlbmng.pdf>
 Package pdftex.def Info: obrazky/BehavioralPlbmng.pdf  used on input line 295.
@@ -1867,7 +1883,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./obrazky/allcountriesgraph-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<obrazky/allcountriesgraph-eps-converted-to.pdf, id=837, 1007.765pt x 565.11125
+<obrazky/allcountriesgraph-eps-converted-to.pdf, id=838, 1007.765pt x 565.11125
 pt>
 File: obrazky/allcountriesgraph-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/allcountriesgraph-eps-converted-to.pdf>
@@ -1882,7 +1898,7 @@ Overfull \hbox (16.6266pt too wide) in paragraph at lines 311--312
 [44
 
  <./obrazky/allcountriesgraph-eps-converted-to.pdf>]
-<obrazky/plbmng_all_nodes.png, id=845, 777.65532pt x 517.935pt>
+<obrazky/plbmng_all_nodes.png, id=846, 777.65532pt x 517.935pt>
 File: obrazky/plbmng_all_nodes.png Graphic file (type png)
 <use obrazky/plbmng_all_nodes.png>
 Package pdftex.def Info: obrazky/plbmng_all_nodes.png  used on input line 320.
@@ -1906,7 +1922,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./obrazky/nodestats-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<obrazky/nodestats-eps-converted-to.pdf, id=850, 455.7025pt x 255.95625pt>
+<obrazky/nodestats-eps-converted-to.pdf, id=851, 455.7025pt x 255.95625pt>
 File: obrazky/nodestats-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/nodestats-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/nodestats-eps-converted-to.pdf  used on input 
@@ -1934,7 +1950,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./obrazky/sshcountriesgraph-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<obrazky/sshcountriesgraph-eps-converted-to.pdf, id=857, 455.7025pt x 255.95625
+<obrazky/sshcountriesgraph-eps-converted-to.pdf, id=858, 455.7025pt x 255.95625
 pt>
 File: obrazky/sshcountriesgraph-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/sshcountriesgraph-eps-converted-to.pdf>
@@ -1947,19 +1963,19 @@ Overfull \hbox (6.12354pt too wide) in paragraph at lines 338--339
  []
 
 [46 <./obrazky/nodestats-eps-converted-to.pdf>]
-<obrazky/plbmng_ssh_nodes.png, id=867, 765.6103pt x 502.12593pt>
+<obrazky/plbmng_ssh_nodes.png, id=868, 765.6103pt x 502.12593pt>
 File: obrazky/plbmng_ssh_nodes.png Graphic file (type png)
 <use obrazky/plbmng_ssh_nodes.png>
 Package pdftex.def Info: obrazky/plbmng_ssh_nodes.png  used on input line 366.
 (pdftex.def)             Requested size: 765.60843pt x 502.12471pt.
  [47 <./obrazky/sshcountriesgraph-eps-converted-to.pdf>] [48 <./obrazky/plbmng_
 ssh_nodes.png>]
-<obrazky/testingusecase.png, id=888, 1016.79875pt x 305.14pt>
+<obrazky/testingusecase.png, id=889, 1016.79875pt x 305.14pt>
 File: obrazky/testingusecase.png Graphic file (type png)
 <use obrazky/testingusecase.png>
 Package pdftex.def Info: obrazky/testingusecase.png  used on input line 379.
 (pdftex.def)             Requested size: 1016.79628pt x 305.13924pt.
-<obrazky/midnightcommander.png, id=890, 772.38562pt x 490.08093pt>
+<obrazky/midnightcommander.png, id=891, 772.38562pt x 490.08093pt>
 File: obrazky/midnightcommander.png Graphic file (type png)
 <use obrazky/midnightcommander.png>
 Package pdftex.def Info: obrazky/midnightcommander.png  used on input line 388.
@@ -2150,15 +2166,15 @@ able at:
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (sablona-prace.aux (text/uvod.aux)
 (text/reseni.aux) (text/vysledky.aux) (text/zaver.aux) (text/zkratky.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `sablona-prace.out' has not changed.
-(rerunfilecheck)             Checksum: 188B744ACD4875B46AB63D0562668942;6935.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+(rerunfilecheck)             Checksum: 068FFAC2F9E614B96C5440FF7B4ECD97;6936.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  )
 (\end occurred inside a group at level 9)
 
@@ -2173,19 +2189,19 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
 ### simple group (level 1) entered at line 37 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29461 strings out of 492942
- 515644 string characters out of 3126539
- 838524 words of memory out of 3000000
+ 29470 strings out of 492942
+ 515735 string characters out of 3126539
+ 839644 words of memory out of 3000000
  32552 multiletter control sequences out of 15000+200000
  638189 words of font info for 87 fonts, out of 3000000 for 9000
- 1146 hyphenation exceptions out of 8191
- 42i,18n,63p,2803b,1579s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 1153 hyphenation exceptions out of 8191
+ 42i,18n,63p,2673b,1579s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
 s/lm/lm-ec.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-ts1.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
 /lm/lm-mathit.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
 ips/lm/lm-rm.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-mathsy.enc}<C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+ps/lm/lm-mathsy.enc}{C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
+dvips/lm/lm-ts1.enc}<C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/lm/lmbx12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmcsc10.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/lm/lmmi12.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/
@@ -2201,9 +2217,9 @@ grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (57 pages, 2235658 bytes).
+Output written on sablona-prace.pdf (57 pages, 2235606 bytes).
 PDF statistics:
- 1091 PDF objects out of 1200 (max. 8388607)
- 304 named destinations out of 1000 (max. 500000)
+ 1092 PDF objects out of 1200 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
  432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
