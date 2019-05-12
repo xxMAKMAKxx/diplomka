@@ -1,0 +1,140 @@
+%% Nastavení jazyka při sazbě.
+% Pro sazbu češtiny je použit mezinárodní balíček 'babel', použití
+% národního balíčku 'czech', ve spojení s programy 'cslatex' a
+% 'pdfcslatex' není od verze 3.0 podporován a nedoporučujeme ho.
+\usepackage[
+%%Nastavení balíčku babel (!!! pri zmene jazyka je potreba zkompilovat dvakrat !!!)
+  %main=czech,engyh       % originální jazyk je čeština (výchozí), překlad je anglicky
+  %main=slovak,english      % originální jazyk je slovenčina, překlad je anglicky
+   main=english,czech       % originální jazyk je angličtina, překlad je česky
+]{babel}    					% Balíček pro sazbu různojazyčných dokumentů; kompilovat (pdf)latexem!
+
+\usepackage{float} %pridani float options pro figury a tabulky
+\usepackage{lmodern}	% vektorové fonty Latin Modern, nástupce půvoních Knuthových Computern Modern fontů
+\usepackage{textcomp} % Dodatečné symboly
+\usepackage[LGR,T1]{fontenc}  % Kódování fontu -- mj. kvůli správným vzorům pro dělení slov
+
+\usepackage[
+%% Z následujících voleb lze použít pouze jednu
+  %semestral,					%	sazba zprávy semestrálního projektu (nesází se abstrakty, prohlášení, poděkování)
+  %bachelor,					%	sazba bakalářské práce
+  diploma,						% sazba diplomové práce
+  %treatise,          % sazba pojednání o dizertační práci
+  %phd,               % sazba dizertační práce
+%% Z následujících voleb lze použít pouze jednu
+% left,               % Rovnice a popisky plovoucich objektů budou %zarovnány vlevo
+  center,             % Rovnice a popisky plovoucich objektů budou zarovnány na střed (vychozi)
+]{thesis}   % Balíček pro sazbu studentských prací
+                      % Musí být vložen až jako poslední, aby
+                      % ostatní balíčky nepřepisovaly jeho příkazy
+
+
+%% Jméno a příjmení autora ve tvaru
+%  [tituly před jménem]{Křestní}{Příjmení}[tituly za jménem]
+\autor[Bc.]{Martin}{Kačmarčík}
+
+\hyphenation{repository}
+\hyphenation{PlanetLab}
+\hyphenation{o-pe-ra-ting}
+\hyphenation{di-stri-bu-tion}
+\hyphenation{re-im-ple-men-ta-tion}
+\hyphenation{a-pli-ka-ce}
+\hyphenation{a-pli-ka-ci}
+\hyphenation{sy-sté-mo-vých}
+\hyphenation{lo-gi-cky}
+\hyphenation{a-pli-ka-ci}
+\hyphenation{stru-ktu-ra}
+\hyphenation{činnosti}
+\hyphenation{vy-sta-ven}
+
+\usepackage{url}
+
+
+%% Pohlaví autora/autorky
+% Číselná hodnota: 1...žena, 0...muž
+\autorpohlavi{0}
+
+%% Jméno a příjmení vedoucího/školitele včetně titulů
+%  [tituly před jménem]{Křestní}{Příjmení}[tituly za jménem]
+% Pokud osoba nemá titul za jménem, smažte celý řetězec '[...]'
+\vedouci[doc.\ Ing.]{Dan}{Komosný}[Ph.D.]
+
+%% Jméno a příjmení oponenta včetně titulů
+%  [tituly před jménem]{Křestní}{Příjmení}[tituly za jménem]
+% Pokud nemá titul za jménem, smažte celý řetězec '[...]'
+% Uplatní se pouze v prezentaci k obhajobě;
+% v případě, že nechcete, aby se na titulním snímku prezentace zobrazoval oponent, pouze příkaz zakomentujte;
+% u obhajoby semestrální práce se oponent nezobrazuje
+%\oponent[doc.\ Mgr.]{Křestní}{Příjmení}[Ph.D.]
+
+%% Název práce:
+%  První parametr je název v originálním jazyce,
+%  druhý je překlad v angličtině nebo češtině (pokud je originální jazyk angličtina)
+\nazev{Application for monitoring of Linux servers}{Aplikace pro monitorování serverů s~operačním systémem Linux}
+
+%% Označení oboru studia
+% První parametr je obor v originálním jazyce,
+% druhý parametr je překlad v angličtině nebo češtině
+\oborstudia{Teleinformatics}{Teleinformatika}
+
+%% Označení ústavu
+% První parametr je název ústavu v originálním jazyce,
+% druhý parametr je překlad v angličtině nebo češtině
+%\ustav{Ústav automatizace a měřicí techniky}{Department of Control and Instrumentation}
+%\ustav{Ústav biomedicínského inženýrství}{Department of Biomedical Engineering}
+%\ustav{Ústav elektroenergetiky}{Department of Electrical Power Engineering}
+%\ustav{Ústav elektrotechnologie}{Department of Electrical and Electronic Technology}
+%\ustav{Ústav fyziky}{Department of Physics}
+%\ustav{Ústav jazyků}{Department of Foreign Languages}
+%\ustav{Ústav matematiky}{Department of Mathematics}
+%\ustav{Ústav mikroelektroniky}{Department of Microelectronics}
+%\ustav{Ústav radioelektroniky}{Department of Radio Electronics}
+%\ustav{Ústav teoretické a experimentální elektrotechniky}{Department of Theoretical and Experimental Electrical Engineering}
+\ustav{Department of Telecommunications}{Ústav telekomunikací}
+%\ustav{Ústav výkonové elektrotechniky a elektroniky}{Department of Power Electrical and Electronic Engineering}
+
+%% Označení fakulty
+% První parametr je název fakulty v originálním jazyce,
+% druhý parametr je překlad v angličtině nebo v češtině
+%\fakulta{Fakulta architektury}{Faculty of Architecture}
+\fakulta{Faculty of Electrical Engineering and~Communication}{Fakulta elektrotechniky a~komunikačních technologií}
+%\fakulta{Fakulta chemická}{Faculty of Chemistry}
+%\fakulta{Fakulta informačních technologií}{Faculty of Information Technology}
+%\fakulta{Fakulta podnikatelská}{Faculty of Business and Management}
+%\fakulta{Fakulta stavební}{Faculty of Civil Engineering}
+%\fakulta{Fakulta strojního inženýrství}{Faculty of Mechanical Engineering}
+%\fakulta{Fakulta výtvarných umění}{Faculty of Fine Arts}
+
+\logofakulta[loga/FEKT_zkratka_barevne_PANTONE_CZ]{loga/UTKO_color_PANTONE_CZ}
+
+
+%% Rok obhajoby
+\rok{2018}
+\datum{1.\,1.\,1970} % Datum se uplatní pouze v prezentaci k obhajobě
+
+%% Místo obhajoby
+% Na titulních stránkách bude automaticky vysázeno VELKÝMI písmeny
+\misto{Brno}
+
+%% Abstrakt
+\abstrakt{%
+PlanetLab Server Manager is an application helping users to develop distributed network projects using the PlanetLab network. It gives an ability to search for a server by its geographical position and access these servers. It offers functionality to render servers on world map. This thesis covers details of the PlanetLab network and its infrastructure. It describes PlanetLab Server Manager (also known as plbmng) and identifies its problems in the current version. The thesis aims to address these problems and describes all the improvements made to the application. Finally, it analyzes the overall status of PlanetLab network using the newly developed tools for status monitoring. To help enable the network projects even further, this Master thesis aims to improve the current application by re-writing it fully into Python~3 language. As the current application is implemented in Bash reimplementation requires complete re-design and re-implementation of functions and will allow to fully utilize perks of Python~3 language. Thesis also aims to extend existing functionality by adding support for filtering servers by their operational status and other small improvements. Application source code is available on GitHUB under the MIT license and the application is available in the PyPI repository as well.
+}{%
+ PlanetLab Server Manager je aplikace, která pomáhá uživatelům realizovat projekty zaměřené na vývoj aplikací pro distribuované sítě. Aplikace primárně umožňuje vyhledávání serverů podle jejich geografické polohy a umožňuje přístup na tyto servery a jejich vykreslení na mapě. Práce čtenáře seznámí se síťí PlanetLab a její infrastukturou. Dále popisuje aplikaci PlanetLab Server Manager (také známou jako plbmng) a identifikuje problémy v~její aktuální verzi. Diplomová práce se zaměřuje na řešení identifikovaných problémů a specifikuje provedená vylepšení do aplikace. Také je v ní pomocí nově přidané funkcionality provedena analýza stavu sítě PlanetLab. Tato práce se zaměřuje na vylepšení stávající funkcionality tím, že je aplikace plně přepsána do jazyka Python~3. Kvůli stávající implementaci v~jazyce Bash, jehož vlastnosti se od jazyka Python liší, bude nutné kompletně přeplánovat stávající funkce aplikace, aby bylo plně využito výhod jazyka Python. Aplikace je také rozšířena o možnosti filtrování serverů na základě jejich stavu a další vylepšení. Zdrojové kódy aplikace jsou dostupné na repozitáři GitHUB pod licencí MIT a dále je aplikace dostupná v~repozitářích PyPI.
+}
+
+%% Klíčová slova
+\klicovaslova{%
+Critical section, Linux, Multi-processing, PlanetLab Network, PlanetLab Server Manager, Python, Virtualization
+}{%
+Kritická sekce, Linux, Multi-processing, PlanetLab Server Manager, Python, Síť PlanetLab, Virtualizace
+}
+
+%% Poděkování
+\podekovanitext{%
+I~would like to thank my thesis advisor doc. Ing.~Dan Komosný~Ph.D.\ for his guidance, great leadership, time at consultations, patience and factual suggestions how to improve this work. Also, I~would like to thank to CESNET association which has provided the necessary infrastructure to make this thesis happen. Map data copyrighted OpenStreetMap contributors and available from \url{https://www.openstreetmap.org}.
+}%
+
+
+% Zrušení sazby poděkování projektu SIX, pokud není nutné
+\renewcommand\vytvorpodekovaniSIX\relax

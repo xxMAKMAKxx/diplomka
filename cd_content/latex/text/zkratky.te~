@@ -1,0 +1,69 @@
+\begin{seznamzkratek}{KolikMista}
+
+	\novazkratka{zkDNS}
+		{DNS}
+		{Domain Name System}
+		
+	\novazkratka{zkIP}
+		{IP}
+		{Internet Protocol}
+		
+	\novazkratka{zkKVM}
+		{KVM}
+		{Kernel-based Virtual Machine}
+		
+	\novazkratka{zkMMU}
+		{MMU}
+		{Memory Management Unit}
+		
+	\novazkratka{zkCPU}
+		{CPU}
+		{Central Processing Unit}
+		
+	\novazkratka{zkCENTOS}
+		{CentOS}
+		{Community Enterprise Operating System}
+
+
+	\novazkratka{zkYUM}
+		{yum}
+		{Yellowdog Updater, Modified}
+
+	\novazkratka{zkAPT}
+		{APT}
+		{Advanced Packaging Tool}
+		
+	\novazkratka{zkIOT}
+		{IoT}
+		{Internet of Things}
+
+	\novazkratka{zkGUI}
+		{GUI}
+		{Graphical User Interface}
+		
+	\novazkratka{zkPEP}
+		{PEP}
+		{Python Enhancement Proposal}	
+		
+	\novazkratka{zkPYPI}
+		{PyPI}
+		{Python Package Index}	
+		
+	\novazkratka{zkAPI}
+		{API}
+		{Application Programming Interface}		
+		
+	\novazkratka{zkICMP}
+		{ICMP}
+		{Internet Control Message Protocol}				
+
+	\novazkratka{zkUML}
+		{UML}
+		{Unified Model Language}		
+		
+	\novazkratka{zkUSB}
+		{USB}
+		{Universal Serial Bus}	
+		
+
+\end{seznamzkratek}

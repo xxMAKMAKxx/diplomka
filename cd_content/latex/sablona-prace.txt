@@ -1,0 +1,617 @@
+BRNO UNIVERSITY OF TECHNOLOGY Faculty of Electrical Engineering and Communication
+MASTER'S THESIS
+
+Brno, 2019
+
+Bc. Martin Kacmarcík
+
+BRNO UNIVERSITY OF TECHNOLOGY
+VYSOKÉ UCENÍ TECHNICKÉ V BRN
+FACULTY OF ELECTRICAL ENGINEERING AND COMMUNICATION
+FAKULTA ELEKTROTECHNIKY A KOMUNIKACNÍCH TECHNOLOGIÍ
+DEPARTMENT OF TELECOMMUNICATIONS
+ÚSTAV TELEKOMUNIKACÍ
+
+APPLICATION FOR MONITORING OF LINUX SERVERS
+APLIKACE PRO MONITOROVÁNÍ SERVER S OPERACNÍM SYSTÉMEM LINUX
+
+MASTER'S THESIS
+DIPLOMOVÁ PRÁCE
+AUTHOR
+AUTOR PRÁCE
+SUPERVISOR
+VEDOUCÍ PRÁCE
+BRNO 2019
+
+Bc. Martin Kacmarcík doc. Ing. Dan Komosný, Ph.D.
+
+Diplomová práce
+
+magisterský navazující studijní obor Telekomunikacní a informacní technika
+
+Ústav telekomunikací
+
+Student: Bc. Martin Kacmarcík
+
+ID: 165394
+
+Rocník: 2
+
+Akademický rok: 2018/19
+
+NÁZEV TÉMATU:
+Aplikace pro monitorování server s operacním systémem Linux
+
+POKYNY PRO VYPRACOVÁNÍ:
+Seznamte se s aplikací vyvíjenou na Ústavu telekomunikací pro vzdálenou práci se servery sít PlanetLab (www.planet-lab.eu). Tato aplikace je dostupná na adrese pypi.org/project/plbmng/. Aplikaci pevete do jazyka Python 3 a dále provete její aktualizaci na repositái PyPI. Aplikaci dále rozsite o moznost vyhledávaní server sít PlanetLab podle jejich aktuálního stavu cinnosti. Vytvoený kód vystavte pod licencí MIT. Aktualizujte popis aplikace v anglickém jazyce.
+
+DOPORUCENÁ LITERATURA: [1] Linux Dokumentacní projekt. 4. vyd. Computer Press, 2008. 1336 s. ISBN: 978-80-251-1525-1. [2] PILGRIM, M. Ponome se do Python(u) 3. CZ.NIC, 2010. 435 s. ISBN: 978-80-904248-2-1.
+
+Termín zadání: 1.2.2019
+Vedoucí práce: doc. Ing. Dan Komosný, Ph.D. Konzultant:
+
+Termín odevzdání: 16.5.2019
+prof. Ing. Jií Misurec, CSc. pedseda oborové rady
+
+UPOZORNNÍ: Autor diplomové práce nesmí pi vytváení diplomové práce porusit autorská práva tetích osob, zejména nesmí zasahovat nedovoleným zpsobem do cizích autorských práv osobnostních a musí si být pln vdom následk porusení ustanovení § 11 a následujících autorského zákona c. 121/2000 Sb., vcetn mozných trestnprávních dsledk vyplývajících z ustanovení cásti druhé, hlavy VI. díl 4 Trestního zákoníku c.40/2009 Sb.
+Fakulta elektrotechniky a komunikacních technologií, Vysoké ucení technické v Brn / Technická 3058/10 / 616 00 / Brno
+
+ABSTRACT
+Abstrakt práce v originálním jazyce
+KEYWORDS
+Klícová slova v originálním jazyce
+ABSTRAKT
+Peklad abstraktu v anglictin (nebo cestin pokud je originální jazyk anglictina)
+KLÍCOVÁ SLOVA
+Peklad klícových slov v anglictin nebo cestin
+KACMARCÍK, Martin. Application for monitoring of Linux servers. Brno, 2018, 45 p. Master's Thesis. Brno University of Technology, Fakulta elektrotechniky a komunikacních technologií, Ústav telekomunikací. Advised by doc. Ing. Dan Komosný, Ph.D.
+Vysázeno pomocí balícku thesis verze 3.03; http://latex.feec.vutbr.cz
+
+ROZSÍENÝ ABSTRAKT
+Výtah ze smrnice rektora 72/2017: Bakaláská a diplomová práce pedlozená v anglictin musí obsahovat rozsíený abstrakt v cestin nebo slovenstin (cl. 15). To se netýká student, kteí studují studijní program akreditovaný v anglictin. (cl. 3, par. 7) Nebude-li vnitní normou stanoveno jinak, doporucuje se rozsíený abstrakt o rozsahu piblizn 3 normostrany, který bude obsahovat úvod, popis esení a shrnutí a zhodnocení výsledk. (cl. 15, par. 5)
+
+DECLARATION
+I declare that I have written the Master's Thesis titled "Application for monitoring of Linux servers" independently, under the guidance of the advisor and using exclusively the technical references and other sources of information cited in the thesis and listed in the comprehensive bibliography at the end of the thesis.
+As the author I furthermore declare that, with respect to the creation of this Master's Thesis, I have not infringed any copyright or violated anyone's personal and/or ownership rights. In this context, I am fully aware of the consequences of breaking Regulation S 11 of the Copyright Act No. 121/2000 Coll. of the Czech Republic, as amended, and of any breach of rights related to intellectual property or introduced within amendments to relevant Acts such as the Intellectual Property Act or the Criminal Code, Act No. 40/2009 Coll., Section 2, Head VI, Part 4.
+
+Brno . . . . . . . . . . . . . . .
+
+.................................. author's signature
+
+ACKNOWLEDGEMENT
+Rád bych podkoval vedoucímu diplomové práce panu Ing. XXX YYY, Ph.D. za odborné vedení, konzultace, trplivost a podntné návrhy k práci.
+
+Brno . . . . . . . . . . . . . . .
+
+.................................. author's signature
+
+Faculty of Electrical Engineering and Communication Brno University of Technology Purkynova 118, CZ-61200 Brno Czech Republic
+http://www.six.feec.vutbr.cz
+
+ACKNOWLEDGEMENT
+Research described in this Master's Thesis has been implemented in the laboratories supported by the SIX project; reg. no. CZ.1.05/2.1.00/03.0072, operational program Výzkum a vývoj pro inovace.
+
+Brno . . . . . . . . . . . . . . .
+
+.................................. author's signature
+
+Contents
+
+Introduction
+
+11
+
+1 PlanetLab Network
+
+12
+
+1.1 Use and Terminology . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+1.2 Selected Projects Based on PlanetLab . . . . . . . . . . . . . . . . . . 13
+
+1.2.1 Securing Web Service by Automatic Robot Detection . . . . . 14
+
+1.2.2 The Design and Implementation of Next Generation Name
+
+Service for Internet . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+1.2.3 Slurpie: Cooperative Bulk Data Transfer Protocol . . . . . . . 14
+
+1.3 PlanetLab Inftrastructure . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+1.3.1 Linux . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+1.3.2 Virtualization . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+2 Present State Of Application Development
+
+20
+
+2.1 Description of Current Tool Functionality . . . . . . . . . . . . . . . 20
+
+2.2 Identified Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+3 Implemented Improvements to PlanetLab Server Manager
+
+23
+
+3.1 Re-design of Application . . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+3.2 Description of Improvements . . . . . . . . . . . . . . . . . . . . . . . 25
+
+3.2.1 Removing Result Limitation . . . . . . . . . . . . . . . . . . . 25
+
+3.2.2 Writing the Application as Library . . . . . . . . . . . . . . . 26
+
+3.2.3 Increasing Readability . . . . . . . . . . . . . . . . . . . . . . 26
+
+3.2.4 Removal of Pre and Post Installation Steps . . . . . . . . . . . 28
+
+3.2.5 Set Credentials Improvement . . . . . . . . . . . . . . . . . . 29
+
+3.2.6 Application Folder Structure Re-design . . . . . . . . . . . . . 30
+
+3.2.7 Filtering Function . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+3.2.8 Status Database . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+3.2.9 Map Improvements . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+3.2.10 Minor Improvements . . . . . . . . . . . . . . . . . . . . . . . 31
+
+3.2.11 Minor Bug Fixes . . . . . . . . . . . . . . . . . . . . . . . . . 33
+
+3.3 Current Installation and Use of Application . . . . . . . . . . . . . . 33
+
+4 PlanetLab Network Analysis Using Plbmng Tool
+
+37
+
+5 Example of Use Cases
+
+38
+
+6 Conclusion
+
+39
+
+Bibliography
+
+41
+
+List of symbols, physical constants and abbreviations
+
+45
+
+Listings
+3.1 Removing Result Limitation . . . . . . . . . . . . . . . . . . . . . . . 26 3.2 Example of Function Names . . . . . . . . . . . . . . . . . . . . . . . 26 3.3 Example of Function Names . . . . . . . . . . . . . . . . . . . . . . . 27 3.4 Example of Constant Usage . . . . . . . . . . . . . . . . . . . . . . . 27 3.5 Source Code of Plbmng Executable Script . . . . . . . . . . . . . . . 29 3.6 Multi-Platform Function testPing . . . . . . . . . . . . . . . . . . . . 32
+
+Introduction
+Developing a network project can become a challenging task. Internet is a huge worldwide network and to properly simulate usage and architecture of the internet requires at least several servers on different locations at best. PlanetLab Network offers a global research network that enables development of new network services. The goal of this Diploma thesis is to improve the existing tool, make it easier to use and publish the changes by updating the PyPI repositories. PlanetLab Server Manager is a tool that allows users to get information about nodes in the PlanetLab network and creates an user interface that helps interact with them. The current state of the application can be a barrier for more extensive usage of the application and community driven improvements. Diploma thesis aims to re-write the application into Python; a popular community supported multi-platform object oriented programming language [6]. This thesis extends existing tools developed by Ivan Andrasov [2] and Filip Suba [32]. The approach for achieving the goals of this thesis consists of using existing Bash functions and re-writing them to Python 3. During this process each functions is evaluated whether the used implementation is correct or not. During re-implementation, several enhancements to the tool will be made. Specifically, the enhancements will include removing search limitation, adding library support, eliminating pre and post installations steps, improving credentials set up, writing functions with support of Windows operating system and several minor bug fixes or improvements. To achieve easier usage of the application, main focus is put on removing system package dependencies and scrapping the necessity to localize the installation folder. To achieve better readability improvements to the implementation of functions, their names and names of menu components are added. Special emphasis is laid on logical code structure and good programming practices to empower later community improvements to the tool. In the Chapter 1 the PlanetLab project will be introduced and characterized. Since this thesis improves already existing tool created by other students, in Chapter 2 the tool and summary of previous work is reviewed. As Linux is the main operating system nodes uses it will be described in Chapter ??. Virtualization is described in Chapter ?? as it is the technology used for provisioning the PlanetLab nodes [26]. In the Chapter 3 the improvements made to the tool will be explained in detail.
+11
+
+1 PlanetLab Network
+PlanetLab is a global research network that enables development of new network services. According to the PlanetLab project main page it was used by more than 1000 researches at top academic institutions and industrial research labs to develop a new technologies for distributed storage, network mapping, peer-to-peer systems, distributed hash tables, and query processing since it launch at 2003 [27]. The main page description also states that PlanetLab currently consists of 1353 nodes at 717 sites and their locations worldwide can be seen in Figure 1.1.
+Fig. 1.1: Map displaying location of the PlanetLab network nodes.
+The tool's internal database created using PlanetLab API (Application Programming Interface) consists of 1001 nodes which differs from the number described on the PlanetLab website and is most probably result of removing several nodes since the time website was updated. Important aspect to mention is that not all of those nodes are accessible. As shown in Figure 1.2, only 196 are responding to ICMP (Internet Control Message Protocol) packets and 805 are not which is only around 19.58% reponding nodes. That means 1.62% nodes stopped responding since the last measurement done by Filip Suba in his thesis [32] in 2017. Important is to mention that this does not mean that the nodes are not accessible using ssh protocol. The plbmng tool can monitor accessibility of the nodes so its users always has overview which nodes can be actually used for their projects. The current committee of the project consists of members like Princeton University, Cambridge University, Intel,
+12
+
+Google and many more [27].
+Fig. 1.2: Pie chart displaying number of nodes in PlanetLab network responding to ICMP packets.
+1.1 Use and Terminology
+During the initial planning of PlanetLab network the authors agreed on using common terminology for aspects of the network and defined them in the Phase 0 document [21] as follows:
+· Node: A server machine capable of running components of PlanetLab services.
+· Site: A physical geographical location where PlanetLab nodes are located. · Cluster: The set of PlanetLab nodes located at a given site. · User: An authorized human being wishing to deploy or run service over
+PlanetLab network. · Client: A client of a service running over PlanetLab network. · Service: An application running over PlanetLab network. · Application: A PlanetLab service not being part of PlanetLab infrastructure. · Capsule: A component of a PlanetLab service that runs on a single node. · Slice: A distributed set of resources allocated to a service in PlanetLab.
+1.2 Selected Projects Based on PlanetLab
+In this section various projects that PlanetLab network enabled to create will be described. All these projects wouldn't be possible without the resources PlanetLab brings. On PlanetLab site there is partial bibliography of research enabled by
+13
+
+PlanetLab and it consist of over two hundred projects [27]. Having over two hundred projects enabled by PlanetLab network shows that PlanetLab had succeeded in their initial goals which was to provide a useful platform for networking and system research [21]. Example of projects enabled by PlanetLab are described in the following subsections.
+1.2.1 Securing Web Service by Automatic Robot Detection
+This project is focusing on detection of automatic robots by implementing a special form of Touring test. Detection is done by comparing human versus robot behavior on the websites. According to the authors, 95% of the human users can be detected within the first 57 requests [13].
+1.2.2 The Design and Implementation of Next Generation Name Service for Internet
+Project that is aiming to solve the vulnerability of the current DNS (Domain Name System) and slow delivery of updates to the system. Project paper describes design and implementation of the Cooperative Domain Name System (CoDoNS), a novel name service, which provides high lookup performance through proactive caching, resilience to denial of service attacks through automatic load-balancing, and fast propagation of updates [16].
+1.2.3 Slurpie: Cooperative Bulk Data Transfer Protocol
+Big data transfers can become problematic during peaks when huge amount of clients starts downloading the data at one point. This can occur for example during a launch of a new game or a new operating system. Slurpie is is a a peer-to-peer protocol for bulk data transfer that aims to reduce client download times of large popular files and to reduce load on the providing servers [23].
+1.3 PlanetLab Inftrastructure
+blabla
+1.3.1 Linux
+In this Chapter, the operating system Linux that PlanetLab nodes are running on, and that plbmng tool is developed for, will be reviewed and described. Operating system is a connecting layer between hardware and software. It provides interface
+14
+
+to work with system resources such as disk, processor or memory and at the same time it provides service layer for client software to run at. Linux is an open-source operating system founded by Linus Torvalds who wrote its kernel using C language and began the history of Linux operating system. It was originally developed for personal computers based on the Intel x86 architecture but since its creation it has been ported to many other platforms such as mobile devices, television chips and many others. A package containing Linux operating system is called Linux distribution. The defining component of each distribution is the Linux kernel [4]. Original Linux kernel has been created by Linus in 1991 [7] and since then many other forks of this kernel has emerged. Some of the most famous are Red Hat Enterprise Linux, CentOS, Fedora, Debian or Ubuntu. More information about mentioned distributions can be found in at the end of this Chapter. The main advantages of Linux are:
+· Almost all Linux distribtuins are free and available for everyone. · Linux is open-sourced and everyone can contribute and review what his/her
+machine is running. · Linux can run on various platforms from personal computers to televisions. · Linux is considered to be secure. Security model of Linux is based on UNIX
+security principals which are considered to be robust and verified [1]. · Linux quickly adapt to changes. Since Linux has vast community behind it,
+it quickly adapt to security threads and new technologies. On other hand, Linux has some disadvantages which are summarized in the below list:
+· Requires more technical knowledge than other systems like Windows or MacOS. · Huge amount of distributions can be confusing for new users to choose from. · Many well known applications are primarily developed for Windows or MacOS
+(though many open source variants of these applications exists on Linux). · Compatibility problems. Proprietary hardware can have issues with driver
+compatibility. Many hardware vendors are primarily focusing on Windows or MacOS. Linux kernel can be found in majority of devices at the moment. According to StatCounter Global Stats, 41.63% of the machines are running on Linux kernel while 36.23% are running on Windows-based kernel as of September 2018 [25]. The rise of Linux kernel is conditioned by raising Android popularity and in 2016 the StatCounter states Linux kernel based system had only 28.44% market share while Windows had 48.42% market share [25]. Linux can be found also in great amount of devices from phones, desktops, servers to television or cars. Server opensource.com states that more then half of all SmartTV devices runs on Linux [8]. Because Linux kernel is originally open-sourced, most of the devices worldwide runs on an
+15
+
+open-sourced operating system which shows an interesting trend switching from proprietary software. In the following paragraphs, various popular Linux distributions will be described and their key features will be reviewed.
+Red Hat Enterprise Linux Red Hat Enterprise Linux is a Linux based distribution developed by Red Hat Inc. In 1994 the first version of Red Hat Linux has been released [19]. Since it launch Red Hat became a popular enterprise Linux distribution and based on Red Hat's June 2017 statistic 100% of all airlines, telcos and commercial banks in Fortune 500 runs on their software [20]. Red Hat advertise the system being robust and stable which is its biggest advantage for the enterprise companies. Even though Red Hat is open-sourced, it is not free as it is impossible to run it without having active subscription. Red Hat uses its own packaging system called yum (Yellowdog Updater, Modified).
+CentOS The CentOS (Community Enterprise Operating System) is a Linux distribution that has been originally forked from Red Hat Enterprise Linux version 2.1 and released under name CentOS-2 in May, 2014 [9] by John Newbigin. Since then it became a community-driven project that offers and free alternative to the Red Hat Enterprise Linux. Currently, CentOS Project is part of Red Hat while declaring to stay independent of the development of the Red Hat's Linux. Due to the distribution being free while still aiming for enterprise projects, many companies and academic institutions choose the CentOS as the primary operating system for their servers.
+Fedora Fedora is a Red Hat sponsored Linux distribution developed by the Fedora Project and community around it. Currently, Fedora provides several types of system images such as Workstation for personal computers, Server for servers and Atomic for containerized applications. Fedora is distribution primarily used as a desktop operating system and shares many technologies with Red Hat Enterprise Linux and CentOS making packages compatible between these systems. Fedora is often considered to be a beta environment for changes before they make it to the more conservative Red Hat Enterprise Linux.
+Debian Originally created in 1993 by Ian Murdock, Debian is a free Linux kernel based Unix like operating system developed by The Debian Project and its community. Debian in oposite to Red Hat Linux based systems uses different packaging system called APT (Advanced Packaging Tool). In February 2016 the repositories
+16
+
+of Debian consisted of 50007 binary packages [28]. Debian is popular server distribution and in 2012 it was named by PCWorld magazine the most popular distribution for web servers [10].
+Ubuntu Ubuntu is a free and open-source Linux distribution based on Debian operating system. It is being developed by Canonical and Ubuntu community. Currently Ubuntu offers three version of the system: Ubuntu Desktop for personal computers, Ubutnu Server for server and cloud and lastly Ubuntu Atomic created for IoT (Internet of Things). It is seen that Ubuntu makes the Linux more available for broader audience by having its graphical user interface similar to other operating system like MacOS. Ubuntu also achieved great success when Microsoft ported official Ubuntu binaries into its Windows system. Ubuntu is currently the most popular Linux distribution based on Google Trends data [5].
+1.3.2 Virtualization
+Virtualization is an alternative to the traditional architecture. Comparison schema between virtualization and traditional architecture can be found in Figure 1.3. The traditional architecture consist of a hardware, operating system on the host and the applications running on it. The applications needs to be compatible with the operating system to be able to run on it. On the other hand, virtualization is a layer over the hosting operating system and offers an interface for the guest operating system to use by emulating various resources such as disk, network usb and many more. Guest operating system are operating systems of the virtual hosts running on the hypervisor. Hypervisor is providing resources to each virtual host. This enables better resource handling since all the virtual machines share same resources and theoretically have access to much higher computing power. Another advantage is backward compatibility as various operating systems of a kind can be running one one host. Example is legacy version of a system that is no more compatible with current hardware but is compatible with the virtualization software. This can be particular useful for institutions that requires extremely stable well tested software running on legacy system. Next feature is high availability. If a virtual host crashes, many virtualization software are capable to migrate the run-time data to another virtual host live time. This can be crucial feature for any critical applications. On bare-metal hosts this can be solved by using for example clustered hosts.
+17
+
+Virtualization
+
+Guest Applications
+
+Guest Applications
+
+Guest Applications
+
+Guest Operating
+System
+
+Guest Operating
+System
+
+Guest Operating
+System
+
+Operating System + Hypervisor
+
+Traditional Architecture
+Applications
+Operating System
+
+Host Hardware
+
+Host Hardware
+
+Fig. 1.3: Virtualization vs traditional architecture schema.
+Currently there are many virtualization technologies available on the market. Some of the most popular ones are VMware ESXi, Red Hat Enterprise Virtualization, Oracle Virtualbox and QEMU/KVM [29]. In the following lines, some of the most popular Virtualization technologies are reviewed.
+VMware ESXi VMware is a company providing virtualization software. The company provides several versions of virtualization software including VMware ESXi which is an enterprise virtualization solution. VMware ESXi was developed to run directly on the bare-metal hardware and doesn't require any other operating system to be installed on the host as it uses its own operating system called VMkernel [31]. This allows the software direct access to the hardware as it includes its own vital OS components. As VMware states in their architecture document [31], this also allows better hypervisor security, increased reliability, and simplified management.
+Red Hat Enterprise Virtualization As Red Hat states on their website, Red Hat Enterprise Virtualization is an open, software-defined platform that virtualizes Linux and Microsoft Windows workloads [17]. Red Hat Enterprise Virtualization is a software that is developed to run on Red Hat Enterprise Linux, a Linux distribution developed by the same company. As Red Hat states in Red Hat Enterprise Virtualization datasheet, the biggest advantage of the software is its integration with other Red Hat products [18]. Red Hat also offers a complete operating system designed for creating virtual machines called Red Hat Enterprise Virtualization Hypervisor.
+Oracle Virtualbox Oracle Virtualbox is open source virtualization software available for both enterprise as well as home use and is developed by Oracle Corporation.
+
+18
+
+As stated on the Oracle Virtualbox website: "Presently, VirtualBox runs on Windows, Linux, Macintosh, and Solaris hosts and supports a large number of guest operating systems including but not limited to Windows (NT 4.0, 2000, XP, Server 2003, Vista, Windows 7, Windows 8, Windows 10), DOS/Windows 3.x, Linux (2.4, 2.6, 3.x and 4.x), Solaris and OpenSolaris, OS/2, and OpenBSD." [12] which is a considerable availability. Oracle Virtualbox offers many features, which are more described in the User Manual [11], such as:
+· VBoxManage, a command-line interface for Oracle Virtualbox. · No hardware virtualization required, supporting even older hardware without
+build-in virtualization support. · Guest Additions, which is a software packages that offers features like folder
+sharing, automatic window focus, 3D virtualization and more. · Multigeneration branched snapshots, which allows taking snapshot of the vir-
+tual host in any point of time completely saving the machine state allowing users to later revert machine to the saved state.
+KVM with QEMU KVM (Kernel-based Virtual Machine) is a kernel module that provides a CPU (Central Processing Unit) virtualization through the use of Intel VT or AMD-V hardware extensions. KVM runs in kernel space and handles elements like processor switching or MMU (Memory Management Unit) registers, which are used to handle the virtual machines. On the other hand, QEMU is a free open source emulator that performs hardware virtualization in the user space part of the operating system. On its own, QEMU provides also CPU emulation through binary translation however the best results are delivered when combined with KVM and it can deliver near native performance [30]. During measurement of virtual machine versus host performance using the KVM technology the Geekbench's GPU test shown only 1.19% score decrease over the bare-metal host [15].
+19
+
+2 Present State Of Application Development
+Plbmng application, originally called Data miner for PlanetLab, is a supporting application for developing projects in the PlanetLab network. It gives its user an ability to discover and search PlanetLab servers, connect to them and upload or execute scripts. The tool is available at public PyPI repository1. The tool allows managing PlanetLab nodes, gathering information about them and pulling the latest data from the PlanetLab API service. Its core is written in Bash and additional modules are written in Python 3 [32]. At the moment, it is depended on both Bash and Python modules and its installation consists of several steps:
+· Installing the application from PyPI repository or downloading the source codes from GitHub.
+· Installing additional system packages like dialog,pssh and fping. · Locating installation folder and putting symlink into $PATH directory. Since improvement of the installation process is in scope of this Diploma thesis, detailed post-improvement installation steps are described later in the Chapter 3.
+2.1 Description of Current Tool Functionality
+The tool consist of two layers. First one is the application logic layer and second one is graphical user interface layer, also known as menu, and consists of several options. First menu option is Search nodes for retrieving a node from internal database. This options allows user to either search by DNS (Domain Name System), IP (Internet Protocol) address or by node location. Second option is Measure Menu that allows user to schedule gathering of data about the nodes using crontab, select elements to monitor or start the data gathering right now. In the Map Menu option user has option to generate map showing location of the nodes and select map element. After the first start of the application, user is required to fill credentials and SSH public key details to be able to access PlanetLab API and nodes using the menu option Settings. Menu is created using bash library dialog and is shown in Figure 2.1. Graphical interface can be run directly in terminal making it available even through ssh client without setting up any graphical tools.
+1Link to PyPI repistory containing Data miner for PlanetLab tool: https://pypi.org/ project/plbmng/
+20
+
+Fig. 2.1: Data miner for PlanetLab menu.
+2.2 Identified Problems
+The first problem of the existing tool is language disparity having half of the functionality in Bash and half of the functionality in Python 3. This makes it difficult to make adjustment to the tool as one needs to study a vast amount of scripts that are in several different folders. Since some of the functionality is done in Python 3, which is according to portal StackOverflow fastest-growing major programming language [24], and because it is available at PyPI (Python Package Index), Python is an ideal candidate as a main language of the project. As a part of the Diploma thesis the existing code will be re-written into Python 3. Another great advantage of Python 3 is that it is multi-platform. As Mark Pilgrim mentions in his book [14], Python 3 is available on many platform such as Windows, MacOS, Linux, BSD and Solaris and their derivatives. Second area of improvement is installation of the tool and post-installation steps. At the moment, it is required to install additional packages and tool is not automatically put into $PATH folders forcing its users to locate the installation folder and run the script from there. Because of the single programming language being Python 3 the dependencies for system packages will be removed and their Python 3 counter-
+21
+
+parts will be added as dependency for the PyPI package. PyPI installer takes care of these dependencies automatically during the installation procedure. To remove post-installation steps the tool will be written as library allowing to create a simple Python script in bin folder which is put into $PATH folder by the PyPI installer during the installation. Another improvement is renaming certain menu components and adding more information to the tool itself. This change is not significant and is purely cosmetic but can make it easier for new users to get familiar with the tool. The specific rename details will be later described in Subsection 3.2.3. The tool currently contains a lot of bugs and bad coding practices. Example of a typical bug is whole application crashing because of missing file when returning back from Search nodes menu. During the rewriting into Python 3 there is space to improve certain controls to avoid these crashes and needs to restart the application. As for bad code practices, as an example the tool currently calls functions recursively during returning from child menu page into parent one. This means the previous function menu is stored in the stack waiting for the application to end before released. During rewriting of the tool these implementation details can be changed to stick with the good coding practices.
+22
+
+3 Implemented Improvements to PlanetLab Server Manager
+This Chapter will discuss improvements made to the PlanetLab application. The improvements are based on the analysis made in the Section 2.2. The implementation details will be described and shown. The goal of the re-implementation is to make the plmbng tool simple to use, easier to contribute into by re-writing it fully into Python 3, using good coding practices, remove any post-installations steps and making small improvements. Improvements includes:
+· Removing result limitation by dynamically creating menu using Python list. · Adding support to use application as library by logically separating each func-
+tion. · Increasing readability and improve orientation in the application by renaming
+menu components and using descriptive functions names. · Eliminating pre and post installation steps by using automatic pip dependency
+installer. · Improving credentials set up by adding internal text editor. · Extending Windows support to several functions by detecting operating sys-
+tem and dynamically changing parameters. · Few minor bug fixes and improvements.
+3.1 Re-design of Application
+This Section will describe the approach taken to improve the application. The issues of the application, described more in Section 2.2, are that there are two different languages, functions are scattered and configuration management is not existing. During re-design, all these problems were taken into consideration and addressed. First problem, already well described, was solved by re-writing the application fully into Python 3 language. Second and third problem were resolved using re-design of the application folder structure and architecture. The overall architecture of re-designed application is shown in Figure 3.1 and will be described in the next paragraph.
+23
+
+DB to store info about nodes
+
+internal database
+
+provides information about nodes update status database
+
+update node list
+
+engine
+
+GUI module
+
+internal functions
+
+use
+
+libs
+
+PlanetLab API interface
+
+port scanner render map
+
+Fig. 3.1: PlanetLab Server Manager architecture diagram.
+Issue with scattered functions was solved using single file, the engine.py, for all the common internal functions and graphic functions and libraries for more complex functionality of the application. To make it easier to navigate inside the engine file, it was divided between graphic and internal logic sections. A question why not to split the graphical and internal logic might come to a mind. Currently, the engine module graphical and internal functions are calling each other as an reaction to certain states. Splitting them would mean importing each other in a circle which is not an ideal state. Having both sections in one file makes it one solid logical component, called the engine. However as mentioned, there are certain independent components that are split into their own files. In the Figure 3.1, these are described as libs and contains several utility functions that can be called independently and are imported as a library inside the engine. Currently, there are three of these utility modules. PlanetLab API interface, which provides functionality to update the list of servers, port scanner which allows to check port accessibility of remote host and lastly module that allows to render map of nodes using a dictionary of nodes as input. On of the challenges during re-design was a placeholder for all the information about nodes that application can later used. Previously, a text file was used to store this data. Issue with this is to implement a filter function for example, it would
+24
+
+require to write a custom module for queries which is an unnecessary overhead as there are already solutions available to provide such module. One of these solution is relational database with SQL used as a query language. SQL is a structured query language designed to manipulate data in relational tables which are nothing more than set of related information [3]. This fits perfectly application needs as it stores a set of nodes with their related status information. In the Figure 3.1, this is shown as an internal database module. Engine triggers update of status of available nodes whereas PlanetLab API interface library updates the list of nodes. Python provides a SQLite3 library that allows creating a custom database stored on disk. This database file is placed inside the database folder in the application configuration management. Mentioned architecture decisions will allow application to be more easily salable and maintainable in the later development phases.
+3.2 Description of Improvements
+In this Section, the steps to achieve goals; which were described in the Chapter introduction; will be shown in detail in their own Subsections. For each Subsection the approach, specific steps, code examples and results will be illustrated. Since the new implementation uses pythondialog module, at the start of the tool an instance of the Dialog class is spawned and will be later described just as the instance.
+3.2.1 Removing Result Limitation
+The previous version of plbmng tool has been limited to 10 result when searching for a node. This issue was introduced due to difficulty of creating a menu based on dynamic results since author needed to always add a new argument to the overall command. This also can hit limitation of characters that can be passed in a Bash command line. In Python 3 this problem is non-existing since pythondialog module is creating menu functions based on list. During the search of the nodes, results are added to the list which is after completed search passed to the instance which renders the GUI (Graphical User Interface). Example of this functionality is shown in Listing 3.1. Currently, the tool is returning all results found.
+25
+
+Listing 3.1: Removing Result Limitation def searchNodesGui(prepared_choices):
+if not prepared_choices: d.msgbox("No results found.", width=0,height =0) return None
+while True: code , tag = d.menu("These are the results:", choices=prepared_choices , title="Search results")
+3.2.2 Writing the Application as Library
+For the application to be used in other scripts and reduced the need to re-write certain code parts it is desired to write application to be able to run as a library. During the re-implementation this was considered and application is available both as library and standalone script. This will be later used in the Subsection 2.2. If the application is called as a standalone script, it will trigger part of the code that is shown in Listing ?? and initialize a graphical interface for the user to use. If imported as a library, it allows the user to call any function defined in the script.
+Listing 3.2: Example of Function Names if __name__ == "__main__":
+initInterface () exit (0)
+3.2.3 Increasing Readability
+Community is a powerful group that helps develop a tool and to add more functionality to it. To have community contribute to a tool, it should follow good practices and be easily readable. Previous version of the tool was using Bash script which was calling Python script and creating new Bash scripts on a disk which was merging using different pieces of code from pre-created .dat files in a bin folder. Finding a bug in this structure was difficult and non-intuitive. All these pieces of code were fully re-written into single Python script and logically divided into two sections. One section is for GUI functions and other is for logical functions. Each functions is very descriptive in its name as shown in Listing 3.3.
+26
+
+Listing 3.3: Example of Function Names def searchNodes(option ,regex=None): def initInterface(): def plotServersOnMap(mode): def getPasswd(): def searchNodesGui(prepared_choices): def printServerInfo(chosenOne): def setCredentialsGui():
+Each functions is trying to be as atomic as possible only having one purpose. This is helping to increase modularity of the application. Outside of this functions "categories" application is removing any magic numbers by defining constants at the beginning of the source code. This greatly helps to understand what is being passed as an argument and is shown in Listing 3.4 where it is descriptive what option is being passed as a search key to the searchNodes function. Also, the application has a block for Initial settings at the beginning for one single place where outside of functions definitions can be placed. Application is also honoring the conventions defined in PEP (Python Enhancement Proposal) 8 [22], like naming convention and space usage instead of tabs, as much as possible. All these small items described are increasing the overall readability of the application for others to quickly become familiarized with it.
+Listing 3.4: Example of Constant Usage code , tag = d.menu("Choose one of the following options:"
+, choices=[("1", "Serach by DNS"), ("2", "Search by IP"), ("3", "Search by location")], title="ACCESS SERVERS")
+if code == d.OK: #Search by DNS if(tag == "1"): code , answer = d.inputbox("Search for:",title="Search ") if code == d.OK: searchNodes(OPTION_DNS ,answer) else: continue
+As mentioned in the Section 2.2, renaming certain parts of the tool can improve
+27
+
+the readability. Since the tool is not data mining rather than server manager, the tool is internally renamed from Data miner or PlanetLab into PlanetLab Server Manager. Version is added next to the name for users to see which they are running immediately. Another example is renaming Search nodes to Access servers since primary function of this menu item is to access the servers while search is just supporting it. The re-designed application can be seen in Figure 3.2.
+Fig. 3.2: New re-designed menu with added name, version and various name changes.
+3.2.4 Removal of Pre and Post Installation Steps
+Previous version of application required several pre and post installation steps. In the new version developed as part of this Diploma thesis, all these steps were removed. Pre-installation steps were eliminated by completely getting rid of dependencies on additional system packages. All the dependencies were moved into the PyPI package definition and are taken care off PyPI installer during installation of the tool. Post-installation steps were removed by adding the application into bin folder in the PyPI package. During installation, the PyPI installer automatically puts any scripts in the bin folder into a $PATH folder making it accessible directly from command line without the need of accessing installation folder. The contents of the script located in bin folder can be seen in Listing 3.5. The duplication of names seen in the Listing are created by having the plbmng.py script in the plbmng folder describing the library. This area is a good candidate for additional improvements that will be made later in the following Diploma thesis.
+28
+
+Listing 3.5: Source Code of Plbmng Executable Script #!/usr/bin/env python3 import plbmng.plbmng import sys if len(sys.argv) > 1:
+if(str(sys.argv[1]) == 'crontab'): plbmng . plbmng . crontabScript () exit (0)
+plbmng . plbmng . initInterface ()
+3.2.5 Set Credentials Improvement
+In the previous version of the tool the credentials were filled using forms. When typing the credentials, nothing was shown, like stars, so user was unaware where is the position of the cursor. Also saving of the credentials was not working properly resulting into the need to adjust the configuration file itself which required locating the file first by inspecting the source code. In the new version settings credential is improved by creating a virtual editor in the graphical interface itself, as shown in Figure 3.3, that allows the user transparently set the credentials. One of the disadvantage of this approach is plain text visible password in the editor as it is not hidden and user needs to be careful about setting the credentials in a safe environment.
+29
+
+Fig. 3.3: New window for setting up credentials using internal text editor.
+3.2.6 Application Folder Structure Re-design
+With changes to the architecture of the application, folder management needs to be also adjusted accordingly. The root folder of the application contains two main parts, outside of necessary PyPi files. It is the bin folder with plbmng script itself and the plbmng folder which contains the whole application logic and graphical interface. This folder will be now described in detail. As shown in Section 3.1, libraries are placed in the lib folder instead of python_scripts previously. In past, the configuration files were stored in bin folder with some shell libraries. This is now re-named to conf folder and library functions are moved to the lib folder. There are information that needs to be stored persistently, like information about accessibility of nodes. For this purposes, there is a folder called database which contains file like internal.db which is already mentioned SQLite3 database. With all these changes to the folder structure, the project should be now more transparent, clear and easier for other developers to join the project.
+3.2.7 Filtering Function
+blabla
+30
+
+3.2.8 Status Database
+blabla multi-processing bla bla
+3.2.9 Map Improvements
+bla bla
+3.2.10 Minor Improvements
+In this Subsection, minor improvements done during the re-implementation are described. All these improvements were considered minor hence these are not having separate Subsection. More improvements to the tool will be done in the Diploma thesis following up on this Diploma thesis.
+Clearing of the screen after cancel When signal was send to the application using CTRL + C key combination, the previous version of the application was not clearing the current terminal window and the GUI. To use the same terminal user was forced to clear the window manually. In the new version, when signal is send to the application, signal handler will catch it and clean after itself.
+Recursion removal for return When returning from child window to a parent page, the previous version of application was recursively calling the GUI function. This is not following good coding habits as each recursive call means storing the previous function details into the system stack, unnecessarily filling it. In the new version, while cycle is used instead and returning from a function results into new iteration of the while cycle not storing anything onto the system stack.
+About is added to the menu About section is added to the menu displaying version, authors and the license.
+Crontab mode created Application is possible to run with crontab argument which will trigger just monitoring of the nodes. This is in particular useful when setting the crontab since the call can be simply plbmng crontab.
+pep8 score.. blablabla
+Last server access blablabla
+31
+
+Support of Multiple Platforms As was mentioned previously, Python is multiplatform language and brings possibility of porting the application also to other operating systems. During the re-implementation of the application this was taken into considerations and new functions were written to be able to run on both Linux and Windows. Example of this dual implementation can be seen in Listing 3.6 showing function testPing supporting both mentioned operating systems. There is still a lot of functions to be re-written in this dual approach to fully support the Windows however this is the first step to achieve the compatibility.
+32
+
+Listing 3.6: Multi-Platform Function testPing def testPing(target , returnbool=False):
+pingPacketWaitTime = None if system().lower() == 'windows':
+pingParam = '-n' else:
+pingParam = '-c' #for Linux ping parameter takes seconds while MAC OS
+ping takes miliseconds if system().lower() == 'linux':
+pingPacketWaitTime = 1 else:
+pingPacketWaitTime = 800 command = ['ping', pingParam , '1', target , '-W', str(
+pingPacketWaitTime)] p = subprocess.Popen(command , stdout=subprocess.PIPE , stderr=subprocess.PIPE) # prepare the regular expression to get time if system().lower() == 'windows':
+avg = re.compile('Average = ([0-9]+)ms') else:
+avg = re.compile( 'min/avg/max/[a-z]+ = [0 -9.]+/([0 -9.]+)
+/[0 -9.]+/[0 -9.]+ ') avgStr = avg.findall(str(p.communicate()[0])) if p.returncode != 0: if not returnbool:
+return "Not reachable via ICMP" return False else: p. kill () if not returnbool:
+return avgStr [0]+" ms" return True
+33
+
+3.2.11 Minor Bug Fixes
+In this Subsection, minor bug fixes will be described which were not considered as enough improving to be included in separate Subsection. Removing headers from the searches During the search, previous version of the script has also included header of the file containing information about nodes resulting into false search results. Header is now skipped and these false results are removed. Application crashes during return When returning from a child menu window to a parent page, the application tend to crash on grep tool not being able to find file. During re-implementation this bug was fixed and returning now fully works.
+3.3 Current Installation and Use of Application
+In this Section, the post-improvements installation procedure is described and workflow diagram is shown in Figure 3.5. After implementing improvements, application has been updated in the PyPI repository and is available at https://pypi.org/ project/plbmng/ in version 0.2.1. Application repository web page can be seen in Figure 3.4 and is describing the tool purpose, its Python package dependencies, installation steps, basic usage and authors. Repository page gives ability to the user to see release history or download the source files of the project. It also show the maintainers of the projects and allows users to contact them. License under which the application is written can be found the repository page as well.
+34
+
+Fig. 3.4: PlanetLab Server Manager web page in PyPI repository.
+The installation steps are described in detail in the tool's repository page and consist of:
+1. Installing the application using pip3 install plbmng command. 2. Starting the application using plbmng command. 3. In first start it is required to set up credentials using the Set credentials
+option in menu. After this basic setup all the application functionality is available. It is recommended though, to update the list of nodes using Get nodes option in Monitoring menu. Installation steps are successfully reduced compared to the old version which consisted of: 1. Installing system packages using sudo dnf install -y dialog pssh fping
+command. 2. Installing the application using pip install plbmng command. 3. Locating the application in a hidden folder of pip tool. 4. Finding a configuration file and using an editor to update it. 5. Running the application using absolute path.
+35
+
+To summarize, current application functionality workflow diagram can be seen in Figure 3.5. For clarity, the Figure is missing returning arrows however each node in the diagram is able to return to its parent. As seen in the Figure, first step is when menu is being initialized. From there user has option to either open Access server menu, Monitor servers, Plot servers on map, Set credentials or select About. About is a single window option that will show information about the software, its authors and license. Set credentials option will open an interactive editor where user can fill the credentials for PlanetLab network. Next option is Plot servers on map which offers user to choose which map elements should be rendered. After confirmation the map is generated and opened in the system default browser. Monitor servers option divides into three different options. First enables user to setup crontab to periodically scan for nodes, second option is for setting up monitoring elements and third triggers the scanning immediately. At last, Access servers allows users to access the nodes by searching for them either using DNS name, IP address or location. After the search key is inserted, the available results are shown. When specific node is chosen, information about the node are displayed and user has options to connect to the node using ssh, Midnight Commander or show the node on map.
+36
+
+Grapical User Interface is initalized
+
+Access servers
+
+Monitor servers
+
+Plot servers on map
+
+Set credentials
+
+About
+
+Search key is chosen
+
+Generate map options
+
+Credentails editor is displayed
+
+About window is displayed
+
+Results are displayed
+
+Generate map
+
+Generated map is opened in browser
+
+Server information menu is displayed
+
+Set cron fron monitoring
+
+Set monitoring elements
+
+Get nodes
+
+Monitoring script added to the crontab
+
+Monitoring elements are stored
+
+Nodes are saved into internal database
+
+SSH to the server
+
+Use Midnight Commander to
+connect
+
+Show server on map
+
+Fig. 3.5: PlanetLab Server Manager workflow diagram.
+
+37
+
+4 PlanetLab Network Analysis Using Plbmng Tool
+blablabla
+38
+
+5 Example of Use Cases
+blablabla
+39
+
+6 Conclusion
+The goal of this thesis was to get familiarized with the plbmng tool, re-implement the application into Python 3 and update the PyPI repository. Getting familiarized with the tool has been a pre-requisite of the other goals. As tool is designed to make usage of PlanetLab network easier, it was introduced and described in Chapter 1. The previous plbmng tool is, in Chapter 2, reviewed and analyzed. This thesis also contains discussion over state of the application and possible improvements. Since PlanetLab network is primarily using Linux and virtualization, these topics were covered in Chapter ?? and Chapter ?? respectively. The re-implementation itself is described in Chapter 3. The re-implementation was used to also include improvements to the each functions and their logic. Python usage has enabled various improvements such as removing result limitation, having application available as library, increased readability by having functions logically divided in one file instead of being composed from different files into script saved and run from disk, pre and post installation steps were removed, set credentials function has been improved, several functions were written with Windows support in mind whenever possible, few minor bugs were fixed and minor improvements were added. The newly re-implemented tool's behavioral diagram has been described in Section 3.3. Last goal, which was to update the application's PyPI repository1 with new code and information. The repository was successfully updated with the newest code changing from version 0.1.10 to version 0.2.1. The description has been updated containing latest information regarding installation process of the tool. Dependencies were removed to reflect this change. With the update all the goals that this Diploma thesis aimed to accomplish were successfully achieved. Overall, all these changes were prerequisite for further development of the tool and increasing its usability for the PlanetLab users.
+Future Development As mentioned in this Chapter introduction, the changes done in this Diploma thesis are prerequisite for the future work which will be done in the following Diploma thesis. The Diploma thesis will aim to document use cases of the application and provide documentation using UML (Unified Model Language) diagrams. Based on this documentation, the tool functionality will be revised and improved to reflect the use cases. Various existing functions will be improved such as map generation currently doesn't provide much information. Data to the map nodes, like IP address and country can be added. Also, as the tool was developed in two thesis, there are still Python scripts in different folders. This structure will
+1The plbmng tool is available at: https://pypi.org/project/plbmng/
+40
+
+be reviewed and improved to match one solid library to use. Windows support will be further investigated and if possible, various functions will be ported to support both Linux-based and Windows operating systems. Another possible improvement is to add command line interface support so the script can be usable outside the GUI. Work on this improvement has been already started by adding crontab mode to the script which starts monitoring of the available servers.
+41
+
+Bibliography
+
+[1] Linux: dokumentacní projekt. 4., aktualiz. vyd. Brno: Computer Press, 2007. ISBN 978-80-251-1525-1.
+
+[2] Andrasov, I. Mení experimentální sít PlanetLab. Brno: Brno, University of Technology, 2017. Bachelor thesis. Available at: https://www.vutbr.cz/studenti/zav-prace/detail/110277.
+
+[3] Beaulieu, A. Learning SQL. [b.m.]: O'Reilly Media, Inc., 2005. ISBN 0596007272.
+
+[4] Eckert, J. W. Linux+ Guide to Linux Certification. 3rd. Boston, MA, United States: Course Technology Press, 2011. ISBN 9781418837211.
+
+[5] Google. Google Trends [online]. Revised: 24, November, 2018 [cit. 25. November 2018]. Available at: https://trends.google.com.
+
+[6] Lutz, M. Learning Python. 2. vyd. Sebastopol, CA, USA: O'Reilly & Associates, Inc., 2003. ISBN 0596002815.
+
+[7] Magklaras,
+
+G.
+
+Introduction to Linux [on-
+
+line].
+
+[cit. 24. November 2018].
+
+Available at:
+
+https://folk.uio.no/georgios/other/IntroductiontoLinux.pdf.
+
+[8] Neary, D. Did you know Linux is in your TV? [online]. Revised: 08, May, 2018 [cit. 25. November 2018]. Available at: https://opensource.com/article/18/5/places-find-linux.
+
+[9] Newbigin, J. CentOS-2 Final finally released [online]. Revised: 14, May, 2004 [cit. 25. November 2018]. Available at: https://goo.gl/7HsZUP.
+
+[10] Noyes, K. Debian Linux Named Most Popular Distro for Web Servers [online]. Revised: 11, Jannuary, 2012 [cit. 25. November 2018]. Available at: https://goo.gl/6ZXLZU.
+
+[11] Oracle Corporation. Oracle VM VirtualBox User Manual [online]. Revised: 09, November, 2018 [cit. 25. November 2018]. Available at: https://download.virtualbox.org/virtualbox/5.2.22/UserManual.pdf.
+
+[12] Oracle Corporation. Welcome to VirtualBox.org! [online]. Revised: 15, November, 2018 [cit. 25. November 2018]. Available at: https://www.virtualbox.org/.
+
+42
+
+[13] Park, K., Pai, V. S., Lee, K.-W. et al. Securing Web Service by Automatic Robot Detection. Proceedings of the Annual Conference on USENIX '06 Annual Technical Conference. Berkeley, CA, USA: USENIX Association. S. 23­23. ATEC '06. Available at: http://dl.acm.org/citation.cfm?id=1267359.1267382.
+
+[14] Pilgrim, M. Ponome se do Python(u) 3: Dive into Python 3. Praha: CZ.NIC, c2010. ISBN 978-80-904248-2-1.
+
+[15] Pruitt, G. How fast is KVM? Host vs virtual machine performance [online]. Revised: 1, December, 2016 [cit. 25. November 2018]. Available at: https://goo.gl/AUWfuH.
+
+[16] Ramasubramanian, V. a Sirer, E. G. The Design and Implementation of a Next Generation Name Service for the Internet. SIGCOMM Comput. Commun. Rev. Srpen 2004, vol. 34, Issue 4, s. 331­342. Available at: http://doi.acm.org/10.1145/1030194.1015504. ISSN 0146-4833.
+
+[17] Red Hat. Red Hat Virtualization [online]. Revised: 2018 [cit. 25. November 2018]. Available at: https://goo.gl/YAQ9Eb.
+
+[18] Red Hat.
+
+Red Hat Virtualization Datasheet [online].
+
+Re-
+
+vised: January, 2018 [cit. 25. November 2018].
+
+Available at:
+
+https://www.redhat.com/en/resources/virtualization-datasheet.
+
+[19] Red Hat. Timeline: Red Hat's history [online]. Revised: 2016 [cit. 25. November 2018]. Available at: https://goo.gl/H5w6q7.
+
+[20] Red Hat. Trusted [online]. Revised: June, 2017 [cit. 25. November 2018]. Available at: https://www.redhat.com/en/about/trusted.
+
+[21] Roscoe, T. PlanetLab Phase 0: Technical Specification. Princeton, New Jersey: PlanetLab Consortium, August 2002. PDN­02­002.
+
+[22] Rossum, G. v., Warsaw, B. a Coghlan, N. PEP 8 ­ Style Guide for Python Code [online]. Revised: 1, August, 2013 [cit. 25. November 2018]. Available at: https://www.python.org/dev/peps/pep-0008/.
+
+[23] Sherwood, R., Braud, R. a Bhattacharjee, B. Slurpie: a cooperative bulk data transfer protocol. IEEE INFOCOM 2004. S. 941­951 vol.2. ISSN 0743-166X.
+
+[24] StackOverflow. The Incredible Growth of Python [online]. Revised: 6, September, 2017 [cit. 24. November 2018]. Available at: https://stackoverflow.blog/2017/09/06/incredible-growth-python/.
+
+43
+
+[25] StatCounter. Operating System Market Share Worldwide 2018 [online]. Revised: October, 2018 [cit. 25. November 2018]. Available at: http://gs.statcounter.com/os-market-share.
+
+[26] The Trustees of Princeton University. About PlanetLab project [online]. Revised: 29, May, 2017 [cit. 24. November 2018]. Available at: https://www.planet-lab.eu/about.
+
+[27] The Trustees of Princeton University. PlanetLab Main Page [online]. Revised: 2017 [cit. 24. November 2018]. Available at: https://www.planet-lab.org/.
+
+[28] Treinen, R.
+
+50.000 binary packages [online].
+
+Revised:
+
+8, Februray, 2016 [cit. 25. November 2018].
+
+Available at:
+
+https://lists.debian.org/debian-devel/2016/02/msg00122.html.
+
+[29] TrustRadius Editors. Top Server Virtualization Software in 2018 [online]. Revised: 2018 [cit. 25. November 2018]. Available at: https://www.trustradius.com/server-virtualization.
+
+[30] Virtual Open Systems SAS. The Virtual Open Systems video demos to virtualize ARM multicore platforms [online]. Revised: 16, August, 2016 [cit. 25. November 2018]. Available at: https://goo.gl/Me4ikn.
+
+[31] VMware. Architecture of VMware ESXi [online]. Revised: 15, October, 2008 [cit. 25. November 2018]. Available at: https://goo.gl/Gskpvf.
+
+[32] Suba, F. Monitorování server s OS Linux. Brno: Brno, University of Technology, 2018. Bachelor thesis. Available at: https://www.vutbr.cz/studenti/zav-prace/detail/110178.
+
+44
+
+List of symbols, physical constants and abbreviations
+
+DNS IP KVM MMU CPU CentOS yum APT IoT GUI PEP PyPI API ICMP UML
+
+Domain Name System Internet Protocol Kernel-based Virtual Machine Memory Management Unit Central Processing Unit Community Enterprise Operating System Yellowdog Updater, Modified Advanced Packaging Tool Internet of Things Graphical User Interface Python Enhancement Proposal Python Package Index Application Programming Interface Internet Control Message Protocol Unified Model Language
+
+45
+
+
