@@ -34,33 +34,33 @@
 \contentsline {subsection}{\numberline {3.2.3}Code Readability Improvement}{26}{subsection.51}
 \contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.75}
 \contentsline {subsection}{\numberline {3.2.5}Improvement of Credentials Management}{30}{subsection.87}
-\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{31}{subsection.89}
+\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{30}{subsection.89}
 \contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.90}
-\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{33}{subsection.93}
-\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{34}{subsection.103}
-\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{35}{subsection.105}
-\contentsline {paragraph}{Clearing of the screen after cancel}{35}{section*.106}
-\contentsline {paragraph}{Recursion removal for return}{35}{section*.107}
-\contentsline {paragraph}{About is added to the menu}{36}{section*.108}
-\contentsline {paragraph}{Crontab mode created}{36}{section*.109}
-\contentsline {paragraph}{Last server access}{36}{section*.110}
-\contentsline {paragraph}{Menu with statistics}{36}{section*.111}
-\contentsline {paragraph}{Support of Multiple Platforms}{36}{section*.113}
-\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{38}{subsection.145}
-\contentsline {paragraph}{Removing headers from the searches}{39}{section*.146}
-\contentsline {paragraph}{Application crashes during return}{39}{section*.147}
-\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{39}{section.148}
-\contentsline {paragraph}{}{41}{section*.158}
-\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{43}{chapter.160}
-\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{43}{section.161}
-\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{47}{section.168}
-\contentsline {chapter}{\numberline {5}Conclusion}{51}{chapter.206}
-\contentsline {chapter}{Bibliography}{52}{section*.209}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{55}{section*.211}
-\contentsline {chapter}{Appendices}{56}{section*.212}
-\contentsline {section}{List of Appendices}{57}{section*.213}
-\contentsline {chapter}{\numberline {A}Content of DVD}{58}{appendix.214}
-\contentsline {chapter}{\numberline {B}Manual}{58}{appendix.215}
-\contentsline {section}{\numberline {B.1}Installation from PyPI repositories and running the application}{58}{section.216}
-\contentsline {section}{\numberline {B.2}Running application from CD}{58}{section.220}
+\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{32}{subsection.93}
+\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{33}{subsection.103}
+\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{34}{subsection.105}
+\contentsline {paragraph}{Clearing of the screen after cancel}{34}{section*.106}
+\contentsline {paragraph}{Recursion removal for return}{34}{section*.107}
+\contentsline {paragraph}{About is added to the menu}{35}{section*.108}
+\contentsline {paragraph}{Crontab mode created}{35}{section*.109}
+\contentsline {paragraph}{Last server access}{35}{section*.110}
+\contentsline {paragraph}{Menu with statistics}{35}{section*.111}
+\contentsline {paragraph}{Support of Multiple Platforms}{35}{section*.113}
+\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{37}{subsection.145}
+\contentsline {paragraph}{Removing headers from the searches}{38}{section*.146}
+\contentsline {paragraph}{Application crashes during return}{38}{section*.147}
+\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{38}{section.148}
+\contentsline {paragraph}{}{40}{section*.158}
+\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{42}{chapter.160}
+\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{42}{section.161}
+\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{46}{section.168}
+\contentsline {chapter}{\numberline {5}Conclusion}{50}{chapter.206}
+\contentsline {chapter}{Bibliography}{51}{section*.209}
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{54}{section*.211}
+\contentsline {chapter}{Appendices}{55}{section*.212}
+\contentsline {section}{List of Appendices}{56}{section*.213}
+\contentsline {chapter}{\numberline {A}Content of DVD}{57}{appendix.214}
+\contentsline {chapter}{\numberline {B}Manual}{57}{appendix.215}
+\contentsline {section}{\numberline {B.1}Installation from PyPI repositories and running the application}{57}{section.216}
+\contentsline {section}{\numberline {B.2}Running application from attached CD}{57}{section.220}
 \contentsfinish 
