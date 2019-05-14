@@ -2,66 +2,66 @@
 \babel@toc {english}{}
 \babel@toc {czech}{}
 \babel@toc {english}{}
-\contentsline {paragraph}{}{5}{section*.1}
-\contentsline {paragraph}{}{5}{section*.2}
-\contentsline {chapter}{Introduction}{11}{section*.5}
-\contentsline {chapter}{\numberline {1}PlanetLab Network}{12}{chapter.6}
-\contentsline {section}{\numberline {1.1}Use and Terminology}{13}{section.9}
-\contentsline {section}{\numberline {1.2}Selected Projects Based on PlanetLab}{13}{section.10}
-\contentsline {paragraph}{Securing Web Service by Automatic Robot Detection}{14}{section*.11}
-\contentsline {paragraph}{The Design and Implementation of Next Generation Name Service for Internet}{14}{section*.12}
-\contentsline {paragraph}{Slurpie: Cooperative Bulk Data Transfer Protocol}{14}{section*.13}
-\contentsline {section}{\numberline {1.3}PlanetLab Inftrastructure}{14}{section.14}
-\contentsline {subsection}{\numberline {1.3.1}Operating System Linux}{14}{subsection.15}
-\contentsline {paragraph}{Red Hat Enterprise Linux}{16}{section*.16}
-\contentsline {paragraph}{CentOS}{16}{section*.17}
-\contentsline {paragraph}{Fedora}{16}{section*.18}
-\contentsline {paragraph}{Debian}{16}{section*.19}
-\contentsline {paragraph}{Ubuntu}{17}{section*.20}
-\contentsline {subsection}{\numberline {1.3.2}Distributed Set of Resources Using Virtualization}{17}{subsection.21}
-\contentsline {paragraph}{VMware ESXi}{18}{section*.23}
-\contentsline {paragraph}{Red Hat Enterprise Virtualization}{18}{section*.24}
-\contentsline {paragraph}{Oracle Virtualbox}{19}{section*.25}
-\contentsline {paragraph}{KVM with QEMU}{19}{section*.26}
-\contentsline {chapter}{\numberline {2}Previous State Of Application Development}{20}{chapter.27}
-\contentsline {section}{\numberline {2.1}Description of Current Functionality}{20}{section.29}
-\contentsline {section}{\numberline {2.2}Identified Problems}{21}{section.31}
-\contentsline {chapter}{\numberline {3}Implemented Improvements to PlanetLab Server Manager}{23}{chapter.32}
-\contentsline {section}{\numberline {3.1}Re-design of Application}{23}{section.33}
-\contentsline {section}{\numberline {3.2}Description of Improvements}{25}{section.35}
-\contentsline {subsection}{\numberline {3.2.1}Removal of Search Result Limitation}{25}{subsection.36}
-\contentsline {subsection}{\numberline {3.2.2}Writing the Application as Library}{26}{subsection.46}
-\contentsline {subsection}{\numberline {3.2.3}Code Readability Improvement}{26}{subsection.51}
-\contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.75}
-\contentsline {subsection}{\numberline {3.2.5}Improvement of Credentials Management}{30}{subsection.87}
-\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{30}{subsection.89}
-\contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.90}
-\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{32}{subsection.93}
-\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{33}{subsection.103}
-\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{34}{subsection.105}
-\contentsline {paragraph}{Clearing of the screen after cancel}{34}{section*.106}
-\contentsline {paragraph}{Recursion removal for return}{34}{section*.107}
-\contentsline {paragraph}{About is added to the menu}{35}{section*.108}
-\contentsline {paragraph}{Crontab mode created}{35}{section*.109}
-\contentsline {paragraph}{Last server access}{35}{section*.110}
-\contentsline {paragraph}{Menu with statistics}{35}{section*.111}
-\contentsline {paragraph}{Support of Multiple Platforms}{35}{section*.113}
-\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{37}{subsection.145}
-\contentsline {paragraph}{Removing headers from the searches}{38}{section*.146}
-\contentsline {paragraph}{Application crashes during return}{38}{section*.147}
-\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{38}{section.148}
-\contentsline {paragraph}{}{40}{section*.158}
-\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{42}{chapter.160}
-\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{42}{section.161}
-\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{46}{section.168}
-\contentsline {chapter}{\numberline {5}Conclusion}{50}{chapter.206}
-\contentsline {chapter}{Bibliography}{51}{section*.209}
-\contentsline {chapter}{List of symbols, physical constants and abbreviations}{54}{section*.211}
-\contentsline {chapter}{Appendices}{55}{section*.212}
-\contentsline {section}{List of Appendices}{56}{section*.213}
+\contentsline {paragraph}{}{5}{section*.1}% 
+\contentsline {paragraph}{}{5}{section*.2}% 
+\contentsline {chapter}{Introduction}{11}{section*.5}% 
+\contentsline {chapter}{\numberline {1}PlanetLab Network}{12}{chapter.6}% 
+\contentsline {section}{\numberline {1.1}Use and Terminology}{13}{section.9}% 
+\contentsline {section}{\numberline {1.2}Selected Projects Based on PlanetLab}{13}{section.10}% 
+\contentsline {paragraph}{Securing Web Service by Automatic Robot Detection}{14}{section*.11}% 
+\contentsline {paragraph}{The Design and Implementation of Next Generation Name Service for Internet}{14}{section*.12}% 
+\contentsline {paragraph}{Slurpie: Cooperative Bulk Data Transfer Protocol}{14}{section*.13}% 
+\contentsline {section}{\numberline {1.3}PlanetLab Inftrastructure}{14}{section.14}% 
+\contentsline {subsection}{\numberline {1.3.1}Linux Operating System}{14}{subsection.15}% 
+\contentsline {paragraph}{Red Hat Enterprise Linux}{16}{section*.16}% 
+\contentsline {paragraph}{CentOS}{16}{section*.17}% 
+\contentsline {paragraph}{Fedora}{16}{section*.18}% 
+\contentsline {paragraph}{Debian}{16}{section*.19}% 
+\contentsline {paragraph}{Ubuntu}{17}{section*.20}% 
+\contentsline {subsection}{\numberline {1.3.2}Distributed Set of Resources Using Virtualization}{17}{subsection.21}% 
+\contentsline {paragraph}{VMware ESXi}{18}{section*.23}% 
+\contentsline {paragraph}{Red Hat Enterprise Virtualization}{18}{section*.24}% 
+\contentsline {paragraph}{Oracle Virtualbox}{19}{section*.25}% 
+\contentsline {paragraph}{KVM with QEMU}{19}{section*.26}% 
+\contentsline {chapter}{\numberline {2}Previous State Of Application Development}{20}{chapter.27}% 
+\contentsline {section}{\numberline {2.1}Description of Current Functionality}{20}{section.29}% 
+\contentsline {section}{\numberline {2.2}Identified Problems}{21}{section.31}% 
+\contentsline {chapter}{\numberline {3}Implemented Improvements to PlanetLab Server Manager}{23}{chapter.32}% 
+\contentsline {section}{\numberline {3.1}Application Re-design}{23}{section.33}% 
+\contentsline {section}{\numberline {3.2}Description of Improvements}{25}{section.35}% 
+\contentsline {subsection}{\numberline {3.2.1}Removal of Search Result Limitation}{25}{subsection.36}% 
+\contentsline {subsection}{\numberline {3.2.2}Writing the Application as a~Library}{26}{subsection.46}% 
+\contentsline {subsection}{\numberline {3.2.3}Code Readability Improvement}{26}{subsection.51}% 
+\contentsline {subsection}{\numberline {3.2.4}Removal of Pre and Post Installation Steps}{29}{subsection.75}% 
+\contentsline {subsection}{\numberline {3.2.5}Improvement of Credentials Management}{30}{subsection.87}% 
+\contentsline {subsection}{\numberline {3.2.6}Application Folder Structure Re-design}{31}{subsection.89}% 
+\contentsline {subsection}{\numberline {3.2.7}Filtering Nodes Based on Accessibility}{31}{subsection.90}% 
+\contentsline {subsection}{\numberline {3.2.8}Multiprocessing Update of Status Database}{32}{subsection.93}% 
+\contentsline {subsection}{\numberline {3.2.9}Improvements of Node Visualization}{33}{subsection.103}% 
+\contentsline {subsection}{\numberline {3.2.10}Minor Improvements}{34}{subsection.105}% 
+\contentsline {paragraph}{Clearing of the screen after cancel}{34}{section*.106}% 
+\contentsline {paragraph}{Recursion removal for return}{35}{section*.107}% 
+\contentsline {paragraph}{About is added to the menu}{35}{section*.108}% 
+\contentsline {paragraph}{Crontab mode created}{35}{section*.109}% 
+\contentsline {paragraph}{Last server access}{35}{section*.110}% 
+\contentsline {paragraph}{Menu with statistics}{35}{section*.111}% 
+\contentsline {paragraph}{Support of Multiple Platforms}{36}{section*.113}% 
+\contentsline {subsection}{\numberline {3.2.11}Minor Bug Fixes}{38}{subsection.145}% 
+\contentsline {paragraph}{Removing headers from the searches}{38}{section*.146}% 
+\contentsline {paragraph}{Application crashes during return}{38}{section*.147}% 
+\contentsline {section}{\numberline {3.3}Improved Installation and Use of Application}{38}{section.148}% 
+\contentsline {paragraph}{}{40}{section*.158}% 
+\contentsline {chapter}{\numberline {4}PlanetLab Server Manager Use Cases}{42}{chapter.160}% 
+\contentsline {section}{\numberline {4.1}PlanetLab Network Analysis Using Plbmng Tool}{42}{section.161}% 
+\contentsline {section}{\numberline {4.2}Testing Network Projects with Planet Lab Server Manager}{46}{section.168}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{50}{chapter.206}% 
+\contentsline {chapter}{Bibliography}{51}{section*.209}% 
+\contentsline {chapter}{List of symbols, physical constants and abbreviations}{54}{section*.211}% 
+\contentsline {chapter}{Appendices}{55}{section*.212}% 
+\contentsline {section}{List of Appendices}{56}{section*.213}% 
 \ttl@starttoc {chapters@1}
-\contentsline {chapter}{\numberline {A}Content of DVD}{57}{appendix.214}
-\contentsline {chapter}{\numberline {B}Manual}{57}{appendix.215}
-\contentsline {section}{\numberline {B.1}Installation from PyPI repositories and running the application}{57}{section.216}
-\contentsline {section}{\numberline {B.2}Running application from attached CD}{57}{section.220}
+\contentsline {chapter}{\numberline {A}Content of DVD}{57}{appendix.214}% 
+\contentsline {chapter}{\numberline {B}Manual}{57}{appendix.215}% 
+\contentsline {section}{\numberline {B.1}Installation from PyPI repositories and running the application}{57}{section.216}% 
+\contentsline {section}{\numberline {B.2}Running application from attached CD}{57}{section.220}% 
 \contentsfinish 
