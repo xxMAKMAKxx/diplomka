@@ -1,41 +1,25 @@
 \chapter{Content of DVD}
-As a part of this thesis there is a DVD which contains following items:
+As a part of this thesis there is a CD which contains following items:
 \begin{itemize}
 	\item Latex source codes in folder \texttt{latex}.
 	\item Text version of the thesis in pdf format.
-	\item The implemented system in folder \texttt{vms}.
-	\item Url of video that demonstrates functionality of the system---a YouTube link. In the video all important parts of the system are demonstrated thus it saves a lot of time.
-	\item Folder \texttt{src} with use-cases that contains source codes, tests and configuration bash scripts. 
-	\item File \texttt{credentials} that contains passwords and user-names for various applications.
+	\item The application source codes in folder \texttt{plbmng}.
 \end{itemize}
 
 \chapter{Manual}
-This appendix contains description of steps which leads into a fully functional system implemented in this thesis. Follow each section below in their logical order to successfully get the system operational.
-\section{Installing VirtualBox}
-To install VirualBox, please follow instructions that can be found on official VirtualBox website \url{https://www.virtualbox.org/manual/ch02.html}. If you have RPM based system, you can also use manual that can be found on following url \url{http://goo.gl/86pSP}. Please note, that you need to have latest version of kernel to successfully install VirtualBox. If you have problem to run VirtualBox it is probably an issue of wrong kernel.
-\section{Configure VirtualBox}
-To configure VirtualBox for our system, please execute following command as root, which will ad internal network used by system's virtual machines: \texttt{VBoxManage dhcpserver add --netname intnet --ip 10.13.13.100 --netmask 255.255.255.0 --lowerip 10.13.13.101 --upperip 10.13.13.254 --enable}
-\section{Reassembling VirtualBox file}
-This section contains manual that describes how to reassemble parts of VirtualBox import file into one file. The split had to be done because of the file size---almost \texttt{12G}---which cannot be placed into one DVD.
-\begin{itemize}
-	\item To reassemble VirtualBox file please gather all files from \texttt{vms} folder of each DVD (xaa, xab, xac) into one directory where you want to reassemble the VirtualBox file containing VMs.
-	\item For Windows run in cmd: \texttt{copy /b xaa + xaab + xaac xkacma03-bp-vms.ova}
-	\item For GNU/Linux run shell command: \texttt{cat xa* > xkacma03-bp-vms.ova}
-	\item Please do not have any file starting with \texttt{xa} in your folder as \texttt{cat} would add their bites to the file corrupting it.
-\end{itemize}
-\section{Importing virtual machines from VirtualBox import file}
-To import system's virtual machines into VirtualBox, please do:
-\begin{itemize}
-\item Start your VirtualBox and then click on \texttt{File > Import Appliance} and navigate to the \texttt{xkacma03-bp-vms.ova} file that you reassembled earlier. 
-\item Click \texttt{Next}. Now you can adjust the number of resources like RAM and number of cores that each machine get if your computer doesn't have needed resources.
-\item Leave everything checked as VirtualBox will import discs as well as Network Interfaces etc. which are essential for the system and then click on \texttt{Import}.
-\item Wait until VirtualBox import system's virtual machines.
-\end{itemize}
-\section{Summary}
-If you followed all steps, the system is fully functional. Please start all three virtual machines and then use Jenkins virtual machine to operate the system. You can access Jenkins tool from \url{jenkins.maklocal:8080}, Foreman from \url{foreman.maklocal} and GitLab from \url{gitlab.maklocal} through any supported browser like Firefox, Chrome etc. 
-\section{User manual}
-To use the system, login into the virtual machine \texttt{Jenkins}, start terminal and go to the directory \texttt{/repos} (or you can clone a repository to any desired location). In the directory you can find various projects that are prepared and linked with continuous integration tool Jenkins. If you push any changes to the repository Jenkins will run new tests and the result can be observed inside the Jenkins web user interface. Please watch the video---link can be found on first DVD---to learn more about using the system.
-%\chapter{Konfigrační soubor}
-%\chapter{RelaxNG Schéma konfiguračního soboru}
-%\chapter{Plakat}
+This appendix contains manual for the application implemented in this thesis. It describes how to run the application either using the PyPI repositories or using source codes on the attached CD. The application has been tested using \texttt{Python version 3.7.3}.
+\section{Installation from PyPI repositories and running the application}
+To install and run the application using the PyPI repositories, please do the following:\\
+\begin{enumerate}
+	\item In your terminal run \texttt{pip3 install plbmng}
+	\item Confirm that you want to also install dependencies
+	\item Once done, simply start the application using command \texttt{plbmng}
+\end{enumerate}
 
+\section{Running application from attached CD}
+To run the application using source codes on the attached CD please do the following:\\
+\begin{enumerate}
+	\item In your terminal navigate into the CD folder: \texttt{cd \$CD\_FOLDER}
+	\item Navigate to the source code folder: \texttt{cd plbmng}
+	\item Run the application: \texttt{./bin/plbmng}
+\end{enumerate}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.5.15)  15 MAY 2019 01:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.5.15)  15 MAY 2019 01:44
 entering extended mode
 **./sablona-prace.tex
 (sablona-prace.tex
@@ -1627,6 +1627,11 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 175.
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Underfull \hbox (badness 1412) in paragraph at lines 175--175
+[]\T1/lmss/m/n/12 Kritická sekce, Li-nux, Multi-processing, Pla-ne-tLab Ser-ver
+ Ma-nager, Py-thon, Sí´
+ []
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 175.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1634,7 +1639,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 175.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 175.
-
 
 ("C:\Users\z400\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2241,7 +2245,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
 Here is how much of TeX's memory you used:
  29709 strings out of 492942
  519104 string characters out of 3126539
- 841066 words of memory out of 3000000
+ 841069 words of memory out of 3000000
  32771 multiletter control sequences out of 15000+200000
  644202 words of font info for 89 fonts, out of 3000000 for 9000
  1153 hyphenation exceptions out of 8191
@@ -2267,7 +2271,7 @@ grams/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Users/z400/AppData/Local
 cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/z400/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/z400/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on sablona-prace.pdf (59 pages, 2209066 bytes).
+Output written on sablona-prace.pdf (59 pages, 2209067 bytes).
 PDF statistics:
  1090 PDF objects out of 1200 (max. 8388607)
  318 named destinations out of 1000 (max. 500000)
