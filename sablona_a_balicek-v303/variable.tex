@@ -4,9 +4,9 @@
 % 'pdfcslatex' není od verze 3.0 podporován a nedoporučujeme ho.
 \usepackage[
 %%Nastavení balíčku babel (!!! pri zmene jazyka je potreba zkompilovat dvakrat !!!)
-  %main=czech,engyh       % originální jazyk je čeština (výchozí), překlad je anglicky
+  main=czech,english       % originální jazyk je čeština (výchozí), překlad je anglicky
   %main=slovak,english      % originální jazyk je slovenčina, překlad je anglicky
-   main=english,czech       % originální jazyk je angličtina, překlad je česky
+  %main=english,czech       % originální jazyk je angličtina, překlad je česky
 ]{babel}    					% Balíček pro sazbu různojazyčných dokumentů; kompilovat (pdf)latexem!
 
 \usepackage{float} %pridani float options pro figury a tabulky
@@ -18,7 +18,7 @@
 %% Z následujících voleb lze použít pouze jednu
   %semestral,					%	sazba zprávy semestrálního projektu (nesází se abstrakty, prohlášení, poděkování)
   %bachelor,					%	sazba bakalářské práce
-  diploma,						% sazba diplomové práce
+  %diploma,						% sazba diplomové práce
   %treatise,          % sazba pojednání o dizertační práci
   %phd,               % sazba dizertační práce
 %% Z následujících voleb lze použít pouze jednu
@@ -65,13 +65,13 @@
 % Pokud nemá titul za jménem, smažte celý řetězec '[...]'
 % Uplatní se pouze v prezentaci k obhajobě;
 % v případě, že nechcete, aby se na titulním snímku prezentace zobrazoval oponent, pouze příkaz zakomentujte;
-% u obhajoby semestrální práce se oponent nezobrazuje
-%\oponent[doc.\ Mgr.]{Křestní}{Příjmení}[Ph.D.]
+% u obhajoby semestrální práce se oponent nezobrazuje M.Sc. Sara Ricci, Ph.D.
+\oponent[M.Sc.]{Sara}{Ricci}[Ph.D.]
 
 %% Název práce:
 %  První parametr je název v originálním jazyce,
 %  druhý je překlad v angličtině nebo češtině (pokud je originální jazyk angličtina)
-\nazev{Application for monitoring of Linux servers}{Aplikace pro monitorování serverů s~operačním systémem Linux}
+\nazev{Aplikace pro monitorování serverů s~operačním systémem Linux}{Application for monitoring of Linux servers}
 
 %% Označení oboru studia
 % První parametr je obor v originálním jazyce,
@@ -110,8 +110,8 @@
 
 
 %% Rok obhajoby
-\rok{2018}
-\datum{1.\,1.\,1970} % Datum se uplatní pouze v prezentaci k obhajobě
+\rok{2019}
+\datum{5.\,6.\,2019} % Datum se uplatní pouze v prezentaci k obhajobě
 
 %% Místo obhajoby
 % Na titulních stránkách bude automaticky vysázeno VELKÝMI písmeny

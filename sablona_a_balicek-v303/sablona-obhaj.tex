@@ -103,100 +103,135 @@
 	% nadpis snímku
 	\frametitle{Cíle práce}
 	\begin{itemize}
-			\item Nastudovat
-			\item Popsat
-				\begin{itemize}
-					\item nastudované
-				\end{itemize}
-			\item Implementovat
-				\begin{itemize}
-					\item nastudované
-					\item nové
-				\end{itemize}
-			\item Porovnat a vyhodnotit
-				\begin{itemize}
-						\item výsledky
-				\end{itemize}
+		\item Seznámit se s aplikací pro vzdálenou práci se servery sítě PlanetLab (www.planet-lab.eu)
+		\item Převést aplikaci do jazyka Python 3
+		\item Přidat možnost vyhledávaní serverů podle jejich aktuálního stavu činnosti.
+		\item Provést její aktualizaci na repositáři PyPI
 	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%
 \begin{frame} 
-	\frametitle{Klíčové nástroje}
+	\frametitle{O síťi PlanetLab}
+	Co je PlanetLab a jaké jsou její cíle?
+\begin{itemize}
+	\item Světová výzkumná síť
+	\item Cílem je podpora síťových projektů
+	\item Obsahuje přes 1000 serverů v různých lokacích
+\end{itemize}
+\end{frame} 
 
-	% prostředí alertblok, které slouží pro zdůraznění informace
-	\begin{alertblock}{Pro práci je klíčový Eulerův vzorec}
-		$$\eul^{\jmag x}=\cos x + \jmag\sin x$$
-	\end{alertblock}
+%%%%%%%%%%%%%
+\begin{frame} 
+\frametitle{O síťi PlanetLab}
+\begin{figure}[H]
+	\centering
+	\scalebox{0.15}{\includegraphics{obrazky/mapa_planetlab}}
+	\caption{Mapa zobrazující lokace serverů v síti PlanetLab.}
+	\label{fig:location}
+\end{figure}
+\end{frame}
 
-	\vspace{4ex}
-	Eulerova identita je speciálním případem tohoto vzorce, jestliže dosadíme $x=\uppi$:
+%%%%%%%%%%%%%
+\begin{frame} 
+\frametitle{O aplikaci plbmng}
+Co je PlanetLab a jaké jsou její cíle?
+\begin{itemize}
+	\item Cíle aplikace plbmng
+		\begin{itemize}
+			\item Zjednodušení vývoje projektů
+			\item Dynamický seznam serverů
+			\item Konektivita na servery, přenos a spouštění aplikací
+		\end{itemize}
+	\item Grafické rozhraní v prostředí dialog
+	\item Volně dostupná na repozitáři PyPI pod licencí MIT
+	\item Aktuálně pouze pro operační systém Linux
+\end{itemize}
+\end{frame} 
 
-	% prostředí block, které slouží jako informativní
-	\begin{block}{Eulerova identita}
-		$$\eul^{\jmag \uppi}=\cos \uppi + \jmag\sin \uppi,$$\\
-		odkud vyplývá
-		$$\eul^{\jmag \uppi}+1=0.$$
-	\end{block}
+%%%%%%%%%%%%%
+\begin{frame} 
+\frametitle{Obrázek aplikace plbmng}
+\begin{figure}[H]
+	\centering
+	\scalebox{0.45}{\includegraphics{obrazky/plbmng_basic}}
+	\caption{Nová menu obrazovka aplikace PlanetLab Server Manager (plbmng)}
+	\label{fig:redesigned}
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%
+\begin{frame} 
+\frametitle{Předchozí stav aplikace}
+\begin{itemize}
+	\item Kód ve dvou jazycích
+	\item Složitá implementace
+	\item Zbytečné instalační kroky
+	\item Chyby v aplikaci
+\end{itemize}
+\end{frame} 
+
+%%%%%%%%%%%%%
+\begin{frame} 
+\frametitle{Přístup k řešení}
+\begin{itemize}
+	\item Kód ve dvou jazycích
+		\begin{itemize}
+			\item Re-implementace Bash skriptu do Python 3
+		\end{itemize}
+	\item Složitá implementace
+		\begin{itemize}
+			\item Jeden soubor
+			\item Výstižné názvy
+			\item Logické sekce kódu
+		\end{itemize}
+	\item Zbytečné instalační kroky
+		\begin{itemize}
+			\item Eliminace nutnosti instalace systémových balíčků
+			\item Eliminace nutnosti vyhledání instalační složky
+			\item Eliminace nutnosti zadat přihlašovací údaje v souboru
+		\end{itemize}
+	\item Chyby v aplikaci
+		\begin{itemize}
+			\item Pády aplikace při návratu v menu
+			\item Vyhledávání obsahuje hlavičku
+			\item Nefunguje nastavování přihlašovacích údajů a další
+		\end{itemize}
+\end{itemize}
+\end{frame} 
+
+%%%%%%%%%%%%%
+\begin{frame} 
+\frametitle{Výsledky}
+\begin{itemize}
+	\item Odebrání limitace výsledků hledání
+	\item Aplikace je použitelná jako Python knihovna
+	\item Kompletní odebrání před a po instalačních kroků
+	\item Zjednodušení zadávání přihlašovacích údajů
+	\item Opravení chyb způsobujícíh pády aplikace
+	\item Vylepšení implementace funkcí (např. odebrání rekurze)
+	\item Přidán handler pro signály
+\end{itemize}
 \end{frame} 
 
 
 %%%%%%%%%%%%%
 \begin{frame} 
-	\frametitle{Plošný spoj}
-	
-	\begin{columns}[T] 								% prostředí sloupce s umístěním nahoře
-		\begin{column}{0.4\textwidth}		% první sloupec
-			Obrázek znázorňuje model:\\[2ex]
-			%
-			\begin{itemize}
-				\item Deska
-				\item Součástky
-				\item Signály
-				\item Napájení
-			\end{itemize}
-		\end{column}
-		%
-		\begin{column}{0.6\textwidth}		% druhý sloupec
-			\begin{figure}%	
-				\centering
-				\vspace{1cm}	              % horizontální mezera
-				\includegraphics[width=0.8\columnwidth]{obrazky/soucastky}
-				%lze vlozit popisek, ale povetsinou je to v prezentaci zbytecne
-				%\caption{Popisek obrázku}%
-				%\label{obr:ukazka}
-			\end{figure}
-		\end{column}
-	\end{columns}											% ukončení prostředí sloupce
-\end{frame}
-
-
-%%%%%%%%%%%%%
-\begin{frame} 
-	\frametitle{Výsledky}
-	\vspace{1cm}
-	\begin{table}[]
-		\centering
-		\caption{Výsledky měření mobilních sítí}
-		\label{tab:tabulka}
-			\begin{tabular}{lcc}
-				\toprule
-					Technologie  & Rychlost stahování [kB/s] & Rychlost nahrávání [kB/s] \\
-				\midrule
-					GPRS (2,5G)	& 7,2 	& 3,6\\
-					UMTS 3G     & 48 		& 48\\
-					HSPA (3,5G)	&	1\,706	&	720\\
-					LTE (4G) 		& 40\,750 & 10\,750\\
-				\bottomrule                                       
-			\end{tabular}
-	\end{table}
-\end{frame}
-
-
-%%%%%%%%%%%%%
-\begin{frame} 
 	\frametitle{Závěr}
-	\dots
+	Dosažené výsledky:
+	\begin{itemize}
+		\item Aplikace byla úspěšně převedna do jazyka Python 3
+		\item Nová verze 0.2.1 vydána na repozitáři PyPI
+		\item Příprava základů pro budoucí rozšíření
+		\item Vylepšena funcionalita a opraveny některé chyby
+	\end{itemize}
+	Budoucí rozšíření:
+	\begin{itemize}
+		\item Analýza způsobu využití aplikace
+		\item Přidání funkcní na základě analýzy a vytvořené dokumentace
+		\item Opravení existující funcionality
+		\item Investigace rozšíření na další platformy
+	\end{itemize}
 \end{frame}
 
 
@@ -212,9 +247,10 @@
 % otázky oponenta
 \frame{
 \frametitle{Otázky oponenta}
-	\emph{Jaká je souvislost Vašeho vzorce (1.2) s~Maxwellovými rovnicemi v~integrálním tvaru?}\\[2ex]
-	%
-	Již staří Římané\,\dots
+\begin{itemize}
+	\item Proč byla aplikace psána ve dvou programovacích jazycích, Bash a~Python~3? Jaké to mělo výhody?
+	\item Status database update: Předchozí verze vyžadovala 40 min, Vaše vyžaduje pouze 2 minuty. Čím je dáno toto vylepšení? Jedná se pouze o využití multiprocessingu, nebo má na výsledek také vliv vylepšení databázové struktury?
+\end{itemize}
 }
 
 \end{document}
