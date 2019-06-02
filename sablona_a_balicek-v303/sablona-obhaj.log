@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.5.15)  2 JUN 2019 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.5.15)  2 JUN 2019 21:44
 entering extended mode
 **./sablona-obhaj.tex
 (sablona-obhaj.tex
@@ -1864,7 +1864,7 @@ Overfull \vbox (5.321pt too high) detected at line 133
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 150.
+t line 149.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [5
 
@@ -1872,15 +1872,15 @@ t line 150.
 <obrazky/plbmng_basic.png, id=98, 729.72626pt x 381.425pt>
 File: obrazky/plbmng_basic.png Graphic file (type png)
 <use obrazky/plbmng_basic.png>
-Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 161.
+Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 160.
 (pdftex.def)             Requested size: 729.72449pt x 381.42406pt.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 161.
+t line 160.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
 
-Overfull \vbox (6.48709pt too high) detected at line 161
+Overfull \vbox (6.48709pt too high) detected at line 160
  []
 
 [6
@@ -1889,7 +1889,7 @@ Overfull \vbox (6.48709pt too high) detected at line 161
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 173.
+t line 172.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [7
 
@@ -1897,7 +1897,7 @@ t line 173.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 202.
+t line 201.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [8
 
@@ -1905,13 +1905,13 @@ t line 202.
 <obrazky/PlbmngArchitecture.pdf, id=117, 536.0025pt x 355.3275pt>
 File: obrazky/PlbmngArchitecture.pdf Graphic file (type pdf)
 <use obrazky/PlbmngArchitecture.pdf>
-Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 213
+Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 212
 .
 (pdftex.def)             Requested size: 536.00119pt x 355.32661pt.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 213.
+t line 212.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [9
 
@@ -1993,7 +1993,7 @@ pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss
 mss17.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
 m/lmss8.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /lm/lmsso12.pfb>
-Output written on sablona-obhaj.pdf (14 pages, 1008698 bytes).
+Output written on sablona-obhaj.pdf (14 pages, 1009296 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
