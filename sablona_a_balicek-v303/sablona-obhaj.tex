@@ -126,7 +126,7 @@
 \frametitle{O síťi PlanetLab}
 \begin{figure}[H]
 	\centering
-	\scalebox{0.15}{\includegraphics{obrazky/mapa_planetlab}}
+	\scalebox{0.16}{\includegraphics{obrazky/mapa_planetlab}}
 	\caption{Mapa zobrazující lokace serverů v síti PlanetLab.}
 	\label{fig:location}
 \end{figure}
@@ -154,7 +154,7 @@ Co je PlanetLab a jaké jsou její cíle?
 \frametitle{Obrázek aplikace plbmng}
 \begin{figure}[H]
 	\centering
-	\scalebox{0.45}{\includegraphics{obrazky/plbmng_basic}}
+	\scalebox{0.5}{\includegraphics{obrazky/plbmng_basic}}
 	\caption{Nová menu obrazovka aplikace PlanetLab Server Manager (plbmng)}
 	\label{fig:redesigned}
 \end{figure}
@@ -167,13 +167,14 @@ Co je PlanetLab a jaké jsou její cíle?
 	\item Kód ve dvou jazycích
 	\item Složitá implementace
 	\item Zbytečné instalační kroky
-	\item Chyby v aplikaci
+	\item Chyby v aplikaci
+
 \end{itemize}
 \end{frame} 
 
 %%%%%%%%%%%%%
 \begin{frame} 
-\frametitle{Přístup k řešení}
+\frametitle{Přístup k řešení existujících problémů}
 \begin{itemize}
 	\item Kód ve dvou jazycích
 		\begin{itemize}
@@ -181,7 +182,7 @@ Co je PlanetLab a jaké jsou její cíle?
 		\end{itemize}
 	\item Složitá implementace
 		\begin{itemize}
-			\item Jeden soubor
+			\item Jeden hlavní soubor a příslušné knihovny
 			\item Výstižné názvy
 			\item Logické sekce kódu
 		\end{itemize}
@@ -202,36 +203,37 @@ Co je PlanetLab a jaké jsou její cíle?
 
 %%%%%%%%%%%%%
 \begin{frame} 
-\frametitle{Přístup k řešení (diagram)}
-%Diagram tu
+\frametitle{Přístup k vylepšením}
+	\begin{figure}[H]
+		\centering
+		\scalebox{0.5}{\includegraphics{obrazky/PlbmngArchitecture}}
+		\caption{Architektura nové verze aplikace.}
+		\label{fig:archdiagram}
+	\end{figure}
 \end{frame}
 
 %%%%%%%%%%%%%
 \begin{frame} 
-\frametitle{Výsledky}
+\frametitle{Přidaná vylepšení}
 \begin{itemize}
-	\item Odebrání limitace výsledků hledání
-	\item Aplikace je použitelná jako Python knihovna
-	\item Kompletní odebrání před a po instalačních kroků
-	\item Zjednodušení zadávání přihlašovacích údajů
-	\item Opravení chyb způsobujícíh pády aplikace
-	\item Vylepšení implementace funkcí (např. odebrání rekurze)
-	\item Přidán handler pro signály
+	\item Filtrování serverů na základě jejich dostupnosti
+	\item Více vláknová aktualizace databáze dostupnosti (1000 serverů pod 2 minuty)
+	\item Přidání informací do popisků uzlů na mapě
+	\item Rychlá volba posledního zobrazeného serveru
+	\item Menu se statistikami
+	\item Za poslední měsíc měla aplikace 168 stažení dle serveru pypistats.org
 \end{itemize}
-\end{frame} 
-
-%%%%%%%%%%%%%
-\begin{frame} 
-\frametitle{Stazeni nejak popsat}
-%Zde bude stazeni
 \end{frame}
 
-
-%%%%%%%%%%%%%
-\begin{frame} 
-\frametitle{Výsledky analýzy}
-%zde bude analyza?
+% podekovani
+\begin{frame}[c] 
+% bez nadpisu snimku
+\frametitle{\mbox{ }}
+\begin{center}
+	{\Huge Následuje krátké video ilustrující funkcionalitu.}
+\end{center}
 \end{frame}
+
 
 %%%%%%%%%%%%%
 \begin{frame} 
@@ -239,16 +241,11 @@ Co je PlanetLab a jaké jsou její cíle?
 	Dosažené výsledky:
 	\begin{itemize}
 		\item Aplikace byla úspěšně převedna do jazyka Python 3
-		\item Nová verze 0.2.1 vydána na repozitáři PyPI
-		\item Příprava základů pro budoucí rozšíření
-		\item Vylepšena funcionalita a opraveny některé chyby
-	\end{itemize}
-	Budoucí rozšíření:
-	\begin{itemize}
-		\item Analýza způsobu využití aplikace
-		\item Přidání funkcní na základě analýzy a vytvořené dokumentace
-		\item Opravení existující funcionality
-		\item Investigace rozšíření na další platformy
+		\item Nová verze 0.3.7 vydána na repozitáři PyPI a repozitáři GitHUB
+		\item Vylepšena funcionalita a opraveny existující chyby
+		\item Používání aplikace zjednodušeno
+		\item Rychlé vyhledávání serverů dle jejich činnosti
+		\item Větší míra informací síti PlanetLab (statistiky, mapa)
 	\end{itemize}
 \end{frame}
 
