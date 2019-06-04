@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.5.15)  2 JUN 2019 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.5.15)  3 JUN 2019 17:04
 entering extended mode
 **./sablona-obhaj.tex
 (sablona-obhaj.tex
@@ -1830,90 +1830,68 @@ color_PANTONE_CZ.pdf>]
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 111.
+t line 110.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [2
 
  <./loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>]
+<obrazky/research.pdf, id=78, 212.71469pt x 160.6803pt>
+File: obrazky/research.pdf Graphic file (type pdf)
+<use obrazky/research.pdf>
+Package pdftex.def Info: obrazky/research.pdf  used on input line 129.
+(pdftex.def)             Requested size: 212.71416pt x 160.6799pt.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 122.
+t line 129.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
+
+Overfull \vbox (0.81532pt too high) detected at line 129
+ []
 
 [3
 
-]
-<obrazky/mapa_planetlab.png, id=83, 2055.68pt x 1188.44pt>
-File: obrazky/mapa_planetlab.png Graphic file (type png)
-<use obrazky/mapa_planetlab.png>
-Package pdftex.def Info: obrazky/mapa_planetlab.png  used on input line 133.
-(pdftex.def)             Requested size: 2055.675pt x 1188.43712pt.
+ <./obrazky/research.pdf
+
+pdfTeX warning: pdflatex.exe (file ./obrazky/research.pdf): PDF inclusion: inva
+lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 133.
+t line 145.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
+ [4
 
-Overfull \vbox (5.321pt too high) detected at line 133
- []
-
-[4
-
- <./obrazky/mapa_planetlab.png>]
+]
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 149.
+t line 157.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [5
 
 ]
-<obrazky/plbmng_basic.png, id=98, 729.72626pt x 381.425pt>
-File: obrazky/plbmng_basic.png Graphic file (type png)
-<use obrazky/plbmng_basic.png>
-Package pdftex.def Info: obrazky/plbmng_basic.png  used on input line 160.
-(pdftex.def)             Requested size: 729.72449pt x 381.42406pt.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 160.
+t line 186.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
-
-Overfull \vbox (6.48709pt too high) detected at line 160
- []
-
-[6
-
- <./obrazky/plbmng_basic.png>]
-File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
-<use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
-Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 172.
-(pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
- [7
+ [6
 
 ]
-File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
-<use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
-Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 201.
-(pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
- [8
-
-]
-<obrazky/PlbmngArchitecture.pdf, id=117, 536.0025pt x 355.3275pt>
+<obrazky/PlbmngArchitecture.pdf, id=110, 536.0025pt x 355.3275pt>
 File: obrazky/PlbmngArchitecture.pdf Graphic file (type pdf)
 <use obrazky/PlbmngArchitecture.pdf>
-Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 212
+Package pdftex.def Info: obrazky/PlbmngArchitecture.pdf  used on input line 195
 .
 (pdftex.def)             Requested size: 536.00119pt x 355.32661pt.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 212.
+t line 195.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
- [9
+ [7
 
  <./obrazky/PlbmngArchitecture.pdf
 
@@ -1924,15 +1902,41 @@ gnored.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 226.
+t line 209.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
- [10
+ [8
 
 ]
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
+t line 218.
+(pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
+ [9
+
+]
+<obrazky/grafstats.png, id=151, 899.61093pt x 231.11343pt>
+File: obrazky/grafstats.png Graphic file (type png)
+<use obrazky/grafstats.png>
+Package pdftex.def Info: obrazky/grafstats.png  used on input line 235.
+(pdftex.def)             Requested size: 899.60873pt x 231.11287pt.
+
+Overfull \hbox (6.48259pt too wide) in paragraph at lines 235--235
+ [] 
+ []
+
+File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
+<use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
+Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
 t line 235.
+(pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
+[10
+
+ <./obrazky/grafstats.png>]
+File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
+<use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
+Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
+t line 245.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [11
 
@@ -1940,25 +1944,9 @@ t line 235.
 File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
 <use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
 Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 250.
+t line 254.
 (pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
  [12
-
-]
-File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
-<use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
-Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 260.
-(pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
- [13
-
-]
-File: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf Graphic file (type pdf)
-<use loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf>
-Package pdftex.def Info: loga/FEKT_zkratka_barevne_PANTONE_CZ.pdf  used on inpu
-t line 269.
-(pdftex.def)             Requested size: 59.00717pt x 25.99985pt.
- [14
 
 ]
 \tf@nav=\write6
@@ -1970,19 +1958,19 @@ t line 269.
 \tf@snm=\write8
 \openout8 = `sablona-obhaj.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (sablona-obhaj.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `sablona-obhaj.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27976 strings out of 492942
- 513923 string characters out of 3126539
+ 27943 strings out of 492942
+ 513295 string characters out of 3126539
  648887 words of memory out of 3000000
- 31194 multiletter control sequences out of 15000+200000
+ 31168 multiletter control sequences out of 15000+200000
  47401 words of font info for 49 fonts, out of 3000000 for 9000
  1153 hyphenation exceptions out of 8191
  60i,14n,65p,1421b,758s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1993,9 +1981,9 @@ pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss
 mss17.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
 m/lmss8.pfb><C:/Users/z400/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /lm/lmsso12.pfb>
-Output written on sablona-obhaj.pdf (14 pages, 1009296 bytes).
+Output written on sablona-obhaj.pdf (12 pages, 550365 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

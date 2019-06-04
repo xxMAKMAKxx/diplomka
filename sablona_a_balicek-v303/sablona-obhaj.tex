@@ -103,34 +103,30 @@
 	% nadpis snímku
 	\frametitle{Cíle práce}
 	\begin{itemize}
-		\item Seznámit se s aplikací pro vzdálenou práci se servery sítě PlanetLab (www.planet-lab.eu)
-		\item Převést aplikaci do jazyka Python 3
+		\item Převést aplikaci PlanetLab Server Manager do jazyka Python 3
 		\item Přidat možnost vyhledávaní serverů podle jejich aktuálního stavu činnosti.
-		\item Provést její aktualizaci na repositáři PyPI
+		\item Upravit anglický popis a dokumentaci na repozitáři PyPI 
 	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%
 \begin{frame} 
 	\frametitle{O síťi PlanetLab}
-	Co je PlanetLab a jaké jsou její cíle?
 \begin{itemize}
 	\item Světová výzkumná síť
 	\item Cílem je podpora síťových projektů
+		\begin{itemize}
+			\item Dostupnost virtuálních serverů po celém světě
+			\item Možnost přihlášení na tyto servery
+			\item Možnost spouštění aplikací na těchto serverech
+		\end{itemize}
 	\item Obsahuje přes 1000 serverů v různých lokacích
 \end{itemize}
-\end{frame} 
-
-%%%%%%%%%%%%%
-\begin{frame} 
-\frametitle{O síťi PlanetLab}
 \begin{figure}[H]
 	\centering
-	\scalebox{0.16}{\includegraphics{obrazky/mapa_planetlab}}
-	\caption{Mapa zobrazující lokace serverů v síti PlanetLab.}
-	\label{fig:location}
+	\scalebox{0.8}{\includegraphics{obrazky/research}}
 \end{figure}
-\end{frame}
+\end{frame} 
 
 %%%%%%%%%%%%%
 \begin{frame} 
@@ -138,33 +134,22 @@
 \begin{itemize}
 	\item Cíle aplikace PlanetLab Server Manager
 		\begin{itemize}
-			\item Zjednodušení vývoje projektů
-			\item Dynamický seznam serverů
-			\item Konektivita na servery, přenos a spouštění aplikací
+			\item Zjednodušení vývoje síťových projektů
+			\item Využívána studenty na UTKO pro řešení diplomových prací
+			\item Aktualizace seznamu serverů z databáze PlanetLab
+			\item Konektivita na servery, přenos a spuštění aplikací
 			\item Zobrazení informací o síti PlanetLab
 		\end{itemize}
-	\item Grafické rozhraní v prostředí dialog
-%	\item Volně dostupná na repozitáři PyPI pod licencí MIT
+	\item Univerzální grafické rozhraní pomocí prostředí dialog
 \end{itemize}
 \end{frame} 
-
-%%%%%%%%%%%%%
-\begin{frame} 
-\frametitle{Obrázek aplikace PlanetLab Server Manager}
-\begin{figure}[H]
-	\centering
-	\scalebox{0.5}{\includegraphics{obrazky/plbmng_basic}}
-	\caption{Nová menu obrazovka aplikace PlanetLab Server Manager (plbmng)}
-	\label{fig:redesigned}
-\end{figure}
-\end{frame}
 
 %%%%%%%%%%%%%
 \begin{frame} 
 \frametitle{Předchozí stav aplikace}
 \begin{itemize}
 	\item Kód ve dvou jazycích
-	\item Složitá implementace
+	\item Nepřehledná implementace a struktura aplikace
 	\item Zbytečné instalační kroky
 	\item Chyby v aplikaci
 
@@ -187,9 +172,9 @@
 		\end{itemize}
 	\item Zbytečné instalační kroky
 		\begin{itemize}
-			\item Eliminace nutnosti instalace systémových balíčků
-			\item Eliminace nutnosti vyhledání instalační složky
-			\item Eliminace nutnosti zadat přihlašovací údaje v souboru
+			\item Nutnost instalace systémových balíčků
+			\item Nutnost vyhledání instalační složky
+			\item Nutnost zadat přihlašovací údaje v souboru
 		\end{itemize}
 	\item Chyby v aplikaci
 		\begin{itemize}
@@ -205,9 +190,7 @@
 \frametitle{Přístup k vylepšením}
 	\begin{figure}[H]
 		\centering
-		\scalebox{0.5}{\includegraphics{obrazky/PlbmngArchitecture}}
-		\caption{Architektura nové verze aplikace.}
-		\label{fig:archdiagram}
+		\scalebox{0.6}{\includegraphics{obrazky/PlbmngArchitecture}}
 	\end{figure}
 \end{frame}
 
@@ -216,11 +199,11 @@
 \frametitle{Přidaná vylepšení}
 \begin{itemize}
 	\item Filtrování serverů na základě jejich dostupnosti
+	\item Přidání interní SQL databáze
 	\item Více vláknová aktualizace databáze dostupnosti (1000 serverů pod 2 minuty)
 	\item Přidání informací do popisků uzlů na mapě
 	\item Rychlá volba posledního zobrazeného serveru
 	\item Menu se statistikami
-	\item Za poslední měsíc měla aplikace 168 stažení dle serveru pypistats.org
 	\item Přidána podpora MacOS
 \end{itemize}
 \end{frame}
@@ -240,13 +223,15 @@
 	\frametitle{Závěr}
 	Dosažené výsledky:
 	\begin{itemize}
-		\item Aplikace byla úspěšně převedna do jazyka Python 3
-		\item Nová verze 0.3.7 vydána na repozitáři PyPI a repozitáři GitHUB
-		\item Vylepšena funcionalita a opraveny existující chyby
+		\item Aplikace převedena do jazyka Python 3 a aktualizována na repozitářích
+		\item Za poslední měsíc měla aplikace již \textcolor{red}{168} stažení dle serveru pypistats.org
 		\item Používání aplikace zjednodušeno
-		\item Rychlé vyhledávání serverů dle jejich činnosti
-		\item Větší míra informací síti PlanetLab (statistiky, mapa)
+		\item Vylepšena funcionalita a opraveny existující chyby
 	\end{itemize}
+\begin{figure}[H]
+	\centering
+	\scalebox{0.45}{\includegraphics{obrazky/grafstats}}
+\end{figure}
 \end{frame}
 
 
